@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>HolyCRM Help Center</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="assets/help.css" />
+  <!-- Markdown rendering for the guide content in content/*.md. A small,
+       widely-used, pinned-version CDN library, same tradeoff as PapaParse/
+       Chart.js/Choices.js in the main app (see index.html there and
+       docs/data-import.md) rather than hand-rolling a parser. -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+</head>
+
+<body>
+  <header class="help-header">
+    <button id="help-menu-toggle" class="help-menu-toggle" aria-label="Toggle menu">☰</button>
+    <a class="help-brand" href="#/getting-started">
+      <strong>HolyCRM</strong>
+      <span id="help-brand-tag">Help Center</span>
+    </a>
+    <div class="help-search">
+      <input id="help-search-input" type="search" placeholder="Search guides…" autocomplete="off" />
+    </div>
+    <select id="help-lang-select" class="help-lang-select" aria-label="Language"></select>
+  </header>
+
+  <div id="help-overlay" class="help-overlay"></div>
+
+  <div class="help-shell">
+    <nav id="help-sidebar" class="help-sidebar" aria-label="Help topics">
+      <div id="help-sidebar-nav"></div>
+    </nav>
+
+    <main class="help-main">
+      <div class="help-crumb" id="help-crumb"></div>
+      <article class="help-content" id="help-content">
+        <p class="help-loading">Loading…</p>
+      </article>
+      <nav class="help-pager" id="help-pager" aria-label="Page navigation"></nav>
+    </main>
+  </div>
+
+  <!-- Generated from help/content/**/*.md by help/generate-content-data.js —
+       see that script for why (raw-static folder, no fetch() at runtime). -->
+  <script src="assets/content-data.js"></script>
+  <script src="assets/help.js"></script>
+</body>
+
+</html>

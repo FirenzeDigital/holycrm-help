@@ -1,0 +1,260 @@
+{
+  "locales": [
+    { "code": "en", "label": "English" },
+    { "code": "es", "label": "Español" },
+    { "code": "pt-BR", "label": "Português (Brasil)" },
+    { "code": "pt", "label": "Português" }
+  ],
+  "defaultLocale": "en",
+  "categories": [
+    {
+      "id": "start",
+      "label": {
+        "en": "Getting Started",
+        "es": "Primeros pasos",
+        "pt-BR": "Primeiros passos",
+        "pt": "Primeiros passos"
+      },
+      "pages": ["getting-started"]
+    },
+    {
+      "id": "overview",
+      "label": {
+        "en": "Overview",
+        "es": "Resumen",
+        "pt-BR": "Visão geral",
+        "pt": "Visão geral"
+      },
+      "pages": ["dashboard", "calendar"]
+    },
+    {
+      "id": "people",
+      "label": {
+        "en": "People",
+        "es": "Personas",
+        "pt-BR": "Pessoas",
+        "pt": "Pessoas"
+      },
+      "pages": ["members", "data-import", "groups", "visitors"]
+    },
+    {
+      "id": "ministries_rotas",
+      "label": {
+        "en": "Ministries & Rotas",
+        "es": "Ministerios y turnos",
+        "pt-BR": "Ministérios e escalas",
+        "pt": "Ministérios e escalas"
+      },
+      "pages": ["ministries", "rotas"]
+    },
+    {
+      "id": "events",
+      "label": {
+        "en": "Events",
+        "es": "Eventos",
+        "pt-BR": "Eventos",
+        "pt": "Eventos"
+      },
+      "pages": ["events"]
+    },
+    {
+      "id": "attendance",
+      "label": {
+        "en": "Attendance",
+        "es": "Asistencia",
+        "pt-BR": "Presença",
+        "pt": "Presença"
+      },
+      "pages": ["attendance"]
+    },
+    {
+      "id": "communications",
+      "label": {
+        "en": "Communications",
+        "es": "Comunicaciones",
+        "pt-BR": "Comunicações",
+        "pt": "Comunicações"
+      },
+      "pages": ["bulk-email"]
+    },
+    {
+      "id": "finance",
+      "label": {
+        "en": "Finance",
+        "es": "Finanzas",
+        "pt-BR": "Finanças",
+        "pt": "Finanças"
+      },
+      "pages": ["finance"]
+    },
+    {
+      "id": "admin",
+      "label": {
+        "en": "Admin Settings",
+        "es": "Configuración de administración",
+        "pt-BR": "Configurações administrativas",
+        "pt": "Configurações administrativas"
+      },
+      "pages": ["church-settings", "users-roles", "tags"]
+    },
+    {
+      "id": "account",
+      "label": {
+        "en": "Account",
+        "es": "Cuenta",
+        "pt-BR": "Conta",
+        "pt": "Conta"
+      },
+      "pages": ["profile"]
+    },
+    {
+      "id": "support",
+      "label": {
+        "en": "Support",
+        "es": "Soporte",
+        "pt-BR": "Suporte",
+        "pt": "Suporte"
+      },
+      "pages": ["faq"]
+    }
+  ],
+  "pages": {
+    "getting-started": {
+      "title": {
+        "en": "Getting Started",
+        "es": "Primeros pasos",
+        "pt-BR": "Primeiros passos",
+        "pt": "Primeiros passos"
+      },
+      "file": "getting-started.md"
+    },
+    "dashboard": {
+      "title": { "en": "Dashboard", "es": "Panel principal", "pt-BR": "Painel", "pt": "Painel" },
+      "file": "dashboard.md"
+    },
+    "calendar": {
+      "title": { "en": "Calendar", "es": "Calendario", "pt-BR": "Calendário", "pt": "Calendário" },
+      "file": "calendar.md"
+    },
+    "members": {
+      "title": { "en": "Members", "es": "Miembros", "pt-BR": "Membros", "pt": "Membros" },
+      "file": "members.md"
+    },
+    "data-import": {
+      "title": {
+        "en": "Import Data",
+        "es": "Importar datos",
+        "pt-BR": "Importar dados",
+        "pt": "Importar dados"
+      },
+      "file": "data-import.md"
+    },
+    "groups": {
+      "title": {
+        "en": "Small Groups",
+        "es": "Grupos pequeños / Células",
+        "pt-BR": "Pequenos grupos / Células",
+        "pt": "Pequenos grupos / Células"
+      },
+      "file": "groups.md"
+    },
+    "visitors": {
+      "title": { "en": "Visitors", "es": "Visitantes", "pt-BR": "Visitantes", "pt": "Visitantes" },
+      "file": "visitors.md"
+    },
+    "ministries": {
+      "title": {
+        "en": "Ministries & Ministry Members",
+        "es": "Ministerios y miembros de ministerio",
+        "pt-BR": "Ministérios e membros de ministério",
+        "pt": "Ministérios e membros de ministério"
+      },
+      "file": "ministries.md"
+    },
+    "rotas": {
+      "title": {
+        "en": "Rotas (Service Scheduling)",
+        "es": "Turnos de servicio",
+        "pt-BR": "Escalas de serviço",
+        "pt": "Escalas de serviço"
+      },
+      "file": "rotas.md"
+    },
+    "events": {
+      "title": {
+        "en": "Events & Registrations",
+        "es": "Eventos e inscripciones",
+        "pt-BR": "Eventos e inscrições",
+        "pt": "Eventos e inscrições"
+      },
+      "file": "events.md"
+    },
+    "attendance": {
+      "title": {
+        "en": "Attendance & Check-in",
+        "es": "Asistencia y registro (check-in)",
+        "pt-BR": "Presença e check-in",
+        "pt": "Presença e check-in"
+      },
+      "file": "attendance.md"
+    },
+    "bulk-email": {
+      "title": {
+        "en": "Bulk Email & Templates",
+        "es": "Correos masivos y plantillas",
+        "pt-BR": "E-mails em massa e modelos",
+        "pt": "E-mails em massa e modelos"
+      },
+      "file": "bulk-email.md"
+    },
+    "finance": {
+      "title": {
+        "en": "Giving & Finance",
+        "es": "Ofrendas y finanzas",
+        "pt-BR": "Ofertas e finanças",
+        "pt": "Ofertas e finanças"
+      },
+      "file": "finance.md"
+    },
+    "church-settings": {
+      "title": {
+        "en": "Church Settings & Locations",
+        "es": "Configuración de la iglesia y sedes",
+        "pt-BR": "Configurações da igreja e locais",
+        "pt": "Configurações da igreja e locais"
+      },
+      "file": "church-settings.md"
+    },
+    "users-roles": {
+      "title": {
+        "en": "Users, Roles & Permissions",
+        "es": "Usuarios, roles y permisos",
+        "pt-BR": "Usuários, funções e permissões",
+        "pt": "Utilizadores, funções e permissões"
+      },
+      "file": "users-roles.md"
+    },
+    "tags": {
+      "title": {
+        "en": "Tags & Tag Roles",
+        "es": "Etiquetas y roles de etiqueta",
+        "pt-BR": "Tags e funções de tag",
+        "pt": "Etiquetas e funções de etiqueta"
+      },
+      "file": "tags.md"
+    },
+    "profile": {
+      "title": { "en": "My Profile", "es": "Mi perfil", "pt-BR": "Meu perfil", "pt": "O meu perfil" },
+      "file": "profile.md"
+    },
+    "faq": {
+      "title": {
+        "en": "Frequently Asked Questions",
+        "es": "Preguntas frecuentes",
+        "pt-BR": "Perguntas frequentes",
+        "pt": "Perguntas frequentes"
+      },
+      "file": "faq.md"
+    }
+  }
+}

@@ -1,0 +1,317 @@
+/* HolyCRM Help Center — standalone stylesheet.
+   Self-contained on purpose: this site is not loaded by the main app shell,
+   so it does not share assets/css/styles.css. Tokens below mirror the main
+   app's palette (see assets/css/styles.css :root) so the two feel related. */
+
+:root {
+  color-scheme: light;
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --surface-2: #f4f6fb;
+  --card: rgba(255, 255, 255, 0.9);
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: rgba(15, 23, 42, 0.1);
+  --hover: rgba(15, 23, 42, 0.04);
+  --primary: #2563eb;
+  --primary-2: #1d4ed8;
+  --on-accent: #ffffff;
+  --code-bg: rgba(15, 23, 42, 0.05);
+  --shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0b1120;
+    --surface: #131c31;
+    --surface-2: #0e1626;
+    --card: rgba(23, 31, 48, 0.85);
+    --text: #e5e9f2;
+    --muted: #97a3b6;
+    --border: rgba(148, 163, 184, 0.18);
+    --hover: rgba(255, 255, 255, 0.06);
+    --primary: #3b82f6;
+    --primary-2: #60a5fa;
+    --on-accent: #ffffff;
+    --code-bg: rgba(255, 255, 255, 0.06);
+    --shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0b1120;
+  --surface: #131c31;
+  --surface-2: #0e1626;
+  --card: rgba(23, 31, 48, 0.85);
+  --text: #e5e9f2;
+  --muted: #97a3b6;
+  --border: rgba(148, 163, 184, 0.18);
+  --hover: rgba(255, 255, 255, 0.06);
+  --primary: #3b82f6;
+  --primary-2: #60a5fa;
+  --on-accent: #ffffff;
+  --code-bg: rgba(255, 255, 255, 0.06);
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a { color: var(--primary); }
+
+/* ---- Header ---- */
+.help-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.help-brand {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.help-brand strong { font-size: 1.05rem; }
+.help-brand span { color: var(--muted); font-weight: 500; font-size: 0.85rem; }
+.help-search {
+  flex: 1;
+  min-width: 0;
+  max-width: 420px;
+  margin-left: auto;
+}
+.help-search input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+.help-search input:focus { outline: 2px solid var(--primary); outline-offset: 1px; }
+.help-lang-select {
+  flex: 0 0 auto;
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.help-lang-select:focus { outline: 2px solid var(--primary); outline-offset: 1px; }
+.help-menu-toggle {
+  display: none;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* ---- Layout ---- */
+.help-shell {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.help-sidebar {
+  width: 270px;
+  flex: 0 0 270px;
+  padding: 20px 12px 60px;
+  position: sticky;
+  top: 57px;
+  max-height: calc(100vh - 57px);
+  overflow-y: auto;
+}
+.help-sidebar h2 {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin: 18px 10px 6px;
+}
+.help-sidebar h2:first-child { margin-top: 4px; }
+.help-nav-list { list-style: none; margin: 0; padding: 0; }
+.help-nav-list a {
+  display: block;
+  padding: 7px 10px;
+  border-radius: 8px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+.help-nav-list a:hover { background: var(--hover); }
+.help-nav-list a.active {
+  background: var(--primary);
+  color: var(--on-accent);
+  font-weight: 600;
+}
+.help-nav-empty { padding: 8px 10px; color: var(--muted); font-size: 0.85rem; }
+
+.help-main {
+  flex: 1;
+  min-width: 0;
+  padding: 28px 32px 80px;
+}
+.help-content {
+  max-width: 780px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 32px 40px;
+  box-shadow: var(--shadow);
+}
+
+/* ---- Rendered markdown ---- */
+.help-content h1 { margin-top: 0; font-size: 1.7rem; }
+.help-content h2 {
+  font-size: 1.25rem;
+  margin-top: 2em;
+  padding-top: 0.4em;
+  border-top: 1px solid var(--border);
+}
+.help-content h2:first-of-type { border-top: none; padding-top: 0; margin-top: 1.2em; }
+.help-content h3 { font-size: 1.05rem; margin-top: 1.6em; }
+.help-content p, .help-content li { color: var(--text); }
+.help-content ul, .help-content ol { padding-left: 1.4em; }
+.help-content li { margin: 0.3em 0; }
+.help-content code {
+  background: var(--code-bg);
+  padding: 0.15em 0.4em;
+  border-radius: 5px;
+  font-size: 0.88em;
+}
+.help-content pre {
+  background: var(--code-bg);
+  padding: 14px 16px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+.help-content pre code { background: none; padding: 0; }
+.help-content blockquote {
+  margin: 1em 0;
+  padding: 4px 16px;
+  border-left: 3px solid var(--primary);
+  background: var(--surface-2);
+  border-radius: 0 8px 8px 0;
+  color: var(--muted);
+}
+.help-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.9rem;
+  display: block;
+  overflow-x: auto;
+}
+.help-content th, .help-content td {
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  text-align: left;
+}
+.help-content th { background: var(--surface-2); }
+.help-content hr { border: none; border-top: 1px solid var(--border); margin: 2em 0; }
+.help-content img { border-radius: 8px; }
+
+.help-crumb {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-bottom: 14px;
+}
+.help-crumb a { color: var(--muted); text-decoration: none; }
+.help-crumb a:hover { text-decoration: underline; }
+
+.help-pager {
+  max-width: 780px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 16px;
+}
+.help-pager a {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--text);
+  background: var(--surface);
+  font-size: 0.85rem;
+}
+.help-pager a:hover { border-color: var(--primary); }
+.help-pager .pager-label { display: block; color: var(--muted); font-size: 0.75rem; margin-bottom: 2px; }
+.help-pager .pager-next { text-align: right; }
+
+/* FAQ accordion (used on faq.md via a small script hook) */
+details.help-faq-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 10px 0;
+  background: var(--surface);
+}
+details.help-faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+details.help-faq-item[open] summary { margin-bottom: 8px; }
+
+.help-loading, .help-error {
+  color: var(--muted);
+  padding: 40px 0;
+  text-align: center;
+}
+.help-error { color: var(--danger, #ef4444); }
+
+/* ---- Mobile ---- */
+@media (max-width: 900px) {
+  .help-menu-toggle { display: inline-flex; }
+  .help-sidebar {
+    position: fixed;
+    top: 57px;
+    left: 0;
+    bottom: 0;
+    width: 82%;
+    max-width: 320px;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    transform: translateX(-100%);
+    transition: transform 0.2s ease;
+    z-index: 30;
+  }
+  .help-sidebar.open { transform: translateX(0); }
+  .help-overlay {
+    display: none;
+    position: fixed;
+    inset: 57px 0 0 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 25;
+  }
+  .help-overlay.open { display: block; }
+  .help-main { padding: 20px 16px 60px; }
+  .help-content { padding: 22px 20px; }
+  .help-search { max-width: none; }
+  .help-brand span { display: none; }
+  .help-lang-select { max-width: 90px; padding: 7px 6px; }
+}
