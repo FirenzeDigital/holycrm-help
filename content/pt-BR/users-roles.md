@@ -11,6 +11,11 @@ Membro existente (se ele já estiver no seu diretório) — isso vincula o login
 existente, em vez de criar uma pessoa duplicada. Se ele ainda não for membro, você pode
 convidá-lo só com nome e e-mail.
 
+Vincular importa especialmente para a função **Membro**: é isso que permite que ele veja
+seus próprios dados de contato e histórico de ofertas (veja [Meu Perfil](#/profile) e
+[Minhas ofertas](#/my-giving)) — um Membro convidado sem cadastro vinculado só vê um
+Perfil vazio.
+
 Escolha a **função** dele:
 
 | Função | Pode tipicamente |
@@ -18,7 +23,7 @@ Escolha a **função** dele:
 | **Admin** | Tudo, incluindo Configurações da igreja e convidar/gerenciar outros usuários. |
 | **Gestor (Manager)** | Operação do dia a dia na maioria dos módulos, mas não Configurações da igreja nem promover alguém a Gestor/Admin. |
 | **Voluntário** | Acesso restrito e focado em uma tarefa — comumente presença/check-in — conforme sua igreja configurar. |
-| **Membro** | Autoatendimento somente leitura, principalmente o próprio Perfil. |
+| **Membro** | Apenas autoatendimento: o próprio Perfil e, se vinculado a um cadastro da congregação, seus próprios dados de contato e histórico de ofertas. Sem acesso aos dados de mais ninguém. |
 
 A pessoa convidada recebe um e-mail com um link para definir a senha. Até ela fazer isso, o
 status aparece como **Convidado**; assim que ela define a senha, passa a **Ativo**

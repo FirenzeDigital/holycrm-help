@@ -11,6 +11,11 @@ Miembro existente (si ya está en tu directorio) — esto vincula su acceso a su
 en lugar de crear una persona duplicada. Si todavía no es miembro, podés invitarlo solo con
 nombre y correo.
 
+Vincular importa especialmente para el rol **Miembro**: es lo que le permite ver sus
+propios datos de contacto e historial de ofrendas (ver [Mi perfil](#/profile) y
+[Mis ofrendas](#/my-giving)) — un Miembro invitado sin ficha vinculada solo ve un Perfil
+vacío.
+
 Elegí su **rol**:
 
 | Rol | Puede hacer típicamente |
@@ -18,7 +23,7 @@ Elegí su **rol**:
 | **Admin** | Todo, incluida la Configuración de la iglesia e invitar/gestionar otros usuarios. |
 | **Gestor (Manager)** | Operación del día a día en la mayoría de los módulos, pero no la Configuración de la iglesia ni ascender a nadie a Gestor/Admin. |
 | **Voluntario** | Acceso acotado y enfocado en una tarea — comúnmente asistencia/check-in — según lo que tu iglesia configure. |
-| **Miembro** | Autoservicio de solo lectura, principalmente su propio Perfil. |
+| **Miembro** | Solo autoservicio: su propio Perfil y, si está vinculado a una ficha de la congregación, sus propios datos de contacto e historial de ofrendas. Sin acceso a los datos de nadie más. |
 
 La persona invitada recibe un correo con un enlace para configurar su contraseña. Hasta que lo
 haga, su estado figura como **Invitado**; una vez que configura su contraseña, pasa a

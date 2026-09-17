@@ -11,6 +11,10 @@ they're already in your directory) — this links their login to their existing 
 of creating a duplicate person. If they're not a member yet, you can invite them with just a
 name and email instead.
 
+Linking matters most for the **Member** role: it's what lets someone see their own contact
+info and giving history (see [My Profile](#/profile) and [My Giving](#/my-giving)) — a
+Member invited without a linked record just sees an empty Profile page.
+
 Pick their **role**:
 
 | Role | Can typically do |
@@ -18,7 +22,7 @@ Pick their **role**:
 | **Admin** | Everything, including Church Settings and inviting/managing other users. |
 | **Manager** | Day-to-day operations across most modules, but not Church Settings or promoting anyone to Manager/Admin. |
 | **Volunteer** | Narrow, task-focused access — commonly attendance/check-in duties — as your church configures it. |
-| **Member** | Read-only self-service, mainly their own Profile. |
+| **Member** | Self-service only: their own Profile, plus — if linked to a record in the congregation — their own contact info and giving history. No access to other people's data. |
 
 An invited person receives an email with a link to set their password. Until they do, their
 status shows as **Invited**; once they set a password, they become **Active** automatically.

@@ -25,7 +25,7 @@
         "pt-BR": "Visão geral",
         "pt": "Visão geral"
       },
-      "pages": ["dashboard", "calendar"]
+      "pages": ["dashboard", "calendar", "reports"]
     },
     {
       "id": "people",
@@ -105,7 +105,7 @@
         "pt-BR": "Conta",
         "pt": "Conta"
       },
-      "pages": ["profile"]
+      "pages": ["profile", "my-giving"]
     },
     {
       "id": "support",
@@ -135,6 +135,10 @@
     "calendar": {
       "title": { "en": "Calendar", "es": "Calendario", "pt-BR": "Calendário", "pt": "Calendário" },
       "file": "calendar.md"
+    },
+    "reports": {
+      "title": { "en": "Reports", "es": "Informes", "pt-BR": "Relatórios", "pt": "Relatórios" },
+      "file": "reports.md"
     },
     "members": {
       "title": { "en": "Members", "es": "Miembros", "pt-BR": "Membros", "pt": "Membros" },
@@ -246,6 +250,10 @@
     "profile": {
       "title": { "en": "My Profile", "es": "Mi perfil", "pt-BR": "Meu perfil", "pt": "O meu perfil" },
       "file": "profile.md"
+    },
+    "my-giving": {
+      "title": { "en": "My Giving", "es": "Mis ofrendas", "pt-BR": "Minhas ofertas", "pt": "As minhas ofertas" },
+      "file": "my-giving.md"
     },
     "faq": {
       "title": {

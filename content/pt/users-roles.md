@@ -11,6 +11,11 @@ primeiro um Membro existente (se já estiver no seu diretório) — isto associa
 ficha existente em vez de criar uma pessoa duplicada. Se ainda não for membro, pode convidá-lo
 apenas com nome e e-mail.
 
+Associar importa especialmente para a função **Membro**: é isso que lhe permite ver os
+seus próprios dados de contacto e histórico de ofertas (ver [O Meu Perfil](#/profile) e
+[As minhas ofertas](#/my-giving)) — um Membro convidado sem ficha associada só vê um
+Perfil vazio.
+
 Escolha a sua **função**:
 
 | Função | Pode tipicamente |
@@ -18,7 +23,7 @@ Escolha a sua **função**:
 | **Admin** | Tudo, incluindo Configurações da igreja e convidar/gerir outros utilizadores. |
 | **Gestor (Manager)** | Operação do dia a dia na maioria dos módulos, mas não as Configurações da igreja nem promover alguém a Gestor/Admin. |
 | **Voluntário** | Acesso restrito e focado numa tarefa — normalmente presenças/check-in — consoante o que a sua igreja configurar. |
-| **Membro** | Acesso apenas de leitura, principalmente o seu próprio Perfil. |
+| **Membro** | Apenas autosserviço: o seu próprio Perfil e, se associado a uma ficha da congregação, os seus próprios dados de contacto e histórico de ofertas. Sem acesso aos dados de mais ninguém. |
 
 A pessoa convidada recebe um e-mail com um link para definir a palavra-passe. Até o fazer, o
 seu estado aparece como **Convidado**; assim que define a palavra-passe, passa a **Ativo**
