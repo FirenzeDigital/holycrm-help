@@ -31,7 +31,8 @@ O menu à esquerda está agrupado por tema:
 - **Presenças** — presenças em geral, Check-in e Check-in de crianças.
 - **Comunicações** — E-mails em massa e modelos reutilizáveis de e-mail.
 - **Finanças** — Ofertas, transações, categorias e o Painel financeiro.
-- **Configurações administrativas** — Configurações da igreja, Locais, Utilizadores, Etiquetas.
+- **Configurações administrativas** — Configurações da igreja, Locais, Utilizadores,
+  Etiquetas, Dados e privacidade.
 - **Conta** — o seu próprio Perfil.
 
 **É possível que não veja todos os itens.** O que vê depende da sua função (Admin, Gestor,

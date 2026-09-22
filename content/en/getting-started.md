@@ -30,7 +30,7 @@ The left-hand menu is grouped by topic:
 - **Attendance** — general attendance, Check-in, and Kids Check-in.
 - **Communications** — Bulk Email and reusable Email Templates.
 - **Finance** — Giving, transactions, categories and the Finance Dashboard.
-- **Admin Settings** — Church Settings, Locations, Users, Tags.
+- **Admin Settings** — Church Settings, Locations, Users, Tags, Data & Privacy.
 - **Account** — your own Profile.
 
 **You may not see every item.** What's visible depends on your role (Admin, Manager,

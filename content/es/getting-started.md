@@ -33,7 +33,7 @@ El menú de la izquierda está agrupado por tema:
 - **Comunicaciones** — Correos masivos y plantillas reutilizables de correo.
 - **Finanzas** — Ofrendas, transacciones, categorías y el Panel de finanzas.
 - **Configuración de administración** — Configuración de la iglesia, Sedes, Usuarios,
-  Etiquetas.
+  Etiquetas, Datos y privacidad.
 - **Cuenta** — tu propio Perfil.
 
 **Es posible que no veas todos los ítems.** Lo que ves depende de tu rol (Admin, Gestor,

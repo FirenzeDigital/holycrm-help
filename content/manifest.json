@@ -95,7 +95,7 @@
         "pt-BR": "Configurações administrativas",
         "pt": "Configurações administrativas"
       },
-      "pages": ["church-settings", "users-roles", "tags"]
+      "pages": ["church-settings", "users-roles", "tags", "data-privacy"]
     },
     {
       "id": "account",
@@ -246,6 +246,15 @@
         "pt": "Etiquetas e funções de etiqueta"
       },
       "file": "tags.md"
+    },
+    "data-privacy": {
+      "title": {
+        "en": "Data & Privacy",
+        "es": "Datos y privacidad",
+        "pt-BR": "Dados e privacidade",
+        "pt": "Dados e privacidade"
+      },
+      "file": "data-privacy.md"
     },
     "profile": {
       "title": { "en": "My Profile", "es": "Mi perfil", "pt-BR": "Meu perfil", "pt": "O meu perfil" },
