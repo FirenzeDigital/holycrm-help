@@ -10,6 +10,13 @@ ver un panel mucho más corto que un Admin, y eso es lo esperado.
 **Acciones rápidas** arriba de todo (agregar un Miembro, registrar un Visitante, crear un
 Evento, ir al Calendario) — cada una aparece solo si tu rol lo permite.
 
+**Lista de primeros pasos** — las iglesias nuevas ven una tarjeta descartable arriba de los
+números con lo que todavía falta configurar: definir tu zona horaria, agregar tus primeros
+miembros, invitar a tu equipo, y confirmar las responsabilidades de datos de tu iglesia (ver
+[Datos y privacidad](#/data-privacy)). Hacé clic en un ítem para ir directo a él. La tarjeta
+desaparece sola cuando todo está listo, o la podés descartar vos mismo — de cualquier forma no
+vuelve a aparecer.
+
 **Franja de números clave:**
 
 - Miembros activos, con cuántos se sumaron este mes.

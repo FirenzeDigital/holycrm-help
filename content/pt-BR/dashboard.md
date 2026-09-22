@@ -10,6 +10,13 @@ um painel bem mais curto que o de um Admin, e isso é esperado.
 **Ações rápidas** no topo (adicionar um Membro, registrar um Visitante, criar um Evento, ir
 ao Calendário) — cada uma só aparece se sua função permitir.
 
+**Lista de primeiros passos** — igrejas novas veem um cartão dispensável acima dos números com
+o que ainda falta configurar: definir seu fuso horário, adicionar seus primeiros membros,
+convidar sua equipe, e confirmar as responsabilidades de dados da sua igreja (veja
+[Dados e privacidade](#/data-privacy)). Clique em um item para ir direto até ele. O cartão
+desaparece sozinho quando tudo estiver concluído, ou você pode dispensá-lo — de qualquer forma
+ele não volta a aparecer.
+
 **Faixa de números-chave:**
 
 - Membros ativos, com quantos entraram este mês.

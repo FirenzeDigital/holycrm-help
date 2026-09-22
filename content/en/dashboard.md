@@ -10,6 +10,13 @@ shorter Dashboard than an Admin's, and that's expected.
 **Quick actions** at the top (add a Member, log a Visitor, create an Event, jump to the
 Calendar) — each only appears if your role allows that action.
 
+**Getting started checklist** — new churches see a dismissible card above the numbers with
+whatever setup is still open: setting your timezone, adding your first members, inviting your
+team, and confirming your church's data responsibilities (see
+[Data & Privacy](#/data-privacy)). Click an item to jump straight to it. The card disappears
+on its own once everything's done, or you can dismiss it yourself — either way it won't come
+back.
+
 **Key numbers strip:**
 
 - Active members, with how many joined this month.

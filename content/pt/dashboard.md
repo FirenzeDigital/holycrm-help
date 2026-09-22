@@ -10,6 +10,13 @@ Voluntário pode ver um painel bastante mais curto do que o de um Admin, e isso 
 **Ações rápidas** no topo (adicionar um Membro, registar um Visitante, criar um Evento, ir ao
 Calendário) — cada uma só aparece se a sua função o permitir.
 
+**Lista de primeiros passos** — igrejas novas veem um cartão dispensável por cima dos números
+com o que ainda falta configurar: definir o seu fuso horário, adicionar os primeiros membros,
+convidar a sua equipa, e confirmar as responsabilidades de dados da sua igreja (ver
+[Dados e privacidade](#/data-privacy)). Clique num item para ir diretamente para lá. O cartão
+desaparece sozinho quando tudo estiver feito, ou pode dispensá-lo — de qualquer forma não volta
+a aparecer.
+
 **Faixa de números-chave:**
 
 - Membros ativos, com quantos entraram este mês.
