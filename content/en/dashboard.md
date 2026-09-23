@@ -36,6 +36,8 @@ back.
 - **Conversion funnel** — how visitors move through your follow-up stages.
 - **Birthdays** — everyone with a birthday in the next 30 days, today's highlighted.
 - **Member Status** — a breakdown of your members by status (and by sex, if you track it).
+- **Growth Ladder** — a count of active members at each growth stage. See
+  [Growth Ladder](#/growth-ladder).
 
 If your church tracks a minor age cutoff, you may also see an **Approaching adulthood**
 card — members who will cross that age within 90 days. See

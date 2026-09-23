@@ -51,3 +51,8 @@ opción de editar "solo esta semana".
 En teléfonos, los controles de zona horaria y los accesos "Agregar nuevo"/"Gestionar" se
 pliegan en un panel **Más** para que no empujen la agenda fuera de la pantalla; tocá para
 desplegarlo.
+
+## Suscribirte desde tu propio calendario
+
+¿Querés tener este cronograma en tu propio calendario de Google, Apple u Outlook en vez de
+entrar acá a revisarlo? Mirá [Sincronizar calendario](#/calendar-sync).

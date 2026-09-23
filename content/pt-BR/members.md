@@ -18,6 +18,9 @@ Campos úteis:
   pessoas da forma que fizer sentido para sua igreja, além de ministérios e grupos.
 - **Data de nascimento** — usada para lembretes de aniversário e para calcular
   automaticamente se alguém é menor de idade.
+- **Etapa de crescimento** — em que ponto da jornada com a igreja essa pessoa está: Novo,
+  Frequentando, Conectado, Servindo ou Liderando. Veja
+  [Escada de crescimento](#/growth-ladder).
 
 ## Menores e responsáveis
 

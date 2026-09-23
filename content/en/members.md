@@ -17,6 +17,8 @@ Useful fields:
   any way your church finds useful, beyond ministries and groups.
 - **Birth Date** — used for birthday reminders and to automatically work out whether someone
   is a minor.
+- **Growth stage** — where someone is on their journey with your church: New, Attending,
+  Connected, Serving, or Leading. See [Growth Ladder](#/growth-ladder).
 
 ## Minors and guardians
 

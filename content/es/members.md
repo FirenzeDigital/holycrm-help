@@ -19,6 +19,9 @@ Campos útiles:
   tu iglesia, más allá de ministerios y grupos.
 - **Fecha de nacimiento** — se usa para los recordatorios de cumpleaños y para calcular
   automáticamente si alguien es menor de edad.
+- **Etapa de crecimiento** — en qué punto de su camino con la iglesia está esa persona:
+  Nuevo, Asistiendo, Conectado, Sirviendo o Liderando. Ver
+  [Escalera de crecimiento](#/growth-ladder).
 
 ## Menores y tutores
 

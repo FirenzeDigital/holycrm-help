@@ -51,3 +51,8 @@ altera toda a série recorrente, não apenas uma ocorrência — ainda não exis
 No telemóvel, os controlos de fuso horário e os atalhos "Adicionar novo"/"Gerir" ficam
 recolhidos num painel **Mais**, para não empurrarem a agenda para fora do ecrã; toque para
 expandir.
+
+## A subscrever pelo seu próprio calendário
+
+Quer ver esta agenda no seu próprio calendário do Google, Apple ou Outlook em vez de
+entrar aqui para verificar? Ver [Sincronizar calendário](#/calendar-sync).

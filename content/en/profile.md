@@ -28,4 +28,5 @@ directories to giving statements.
 
 This card simply doesn't appear if your login isn't linked to a member record — that's
 normal for most staff logins, not an error. See [My Giving](#/my-giving) for your own
-giving history, shown the same way.
+giving history, and [My Availability](#/my-availability) to let your church know when
+you're usually free to serve — both shown the same way, linked to this same record.

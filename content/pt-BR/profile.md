@@ -29,5 +29,7 @@ diretórios a extratos de oferta.
 
 Esse card simplesmente não aparece se seu login não estiver vinculado a um cadastro de
 membro — isso é normal para a maioria dos logins da equipe, não é um erro. Veja
-[Minhas ofertas](#/my-giving) para o seu próprio histórico de ofertas, mostrado da mesma
-forma.
+[Minhas ofertas](#/my-giving) para o seu próprio histórico de ofertas, e
+[Minha disponibilidade](#/my-availability) para avisar a sua igreja de quando você
+costuma estar livre para servir — as duas aparecem da mesma forma, vinculadas a este
+mesmo cadastro.

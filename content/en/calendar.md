@@ -48,3 +48,8 @@ recurring series, not just one occurrence — there's currently no "just this we
 
 On phones, the timezone controls and "Add new"/"Manage" shortcuts collapse into a
 **More** panel so the agenda itself isn't pushed off-screen; tap to expand.
+
+## Subscribing from your own calendar app
+
+Want this schedule in your own Google, Apple or Outlook calendar instead of checking here?
+See [Calendar Sync](#/calendar-sync).

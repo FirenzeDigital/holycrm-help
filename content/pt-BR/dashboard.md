@@ -38,6 +38,8 @@ ele não volta a aparecer.
 - **Aniversariantes** — todos com aniversário nos próximos 30 dias, com o de hoje destacado.
 - **Status dos membros** — um detalhamento dos seus membros por status (e por sexo, se você
   registra isso).
+- **Escada de crescimento** — quantos membros ativos há em cada etapa de crescimento. Veja
+  [Escada de crescimento](#/growth-ladder).
 
 Se sua igreja definir uma idade limite para menores, você também pode ver um cartão
 **Próximos da maioridade** — membros que vão cruzar essa idade dentro de 90 dias. Veja

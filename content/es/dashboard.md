@@ -39,6 +39,8 @@ vuelve a aparecer.
   resaltado.
 - **Estado de los miembros** — un desglose de tus miembros por estado (y por sexo, si lo
   registrás).
+- **Escalera de crecimiento** — cuántos miembros activos hay en cada etapa de crecimiento.
+  Ver [Escalera de crecimiento](#/growth-ladder).
 
 Si tu iglesia define una edad límite para menores, también podés ver una tarjeta
 **Próximos a la mayoría de edad** — miembros que cruzarán esa edad dentro de 90 días. Ver

@@ -25,7 +25,7 @@
         "pt-BR": "Visão geral",
         "pt": "Visão geral"
       },
-      "pages": ["dashboard", "calendar", "reports"]
+      "pages": ["dashboard", "calendar", "calendar-sync", "reports"]
     },
     {
       "id": "people",
@@ -35,7 +35,7 @@
         "pt-BR": "Pessoas",
         "pt": "Pessoas"
       },
-      "pages": ["members", "data-import", "groups", "visitors"]
+      "pages": ["members", "growth-ladder", "data-import", "groups", "visitors"]
     },
     {
       "id": "ministries_rotas",
@@ -75,7 +75,7 @@
         "pt-BR": "Comunicações",
         "pt": "Comunicações"
       },
-      "pages": ["bulk-email"]
+      "pages": ["bulk-email", "church-links"]
     },
     {
       "id": "finance",
@@ -105,7 +105,7 @@
         "pt-BR": "Conta",
         "pt": "Conta"
       },
-      "pages": ["profile", "my-giving"]
+      "pages": ["profile", "my-availability", "my-giving"]
     },
     {
       "id": "support",
@@ -136,6 +136,15 @@
       "title": { "en": "Calendar", "es": "Calendario", "pt-BR": "Calendário", "pt": "Calendário" },
       "file": "calendar.md"
     },
+    "calendar-sync": {
+      "title": {
+        "en": "Calendar Sync",
+        "es": "Sincronizar calendario",
+        "pt-BR": "Sincronizar calendário",
+        "pt": "Sincronizar calendário"
+      },
+      "file": "calendar-sync.md"
+    },
     "reports": {
       "title": { "en": "Reports", "es": "Informes", "pt-BR": "Relatórios", "pt": "Relatórios" },
       "file": "reports.md"
@@ -143,6 +152,15 @@
     "members": {
       "title": { "en": "Members", "es": "Miembros", "pt-BR": "Membros", "pt": "Membros" },
       "file": "members.md"
+    },
+    "growth-ladder": {
+      "title": {
+        "en": "Growth Ladder",
+        "es": "Escalera de crecimiento",
+        "pt-BR": "Escada de crescimento",
+        "pt": "Escada de crescimento"
+      },
+      "file": "growth-ladder.md"
     },
     "data-import": {
       "title": {
@@ -211,6 +229,15 @@
       },
       "file": "bulk-email.md"
     },
+    "church-links": {
+      "title": {
+        "en": "Church Links",
+        "es": "Enlaces de la iglesia",
+        "pt-BR": "Links da igreja",
+        "pt": "Links da igreja"
+      },
+      "file": "church-links.md"
+    },
     "finance": {
       "title": {
         "en": "Giving & Finance",
@@ -259,6 +286,15 @@
     "profile": {
       "title": { "en": "My Profile", "es": "Mi perfil", "pt-BR": "Meu perfil", "pt": "O meu perfil" },
       "file": "profile.md"
+    },
+    "my-availability": {
+      "title": {
+        "en": "My Availability",
+        "es": "Mi disponibilidad",
+        "pt-BR": "Minha disponibilidade",
+        "pt": "A minha disponibilidade"
+      },
+      "file": "my-availability.md"
     },
     "my-giving": {
       "title": { "en": "My Giving", "es": "Mis ofrendas", "pt-BR": "Minhas ofertas", "pt": "As minhas ofertas" },

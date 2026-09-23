@@ -29,5 +29,6 @@ aplicação, desde diretórios a extratos de oferta.
 
 Este cartão simplesmente não aparece se o seu acesso não estiver associado a uma ficha de
 membro — isso é normal para a maioria dos acessos da equipa, não é um erro. Ver
-[As minhas ofertas](#/my-giving) para o seu próprio histórico de ofertas, mostrado da
-mesma forma.
+[As minhas ofertas](#/my-giving) para o seu próprio histórico de ofertas, e
+[A minha disponibilidade](#/my-availability) para avisar a sua igreja de quando costuma
+estar livre para servir — ambas aparecem da mesma forma, associadas a esta mesma ficha.

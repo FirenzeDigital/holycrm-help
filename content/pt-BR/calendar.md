@@ -51,3 +51,8 @@ editar "só esta semana".
 No celular, os controles de fuso horário e os atalhos "Adicionar novo"/"Gerenciar" ficam
 recolhidos em um painel **Mais**, para não empurrar a agenda para fora da tela; toque para
 expandir.
+
+## Assinando pelo seu próprio calendário
+
+Quer ver essa agenda no seu próprio calendário do Google, Apple ou Outlook em vez de
+entrar aqui para conferir? Veja [Sincronizar calendário](#/calendar-sync).

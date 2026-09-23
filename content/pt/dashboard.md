@@ -37,6 +37,8 @@ a aparecer.
 - **Funil de conversão** — como os visitantes avançam pelas etapas de acompanhamento.
 - **Aniversários** — todos com aniversário nos próximos 30 dias, com o de hoje destacado.
 - **Estado dos membros** — um detalhe dos membros por estado (e por sexo, se registar isso).
+- **Escada de crescimento** — quantos membros ativos há em cada etapa de crescimento. Ver
+  [Escada de crescimento](#/growth-ladder).
 
 Se a sua igreja definir uma idade limite para menores, também pode ver um cartão
 **A aproximar-se da maioridade** — membros que vão atingir essa idade dentro de 90 dias. Ver

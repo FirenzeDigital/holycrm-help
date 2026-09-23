@@ -29,5 +29,6 @@ la app, desde los directorios hasta los comprobantes de ofrenda.
 
 Esta tarjeta simplemente no aparece si tu acceso no está vinculado a una ficha de miembro
 — eso es normal para la mayoría de los accesos del equipo, no un error. Ver
-[Mis ofrendas](#/my-giving) para tu propio historial de ofrendas, mostrado de la misma
-forma.
+[Mis ofrendas](#/my-giving) para tu propio historial de ofrendas, y
+[Mi disponibilidad](#/my-availability) para avisarle a tu iglesia cuándo solés estar
+libre para servir — las dos se muestran de la misma forma, vinculadas a esta misma ficha.
