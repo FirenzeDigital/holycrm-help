@@ -27,3 +27,7 @@ matter what timezone you personally view the calendar in (see [Calendar](#/calen
 A location can also have its own **default currency**, overriding the church-wide default
 for transactions entered there — useful if, say, one campus collects offerings in a
 different currency than your main church account uses.
+
+Fill in a location's **Address**, **Phone** and **Email** and it appears automatically on
+your [Church Website](#/church-website)'s Visit Us section — with its own card once your
+church has more than one location with an address set.

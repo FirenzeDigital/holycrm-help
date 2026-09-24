@@ -75,7 +75,7 @@
         "pt-BR": "Comunicações",
         "pt": "Comunicações"
       },
-      "pages": ["bulk-email", "church-links"]
+      "pages": ["bulk-email", "church-links", "church-website"]
     },
     {
       "id": "finance",
@@ -237,6 +237,15 @@
         "pt": "Links da igreja"
       },
       "file": "church-links.md"
+    },
+    "church-website": {
+      "title": {
+        "en": "Church Website",
+        "es": "Sitio web de la iglesia",
+        "pt-BR": "Site da igreja",
+        "pt": "Site da igreja"
+      },
+      "file": "church-website.md"
     },
     "finance": {
       "title": {

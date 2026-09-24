@@ -30,3 +30,7 @@ calendario (ver [Calendario](#/calendar)).
 Una sede también puede tener su propia **moneda predeterminada**, que reemplaza a la
 predeterminada de la iglesia para las transacciones ingresadas en ese lugar — útil si, por
 ejemplo, un campus recibe ofrendas en una moneda distinta a la que usa tu cuenta principal.
+
+Completá la **Dirección**, el **Teléfono** y el **Email** de una sede y van a aparecer
+automáticamente en la sección Visitanos de tu [Sitio web de la iglesia](#/church-website)
+— con su propia tarjeta cuando tu iglesia tenga más de una sede con dirección cargada.

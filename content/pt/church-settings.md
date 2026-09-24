@@ -29,3 +29,8 @@ a ver o calendário (ver [Calendário](#/calendar)).
 Um local também pode ter a sua própria **moeda predefinida**, substituindo a predefinida da
 igreja para transações registadas nesse lugar — útil se, por exemplo, um campus recebe
 ofertas numa moeda diferente da que a sua conta principal usa.
+
+Preencha a **Morada**, o **Telefone** e o **Email** de um local e eles aparecem
+automaticamente na secção Venha visitar-nos do seu [Site da igreja](#/church-website) —
+com o seu próprio cartão quando a sua igreja tiver mais do que um local com morada
+preenchida.

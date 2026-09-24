@@ -29,3 +29,7 @@ os horários continuam corretos não importa em qual fuso você esteja visualiza
 Um local também pode ter sua própria **moeda padrão**, substituindo a padrão da igreja para
 transações registradas ali — útil se, por exemplo, um campus recebe ofertas em uma moeda
 diferente da que sua conta principal usa.
+
+Preencha o **Endereço**, o **Telefone** e o **Email** de um local e eles aparecem
+automaticamente na seção Venha nos visitar do seu [Site da igreja](#/church-website) — com
+seu próprio cartão quando sua igreja tiver mais de um local com endereço preenchido.
