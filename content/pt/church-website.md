@@ -10,8 +10,9 @@ gerado automaticamente a partir dos dados que já mantém no HolyCRM.
 1. Defina um endereço de **Página pública de links** em **Configurações administrativas →
    Configurações da igreja**, se ainda não o fez — é o mesmo endereço usado pela sua
    página de [Links da igreja](#/church-links).
-2. Escolha um estilo em **Site**, no mesmo ecrã: **Modern**, **Classic**, **Minimal** ou
-   **Premium**. Ao escolher um, o site é ativado em
+2. Vá a **Configurações administrativas → Site da igreja** e escolha um estilo em
+   **Site**: **Modern**, **Classic**, **Minimal** ou **Premium**. Ao escolher um, o
+   site é ativado em
    `/site.html?c=o-seu-slug-de-links-publicos`; deixar em branco mantém o site desligado.
 
 ## A escolher um estilo
@@ -51,6 +52,26 @@ personalidade da sua igreja, e mude quando quiser sem perder conteúdo.
 
 ## A acompanhar o desempenho
 
-O banner **O seu site** em Configurações da igreja mostra o URL em direto, um contador
+O banner **O seu site** no ecrã Site da igreja mostra o URL em direto, um contador
 de visualizações e um código QR para materiais impressos — separado do banner de Links
 da igreja, já que são duas páginas diferentes que as pessoas podem visitar.
+
+## A usar o seu próprio domínio
+
+Em vez de um endereço holycrm.app, pode apontar o domínio da sua própria igreja
+(como www.asuaigreja.org) para o seu site — ou para a página de Links da igreja, se
+ainda não tiver ativado um site.
+
+1. No ecrã Site da igreja, introduza o seu domínio em **Domínio personalizado** —
+   normalmente com "www." à frente. (Um domínio sem "www", como asuaigreja.org,
+   precisa de suporte de DNS que a maioria dos fornecedores não oferece de graça.)
+   Guarde.
+2. Toque em **Ligar domínio**. Vai aparecer um registo DNS para adicionar — leve-o a
+   quem administra o seu domínio (o seu fornecedor, ou o/a voluntário/a de TI da sua
+   igreja) para que o adicione exatamente como mostrado.
+3. Toque em **Verificar estado** até aparecer **✓ Conectado** — normalmente demora
+   poucos minutos depois de o registo DNS ficar ativo, mas pode demorar algumas
+   horas consoante o seu fornecedor de domínio.
+
+Depois de ligado, visitar o seu próprio domínio mostra o seu site (ou a sua página de
+Links da igreja) diretamente — sem precisar do endereço holycrm.app.

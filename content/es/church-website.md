@@ -10,8 +10,9 @@ automáticamente a partir de los datos que ya cargás en HolyCRM.
 1. Configurá una dirección de **Página pública de enlaces** desde **Configuración de
    administración → Configuración de la iglesia**, si todavía no lo hiciste — es la misma
    dirección que usa tu página de [Enlaces de la iglesia](#/church-links).
-2. Elegí un estilo en **Sitio web**, en la misma pantalla: **Modern**, **Classic**,
-   **Minimal** o **Premium**. Al elegir uno se activa el sitio en
+2. Andá a **Configuración de administración → Sitio web de la iglesia** y elegí un
+   estilo en **Sitio web**: **Modern**, **Classic**, **Minimal** o **Premium**. Al
+   elegir uno se activa el sitio en
    `/site.html?c=tu-slug-de-enlaces-publicos`; dejarlo en blanco mantiene el sitio
    apagado.
 
@@ -51,6 +52,27 @@ personalidad de tu iglesia, y cambialo cuando quieras sin perder contenido.
 
 ## Ver cómo le va
 
-El banner **Tu sitio web** en Configuración de la iglesia muestra la URL en vivo, un
-contador de visitas y un código QR para materiales impresos — separado del banner de
+El banner **Tu sitio web** en la pantalla Sitio web de la iglesia muestra la URL en
+vivo, un contador de visitas y un código QR para materiales impresos — separado del
+banner de
 Enlaces de la iglesia, ya que son dos páginas distintas que la gente puede visitar.
+
+## Usar tu propio dominio
+
+En vez de una dirección holycrm.app, podés apuntar el dominio propio de tu iglesia
+(como www.tuiglesia.org) a tu sitio web — o a tu página de Enlaces de la iglesia, si
+todavía no activaste un sitio web.
+
+1. En la pantalla Sitio web de la iglesia, ingresá tu dominio en **Dominio
+   personalizado** — normalmente con "www." adelante. (Un dominio sin "www", como
+   tuiglesia.org, necesita soporte de DNS que la mayoría de los proveedores no ofrece
+   gratis.) Guardá.
+2. Tocá **Conectar dominio**. Vas a ver un registro DNS para agregar — pasáselo a
+   quien administre tu dominio (tu proveedor, o el/la voluntario/a de IT de tu
+   iglesia) para que lo agregue exactamente como se muestra.
+3. Tocá **Verificar estado** hasta que diga **✓ Conectado** — normalmente tarda
+   unos minutos una vez que el registro DNS está activo, pero puede tardar unas
+   horas según tu proveedor de dominio.
+
+Una vez conectado, visitar tu propio dominio muestra tu sitio web (o tu página de
+Enlaces de la iglesia) directamente — sin necesidad de la dirección holycrm.app.

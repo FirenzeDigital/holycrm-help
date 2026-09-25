@@ -10,8 +10,8 @@ already keep in HolyCRM.
 1. Set a **Public Links Page** address from **Admin Settings → Church Settings** if you
    haven't already — this is the same address your [Church Links](#/church-links) page
    uses.
-2. Choose a look under **Website** in the same screen: **Modern**, **Classic**,
-   **Minimal** or **Premium**. Picking one turns the site on at
+2. Go to **Admin Settings → Church Website** and choose a look under **Website**:
+   **Modern**, **Classic**, **Minimal** or **Premium**. Picking one turns the site on at
    `/site.html?c=your-public-links-slug`; leaving it blank keeps the site off.
 
 ## Choosing a look
@@ -49,6 +49,25 @@ switch any time without losing content.
 
 ## Seeing how it's doing
 
-The **Your website** banner on Church Settings shows the live URL, a view count, and a QR
-code for print materials — separate from Church Links' own banner, since they're two
-different pages people can visit.
+The **Your website** banner on the Church Website screen shows the live URL, a view
+count, and a QR code for print materials — separate from Church Links' own banner, since
+they're two different pages people can visit.
+
+## Using your own domain
+
+Instead of a holycrm.app address, you can point your church's own domain (like
+www.yourchurch.org) at your website — or your Church Links page, if you haven't turned
+on a website yet.
+
+1. On the Church Website screen, enter your domain under **Custom Domain** — usually
+   with a "www." in front. (A bare domain with no "www," like yourchurch.org, needs DNS
+   support most domain providers don't offer for free.) Save.
+2. Click **Connect domain**. You'll see a DNS record to add — pass it along to whoever
+   manages your domain (your registrar, or your church's IT volunteer) and have them
+   add it exactly as shown.
+3. Click **Check status** until it shows **✓ Connected** — this usually takes a few
+   minutes once the DNS record is live, but can take a few hours depending on your
+   domain provider.
+
+Once connected, visiting your own domain shows your website (or Church Links page)
+directly — no holycrm.app address needed.
