@@ -7,11 +7,12 @@ só leva ao seu site.
 
 ## A ativar
 
-Defina um endereço de **Página pública de links** em **Configurações administrativas →
-Configurações da igreja** (apenas letras, números e hífens, tem de ser único) — isto ativa
-a página em `/links.html?c=nome-da-sua-igreja`. O logótipo, a cor de marca e o endereço da
-página ficam registados nessa ficha de Configurações da igreja; o que aparece de facto na
-página é gerido aqui, em **Links da igreja**.
+Ative **Página pública de links** em **Configurações administrativas → Configurações da
+igreja** — pronto, a sua página já tem um endereço na web. Quer usar o seu próprio domínio
+em vez de um domínio da HolyCRM? Veja [Domínio personalizado](#/church-website) — a mesma
+configuração usada no Site da igreja também serve para esta página. O logótipo e a cor de
+marca também ficam registados nessa ficha de Configurações da igreja; o que aparece de
+facto na página é gerido aqui, em **Links da igreja**.
 
 ## A gerir os links
 
@@ -38,6 +39,27 @@ Além das suas ligações, a página pública também mostra:
   online, em vez de ser apenas mais um clique que nunca vai conseguir acompanhar.
 - Um botão de **Partilhar** e um código QR para materiais impressos — um boletim, um
   cartão de boas-vindas, um letreiro à entrada.
+
+## A escolher um estilo
+
+Por baixo do banner com o URL da página, escolha um estilo em **Estilo da página de
+links** — cada um foi pensado especificamente para esta página, não é uma versão
+reduzida dos estilos do [Site da igreja](#/church-website):
+
+- **Modern** — cor suave que se move no fundo, um anel que brilha à volta do seu
+  logótipo e um brilho que percorre a sua ligação em destaque.
+- **Classic** — um estilo caloroso e emoldurado, com um pequeno pormenor decorativo —
+  mais cartão de recordação do que aplicação.
+- **Minimal** — tranquilo e sem excessos, com as suas ligações numeradas como uma ficha
+  de museu em vez de ícones.
+- **Premium** — cartões em vidro fosco sobre um brilho em duas cores que se move
+  suavemente, com um pulsar brilhante à volta do seu logótipo.
+
+Toque num e é guardado de imediato — sem botão de guardar à parte, e pode mudar quando
+quiser sem perder nenhuma ligação.
+
+A página também segue automaticamente a preferência de claro/escuro de quem a visita,
+com um botão pequeno no canto para a escolher por conta própria, se preferir.
 
 ## A acompanhar o desempenho
 

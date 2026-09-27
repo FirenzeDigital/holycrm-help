@@ -7,13 +7,10 @@ automaticamente a partir dos dados que você já mantém no HolyCRM.
 
 ## Ativando
 
-1. Defina um endereço de **Página pública de links** em **Configurações administrativas →
-   Configurações da igreja**, se ainda não tiver — é o mesmo endereço usado pela sua
-   página de [Links da igreja](#/church-links).
-2. Vá em **Configurações administrativas → Site da igreja** e escolha um estilo em
-   **Site**: **Modern**, **Classic**, **Minimal** ou **Premium**. Ao escolher um, o
-   site é ativado em
-   `/site.html?c=seu-slug-de-links-publicos`; deixar em branco mantém o site desligado.
+Vá em **Configurações administrativas → Site da igreja** e escolha um estilo em **Site**:
+**Modern**, **Classic**, **Minimal** ou **Premium**. Ao escolher um, o site é ativado em um
+endereço que já fica pronto na hora — não precisa configurar nenhum endereço antes. Deixar
+em branco mantém o site desligado.
 
 ## Escolhendo um estilo
 

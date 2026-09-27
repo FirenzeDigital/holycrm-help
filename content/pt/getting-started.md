@@ -38,7 +38,8 @@ O menu à esquerda está agrupado por tema:
 **É possível que não veja todos os itens.** O que vê depende da sua função (Admin, Gestor,
 Voluntário ou Membro) e de qualquer permissão personalizada que a sua igreja lhe tenha
 atribuído — ver [Utilizadores, funções e permissões](#/users-roles) se faltar algo que
-esperava encontrar.
+esperava encontrar. Alguns módulos (Escalas, Finanças, E-mail em massa, Check-in de crianças
+e outros) também dependem do plano da igreja — ver [Planos e faturação](#/plans-billing).
 
 ## As quatro funções, em resumo
 

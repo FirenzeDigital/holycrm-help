@@ -1,35 +1,51 @@
 # Reports
 
-Where the Dashboard shows what's happening this week, Reports shows **where your church
-is trending** — membership, giving and attendance over months, not days. Visible to Admin
-and Manager roles only, since it includes giving figures.
+Reports answers the question every pastor actually asks — **is your church connecting
+with people?** — instead of a pile of generic charts. Visible to Admin and Manager roles
+only, since it includes giving figures.
 
-## What you'll see
+## Quick answers, always for this month
 
-Three charts, each with its own line and a short "vs. previous period" comparison badge
-right under its title (green for up, red for down):
+Five numbers at the top, each answering one specific question:
 
-- **Membership growth** — new members added, by month.
+- **First-time visitors this month** — with a comparison to last month.
+- **Received follow-up** — what share of this month's first-time visitors have actually
+  been contacted (a call, message, WhatsApp, visit — anything logged in [Visitors](#/visitors)).
+- **Now attending regularly** — of everyone who started as a visitor and later became a
+  member, how many are actually showing up: at least two "present" check-ins in the last
+  60 days. This is different from conversion below — a name can convert to membership
+  without actually attending; this counts who's really there.
+- **Volunteers serving 3+ times/month** — how many people are carrying more than their
+  fair share on the rotas this month.
+- **Visitor → member conversion** — of visitors who first came 30 days ago or longer
+  (giving them enough time to decide), what share have become members.
+
+## Trends, with a period to choose
+
+Below the quick answers, three cards you can switch between **6 / 12 / 24 months**:
+
+- **Average attendance** — not a raw count of check-ins, but people per gathering:
+  events, ministry activities and small-group meetings are each counted as one session,
+  and the number is the average present per session, by month.
+- **Growing groups** — which of your small groups have real attendance growth, comparing
+  their own recent meetings to their earlier ones (a group that meets twice a month gets
+  a fair comparison, not a rigid calendar split). Shows nothing until a group has at least
+  a couple of logged meetings.
 - **Giving** — net giving (income minus expenses), by month, converted into your church's
   default currency the same way the [Finance Dashboard](#/finance) does.
-- **Attendance** — how many "present" check-ins were recorded, by month, across events,
-  ministry activities and small-group meetings together.
 
-## Choosing a period
+The comparison badge under Average attendance and Giving always measures the period
+you're viewing against the same length of time right before it — on 12 months, that's
+this year's total against the year before, not a single earlier month.
 
-Use the **6 / 12 / 24 months** buttons at the top to change the window. The comparison
-badge under each chart always measures the period you're viewing against the same length
-of time right before it — for example, on 12 months it compares this year's total to the
-year before, not to a single earlier month.
+## Why a card might look empty
 
-## Why a chart might look empty
-
-Reports needs real history to show a trend — a church that's just getting started, or one
-that hasn't been using a particular feature yet (recording attendance, logging gifts),
-will see that chart empty until there's enough data. This isn't an error; it fills in over
-time.
+Reports needs real history to answer a question — a church just getting started, or one
+that hasn't used a particular feature yet (recording attendance, logging visitor
+follow-ups, taking rotas), will see that card empty or show "—" until there's enough
+data. This isn't an error; it fills in as you use the app.
 
 ## What's not built yet
 
-Reports beyond 24 months of history, exporting or printing a report, and any automated
-"send me this monthly" email.
+History beyond 24 months for the trend cards, exporting or printing a report, and any
+automated "send me this monthly" email.

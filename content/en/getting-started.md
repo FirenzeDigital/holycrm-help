@@ -35,7 +35,9 @@ The left-hand menu is grouped by topic:
 
 **You may not see every item.** What's visible depends on your role (Admin, Manager,
 Volunteer or Member) and on any custom permission your church has set for you — see
-[Users, Roles & Permissions](#/users-roles) if something you expect to see is missing.
+[Users, Roles & Permissions](#/users-roles) if something you expect to see is missing. A few
+modules (Rotas, Finance, Bulk Email, Kids Check-in and others) also depend on your church's
+plan — see [Plans & Billing](#/plans-billing).
 
 ## The four roles, in a nutshell
 

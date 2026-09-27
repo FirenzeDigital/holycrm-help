@@ -7,12 +7,9 @@ already keep in HolyCRM.
 
 ## Turning it on
 
-1. Set a **Public Links Page** address from **Admin Settings → Church Settings** if you
-   haven't already — this is the same address your [Church Links](#/church-links) page
-   uses.
-2. Go to **Admin Settings → Church Website** and choose a look under **Website**:
-   **Modern**, **Classic**, **Minimal** or **Premium**. Picking one turns the site on at
-   `/site.html?c=your-public-links-slug`; leaving it blank keeps the site off.
+Go to **Admin Settings → Church Website** and choose a look under **Website**: **Modern**,
+**Classic**, **Minimal** or **Premium**. Picking one turns the site on at a web address
+that's ready immediately — no address to set up first. Leaving it blank keeps the site off.
 
 ## Choosing a look
 

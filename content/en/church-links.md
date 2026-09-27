@@ -6,11 +6,11 @@ your address) instead of one link that only goes to your website.
 
 ## Turning it on
 
-Set a **Public Links Page** address from **Admin Settings → Church Settings** (letters,
-numbers and dashes only, must be unique) — this turns the page on at
-`/links.html?c=your-church-name`. The page's logo, brand color and address all live on
-that Church Settings record; what actually shows on the page is managed here, in
-**Church Links**.
+Check **Public Links Page** on in **Admin Settings → Church Settings** — that's it, your
+page has a web address the moment you do. Want it at your own domain instead of a HolyCRM
+one? See [Custom domain](#/church-website) — the same setup used for the Church Website
+also covers this page. The page's logo and brand color live on that Church Settings
+record too; what actually shows on the page is managed here, in **Church Links**.
 
 ## Managing links
 
@@ -36,6 +36,27 @@ Besides your links, the public page also shows:
   click you'll never follow up on.
 - A **Share** button and a QR code for print materials — a bulletin, a welcome card, a
   sign in the lobby.
+
+## Choosing a look
+
+Below the page URL banner, pick a style under **Links page style** — each one is designed
+just for this page, not a shrunk-down version of the [Church Website](#/church-website)
+looks:
+
+- **Modern** — soft drifting color behind everything, a glowing ring around your logo,
+  and a light sweep across your featured link.
+- **Classic** — a warm, framed look with a small decorative mark, more keepsake card
+  than app.
+- **Minimal** — quiet and uncluttered, with your links numbered like a museum label
+  instead of icons.
+- **Premium** — frosted-glass cards over a gently shifting two-color glow, with a soft
+  shimmering pulse around your logo.
+
+Tap one and it's saved right away — no separate save button, and switching any time keeps
+every link exactly as it was.
+
+The page also follows your visitor's light/dark preference automatically, with a small
+toggle in the corner if they'd rather choose for themselves.
 
 ## Seeing how it's doing
 

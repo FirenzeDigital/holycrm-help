@@ -95,7 +95,7 @@
         "pt-BR": "Configurações administrativas",
         "pt": "Configurações administrativas"
       },
-      "pages": ["church-settings", "users-roles", "tags", "data-privacy"]
+      "pages": ["church-settings", "users-roles", "tags", "data-privacy", "plans-billing"]
     },
     {
       "id": "account",
@@ -291,6 +291,15 @@
         "pt": "Dados e privacidade"
       },
       "file": "data-privacy.md"
+    },
+    "plans-billing": {
+      "title": {
+        "en": "Plans & Billing",
+        "es": "Planes y facturación",
+        "pt-BR": "Planos e cobrança",
+        "pt": "Planos e faturação"
+      },
+      "file": "plans-billing.md"
     },
     "profile": {
       "title": { "en": "My Profile", "es": "Mi perfil", "pt-BR": "Meu perfil", "pt": "O meu perfil" },

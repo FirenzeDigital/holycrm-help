@@ -7,10 +7,11 @@ só leva ao seu site.
 
 ## Ativando
 
-Defina um endereço de **Página pública de links** em **Configurações administrativas →
-Configurações da igreja** (apenas letras, números e hífens, precisa ser único) — isso
-ativa a página em `/links.html?c=nome-da-sua-igreja`. O logo, a cor da marca e o endereço
-da página ficam no cadastro de Configurações da igreja; o que aparece na página de fato é
+Marque **Página pública de links** em **Configurações administrativas → Configurações da
+igreja** — pronto, sua página já tem um endereço na web. Quer usar seu próprio domínio em
+vez de um domínio da HolyCRM? Veja [Domínio personalizado](#/church-website) — a mesma
+configuração usada no Site da igreja também vale para esta página. O logo e a cor da marca
+também ficam no cadastro de Configurações da igreja; o que aparece na página de fato é
 gerenciado aqui, em **Links da igreja**.
 
 ## Gerenciando os links
@@ -38,6 +39,27 @@ Além dos seus links, a página pública também mostra:
   online, em vez de ser só mais um clique que você nunca vai conseguir acompanhar.
 - Um botão de **Compartilhar** e um QR code para materiais impressos — um boletim, um
   cartão de boas-vindas, uma placa na entrada.
+
+## Escolhendo um estilo
+
+Abaixo do banner com a URL da página, escolha um estilo em **Estilo da página de
+links** — cada um foi pensado especificamente para esta página, não é uma versão
+reduzida dos estilos do [Site da igreja](#/church-website):
+
+- **Modern** — cor suave que se move no fundo, um anel que brilha ao redor do seu logo
+  e um brilho que percorre seu link em destaque.
+- **Classic** — um estilo caloroso e emoldurado, com um pequeno detalhe decorativo — mais
+  cartão de lembrança do que app.
+- **Minimal** — tranquilo e sem excessos, com seus links numerados como uma ficha de
+  museu em vez de ícones.
+- **Premium** — cartões em vidro fosco sobre um brilho em duas cores que se move
+  suavemente, com um pulsar brilhante ao redor do seu logo.
+
+Toque em um e ele é salvo na hora — sem botão de salvar separado, e você pode trocar
+quando quiser sem perder nenhum link.
+
+A página também segue automaticamente a preferência de claro/escuro de quem a visita,
+com um botão pequeno no canto para escolher por conta própria, se preferir.
 
 ## Acompanhando o desempenho
 

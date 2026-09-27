@@ -38,7 +38,9 @@ El menú de la izquierda está agrupado por tema:
 
 **Es posible que no veas todos los ítems.** Lo que ves depende de tu rol (Admin, Gestor,
 Voluntario o Miembro) y de cualquier permiso personalizado que tu iglesia te haya asignado —
-ver [Usuarios, roles y permisos](#/users-roles) si falta algo que esperabas encontrar.
+ver [Usuarios, roles y permisos](#/users-roles) si falta algo que esperabas encontrar. Algunos
+módulos (Turnos, Finanzas, Correos masivos, Check-in de niños y otros) también dependen del
+plan de tu iglesia — ver [Planes y facturación](#/plans-billing).
 
 ## Los cuatro roles, en resumen
 

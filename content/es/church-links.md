@@ -7,11 +7,12 @@ tu sitio web.
 
 ## Activarla
 
-Configurá una dirección de **Página pública de enlaces** desde **Configuración de
-administración → Configuración de la iglesia** (solo letras, números y guiones, debe ser
-única) — esto activa la página en `/links.html?c=nombre-de-tu-iglesia`. El logo, el color
-de marca y la dirección de la página viven en esa ficha de Configuración de la iglesia; lo
-que realmente se muestra en la página se administra acá, en **Enlaces de la iglesia**.
+Activá **Página pública de enlaces** en **Configuración de administración → Configuración
+de la iglesia** — con eso alcanza, tu página ya tiene una dirección web. ¿Querés que sea tu
+propio dominio en vez de uno de HolyCRM? Mirá [Dominio personalizado](#/church-website) —
+la misma configuración que usa el Sitio de la iglesia también cubre esta página. El logo y
+el color de marca también viven en esa ficha de Configuración de la iglesia; lo que
+realmente se muestra en la página se administra acá, en **Enlaces de la iglesia**.
 
 ## Administrar los enlaces
 
@@ -39,6 +40,27 @@ Además de tus enlaces, la página pública también muestra:
   origen online, en vez de ser solo un clic que nunca vas a poder seguir.
 - Un botón para **Compartir** y un código QR para materiales impresos — un boletín, una
   tarjeta de bienvenida, un cartel en el hall de entrada.
+
+## Elegir un estilo
+
+Debajo del banner con la URL de la página, elegí un estilo en **Estilo de la página de
+enlaces** — cada uno está pensado específicamente para esta página, no es una versión
+reducida de los estilos del [Sitio web de la iglesia](#/church-website):
+
+- **Modern** — color suave que se mueve de fondo, un anillo que brilla alrededor de tu
+  logo y un brillo que recorre tu enlace destacado.
+- **Classic** — un estilo cálido y enmarcado, con un pequeño detalle decorativo — más
+  tarjeta de recuerdo que app.
+- **Minimal** — tranquilo y sin nada de más, con tus enlaces numerados como una ficha de
+  museo en vez de íconos.
+- **Premium** — tarjetas de vidrio esmerilado sobre un resplandor en dos colores que se
+  mueve suavemente, con un pulso brillante alrededor de tu logo.
+
+Tocá uno y se guarda al instante — sin botón de guardar aparte, y podés cambiarlo cuando
+quieras sin perder ningún enlace.
+
+La página también sigue automáticamente la preferencia de claro/oscuro de quien la
+visita, con un botón pequeño en la esquina para que la elija por su cuenta si prefiere.
 
 ## Ver cómo le va
 
