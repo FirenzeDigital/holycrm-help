@@ -46,3 +46,84 @@ const safeBody = body.replace(/<\/script/gi, "<\\/script");
 
 fs.writeFileSync(OUT_FILE, banner + safeBody);
 console.log(`Wrote ${path.relative(process.cwd(), OUT_FILE)} (${Object.keys(files).length} content files, ${manifest.locales.length} locales).`);
+
+/**
+ * llms.txt (https://llmstxt.org) for AI assistants and agents.
+ *
+ * Why: the Help Center renders Markdown client-side, so a crawler without JS
+ * sees an empty shell. These plain-text files give AI tools (ChatGPT, Claude,
+ * Perplexity, coding agents…) the real guide content:
+ *   llms.txt                — index: summary + link to every page's raw .md
+ *   llms-full.txt           — every English page concatenated
+ *   llms-full-<locale>.txt  — same for each other locale (falls back to
+ *                             English for pages not translated yet)
+ * In-page "#/page-id" links are rewritten to absolute raw .md URLs.
+ */
+const SITE_URL = "https://docs.holycrm.app";
+const APP_URL = "https://www.holycrm.app";
+const defaultLocale = manifest.defaultLocale || "en";
+
+function pageSource(pageId, locale) {
+  const page = manifest.pages[pageId];
+  if (!page) return null;
+  for (const loc of [locale, defaultLocale]) {
+    const key = `${loc}/${page.file}`;
+    if (files[key]) return { locale: loc, url: `${SITE_URL}/content/${key}`, text: files[key] };
+  }
+  return null;
+}
+
+function absolutizeLinks(markdown, locale) {
+  return markdown.replace(/\]\(#\/([^)\s]+)\)/g, (match, pageId) => {
+    const src = pageSource(pageId, locale);
+    return src ? `](${src.url})` : match;
+  });
+}
+
+function pageTitle(pageId, locale) {
+  const title = manifest.pages[pageId].title;
+  return title[locale] || title[defaultLocale];
+}
+
+function fullFileName(locale) {
+  return locale === defaultLocale ? "llms-full.txt" : `llms-full-${locale}.txt`;
+}
+
+const intro = `> HolyCRM.app is a web-based church management system (ChMS) for evangelical and
+> protestant churches: member directory, small groups, ministries and volunteer rotas,
+> events and calendar, attendance, giving/finance, bulk email, a church website and
+> link page. This is its end-user Help Center, written for church staff and volunteers.
+
+- Product website: ${APP_URL}/. Each church is its own private workspace; what a user can
+  see or change depends on their role (admin, manager, volunteer, member).
+- Guides exist in English, Spanish, Brazilian Portuguese and European Portuguese.
+- Human-readable site: ${SITE_URL}/ (links below point to the raw Markdown source).
+`;
+
+let index = `# HolyCRM Help Center\n\n${intro}`;
+for (const category of manifest.categories) {
+  index += `\n## ${category.label[defaultLocale]}\n\n`;
+  for (const pageId of category.pages) {
+    const src = pageSource(pageId, defaultLocale);
+    if (src) index += `- [${pageTitle(pageId, defaultLocale)}](${src.url})\n`;
+  }
+}
+index += `\n## Optional\n\n`;
+for (const locale of manifest.locales) {
+  index += `- [All guides in one file — ${locale.label}](${SITE_URL}/${fullFileName(locale.code)})\n`;
+}
+fs.writeFileSync(path.join(HELP_DIR, "llms.txt"), index);
+
+for (const locale of manifest.locales) {
+  let full = `# HolyCRM Help Center — ${locale.label}\n\n${intro}`;
+  for (const category of manifest.categories) {
+    for (const pageId of category.pages) {
+      const src = pageSource(pageId, locale.code);
+      if (!src) continue;
+      full += `\n---\n\nSource: ${src.url}\nSection: ${category.label[locale.code] || category.label[defaultLocale]}\n\n`;
+      full += absolutizeLinks(src.text.trim(), locale.code) + "\n";
+    }
+  }
+  fs.writeFileSync(path.join(HELP_DIR, fullFileName(locale.code)), full);
+}
+console.log(`Wrote llms.txt and ${manifest.locales.length} llms-full*.txt files.`);

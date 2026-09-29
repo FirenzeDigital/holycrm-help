@@ -1,0 +1,1671 @@
+# HolyCRM Help Center — Español
+
+> HolyCRM.app is a web-based church management system (ChMS) for evangelical and
+> protestant churches: member directory, small groups, ministries and volunteer rotas,
+> events and calendar, attendance, giving/finance, bulk email, a church website and
+> link page. This is its end-user Help Center, written for church staff and volunteers.
+
+- Product website: https://www.holycrm.app/. Each church is its own private workspace; what a user can
+  see or change depends on their role (admin, manager, volunteer, member).
+- Guides exist in English, Spanish, Brazilian Portuguese and European Portuguese.
+- Human-readable site: https://docs.holycrm.app/ (links below point to the raw Markdown source).
+
+---
+
+Source: https://docs.holycrm.app/content/es/getting-started.md
+Section: Primeros pasos
+
+# Primeros pasos
+
+Bienvenido a **HolyCRM** — la aplicación que tu iglesia usa para gestionar miembros, grupos
+pequeños (células), ministerios, turnos de servicio, eventos, asistencia, ofrendas y
+comunicación, todo en un solo lugar.
+
+Este Centro de ayuda busca responder dos tipos de preguntas: *"¿cómo hago X?"* cuando recién
+empiezas, y *"¿por qué funciona así?"* cuando algo no se comporta como esperabas. Usá el
+buscador de arriba, o navegá por tema en el menú lateral.
+
+## Iniciar sesión
+
+1. Entrá a la página de acceso de tu iglesia e ingresá tu **correo y contraseña**.
+2. Si perteneces a más de una iglesia, se te pedirá elegir cuál administrar — luego podés
+   cambiar de iglesia desde dentro de la app sin volver a iniciar sesión.
+3. ¿Olvidaste tu contraseña? Usá **¿Olvidaste tu contraseña?** en la pantalla de acceso.
+   Recibirás un enlace por correo sin importar si la dirección está registrada o no, para que
+   nadie pueda usar esa pantalla para averiguar quién tiene una cuenta.
+
+Si todavía no tenés un acceso, pedile a un administrador o gestor de tu iglesia que te
+invite — ver [Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md).
+
+## Cómo moverte por la app
+
+El menú de la izquierda está agrupado por tema:
+
+- **Resumen** — el Panel principal (una foto del momento de tu iglesia) y el Calendario.
+- **Personas** — Miembros, Importar datos, Grupos pequeños, Visitantes.
+- **Ministerios y turnos** — Ministerios, Miembros de ministerio y la programación de
+  voluntarios ("turnos").
+- **Eventos** — eventos puntuales y quiénes están inscritos.
+- **Asistencia** — asistencia general, Check-in y Check-in de niños.
+- **Comunicaciones** — Correos masivos y plantillas reutilizables de correo.
+- **Finanzas** — Ofrendas, transacciones, categorías y el Panel de finanzas.
+- **Configuración de administración** — Configuración de la iglesia, Sedes, Usuarios,
+  Etiquetas, Datos y privacidad.
+- **Cuenta** — tu propio Perfil.
+
+**Es posible que no veas todos los ítems.** Lo que ves depende de tu rol (Admin, Gestor,
+Voluntario o Miembro) y de cualquier permiso personalizado que tu iglesia te haya asignado —
+ver [Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md) si falta algo que esperabas encontrar. Algunos
+módulos (Turnos, Finanzas, Correos masivos, Check-in de niños y otros) también dependen del
+plan de tu iglesia — ver [Planes y facturación](https://docs.holycrm.app/content/es/plans-billing.md).
+
+## Los cuatro roles, en resumen
+
+| Rol | Uso típico |
+|---|---|
+| **Admin** | Acceso total, incluida la Configuración de la iglesia e invitar a otros usuarios. |
+| **Gestor (Manager)** | Operación del día a día — miembros, grupos, eventos, turnos, comunicaciones, finanzas — sin la configuración a nivel de cuenta que sí tiene un Admin. |
+| **Voluntario** | Acceso acotado y enfocado en una tarea (por ejemplo, tomar asistencia o llevar el check-in), según lo que tu iglesia haya habilitado. |
+| **Miembro** | Autoservicio de solo lectura — principalmente tu propio Perfil. |
+
+Una iglesia puede ajustar esto con más detalle por persona; tu acceso real puede diferir
+levemente de esta tabla.
+
+## Una primera semana típica
+
+1. **Configuración de la iglesia** — definí el nombre de tu iglesia, la zona horaria, la
+   moneda por defecto y, si querés, un logo. Ver
+   [Configuración de la iglesia y sedes](https://docs.holycrm.app/content/es/church-settings.md).
+2. **Sumá a tu gente** — agregá [Miembros](https://docs.holycrm.app/content/es/members.md) uno por uno, o usá
+   [Importar datos](https://docs.holycrm.app/content/es/data-import.md) para traer una planilla que ya tengas.
+3. **Configurá Sedes** si tu iglesia se reúne en más de un lugar — necesario para que las
+   zonas horarias y configuraciones por sede sean correctas.
+4. **Creá tus Ministerios y Grupos pequeños** y sumá miembros a cada uno.
+5. **Cargá tus próximos Eventos** y, si organizás turnos de servicio (equipo de alabanza,
+   sonido, bienvenida...), configurá **Roles de servicio** y empezá a completar los
+   **Turnos**.
+6. **Probá el Check-in o el Check-in de niños** antes de tu próximo culto, para que tu equipo
+   no lo aprenda en el momento.
+7. **Enviá tu primer correo masivo** — un mensaje de bienvenida o un anuncio — una vez que
+   tengas algunos miembros con correo electrónico.
+
+## ¿Necesitás ayuda?
+
+Este Centro de ayuda cubre qué hace cada módulo y por qué se comporta de esa manera. Si te
+quedaste con una duda que no está acá, revisá primero las
+[Preguntas frecuentes](https://docs.holycrm.app/content/es/faq.md) — están armadas con las preguntas que las iglesias hacen más
+seguido.
+
+---
+
+Source: https://docs.holycrm.app/content/es/dashboard.md
+Section: Resumen
+
+# Panel principal
+
+El Panel principal es la pantalla de inicio de tu iglesia — una foto del momento, actualizada
+en vivo con tus datos reales. Cada tarjeta carga de forma independiente y simplemente se
+oculta si no tenés permiso para verla o si todavía no hay datos, así que un Voluntario puede
+ver un panel mucho más corto que un Admin, y eso es lo esperado.
+
+## Qué vas a ver
+
+**Acciones rápidas** arriba de todo (agregar un Miembro, registrar un Visitante, crear un
+Evento, ir al Calendario) — cada una aparece solo si tu rol lo permite.
+
+**Lista de primeros pasos** — las iglesias nuevas ven una tarjeta descartable arriba de los
+números con lo que todavía falta configurar: definir tu zona horaria, agregar tus primeros
+miembros, invitar a tu equipo, y confirmar las responsabilidades de datos de tu iglesia (ver
+[Datos y privacidad](https://docs.holycrm.app/content/es/data-privacy.md)). Hacé clic en un ítem para ir directo a él. La tarjeta
+desaparece sola cuando todo está listo, o la podés descartar vos mismo — de cualquier forma no
+vuelve a aparecer.
+
+**Franja de números clave:**
+
+- Miembros activos, con cuántos se sumaron este mes.
+- Voluntarios, como porcentaje de los miembros activos.
+- Personas actualmente en un grupo pequeño.
+- Visitantes este mes, y su tasa de conversión.
+- Lo que viene en los próximos 7 días.
+- Turnos que todavía necesitan voluntarios (se muestra en ámbar cuando hay alguno).
+- Ofrenda/ingreso neto de este mes.
+
+**Paneles principales:**
+
+- **Próximos 7 días** — una agenda combinada de eventos, actividades de ministerio y
+  reuniones de grupos pequeños, de la más próxima a la más lejana.
+- **Turnos que necesitan voluntarios** — cualquier rol de servicio próximo que esté corto de
+  gente.
+- **Últimos 6 meses** — un gráfico de barras de nuevos miembros y nuevos visitantes por mes.
+- **Embudo de conversión** — cómo avanzan los visitantes por tus etapas de seguimiento.
+- **Cumpleaños** — todos los que cumplen años en los próximos 30 días, con el de hoy
+  resaltado.
+- **Estado de los miembros** — un desglose de tus miembros por estado (y por sexo, si lo
+  registrás).
+- **Escalera de crecimiento** — cuántos miembros activos hay en cada etapa de crecimiento.
+  Ver [Escalera de crecimiento](https://docs.holycrm.app/content/es/growth-ladder.md).
+
+Si tu iglesia define una edad límite para menores, también podés ver una tarjeta
+**Próximos a la mayoría de edad** — miembros que cruzarán esa edad dentro de 90 días. Ver
+[Miembros](https://docs.holycrm.app/content/es/members.md) para saber cómo funciona ese límite.
+
+## Por qué falta o está vacío un panel
+
+- **Falta por completo**: no tenés permiso para leer esos datos (por ejemplo, un Voluntario
+  normalmente no puede ver los números de Finanzas).
+- **Presente pero vacío**: la función existe, simplemente todavía no hay nada que mostrar —
+  por ejemplo, ningún visitante registrado este mes.
+
+## Notas sobre los números
+
+- Los horarios del panel Próximos 7 días usan la hora local de tu navegador como vistazo
+  rápido — el [Calendario](https://docs.holycrm.app/content/es/calendar.md) es la fuente oficial de horarios exactos y zonas
+  horarias, especialmente si tu iglesia tiene sedes en distintas zonas horarias.
+- Las cifras de dinero convierten cada registro a la moneda por defecto de tu iglesia antes
+  de sumar, así que un mes con monedas mezcladas igual muestra un número con sentido. Ver
+  [Ofrendas y finanzas](https://docs.holycrm.app/content/es/finance.md) para saber cómo funciona la conversión de moneda.
+
+---
+
+Source: https://docs.holycrm.app/content/es/calendar.md
+Section: Resumen
+
+# Calendario
+
+El Calendario reúne todo lo que tiene un horario — Eventos, Actividades de ministerio y
+Turnos — en una sola agenda, con vista de mes, semana o día.
+
+## Zona horaria de visualización vs. zona horaria de la sede
+
+Cada horario está anclado a la zona horaria de la **sede** donde ocurre (si la sede no tiene
+una configurada, se usa la de tu iglesia). Esa es la hora *real* del lugar y nunca cambia.
+
+Por separado, elegís una **zona horaria de visualización** para el calendario, en el control
+`Zona horaria`:
+
+- **Automática** — usa la zona horaria de la sede seleccionada, o la de tu iglesia cuando se
+  muestran todas las sedes.
+- **Iglesia** — siempre la zona horaria configurada de tu iglesia.
+- **Dispositivo** — la zona horaria de tu computadora o teléfono.
+- **Personalizada** — cualquier zona horaria que elijas.
+
+Si tu zona horaria de visualización difiere de la zona horaria real de un evento, el panel de
+detalles muestra ambas, para que nadie confunda un culto a las 19:00 en una zona horaria con
+las 19:00 en otra.
+
+Esta preferencia se recuerda por persona, por iglesia, en el dispositivo que estás usando —
+no cambia cuándo ocurre realmente algo, solo cómo se te muestra a vos.
+
+## Filtros y foco en turnos
+
+- **Filtro por sede** — acotá el calendario a una sola sede de reunión.
+- **Foco de turnos** — alterná entre *todos*, *necesitan voluntarios* (turnos con poca gente
+  asignada), o *choques de horario* (alguien con doble reserva entre turnos que se
+  superponen, detectado en toda la iglesia para que el filtro de sede no lo oculte).
+
+Los turnos con falta de personal o con choques se resaltan con color en el calendario, con
+detalles en el panel del evento al hacer clic.
+
+## Crear y editar desde el Calendario
+
+Usá **Agregar nuevo** para crear un Evento, una Actividad de ministerio o un Turno
+directamente — se abre el mismo formulario que se usa en el módulo dedicado a ese ítem
+([Eventos](https://docs.holycrm.app/content/es/events.md), [Ministerios y turnos](https://docs.holycrm.app/content/es/ministries.md)), ya con la fecha/hora en la que
+hiciste clic. Editar un ítem desde el calendario usa el mismo formulario que editarlo desde
+su propio módulo.
+
+**Una nota sobre los ítems recurrentes**: editar una Actividad de ministerio o un Turno
+semanal cambia toda la serie recurrente, no solo una ocurrencia — todavía no existe la
+opción de editar "solo esta semana".
+
+## Móvil
+
+En teléfonos, los controles de zona horaria y los accesos "Agregar nuevo"/"Gestionar" se
+pliegan en un panel **Más** para que no empujen la agenda fuera de la pantalla; tocá para
+desplegarlo.
+
+## Suscribirte desde tu propio calendario
+
+¿Querés tener este cronograma en tu propio calendario de Google, Apple u Outlook en vez de
+entrar acá a revisarlo? Mirá [Sincronizar calendario](https://docs.holycrm.app/content/es/calendar-sync.md).
+
+---
+
+Source: https://docs.holycrm.app/content/es/calendar-sync.md
+Section: Resumen
+
+# Sincronizar calendario
+
+Suscribite al cronograma de tu iglesia desde tu propio calendario de Google, Apple u
+Outlook, para que los cultos, las actividades de ministerio y las reuniones de grupos
+pequeños aparezcan automáticamente junto al resto de tu vida — sin tener que abrir HolyCRM
+para revisar.
+
+## Obtener tu enlace
+
+En la pantalla de [Calendario](https://docs.holycrm.app/content/es/calendar.md), abrí **Más opciones → Suscribirse → Obtener
+enlace del calendario**. Vas a tener dos versiones del mismo enlace:
+
+- **Abrir en la app de Calendario** — en un teléfono o una Mac, esto se suscribe
+  directamente; usá esta opción primero.
+- **Copiar enlace** — la dirección web simple, para pegar en el campo "suscribirse desde
+  una URL" de una app de calendario (la interfaz web de Google Calendar, por ejemplo, pide
+  este formato).
+
+Si en algún lugar donde pegaste el enlace también aparece "Abrir en la app de Calendario",
+preferí esa opción — algunas apps interpretan de forma ambigua un enlace web simple a un
+archivo de calendario, y terminan descargando una copia única *y* arrancando una
+suscripción en vivo al mismo tiempo, lo que puede mostrar brevemente dos calendarios (uno
+de ellos vacío) hasta que borres el que sobra.
+
+## Qué incluye
+
+Eventos, actividades de ministerio (puntuales y semanales recurrentes) y grupos pequeños
+con un día de reunión configurado — limitado a tu propia iglesia, y actualizado
+automáticamente cada vez que tu app de calendario refresca el feed (por lo general cada
+algunas horas, no al instante). Las asignaciones de turnos y los requerimientos de roles
+quedan afuera a propósito — es un detalle de programación interna, no algo que quieras ver
+en tu calendario personal.
+
+## Si necesitás desactivarlo
+
+Pedile a un Admin que **regenere** el enlace desde la pantalla de Calendario. Esto invalida
+de inmediato todos los enlaces compartidos antes, incluido el tuyo, así que quien quiera
+seguir recibiendo actualizaciones tiene que suscribirse de nuevo con el nuevo enlace. Usá
+esto si un enlace se compartió en algún lugar donde no debería haber estado.
+
+---
+
+Source: https://docs.holycrm.app/content/es/reports.md
+Section: Resumen
+
+# Informes
+
+Informes responde la pregunta que todo pastor se hace en realidad — **¿tu iglesia está
+realmente conectando a las personas?** — en vez de mostrar un montón de gráficos
+genéricos. Visible solo para los roles Admin y Gestor, ya que incluye cifras de ofrendas.
+
+## Respuestas rápidas, siempre de este mes
+
+Cinco números arriba de todo, cada uno responde una pregunta concreta:
+
+- **Visitas por primera vez este mes** — con una comparación contra el mes pasado.
+- **Recibieron seguimiento** — qué parte de las visitas de este mes realmente recibió
+  algún contacto (una llamada, mensaje, WhatsApp, visita — cualquier cosa registrada en
+  [Visitas](https://docs.holycrm.app/content/es/visitors.md)).
+- **Ahora asisten con regularidad** — de todos los que empezaron como visita y después se
+  convirtieron en miembros, cuántos realmente están viniendo: al menos dos registros de
+  "presente" en los últimos 60 días. Esto es distinto de la conversión de abajo — alguien
+  puede convertirse en miembro sin realmente asistir; esto cuenta a quiénes de verdad
+  están ahí.
+- **Voluntarios que sirven 3+ veces al mes** — cuántas personas están cargando con más de
+  lo que les toca en las rotaciones este mes.
+- **Conversión de visita a miembro** — de las visitas que llegaron por primera vez hace 30
+  días o más (dándoles tiempo suficiente para decidirse), qué parte se convirtió en
+  miembro.
+
+## Tendencias, con un período a elegir
+
+Debajo de las respuestas rápidas, tres tarjetas entre las que podés elegir **6 / 12 / 24
+meses**:
+
+- **Asistencia promedio** — no es un conteo bruto de registros, sino personas por
+  reunión: eventos, actividades de ministerio y reuniones de grupos pequeños se cuentan
+  cada uno como una sesión, y el número es el promedio de presentes por sesión, por mes.
+- **Grupos en crecimiento** — cuáles de tus grupos pequeños tienen un crecimiento real de
+  asistencia, comparando sus propias reuniones recientes contra las anteriores (un grupo
+  que se reúne dos veces al mes recibe una comparación justa, no una división rígida por
+  calendario). No muestra nada hasta que un grupo tenga al menos un par de reuniones
+  registradas.
+- **Ofrendas** — ofrenda neta (ingresos menos egresos), por mes, convertida a la moneda
+  predeterminada de tu iglesia de la misma forma que el [Panel de finanzas](https://docs.holycrm.app/content/es/finance.md).
+
+La insignia de comparación debajo de Asistencia promedio y Ofrendas siempre mide el
+período que estás viendo contra el mismo tramo de tiempo inmediatamente anterior — con 12
+meses, eso es el total de este año contra el del año anterior, no contra un solo mes
+anterior.
+
+## Por qué una tarjeta puede verse vacía
+
+Informes necesita historial real para responder una pregunta — una iglesia recién
+empezando, o que todavía no usó alguna función (registrar asistencia, cargar
+seguimientos de visitas, tomar rotaciones), va a ver esa tarjeta vacía o con "—" hasta que
+haya suficientes datos. Esto no es un error; se va completando a medida que usás la app.
+
+## Lo que todavía no existe
+
+Historial más allá de 24 meses en las tarjetas de tendencia, exportar o imprimir un
+informe, y cualquier envío automático mensual por correo.
+
+---
+
+Source: https://docs.holycrm.app/content/es/members.md
+Section: Personas
+
+# Miembros
+
+Miembros es el directorio de tu iglesia — cada persona de tu congregación, con sus datos de
+contacto, su estado y las etiquetas/relaciones que la conectan con el resto de la app.
+
+## Agregar un miembro
+
+Usá **+ Miembro**, completá los campos que sepas (solo el nombre es obligatorio) y guardá.
+Siempre podés volver más adelante y completar el resto.
+
+Campos útiles:
+
+- **Estado** — activo, inactivo, etc. La mayoría de los reportes y selectores solo cuentan
+  miembros *activos*.
+- **Voluntario** — una casilla que marca a alguien como disponible para servir. Esto importa
+  para la programación de turnos — ver [Ministerios y turnos](https://docs.holycrm.app/content/es/ministries.md).
+- **Etiquetas** — un selector flexible de etiquetas (ver
+  [Etiquetas y roles de etiqueta](https://docs.holycrm.app/content/es/tags.md)) para agrupar personas de la forma que le sirva a
+  tu iglesia, más allá de ministerios y grupos.
+- **Fecha de nacimiento** — se usa para los recordatorios de cumpleaños y para calcular
+  automáticamente si alguien es menor de edad.
+- **Etapa de crecimiento** — en qué punto de su camino con la iglesia está esa persona:
+  Nuevo, Asistiendo, Conectado, Sirviendo o Liderando. Ver
+  [Escalera de crecimiento](https://docs.holycrm.app/content/es/growth-ladder.md).
+
+## Menores y tutores
+
+Si la fecha de nacimiento de un miembro lo ubica por debajo de la "edad límite para menores"
+configurada por tu iglesia (Configuración de la iglesia → Edad límite para menores,
+predeterminado 18), aparece un campo **Tutores** en su ficha — elegí a su padre, madre o
+tutor(es) entre el resto de tus miembros. Esto es lo que permite que el **Check-in de niños**
+pueda buscar a alguien por el nombre de su padre/madre — ver
+[Asistencia y check-in](https://docs.holycrm.app/content/es/attendance.md).
+
+Si un miembro no tiene fecha de nacimiento cargada, "menor" pasa a ser una simple casilla que
+podés marcar a mano en lugar de calcularse automáticamente.
+
+## El correo queda bloqueado para miembros con acceso
+
+Si un miembro también tiene un acceso a HolyCRM (es Voluntario, Gestor o Admin y ya inició
+sesión), su campo de correo queda bloqueado en el formulario de Miembros, con una nota que te
+lleva a la pantalla de Usuarios. Esto es intencional: su correo de acceso y el correo de su
+ficha de miembro se mantienen sincronizados automáticamente, y editarlo en dos lugares
+distintos haría que una edición deshaga silenciosamente a la otra. Cambialo desde
+**Configuración de administración → Usuarios** — ver
+[Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md).
+
+## Traer los miembros que ya tenés
+
+No vuelvas a tipear todo tu directorio a mano — ver [Importar datos](https://docs.holycrm.app/content/es/data-import.md) para
+traer una planilla.
+
+## Buscar y filtrar
+
+La lista de Miembros tiene búsqueda y filtros por columna (estado, etiquetas, etc.) para que
+puedas acotar rápido a, por ejemplo, "voluntarios activos etiquetados Equipo de Alabanza."
+
+---
+
+Source: https://docs.holycrm.app/content/es/growth-ladder.md
+Section: Personas
+
+# Escalera de crecimiento
+
+Una forma simple de ver en qué punto de su camino con la iglesia está realmente cada
+persona, no solo si es un miembro activo o no. Cada miembro activo tiene una **Etapa de
+crecimiento**: Nuevo, Asistiendo, Conectado, Sirviendo o Liderando.
+
+## Configurar la etapa de un miembro
+
+Abrí la ficha de un miembro y elegí la **Etapa de crecimiento** en el desplegable — ver
+[Miembros](https://docs.holycrm.app/content/es/members.md). No hay ascenso automático entre etapas: la etapa de alguien solo
+cambia cuando un miembro del equipo o un líder la actualiza, según lo que realmente está
+viendo en la vida de esa persona en la iglesia — se sumó a un grupo pequeño, empezó a
+servir en un turno, asumió el liderazgo de un ministerio.
+
+## Por qué importa
+
+Un número total te dice *cuánta* gente tenés. La etapa de crecimiento te dice *quién está
+listo para un próximo paso* — alguien que lleva meses "Asistiendo" sin conectarse a un
+grupo necesita un seguimiento muy distinto al de una visita recién llegada, aunque un
+simple estado activo/inactivo los muestre exactamente igual.
+
+## Verlo en el Dashboard
+
+La tarjeta **Escalera de crecimiento** del [Panel principal](https://docs.holycrm.app/content/es/dashboard.md) muestra cuántos
+miembros activos hay en cada etapa, para que de un vistazo veas si la gente realmente está
+avanzando o si se está acumulando en "Nuevo" — una señal de que tu seguimiento, o tu
+manera de sumar gente a grupos y a servir, necesita atención.
+
+## Qué todavía no está hecho
+
+Sugerencias automáticas de etapa (por ejemplo, pasar a alguien a "Sirviendo" apenas se le
+asigna un turno) e historial de cambios de etapa — hoy el campo solo guarda lo que está
+configurado en este momento, sin registro de cuándo ni por qué cambió por última vez.
+
+---
+
+Source: https://docs.holycrm.app/content/es/data-import.md
+Section: Personas
+
+# Importar datos
+
+Si tu iglesia ya tiene una lista de miembros en una planilla, Importar datos te permite
+traerla en lugar de tipearla a mano. Por ahora importa **solo Miembros**.
+
+## Los cuatro pasos
+
+### 1. Subir archivo
+
+Exportá tu planilla como **archivo CSV** (desde Excel, Google Sheets, o casi cualquier otro
+sistema de iglesia) y subila acá. Los archivos con más de **500 filas** se rechazan de
+entrada — dividí un archivo más grande e importalo en tandas.
+
+### 2. Asignar columnas
+
+Para cada columna de tu archivo, elegí a qué campo de HolyCRM corresponde (nombre, apellido,
+correo, teléfono, fecha de nacimiento, estado, etiquetas, y más). HolyCRM adivina
+coincidencias razonables a partir de los encabezados de tus columnas (incluyendo algunos
+encabezados comunes en español como "Apellido"), pero siempre revisá esas sugerencias antes
+de continuar.
+
+Se muestra una muestra de los valores reales de cada columna, ya que un encabezado por sí
+solo ("Estado", "Status") no siempre dice qué hay realmente en las celdas.
+
+**Nombre** y **Apellido** son las únicas asignaciones obligatorias — todo lo demás es
+opcional.
+
+### 3. Vista previa
+
+Vé exactamente qué se va a crear — nombre, correo, y un estado por fila:
+
+- **Listo** — se importará sin problemas.
+- **Listo con advertencia** — algo menor se omitió (por ejemplo, una fecha ilegible), la fila
+  igual se importa.
+- **Error** — falta el nombre o el apellido; esta fila se omitirá por completo.
+
+### 4. Importar
+
+Las filas se crean de a pocas por vez con un contador de progreso en vivo. Al terminar vas a
+ver un resumen de creados/omitidos con el motivo de cada omisión.
+
+## Cosas a tener en cuenta antes de importar
+
+- **No hay detección de duplicados.** Cada importación crea registros de miembro
+  completamente nuevos — no se compara contra personas que ya estén en tu directorio. Si no
+  estás seguro de si alguien ya está en HolyCRM, revisá primero; importarlo de nuevo crea un
+  segundo registro.
+- **Las etiquetas se crean automáticamente** si el nombre de una etiqueta en tu archivo
+  todavía no existe en tu iglesia.
+- **Las sedes se buscan solo por nombre, nunca se crean automáticamente.** Si el nombre de
+  una sede en tu archivo no coincide con una que ya hayas configurado, ese campo queda en
+  blanco para esa fila (con una advertencia) en lugar de crear un registro de sede a medio
+  configurar.
+- **Fechas**: HolyCRM intenta leer las fechas de nacimiento tanto en formato día-primero como
+  mes-primero, pero es una estimación de mejor esfuerzo — vale la pena revisar algunas fechas
+  de nacimiento después de una importación real.
+- El estado de menor de edad (`is_minor`) se calcula automáticamente a partir de la fecha de
+  nacimiento importada usando la edad límite configurada por tu iglesia — ver
+  [Miembros](https://docs.holycrm.app/content/es/members.md).
+
+## Lo que todavía no hace
+
+Importar algo que no sean Miembros (Visitantes, historial de ofrendas, etc.), archivos Excel
+`.xlsx` directamente (exportá a CSV primero), o hacer coincidir/actualizar registros
+existentes en lugar de crear siempre nuevos.
+
+---
+
+Source: https://docs.holycrm.app/content/es/groups.md
+Section: Personas
+
+# Grupos pequeños (Células)
+
+Los Grupos pequeños (también llamados células) tienen su propia pantalla a medida: una lista
+en tarjetas, una página de detalle con líder/horario en la barra lateral, un panel de
+miembros, un registro de reuniones y multiplicación de grupos.
+
+## Crear un grupo
+
+**Nuevo grupo** — nombre, estado, tipo, Líder, Supervisor, día/hora de reunión, y ya sea un
+**Anfitrión** (un miembro cuya casa recibe la reunión) o una dirección directamente.
+
+- Elegir un **Anfitrión** completa automáticamente la dirección del grupo con la dirección
+  particular de ese miembro, así no tenés que volver a escribirla — igual podés
+  sobrescribirla escribiendo tu propia dirección.
+- Los selectores de **Líder** y **Supervisor**, si tu iglesia los configuró en
+  [Etiquetas y roles de etiqueta](https://docs.holycrm.app/content/es/tags.md), solo muestran a los miembros que tienen la
+  etiqueta correspondiente (por ejemplo, solo aparecen como candidatos a líder los miembros
+  etiquetados "Líder de célula"). Si tu iglesia no configuró eso, se ofrecen todos.
+
+## La página de detalle
+
+- **Barra lateral** — líder, supervisor, horario, dirección, anfitrión, notas, y una tarjeta
+  de **Multiplicación**. Usá **Multiplicar este grupo** cuando una célula crece y se divide
+  en dos — abre el formulario de creación con un nombre pre-completado como "Grupo Jóvenes
+  II" y vincula el nuevo grupo con su grupo original, para que puedas trazar la genealogía de
+  una célula a lo largo del tiempo.
+- **Panel de miembros** — agregá a alguien con un rol (líder, colíder, miembro) o quitalo.
+  Quitarlo elimina la membresía por completo, no solo la marca como inactiva.
+- **Panel de reuniones** — registrá una reunión con fecha, cantidad de asistentes, cantidad
+  de personas nuevas, ofrenda y tema. Es un registro de cantidades, no una lista de
+  asistencia persona por persona — si necesitás saber *quiénes* estuvieron en una reunión de
+  grupo específica, eso es otro concepto: ver [Asistencia y check-in](https://docs.holycrm.app/content/es/attendance.md).
+
+## Lo que todavía no hace
+
+Editar una reunión ya registrada (eliminala y volvé a cargarla), un árbol visual de linaje
+para los grupos multiplicados, o asistencia por persona dentro de una reunión de grupo (solo
+se registran cantidades totales).
+
+---
+
+Source: https://docs.holycrm.app/content/es/visitors.md
+Section: Personas
+
+# Visitantes
+
+Hacé seguimiento de los invitados de primera vez desde su primera visita hasta el seguimiento
+y, con suerte, la membresía.
+
+## El embudo
+
+Cada visitante tiene una **etapa**: Nuevo → Contactado → Revisitó → Integrándose →
+Convertido (o Inactivo, si el seguimiento se estanca). La lista de Visitantes muestra una
+vista de embudo — cuántas personas hay en cada etapa y tu porcentaje de conversión general —
+para que veas de un vistazo dónde se estancan los invitados.
+
+## Agregar un visitante
+
+Solo el nombre es obligatorio, así podés registrar a alguien rápido en la puerta y completar
+el resto después: apellido, teléfono, WhatsApp, correo, cómo te encontró (redes sociales,
+invitado, evento, llegó de casualidad, en línea, otro), dirección y notas.
+
+**Asignado a** — quién hace el seguimiento de esta persona. Si tu iglesia configuró el rol de
+etiqueta `seguimiento de visitantes` (ver [Etiquetas y roles de etiqueta](https://docs.holycrm.app/content/es/tags.md)), solo se
+ofrecen los miembros con esa etiqueta; si no, se ofrecen todos los miembros activos.
+
+## Registrar un seguimiento
+
+Abrí la página de detalle de un visitante y registrá cada contacto — una llamada, mensaje,
+WhatsApp, visita, correo u otro — con una nota breve. Cada contacto queda en una línea de
+tiempo con fecha, para que puedas ver el historial completo de acercamiento a esa persona.
+
+## Convertir un visitante en miembro
+
+Cuando alguien está listo para sumarse, usá **Convertir en miembro** en su página de detalle.
+Esto crea un registro real de [Miembro](https://docs.holycrm.app/content/es/members.md) a partir de los datos del visitante y
+marca su etapa como Convertido. El botón desaparece una vez usado, ya que un visitante solo
+puede convertirse una vez.
+
+## Lo que todavía no existe
+
+Recordatorios automáticos de seguimiento, una cola de "pendientes de seguimiento", asignación
+masiva de visitantes a una persona de seguimiento, e importar visitantes directamente desde
+un formulario de tarjeta de conexión.
+
+---
+
+Source: https://docs.holycrm.app/content/es/ministries.md
+Section: Ministerios y turnos
+
+# Ministerios y miembros de ministerio
+
+Un **Ministerio** es un equipo estable — Alabanza, Niños, Ujieres, Tecnología, etc. Los
+ministerios contienen la identidad del equipo; **Miembros de ministerio** y **Actividades de
+ministerio** dependen de un ministerio.
+
+## Ministerios
+
+Creá un ministerio con un nombre, un **Líder**, y opcionalmente un **rango de edad** (`Edad
+mínima` / `Edad máxima`). El selector de líder, si tu iglesia mapeó el rol de etiqueta
+`líder de ministerio` (ver [Etiquetas y roles de etiqueta](https://docs.holycrm.app/content/es/tags.md)), solo ofrece a los
+miembros con esa etiqueta; si no, se ofrecen todos.
+
+El rango de edad lo usa **Check-in de niños** para acotar quién puede registrarse en las
+sesiones de ese ministerio — por ejemplo, un "Ministerio de Niños" con rango 0–12 no ofrecerá
+a un adolescente de 15 años, aunque siga siendo menor de edad; ese adolescente aparecería
+correctamente bajo un "Ministerio de Jóvenes" con rango 13–17. Dejá ambos campos en blanco
+para un ministerio sin restricción de edad (lo predeterminado). Ver
+[Asistencia y check-in](https://docs.holycrm.app/content/es/attendance.md) para ver cómo se aplica esto en el momento del check-in.
+
+## Actividades de ministerio
+
+Las reuniones/cultos recurrentes o puntuales de un ministerio (por ejemplo, "Culto dominical,
+semanal a las 10am"). Una sola fila de actividad cubre toda la serie recurrente — no hay una
+fila separada por semana. Las actividades son contra lo que programan
+[Asistencia](https://docs.holycrm.app/content/es/attendance.md), [Turnos](https://docs.holycrm.app/content/es/rotas.md) y el [Calendario](https://docs.holycrm.app/content/es/calendar.md).
+
+## Miembros de ministerio
+
+Elegí un ministerio del desplegable y gestioná quién forma parte de él — agregá a un miembro
+con un rol (líder, colíder, voluntario), o quitalo. Quitarlo lo saca de la lista de
+inmediato; no solo lo marca como inactivo.
+
+Esta lista es lo que alimenta el pre-llenado automático de **Asistencia** para una actividad
+de ministerio — agregá a alguien acá primero, y ya va a aparecer listado cuando vayas a tomar
+asistencia en la próxima reunión de ese ministerio.
+
+## Lo que todavía no hace
+
+Cambiar el rol de un miembro después de agregado (quitalo y volvé a agregarlo con otro rol),
+ver/gestionar miembros que fueron quitados, y agregar en bloque a todo un grupo etiquetado de
+una vez.
+
+---
+
+Source: https://docs.holycrm.app/content/es/rotas.md
+Section: Ministerios y turnos
+
+# Turnos de servicio
+
+Los turnos son cómo programás voluntarios en roles de servicio para una ocurrencia
+específica de un evento o actividad de ministerio — "quién está en Sonido este domingo",
+"quién recibe en el culto de las 9am".
+
+## Los bloques que lo componen
+
+1. **Roles de servicio** — definí los roles en los que tu iglesia programa gente (Sonido,
+   Proyección, Bienvenida, Voluntario de Check-in de niños, etc.). Configurá esto una vez.
+2. **Turnos (Requisitos de rol)** — indicá que un rol es necesario para un Evento o Actividad
+   de ministerio específico, y cuánta gente hace falta. Se puede acceder directamente desde
+   el panel de un evento en el [Calendario](https://docs.holycrm.app/content/es/calendar.md), ya pre-completado con ese evento o
+   actividad.
+3. **Asignación de turno** — quién efectivamente va a cubrir ese requisito. Un turno vinculado
+   a un requisito hereda automáticamente su fecha, hora y sede — no volvés a ingresar el
+   horario, solo elegís al/a los voluntario(s).
+
+## Ver qué necesita cobertura
+
+El control de **foco de turnos** del [Calendario](https://docs.holycrm.app/content/es/calendar.md) tiene una vista de **necesitan
+voluntarios** — todo lo que tenga menos gente asignada que la requerida aparece ahí,
+resaltado con color, con un desglose "Rol — asignados / requeridos" en los detalles del
+evento. El [Panel principal](https://docs.holycrm.app/content/es/dashboard.md) también muestra los próximos turnos con falta de
+personal.
+
+El **doble compromiso** de un voluntario también se detecta automáticamente — si la misma
+persona está asignada a dos turnos que se superponen, se marca como choque de horario en el
+calendario, sin importar qué filtro de sede tengas seleccionado.
+
+## Lo que todavía no existe
+
+Respuestas individuales de aceptar/rechazar por parte de los voluntarios, historial de
+sustituciones, mover o cancelar una sola ocurrencia de un turno recurrente de forma
+independiente del resto de la serie, y un modelo de programación totalmente vinculado a
+eventos (el modelo actual vincula un turno a un evento o actividad, pero la estructura más
+profunda "serie → ocurrencia → requisito" descrita en las notas internas de arquitectura
+todavía no se construyó).
+
+---
+
+Source: https://docs.holycrm.app/content/es/events.md
+Section: Eventos
+
+# Eventos e inscripciones
+
+Los **Eventos** son sucesos puntuales — una conferencia, un culto especial, un día de
+evangelismo — a diferencia de una Actividad de ministerio recurrente.
+
+## Crear un evento
+
+Completá los detalles, el horario (fecha/hora, con una sede para que se use la zona horaria
+correcta) y notas. Los eventos aparecen en el [Calendario](https://docs.holycrm.app/content/es/calendar.md) y pueden tener
+[Turnos](https://docs.holycrm.app/content/es/rotas.md) asociados (un Requisito de rol puede apuntar a un evento en lugar de a una
+actividad de ministerio).
+
+## Inscripciones a eventos
+
+Preinscribí gente a un evento con anticipación: elegí el evento, buscá un miembro (esto solo
+funciona con personas que ya están en tu directorio de [Miembros](https://docs.holycrm.app/content/es/members.md) — todavía no hay
+inscripción de invitados por texto libre) y agregalo. Después podés cancelar una inscripción,
+lo que conserva el registro pero deja de mostrarlo como inscrito.
+
+**El beneficio real está en el check-in**: cuando usás [Check-in](https://docs.holycrm.app/content/es/attendance.md) para un
+evento, todos los preinscritos que todavía no hicieron check-in aparecen en una lista de
+**Preinscritos** arriba del buscador normal — un toque para registrarlos. Quienes llegan sin
+preinscribirse siguen funcionando igual mediante el buscador; la preinscripción es un atajo,
+no un requisito.
+
+## Lo que todavía no existe
+
+Inscripción pública de autoservicio (registrarse uno mismo en línea sin que el personal lo
+cargue), inscripción de invitados por texto libre para alguien que aún no está en tu
+directorio, límites de cupo o listas de espera, y correos de confirmación automáticos a los
+inscritos.
+
+---
+
+Source: https://docs.holycrm.app/content/es/attendance.md
+Section: Asistencia
+
+# Asistencia y check-in
+
+Tres pantallas relacionadas cubren la asistencia, según lo que estés registrando:
+
+| Pantalla | Usala para |
+|---|---|
+| **Asistencia** | Registrar quién asistió a un evento, actividad de ministerio o reunión de grupo pequeño — la herramienta general de lista. |
+| **Check-in** | Un flujo rápido de recepción para cultos/eventos abiertos a cualquiera — buscar, registrar, imprimir una etiqueta. |
+| **Check-in de niños** | El mismo flujo de recepción, pero restringido a menores, con una etiqueta de tutor que coincide. |
+
+Las tres terminan escribiendo los mismos registros de asistencia, así que una sesión iniciada
+en una aparece correctamente también en el historial de las otras.
+
+## Asistencia
+
+**+ Tomar asistencia** → elegí para qué estás tomando asistencia:
+
+- **Culto/Evento** — elegí entre eventos de los últimos/próximos 90 días.
+- **Actividad de ministerio** — elegí la actividad y una fecha (una actividad semanal es una
+  sola serie, así que elegís qué semana).
+- **Reunión de grupo pequeño** — elegí el grupo y una fecha; se crea automáticamente un
+  registro de reunión si todavía no existe uno para esa fecha.
+
+La lista se pre-completa a partir de la membresía correspondiente (los miembros de un grupo,
+o los miembros de un ministerio desde [Miembros de ministerio](https://docs.holycrm.app/content/es/ministries.md)) — los eventos
+no tienen concepto de membresía, así que su lista empieza vacía. Un **buscador** te permite
+agregar a cualquiera por nombre igual, útil para un suplente o alguien que asiste por primera
+vez. Marcá a cada persona como Presente, Ausente, Tarde o Justificado (o usá **Marcar todos
+presentes**), y luego **Guardar asistencia** — no se guarda nada hasta que guardes.
+
+La lista de sesiones muestra tus sesiones recientes con un conteo de presentes/total; hacé
+clic en una para reabrirla y editarla.
+
+## Check-in
+
+Un flujo más rápido para un culto, conferencia, o cualquier evento **no** restringido a
+menores. Elegí un tipo (Culto/Evento o Actividad de ministerio) y una fecha, después buscá y
+tocá para registrar a alguien — esto imprime una etiqueta con un código corto de retiro. Si
+la ocurrencia es un evento con gente preinscrita (ver [Eventos e inscripciones](https://docs.holycrm.app/content/es/events.md)),
+aparecen en una lista de acceso rápido de **Preinscritos** arriba del buscador.
+
+## Check-in de niños
+
+El mismo flujo, pero solo muestra como registrables a los **menores** — un adulto que no es
+menor ni figura como tutor de nadie nunca aparece en los resultados de búsqueda. Buscar por
+el nombre de un padre/madre encuentra a sus hijos (mediante el campo **Tutores** configurado
+en la ficha del propio menor — ver [Miembros](https://docs.holycrm.app/content/es/members.md)); buscar por el nombre del propio
+niño lo encuentra directamente.
+
+Registrar a un niño imprime **dos etiquetas que coinciden** — una para el niño, otra para el
+tutor — cada una con el mismo código de retiro, lo bastante grande para leerlo a distancia. Al
+retirar, un voluntario compara el talón del tutor contra el del niño, y toca **Registrar
+salida**.
+
+Si la sesión de ministerio seleccionada tiene un **rango de edad** configurado (ver
+[Ministerios y miembros de ministerio](https://docs.holycrm.app/content/es/ministries.md)), solo se ofrecen los niños dentro de ese
+rango, aunque sean menores según la definición general de la iglesia.
+
+**No hay integración con escáner ni impresora de etiquetas** — una "etiqueta" es un papel de
+tu impresora normal, y el modelo de seguridad es una persona comparando visualmente dos
+códigos impresos. Eso coincide con cómo ya funcionan la mayoría de las iglesias con talones de
+papel; esto solo mantiene el registro digital.
+
+## Configurar quién cuenta como menor
+
+Ver [Miembros](https://docs.holycrm.app/content/es/members.md) — un miembro es menor una vez que su fecha de nacimiento está por
+debajo del límite configurado por tu iglesia (Configuración de la iglesia → Edad límite para
+menores), o mediante una casilla manual si no tiene fecha de nacimiento cargada. Los tutores
+solo se pueden configurar una vez que alguien está marcado como menor.
+
+## Lo que todavía no existe
+
+Editar o quitar un vínculo de tutor desde la propia pantalla de check-in (hacelo desde la
+ficha de Miembro del niño), correr varias sesiones de check-in simultáneas en una misma
+pantalla, integración con hardware de escáner/impresora, y reportes de tendencias de
+asistencia más allá de la simple lista de sesiones.
+
+---
+
+Source: https://docs.holycrm.app/content/es/bulk-email.md
+Section: Comunicaciones
+
+# Correos masivos y plantillas
+
+Enviá anuncios, boletines y novedades a tu congregación, y reutilizá diseños como plantillas.
+
+## Redactar un correo
+
+Elegí tu **audiencia** — todos, una etiqueta, un grupo, un ministerio, o un miembro
+específico — y después escribí el asunto y el cuerpo con el editor.
+
+El editor tiene tres modos, que podés cambiar en cualquier momento (todos convierten al mismo
+contenido por dentro, así que cambiar de modo no pierde tu trabajo):
+
+- **Bloques** (el predeterminado) — armá tu correo visualmente con bloques: títulos,
+  párrafos, imágenes, botones, listas, separadores y diseños en varias columnas. Arrastrá los
+  bloques para reordenarlos, duplicalos o eliminalos, y hacé clic en **+ Agregar bloque** para
+  insertar uno nuevo.
+- **HTML** — escribí HTML crudo directamente, para usuarios avanzados.
+- **Markdown** — un atajo de texto simple y legible para un correo rápido en texto plano.
+
+Una **vista previa en vivo** al costado muestra exactamente lo que van a ver los
+destinatarios, incluyendo cualquier variable combinada completada con datos de muestra.
+
+### Columnas
+
+Usá un bloque de **Columnas** para poner más de una cosa lado a lado en una fila — por
+ejemplo, una imagen junto a un párrafo, o dos botones uno al lado del otro. Elegí una
+proporción de ancho (50/50, 33/33/33, etc.), y después elegí qué contiene cada columna. En
+una pantalla de celular angosta, las columnas se apilan automáticamente una sobre otra para
+que el diseño se siga viendo bien.
+
+### Personalizar con variables combinadas
+
+Hacé clic en cualquier campo de texto del editor (un título, un párrafo, el texto de un
+botón...), y después hacé clic en una variable de la barra de herramientas (como
+**Nombre**) para insertarla en el cursor como `{{first_name}}`. Se reemplaza por el valor
+real de cada destinatario al enviarse — la vista previa lo muestra con un destinatario de
+muestra para que puedas revisar que se vea bien antes de enviar.
+
+### Enviar una prueba primero
+
+Usá **Enviar prueba a mi correo** para recibir en tu propia dirección el correo exacto que
+redactaste antes de enviarlo a tu audiencia real — un buen hábito antes de cualquier envío
+real.
+
+## Plantillas de correo
+
+Guardá un diseño que vas a reutilizar — un correo de bienvenida, el formato de un boletín
+mensual — como Plantilla, y después cargalo en un Correo masivo nuevo más adelante en lugar
+de rearmarlo desde cero. Las plantillas muestran las variables combinadas como marcadores
+literales `{{placeholder}}` en la vista previa, ya que todavía no hay un destinatario
+específico.
+
+## Marca / identidad visual
+
+- **El logo de tu iglesia**, si lo subiste en [Configuración de la iglesia](https://docs.holycrm.app/content/es/church-settings.md),
+  se puede insertar en cualquier correo con un clic mediante el botón **Logo de la iglesia**
+  del editor.
+- Todo correo enviado a través de HolyCRM incluye una pequeña línea "Sent with HolyCRM" — no
+  es algo que puedas quitar, y se mantiene deliberadamente discreta.
+
+## Límites
+
+Un envío individual tiene un tope de **500 destinatarios**. Esto mantiene el envío confiable;
+si tu audiencia es más grande, consultá sobre dividir el envío.
+
+## Lo que todavía no existe
+
+Programar un envío para más adelante (los envíos salen de inmediato), SMS como canal,
+seguimiento de aperturas/clics, y columnas anidadas dentro de columnas.
+
+---
+
+Source: https://docs.holycrm.app/content/es/church-links.md
+Section: Comunicaciones
+
+# Enlaces de la iglesia
+
+Una sola página con tu marca — un "link in bio" — para el perfil de Instagram, TikTok o
+Facebook de tu iglesia: una sola URL con todos los enlaces que la gente realmente necesita
+(horarios de culto, ofrendas, redes sociales, tu dirección) en vez de un link que solo va a
+tu sitio web.
+
+## Activarla
+
+Activá **Página pública de enlaces** en **Configuración de administración → Configuración
+de la iglesia** — con eso alcanza, tu página ya tiene una dirección web. ¿Querés que sea tu
+propio dominio en vez de uno de HolyCRM? Mirá [Dominio personalizado](https://docs.holycrm.app/content/es/church-website.md) —
+la misma configuración que usa el Sitio de la iglesia también cubre esta página. El logo y
+el color de marca también viven en esa ficha de Configuración de la iglesia; lo que
+realmente se muestra en la página se administra acá, en **Enlaces de la iglesia**.
+
+## Administrar los enlaces
+
+**+ Agregar enlace** para cada cosa que quieras en la página: un título, una URL, y un
+ícono opcional (elegí uno del selector, o escribí cualquier emoji). Dos ajustes extra que
+conviene conocer:
+
+- **Orden** — los números más bajos se muestran primero.
+- **Destacado** — muestra este enlace como una tarjeta más grande arriba de la lista
+  normal. Pensado para una sola cosa puntual a la vez — "el culto de este domingo", un
+  evento especial, una campaña — no para que todos los enlaces queden así de forma
+  permanente.
+- **Oculto** — saca un enlace de la página pública sin borrarlo, para poder volver a
+  activarlo después tal como estaba.
+
+## Qué ve la visita
+
+Además de tus enlaces, la página pública también muestra:
+
+- **Próximo culto** — calculado automáticamente a partir de tus próximos [Eventos](https://docs.holycrm.app/content/es/events.md)
+  y de las [Actividades de ministerio](https://docs.holycrm.app/content/es/ministries.md) recurrentes, para que no tengas que
+  actualizar a mano un enlace de "próximo domingo".
+- **"¿Nos visitás por primera vez?"** — un formulario breve; quien lo completa se convierte
+  en un nuevo [Visitante](https://docs.holycrm.app/content/es/visitors.md) en la lista de seguimiento de tu iglesia, marcado con
+  origen online, en vez de ser solo un clic que nunca vas a poder seguir.
+- Un botón para **Compartir** y un código QR para materiales impresos — un boletín, una
+  tarjeta de bienvenida, un cartel en el hall de entrada.
+
+## Elegir un estilo
+
+Debajo del banner con la URL de la página, elegí un estilo en **Estilo de la página de
+enlaces** — cada uno está pensado específicamente para esta página, no es una versión
+reducida de los estilos del [Sitio web de la iglesia](https://docs.holycrm.app/content/es/church-website.md):
+
+- **Modern** — color suave que se mueve de fondo, un anillo que brilla alrededor de tu
+  logo y un brillo que recorre tu enlace destacado.
+- **Classic** — un estilo cálido y enmarcado, con un pequeño detalle decorativo — más
+  tarjeta de recuerdo que app.
+- **Minimal** — tranquilo y sin nada de más, con tus enlaces numerados como una ficha de
+  museo en vez de íconos.
+- **Premium** — tarjetas de vidrio esmerilado sobre un resplandor en dos colores que se
+  mueve suavemente, con un pulso brillante alrededor de tu logo.
+
+Tocá uno y se guarda al instante — sin botón de guardar aparte, y podés cambiarlo cuando
+quieras sin perder ningún enlace.
+
+La página también sigue automáticamente la preferencia de claro/oscuro de quien la
+visita, con un botón pequeño en la esquina para que la elija por su cuenta si prefiere.
+
+## Ver cómo le va
+
+El banner en la parte de arriba de esta pantalla muestra la URL de tu página, un contador
+de visitas y un código QR (con una versión más grande para descargar e imprimir). La
+columna **Clics** de cada enlace, en la tabla de abajo, te dice qué enlaces usa realmente
+la gente.
+
+---
+
+Source: https://docs.holycrm.app/content/es/church-website.md
+Section: Comunicaciones
+
+# Sitio web de la iglesia
+
+Un sitio web público completo para tu iglesia — más allá de una sola página de link in
+bio: una sección Nosotros, horarios de culto, próximos eventos, ministerios, una sección
+Visitanos con cómo llegar, tu último mensaje, y un formulario para conectarse, generado
+automáticamente a partir de los datos que ya cargás en HolyCRM.
+
+## Activarlo
+
+Andá a **Configuración de administración → Sitio web de la iglesia** y elegí un estilo en
+**Sitio web**: **Modern**, **Classic**, **Minimal** o **Premium**. Al elegir uno se activa
+el sitio en una dirección web que queda lista al instante — no hay que configurar ninguna
+dirección antes. Dejarlo en blanco mantiene el sitio apagado.
+
+## Elegir un estilo
+
+- **Modern** — una landing page colorida y llamativa, con botones redondeados y
+  degradados suaves.
+- **Classic** — un diseño cálido, con tipografía serif, que se lee más tradicional que
+  "startup".
+- **Minimal** — tipografía simple y mucho espacio en blanco, sin foto de portada, para que
+  tu mensaje sea el protagonista.
+- **Premium** — un estilo más sofisticado, con paneles de vidrio esmerilado y animaciones
+  sutiles al hacer scroll.
+
+Los cuatro muestran exactamente la misma información — elegí el que mejor le quede a la
+personalidad de tu iglesia, y cambialo cuando quieras sin perder contenido.
+
+## Qué se muestra en la página
+
+- **Nosotros** — el párrafo de **Texto "Nosotros" del sitio**, más tu **Foto de portada
+  del sitio** y el logo.
+- **Próximo culto y próximos eventos** — calculado automáticamente a partir de tus
+  [Eventos](https://docs.holycrm.app/content/es/events.md) y las [Actividades de ministerio](https://docs.holycrm.app/content/es/ministries.md) recurrentes, igual
+  que en Enlaces de la iglesia.
+- **Ministerios** — los ministerios activos con su rango de edad, para que quien visite la
+  página vea qué hay disponible para su familia antes de venir.
+- **Visitanos** — tu **Dirección del sitio**, **Teléfono del sitio** y **Email del sitio**,
+  con un enlace de Cómo llegar. Si tu iglesia tiene más de una [Sede](https://docs.holycrm.app/content/es/church-settings.md)
+  con su dirección cargada, cada sede se muestra como su propia tarjeta en vez de un solo
+  bloque.
+- **Último mensaje** — pegá un enlace de YouTube o Vimeo en **Video del último mensaje del
+  sitio** para incrustar tu mensaje más reciente directamente en la página. Cualquier otro
+  tipo de enlace se muestra como un simple botón "Ver" en vez de un video roto.
+- **Conectate con nosotros** — el mismo formulario breve que Enlaces de la iglesia; quien
+  lo completa se convierte en un nuevo [Visitante](https://docs.holycrm.app/content/es/visitors.md) en tu lista de seguimiento.
+- Tus redes sociales, reutilizadas de [Enlaces de la iglesia](https://docs.holycrm.app/content/es/church-links.md).
+
+## Ver cómo le va
+
+El banner **Tu sitio web** en la pantalla Sitio web de la iglesia muestra la URL en
+vivo, un contador de visitas y un código QR para materiales impresos — separado del
+banner de
+Enlaces de la iglesia, ya que son dos páginas distintas que la gente puede visitar.
+
+## Usar tu propio dominio
+
+En vez de una dirección holycrm.app, podés apuntar el dominio propio de tu iglesia
+(como www.tuiglesia.org) a tu sitio web — o a tu página de Enlaces de la iglesia, si
+todavía no activaste un sitio web.
+
+1. En la pantalla Sitio web de la iglesia, ingresá tu dominio en **Dominio
+   personalizado** — normalmente con "www." adelante. (Un dominio sin "www", como
+   tuiglesia.org, necesita soporte de DNS que la mayoría de los proveedores no ofrece
+   gratis.) Guardá.
+2. Tocá **Conectar dominio**. Vas a ver un registro DNS para agregar — pasáselo a
+   quien administre tu dominio (tu proveedor, o el/la voluntario/a de IT de tu
+   iglesia) para que lo agregue exactamente como se muestra.
+3. Tocá **Verificar estado** hasta que diga **✓ Conectado** — normalmente tarda
+   unos minutos una vez que el registro DNS está activo, pero puede tardar unas
+   horas según tu proveedor de dominio.
+
+Una vez conectado, visitar tu propio dominio muestra tu sitio web (o tu página de
+Enlaces de la iglesia) directamente — sin necesidad de la dirección holycrm.app.
+
+---
+
+Source: https://docs.holycrm.app/content/es/finance.md
+Section: Finanzas
+
+# Ofrendas y finanzas
+
+Cuatro pantallas cubren el dinero: **Ofrendas** (vista orientada a las donaciones por
+miembro), **Transacciones** (el libro contable completo), **Categorías** (categorías de
+ingresos/egresos) y el **Panel de finanzas** (indicadores y gráficos).
+
+## Ofrendas
+
+Muestra las donaciones agrupadas por miembro para un año seleccionado — total ofrendado,
+cantidad de personas que ofrendaron, y cantidad de ofrendas, con un desglose por miembro. Hacé
+clic en un miembro para ver su **comprobante/estado** completo del año, que podés imprimir
+(por ejemplo, para fines de recibo/deducción), e incluye una línea estándar de "no se
+proveyeron bienes ni servicios".
+
+Solo las transacciones marcadas como **ingreso** y con un **miembro** asociado cuentan como
+ofrenda acá; los ingresos sin destinatario (efectivo de la ofrenda general sin asignar a una
+persona, donaciones institucionales, etc.) se registran en Transacciones pero no van a
+aparecer en Ofrendas.
+
+**+ Nueva ofrenda** / **+ Agregar ofrenda** abre un formulario rápido: buscá al miembro,
+ingresá el monto, la fecha, una sede opcional, moneda y método. Si la moneda no coincide con
+la predeterminada de tu iglesia, aparece un campo de **tipo de cambio** para que el total
+igual se pueda combinar correctamente.
+
+## Transacciones
+
+El libro contable completo de ingresos/egresos, útil para todo lo que va más allá de las
+ofrendas individuales — gastos del edificio, costos de eventos, ofrendas generales. Una
+lista simple de crear/editar/eliminar con categoría, monto, moneda, fecha, dirección
+(ingreso/egreso) y notas.
+
+## Categorías
+
+Definí las categorías de ingresos y egresos que usa tu iglesia (Diezmo, Ofrenda, Fondo de
+Construcción, Servicios, etc.) — el formulario de ofrenda de Ofrendas necesita al menos una
+categoría de **ingreso** para poder registrar una ofrenda.
+
+## Panel de finanzas
+
+Un panel aparte solo para el dinero: indicadores de ingresos/egresos/balance, un gráfico
+mensual, y un gráfico de desglose por categoría — todo convertido a la moneda predeterminada
+de tu iglesia para que los registros en varias monedas igual sumen correctamente.
+
+## Varias monedas
+
+Si tu iglesia recibe ofrendas o tiene gastos en más de una moneda, configurá una **moneda
+predeterminada** en [Configuración de la iglesia](https://docs.holycrm.app/content/es/church-settings.md) (y opcionalmente por
+Sede). Cualquier transacción en una moneda distinta necesita un **tipo de cambio** para poder
+convertirse y combinarse en tus totales — los tipos de cambio se ingresan a mano según la
+fecha de la transacción; no hay una consulta automática de tipo de cambio. Una iglesia sin
+moneda predeterminada configurada igual funciona bien — los totales simplemente se muestran
+como números planos en lugar de un monto con moneda.
+
+## Lo que todavía no existe
+
+Consulta automática de tipos de cambio, compromisos de ofrenda recurrente o promesas,
+enviar un comprobante por correo directamente a quien ofrendó, y exportación a PDF más allá de
+la función de imprimir del propio navegador.
+
+---
+
+Source: https://docs.holycrm.app/content/es/church-settings.md
+Section: Configuración de administración
+
+# Configuración de la iglesia y sedes
+
+## Configuración de la iglesia
+
+La configuración global de tu iglesia: nombre, zona horaria predeterminada, moneda
+predeterminada, edad límite para menores, y el logo de tu iglesia.
+
+- **Edad límite para menores** — la edad por debajo de la cual un miembro se trata como menor
+  en toda la app (Tutores en su ficha de Miembro, elegibilidad para Check-in de niños). Dejalo
+  en blanco para usar el valor predeterminado de 18.
+- **Moneda predeterminada** — se usa en toda la sección de [Ofrendas y finanzas](https://docs.holycrm.app/content/es/finance.md)
+  cuando una transacción no especifica la suya propia. Búsqueda mientras escribís sobre la
+  lista completa de monedas mundiales; dejala en blanco si todavía no necesitás formato de
+  moneda.
+- **Logo** — subí una imagen acá para tenerla disponible como inserción de un clic en el
+  editor de [Correos masivos](https://docs.holycrm.app/content/es/bulk-email.md), y para personalizar la identidad de tu iglesia en
+  la app.
+
+Solo los Admins y Gestores pueden cambiar esta configuración.
+
+## Sedes
+
+Si tu iglesia se reúne en más de un lugar — varios campus, un lugar al aire libre, un salón
+alquilado para un evento especial — configurá cada uno como una Sede con su propia **zona
+horaria**. Esto importa especialmente si tus sedes están en zonas horarias distintas: cada
+evento, actividad de ministerio y turno ancla su hora real a la zona horaria de su sede, así
+que los horarios se mantienen correctos sin importar en qué zona horaria estés viendo vos el
+calendario (ver [Calendario](https://docs.holycrm.app/content/es/calendar.md)).
+
+Una sede también puede tener su propia **moneda predeterminada**, que reemplaza a la
+predeterminada de la iglesia para las transacciones ingresadas en ese lugar — útil si, por
+ejemplo, un campus recibe ofrendas en una moneda distinta a la que usa tu cuenta principal.
+
+Completá la **Dirección**, el **Teléfono** y el **Email** de una sede y van a aparecer
+automáticamente en la sección Visitanos de tu [Sitio web de la iglesia](https://docs.holycrm.app/content/es/church-website.md)
+— con su propia tarjeta cuando tu iglesia tenga más de una sede con dirección cargada.
+
+---
+
+Source: https://docs.holycrm.app/content/es/users-roles.md
+Section: Configuración de administración
+
+# Usuarios, roles y permisos
+
+Hay una diferencia importante entre un **Miembro** (una persona de tu congregación) y un
+**Usuario** (alguien con acceso a esta app). La mayoría de los miembros nunca inician sesión;
+un usuario es alguien de tu equipo/voluntariado que necesita acceso a HolyCRM.
+
+## Invitar a alguien
+
+**Configuración de administración → Usuarios → Invitar usuario**. Buscá y elegí primero a un
+Miembro existente (si ya está en tu directorio) — esto vincula su acceso a su ficha existente
+en lugar de crear una persona duplicada. Si todavía no es miembro, podés invitarlo solo con
+nombre y correo.
+
+Vincular importa especialmente para el rol **Miembro**: es lo que le permite ver sus
+propios datos de contacto e historial de ofrendas (ver [Mi perfil](https://docs.holycrm.app/content/es/profile.md) y
+[Mis ofrendas](https://docs.holycrm.app/content/es/my-giving.md)) — un Miembro invitado sin ficha vinculada solo ve un Perfil
+vacío.
+
+Elegí su **rol**:
+
+| Rol | Puede hacer típicamente |
+|---|---|
+| **Admin** | Todo, incluida la Configuración de la iglesia e invitar/gestionar otros usuarios. |
+| **Gestor (Manager)** | Operación del día a día en la mayoría de los módulos, pero no la Configuración de la iglesia ni ascender a nadie a Gestor/Admin. |
+| **Voluntario** | Acceso acotado y enfocado en una tarea — comúnmente asistencia/check-in — según lo que tu iglesia configure. |
+| **Miembro** | Solo autoservicio: su propio Perfil y, si está vinculado a una ficha de la congregación, sus propios datos de contacto e historial de ofrendas. Sin acceso a los datos de nadie más. |
+
+La persona invitada recibe un correo con un enlace para configurar su contraseña. Hasta que lo
+haga, su estado figura como **Invitado**; una vez que configura su contraseña, pasa a
+**Activo** automáticamente.
+
+## Gestionar usuarios existentes
+
+Desde la lista de Usuarios podés **cambiar el rol** de alguien, **suspenderlo** (pierde
+acceso sin borrar su cuenta ni su historial), **reactivarlo**, **quitarlo de la iglesia** por
+completo, **reenviar una invitación** que todavía no fue aceptada, o **editar su correo de
+acceso**.
+
+Algunas reglas de seguridad incorporadas: solo podés asignar o gestionar roles *por debajo*
+del tuyo (un Gestor no puede tocar a un Admin ni a otro Gestor), no podés editar tu propia
+fila desde esta pantalla, y una iglesia siempre conserva al menos un Admin — al último no se
+lo puede quitar ni degradar.
+
+## Permisos personalizados
+
+Más allá de los cuatro roles estándar, un Admin puede ajustar el acceso por módulo en
+**Configuración de administración → Acceso personalizado de usuario** — por ejemplo,
+permitiendo que los Voluntarios creen Eventos aunque eso no forme parte del rol Voluntario por
+defecto. Estos ajustes se aplican por encima de los valores predeterminados del rol,
+específicamente para tu iglesia.
+
+## Mi perfil vs. Usuarios
+
+**Mi perfil** (en Cuenta) es donde cualquiera gestiona su *propio* acceso — nombre, avatar,
+contraseña y correo. La pantalla de Usuarios es donde un Admin/Gestor gestiona el acceso de
+*los demás*. Ver [Mi perfil](https://docs.holycrm.app/content/es/profile.md).
+
+---
+
+Source: https://docs.holycrm.app/content/es/tags.md
+Section: Configuración de administración
+
+# Etiquetas y roles de etiqueta
+
+## Etiquetas
+
+Una simple etiqueta que le asignás a los miembros — "Equipo de Alabanza", "Primeros
+Auxilios", "Líder de Jóvenes", lo que le sea útil a tu iglesia. Creá etiquetas una vez en
+**Configuración de administración → Etiquetas**, y después elegilas desde un selector tipo
+chip en la ficha de cualquier miembro. No hay límite en cómo las usás más allá de los
+miembros, ni colores ni alcances — una etiqueta es solo una etiqueta, compartida en toda tu
+iglesia.
+
+## Roles de etiqueta
+
+Iglesias distintas le dicen distinto al mismo puesto — una llama a su líder de célula
+"Líder", otra "Guía", otra "Anfitrión". Los **Roles de etiqueta** te permiten mapear la
+etiqueta propia de *tu* iglesia a un conjunto fijo de funciones incorporadas, para que los
+selectores en toda la app puedan filtrar por "quién hace este trabajo" usando tu propio
+vocabulario.
+
+En **Configuración de administración → Roles de etiqueta**, mapeá una etiqueta a cada función
+que uses:
+
+| Función | Dónde se usa |
+|---|---|
+| Líder de grupo pequeño | El selector de Líder en [Grupos pequeños](https://docs.holycrm.app/content/es/groups.md) |
+| Supervisor de grupo pequeño | El selector de Supervisor en Grupos pequeños |
+| Líder de ministerio | El selector de Líder en [Ministerios](https://docs.holycrm.app/content/es/ministries.md) |
+| Seguimiento de visitantes | El selector "Asignado a" en [Visitantes](https://docs.holycrm.app/content/es/visitors.md) |
+
+Si una función no está mapeada a una etiqueta, su selector simplemente muestra a todos los
+miembros activos en lugar de filtrar — mapear esto es totalmente opcional, y nada se rompe si
+lo salteás.
+
+## Lo que todavía no existe
+
+Mapear una función a más de una etiqueta, fusionar dos etiquetas en una, y etiquetar o
+desetiquetar en bloque a un grupo de miembros a la vez.
+
+---
+
+Source: https://docs.holycrm.app/content/es/data-privacy.md
+Section: Configuración de administración
+
+# Datos y privacidad
+
+En **Configuración de administración → Datos y privacidad**, un Admin puede confirmar las
+responsabilidades de datos de tu iglesia, descargar una copia completa de los datos de tu
+iglesia, solicitar su eliminación y revisar un registro de quién modificó recientemente los
+registros de Miembros y Ofrendas. Esta pantalla existe porque los registros de tu iglesia —
+quiénes son tus miembros, qué ofrendan, a veces información sobre menores — merecen un trato
+cuidadoso, y una iglesia tiene que poder ver y controlar sus propios datos sin depender de
+nosotros.
+
+## Confirmar las responsabilidades de datos de tu iglesia
+
+Los registros de una iglesia pueden revelar la afiliación religiosa de alguien, y pueden
+incluir información sobre menores (por ejemplo, un ministerio de niños o de jóvenes). La
+mayoría de las leyes de protección de datos tratan este tipo de información como sensible, y
+varias de ellas — reconociendo que la relación de una iglesia con sus propios miembros es
+distinta a la de una empresa común — le dan a las organizaciones religiosas más margen para
+conservarla, siempre que la iglesia misma tenga una base adecuada (como el consentimiento de
+sus miembros o, en el caso de un menor, de un padre, madre o tutor) para los registros que
+guarda.
+
+La primera vez que tu iglesia se registra, un admin confirma esto una sola vez. Si todavía
+está pendiente — porque tu iglesia se configuró de otra manera, o simplemente todavía no se
+hizo — vas a ver una tarjeta de **"Confirmá las responsabilidades de datos de tu iglesia"**
+en el [Panel principal](https://docs.holycrm.app/content/es/dashboard.md) hasta que alguien lo haga. Es un solo clic, y de
+cualquier manera es responsabilidad de la propia iglesia, no algo que HolyCRM decide por vos.
+
+## Exportar los datos de tu iglesia
+
+**Exportar datos** descarga todo lo que pertenece a tu iglesia — miembros, grupos, eventos,
+ofrendas y todo lo demás — como un solo archivo de planilla (.xlsx), con una pestaña por cada
+parte de tus datos. Se abre directamente en Excel, Google Sheets o Numbers; no hay nada que
+convertir ni importar primero. Una pestaña de **Info** al principio detalla qué hay en cada
+una de las otras pestañas y cuántas filas tiene, y las pestañas de las partes de tu iglesia
+que todavía no tienen datos simplemente se dejan afuera en vez de incluirse vacías.
+
+Cuando un registro hace referencia a otro — la categoría de una ofrenda, el grupo pequeño de
+un miembro — la planilla muestra el nombre real (no solo una referencia interna) para que se
+lea con naturalidad, y guarda la referencia original en una segunda columna para quien quiera
+cruzar datos entre pestañas.
+
+## Solicitar la eliminación
+
+**Solicitar eliminación** es exactamente eso — una solicitud, no una eliminación instantánea
+e irreversible. Una vez solicitada, nuestro equipo la procesa dentro de un plazo razonable;
+podés **cancelar la solicitud** en cualquier momento antes de que eso pase, desde esta misma
+pantalla. Si tenés preguntas sobre una solicitud pendiente, escribinos a
+**support@holycrm.app**.
+
+## Actividad reciente
+
+Un registro de solo lectura de los cambios recientes en los registros de **Miembros** y
+**Ofrendas** — quién creó, editó o eliminó qué, y cuándo — que se guarda para revisión de
+seguridad. Si algo en uno de estos registros cambió de una forma que no esperabas, este es el
+primer lugar para revisar.
+
+## Quién puede ver esto
+
+Datos y privacidad es visible solo para **Admins** — no aparece en el menú de Managers,
+Voluntarios ni Miembros.
+
+## Lo que todavía no existe
+
+- Hoy la eliminación es una solicitud, no un borrado instantáneo de autoservicio — mirá
+  arriba.
+- La actividad reciente hoy cubre solo Miembros y Ofrendas, no todos los módulos.
+- Un registro que hace referencia a algo sin nombre propio (un puñado de registros internos
+  y estructurales son así) muestra su referencia interna en vez de un nombre — es una
+  limitación conocida, no hace falta reportarla de nuevo.
+
+---
+
+Source: https://docs.holycrm.app/content/es/plans-billing.md
+Section: Configuración de administración
+
+# Planes y facturación
+
+Toda iglesia nueva empieza con una **prueba de 30 días** — la app entera desbloqueada, cada
+módulo, sin límite de personas, miembros del equipo ni sedes. Sin tarjeta.
+
+## Qué pasa después de la prueba
+
+Si tu iglesia no pasó al plan pago cuando termina la prueba, no se borra nada y nadie queda
+afuera. Tu iglesia sigue automáticamente en el **plan gratis**:
+
+| Plan gratis | |
+|---|---|
+| Personas | Hasta 50 |
+| Miembros del equipo (con acceso) | Hasta 2 |
+| Sedes | 1 |
+| Incluye | Miembros, Visitas, Grupos, Asistencia, Eventos y calendario |
+
+Todo lo demás —turnos (rotas), finanzas, correo masivo, check-in de niños, confirmaciones de
+asistencia a eventos, reportes, tu sitio web, campos personalizados, enlaces de la iglesia y
+acceso personalizado de usuarios— vuelve a estar disponible en cuanto tu iglesia pasa al
+plan pago.
+
+## Si tu iglesia ya superó un límite del plan gratis
+
+Supongamos que tu iglesia ya tiene 80 personas, o 3 miembros del equipo, cuando termina la
+prueba. No se borra nada. Los registros que superan el límite quedan de **solo lectura**: se
+ven, pero no los podés editar ni agregar nuevos, hasta que vuelvas a estar dentro del límite
+o tu iglesia pase al plan pago.
+
+**Siempre podés eliminar**, incluso por encima del límite — es la forma más rápida de volver
+a tener acceso completo vos mismo, sin depender de nadie.
+
+Un aviso arriba de la app te muestra exactamente qué límite(s) superó tu iglesia, y por
+cuánto, mientras siga aplicando.
+
+## Pasar al plan pago
+
+Los administradores de la iglesia encuentran **Facturación** en el menú, dentro de
+Configuración de administración. Ahí ves tu plan actual, cuándo termina tu prueba o el
+período pago, y tu historial de pagos. Durante la última semana de la prueba también aparece
+un aviso arriba de la app con un acceso directo.
+
+El plan pago cuesta **USD 30 por mes** o **USD 300 por año** (pagá 10 meses, llevá 12).
+
+1. Abrí **Facturación** y elegí **Mensual** o **Anual**.
+2. Hacé clic en **Pagar con transferencia**. Vas a ir a una página segura de GalioPay donde
+   podés pagar desde cualquier cuenta bancaria o billetera de Argentina. El monto aparece en
+   pesos, convertido con la cotización oficial del día.
+3. Cuando terminás, volvés a HolyCRM. La página confirma tu pago apenas el banco lo informa
+   — por lo general en menos de un minuto. Si tarda más, no hace falta que pagues de nuevo:
+   la página se actualiza sola cuando llega.
+
+Si cerraste la página de pago sin querer, **Continuar pago** en Facturación te lleva de nuevo
+a la misma.
+
+Pagar durante la prueba no te hace perder días: tu tiempo pago empieza cuando termina la
+prueba.
+
+## Renovar
+
+Los pagos no se renuevan solos — nunca se cobra nada sin vos. Les enviamos un correo a los
+administradores de tu iglesia una semana antes de que termine el período pago y otra vez el
+día anterior. Podés renovar antes cuando quieras; el nuevo período empieza cuando termina el
+actual.
+
+Si el período termina sin renovación, todo sigue habilitado **7 días más**. Después tu
+iglesia pasa al plan gratis — no se borra nada, y podés volver a pasar al plan pago cuando
+quieras.
+
+## Facturas y otras formas de pago
+
+¿Necesitás factura de un pago, o querés pagar desde fuera de Argentina? Escribinos a
+**support@holycrm.app** — te va a responder una persona real, por lo general en menos de dos
+días.
+
+---
+
+Source: https://docs.holycrm.app/content/es/profile.md
+Section: Cuenta
+
+# Mi perfil
+
+La configuración de tu propia cuenta — visible y editable por cualquiera que tenga acceso,
+sin importar su rol o a cuántas iglesias pertenezca.
+
+- **Nombre y avatar** — cómo aparecés en toda la app. Si aparece una tarjeta "Mi
+  información en la iglesia" (más abajo), tu nombre se edita ahí en su lugar — ver por qué
+  más abajo.
+- **Cambiar contraseña** — ingresá tu contraseña actual y una nueva.
+- **Cambiar correo** — esto usa un proceso verificado por seguridad: se envía un enlace de
+  confirmación a la dirección **nueva**, y el cambio solo se aplica una vez que hacés clic en
+  él y confirmás con tu contraseña. Esto te protege de que alguien redirija silenciosamente tu
+  correo de acceso si tu sesión llegara a estar comprometida.
+
+El Perfil no controla tu rol ni a qué iglesias podés acceder — eso lo gestiona un Admin o
+Gestor en cada iglesia; ver [Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md).
+
+Si pertenecés a más de una iglesia, usá el selector de iglesias en otra parte de la app para
+moverte entre ellas — tu Perfil se comparte entre todas, ya que está ligado a tu único acceso,
+no a una iglesia en particular.
+
+## Mi información en la iglesia
+
+Si tu acceso está vinculado a una ficha de la congregación (algo común para el rol
+Miembro, pero no exclusivo de él), aparece una segunda tarjeta con tus datos de contacto
+como miembro: teléfono, dirección, fecha de nacimiento, sexo y tu nombre. Editar tu nombre
+acá — en lugar de arriba — lo mantiene sincronizado con cómo te ve el equipo en el resto de
+la app, desde los directorios hasta los comprobantes de ofrenda.
+
+Esta tarjeta simplemente no aparece si tu acceso no está vinculado a una ficha de miembro
+— eso es normal para la mayoría de los accesos del equipo, no un error. Ver
+[Mis ofrendas](https://docs.holycrm.app/content/es/my-giving.md) para tu propio historial de ofrendas, y
+[Mi disponibilidad](https://docs.holycrm.app/content/es/my-availability.md) para avisarle a tu iglesia cuándo solés estar
+libre para servir — las dos se muestran de la misma forma, vinculadas a esta misma ficha.
+
+---
+
+Source: https://docs.holycrm.app/content/es/my-availability.md
+Section: Cuenta
+
+# Mi disponibilidad
+
+Avisale a tu iglesia cuándo solés estar libre para servir, para que te tengan en cuenta al
+armar los [Turnos](https://docs.holycrm.app/content/es/rotas.md) — en vez de tener que preguntar o adivinar.
+
+## Patrón semanal
+
+Para cada día de la semana, usá **Agregar horario** para marcar una franja recurrente en
+la que solés estar disponible (por ejemplo, los domingos a la mañana, o los miércoles a la
+noche). Agregá tantos horarios por día como necesites, o dejá un día vacío si nunca estás
+disponible entonces.
+
+## Fechas específicas
+
+Tu patrón semanal no siempre va a ser correcto — usá **Agregar fecha** para hacer una
+excepción en un día puntual:
+
+- Marcá una fecha como **Disponible** con su propio horario para sumar disponibilidad
+  extra fuera de tu patrón habitual — por ejemplo, si vas a estar en la ciudad para un
+  evento puntual.
+- Marcá una fecha como **No disponible**, con o sin horario, para bloquearla aunque tu
+  patrón semanal normalmente diga que estás libre — un viaje, un examen, un día que ya
+  sabés que no vas a poder.
+
+Una fecha específica siempre tiene prioridad sobre el patrón semanal para ese día.
+
+## Cómo se usa
+
+Cuando un Manager o un Admin completa un requerimiento de rol en un turno, HolyCRM revisa
+quién publicó disponibilidad que cubra ese horario y lo sugiere primero — ver [Ministerios
+y turnos](https://docs.holycrm.app/content/es/ministries.md). Si nadie publicó disponibilidad para un horario determinado, vas a
+ver un aviso en lugar de una sugerencia equivocada.
+
+## Si no ves esta pantalla
+
+Mi disponibilidad solo aparece si tu inicio de sesión está vinculado a una ficha de
+miembro en la congregación — ver [Mi perfil](https://docs.holycrm.app/content/es/profile.md), en "Mi información en la
+iglesia". Consultá con el Admin o Manager de tu iglesia si creés que falta.
+
+---
+
+Source: https://docs.holycrm.app/content/es/my-giving.md
+Section: Cuenta
+
+# Mis ofrendas
+
+Tu propio historial de ofrendas — visible si tenés un acceso con rol **Miembro** vinculado
+a tu ficha en la congregación. Esto es distinto de la pantalla [Ofrendas](https://docs.holycrm.app/content/es/finance.md) que
+usa el equipo, que muestra las ofrendas de todos; Mis ofrendas solo muestra **las tuyas**.
+
+## Qué vas a ver
+
+Elegí un **año**, y vas a ver un total para ese año más una lista de cada ofrenda
+individual — fecha, una breve descripción, y monto.
+
+## Si dice que no hay ofrendas vinculadas
+
+Esto significa una de dos cosas: todavía no se registró ninguna ofrenda a tu nombre para
+el año elegido, o tu acceso no está vinculado a ninguna ficha de miembro. Si te parece que
+está mal, consultá con el Admin o Gestor de tu iglesia — pueden vincular tu acceso a tu
+ficha desde **Configuración de administración → Usuarios**.
+
+## De dónde vienen tu nombre y tus datos de contacto
+
+Mis ofrendas siempre coincide con la ficha a la que está vinculado tu acceso. Si tu nombre
+se ve mal acá, corregilo en [Mi perfil](https://docs.holycrm.app/content/es/profile.md), en "Mi información en la iglesia" —
+ahí también podés actualizar tu teléfono, dirección y otros datos de contacto.
+
+---
+
+Source: https://docs.holycrm.app/content/es/faq.md
+Section: Soporte
+
+# Preguntas frecuentes
+
+<details class="help-faq-item" open>
+<summary>No veo un ítem del menú que esperaba ver. ¿Por qué?</summary>
+
+Lo que ves depende de tu rol (Admin, Gestor, Voluntario o Miembro) y de cualquier permiso
+personalizado que tu iglesia te haya configurado. Pedile a un Admin o Gestor que revise
+[Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md) — o hay que cambiar tu rol, o hay que otorgar un
+permiso personalizado para ese módulo.
+</details>
+
+<details class="help-faq-item">
+<summary>¿Cómo traigo miembros que ya tengo en una planilla?</summary>
+
+Exportá tu planilla a CSV y usá [Importar datos](https://docs.holycrm.app/content/es/data-import.md) dentro de Personas. Vas a
+mapear tus columnas a los campos de HolyCRM y a ver una vista previa de exactamente qué se va
+a crear antes de guardar nada. Tené en cuenta que siempre crea registros nuevos — no
+verifica si ya cargaste a esa persona a mano antes.
+</details>
+
+<details class="help-faq-item">
+<summary>¿Por qué el correo de un miembro está bloqueado y no puedo editarlo?</summary>
+
+Ese miembro también tiene un acceso a HolyCRM (es Voluntario, Gestor o Admin). Su correo de
+acceso y el correo de su ficha de miembro se mantienen sincronizados automáticamente, así que
+editarlo desde el formulario de Miembros haría que se sobrescriba solo. Cambialo desde
+**Configuración de administración → Usuarios** — ver
+[Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md).
+</details>
+
+<details class="help-faq-item">
+<summary>¿Cómo decide HolyCRM quién es "menor de edad"?</summary>
+
+Tu iglesia define una **Edad límite para menores** en
+[Configuración de la iglesia](https://docs.holycrm.app/content/es/church-settings.md) (predeterminado 18). Cualquier miembro con
+una fecha de nacimiento por debajo de esa edad se trata automáticamente como menor en toda la
+app — esto es lo que hace funcionar el campo Tutores y la elegibilidad para Check-in de
+niños. Un miembro sin fecha de nacimiento cargada usa en cambio una casilla manual. Ver
+[Miembros](https://docs.holycrm.app/content/es/members.md).
+</details>
+
+<details class="help-faq-item">
+<summary>¿Cuál es la diferencia entre Check-in y Check-in de niños?</summary>
+
+Se ven casi idénticos, pero **Check-in de niños** solo permite registrar menores de edad y
+además imprime una etiqueta de tutor que coincide, mientras que **Check-in** normal permite
+a cualquier miembro activo y está pensado para cultos/eventos abiertos a todos. Usá Check-in
+de niños específicamente para ministerios restringidos a menores (como un ministerio de niños
+durante un culto). Ver [Asistencia y check-in](https://docs.holycrm.app/content/es/attendance.md).
+</details>
+
+<details class="help-faq-item">
+<summary>¿Cómo programo voluntarios para un culto o evento?</summary>
+
+Configurá tus **Roles de servicio** una vez (Sonido, Bienvenida, etc.), después creá un
+**Turno** (Requisito de rol) vinculado al evento o actividad de ministerio indicando cuánta
+gente necesita ese rol — podés hacer esto directamente desde el panel de un evento en el
+[Calendario](https://docs.holycrm.app/content/es/calendar.md). Después asigná voluntarios para cubrirlo. Ver
+[Turnos de servicio](https://docs.holycrm.app/content/es/rotas.md).
+</details>
+
+<details class="help-faq-item">
+<summary>¿Por qué un evento muestra una hora distinta a la que esperaba?</summary>
+
+Cada horario está ligado a la zona horaria de su **sede**, no a la zona horaria que estés
+usando vos para ver el calendario. Si tu zona horaria de visualización es distinta, los
+detalles del evento muestran ambas horas para que no haya ambigüedad. Verificá que la Sede
+del evento tenga la zona horaria correcta configurada — ver [Calendario](https://docs.holycrm.app/content/es/calendar.md) y
+[Configuración de la iglesia y sedes](https://docs.holycrm.app/content/es/church-settings.md).
+</details>
+
+<details class="help-faq-item">
+<summary>¿Puedo personalizar un correo masivo con el nombre de cada destinatario?</summary>
+
+Sí — hacé clic en un campo de texto del editor, y después hacé clic en una variable como
+**Nombre** en la barra de herramientas para insertar `{{first_name}}`. Se reemplaza por el
+valor real de cada destinatario al enviarse. Ver [Correos masivos y plantillas](https://docs.holycrm.app/content/es/bulk-email.md).
+</details>
+
+<details class="help-faq-item">
+<summary>¿Hay un límite de cuántas personas puedo mandar un correo a la vez?</summary>
+
+Sí, 500 destinatarios por envío, y el mismo límite aplica a un solo archivo de Importación de
+datos. Si necesitás llegar a más gente, dividí la audiencia o el archivo en tandas.
+</details>
+
+<details class="help-faq-item">
+<summary>¿Cómo quito la línea "Sent with HolyCRM" de mis correos?</summary>
+
+No podés — es una pequeña parte fija de todo correo enviado a través de la plataforma. Se
+mantiene deliberadamente discreta y no aparece en ningún otro lugar de la app.
+</details>
+
+<details class="help-faq-item">
+<summary>Mi iglesia recibe ofrendas en más de una moneda. ¿Cómo funciona eso?</summary>
+
+Configurá una **moneda predeterminada** en
+[Configuración de la iglesia](https://docs.holycrm.app/content/es/church-settings.md), con la opción de anularla por
+[Sede](https://docs.holycrm.app/content/es/church-settings.md). Cualquier transacción ingresada en una moneda distinta necesita un
+**tipo de cambio** (ingresado a mano, según esa fecha) para que los totales en
+[Ofrendas y finanzas](https://docs.holycrm.app/content/es/finance.md) puedan combinarse correctamente. No hay una consulta
+automática de tipo de cambio.
+</details>
+
+<details class="help-faq-item">
+<summary>¿Cómo agrego un logo de la iglesia, y dónde aparece?</summary>
+
+Subilo en [Configuración de la iglesia](https://docs.holycrm.app/content/es/church-settings.md). Queda disponible como botón de
+"Insertar logo de la iglesia" con un clic en el editor de [Correos masivos](https://docs.holycrm.app/content/es/bulk-email.md).
+</details>
+
+<details class="help-faq-item">
+<summary>Olvidé mi contraseña. ¿Qué hago?</summary>
+
+En la pantalla de acceso, usá **¿Olvidaste tu contraseña?** e ingresá tu correo. Siempre vas
+a recibir el mismo mensaje neutral de confirmación, y un enlace para restablecerla si existe
+una cuenta con esa dirección — esto es intencional, para que la pantalla de acceso no se
+pueda usar para verificar si un correo está registrado.
+</details>
+
+<details class="help-faq-item">
+<summary>¿Los Miembros pueden iniciar sesión en HolyCRM ellos mismos?</summary>
+
+Solo si se les dio un acceso con rol Miembro — la mayoría de los miembros son solo registros
+en tu directorio, sin ningún acceso. Un acceso con rol Miembro es de solo lectura y
+principalmente ve su propio [Perfil](https://docs.holycrm.app/content/es/profile.md). Para darle un acceso a alguien, ver
+[Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md).
+</details>
+
+<details class="help-faq-item">
+<summary>¿Los invitados pueden inscribirse a un evento por su cuenta, en línea?</summary>
+
+Todavía no — [Inscripciones a eventos](https://docs.holycrm.app/content/es/events.md) por ahora solo se carga por el personal (un
+miembro del equipo busca y agrega a un miembro que ya está en tu directorio). La inscripción
+pública de autoservicio es una función planeada a futuro.
+</details>
+
+<details class="help-faq-item">
+<summary>Algo parece estar fallando o tengo una duda que no está acá. ¿Qué hago?</summary>
+
+Contactá a quien administre tu cuenta de HolyCRM en tu iglesia, o directamente al soporte de
+HolyCRM. Este Centro de ayuda cubre cómo debería funcionar cada módulo hoy; si algo se
+comporta distinto a lo descrito acá, vale la pena reportarlo.
+</details>

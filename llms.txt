@@ -1,0 +1,78 @@
+# HolyCRM Help Center
+
+> HolyCRM.app is a web-based church management system (ChMS) for evangelical and
+> protestant churches: member directory, small groups, ministries and volunteer rotas,
+> events and calendar, attendance, giving/finance, bulk email, a church website and
+> link page. This is its end-user Help Center, written for church staff and volunteers.
+
+- Product website: https://www.holycrm.app/. Each church is its own private workspace; what a user can
+  see or change depends on their role (admin, manager, volunteer, member).
+- Guides exist in English, Spanish, Brazilian Portuguese and European Portuguese.
+- Human-readable site: https://docs.holycrm.app/ (links below point to the raw Markdown source).
+
+## Getting Started
+
+- [Getting Started](https://docs.holycrm.app/content/en/getting-started.md)
+
+## Overview
+
+- [Dashboard](https://docs.holycrm.app/content/en/dashboard.md)
+- [Calendar](https://docs.holycrm.app/content/en/calendar.md)
+- [Calendar Sync](https://docs.holycrm.app/content/en/calendar-sync.md)
+- [Reports](https://docs.holycrm.app/content/en/reports.md)
+
+## People
+
+- [Members](https://docs.holycrm.app/content/en/members.md)
+- [Growth Ladder](https://docs.holycrm.app/content/en/growth-ladder.md)
+- [Import Data](https://docs.holycrm.app/content/en/data-import.md)
+- [Small Groups](https://docs.holycrm.app/content/en/groups.md)
+- [Visitors](https://docs.holycrm.app/content/en/visitors.md)
+
+## Ministries & Rotas
+
+- [Ministries & Ministry Members](https://docs.holycrm.app/content/en/ministries.md)
+- [Rotas (Service Scheduling)](https://docs.holycrm.app/content/en/rotas.md)
+
+## Events
+
+- [Events & Registrations](https://docs.holycrm.app/content/en/events.md)
+
+## Attendance
+
+- [Attendance & Check-in](https://docs.holycrm.app/content/en/attendance.md)
+
+## Communications
+
+- [Bulk Email & Templates](https://docs.holycrm.app/content/en/bulk-email.md)
+- [Church Links](https://docs.holycrm.app/content/en/church-links.md)
+- [Church Website](https://docs.holycrm.app/content/en/church-website.md)
+
+## Finance
+
+- [Giving & Finance](https://docs.holycrm.app/content/en/finance.md)
+
+## Admin Settings
+
+- [Church Settings & Locations](https://docs.holycrm.app/content/en/church-settings.md)
+- [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md)
+- [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md)
+- [Data & Privacy](https://docs.holycrm.app/content/en/data-privacy.md)
+- [Plans & Billing](https://docs.holycrm.app/content/en/plans-billing.md)
+
+## Account
+
+- [My Profile](https://docs.holycrm.app/content/en/profile.md)
+- [My Availability](https://docs.holycrm.app/content/en/my-availability.md)
+- [My Giving](https://docs.holycrm.app/content/en/my-giving.md)
+
+## Support
+
+- [Frequently Asked Questions](https://docs.holycrm.app/content/en/faq.md)
+
+## Optional
+
+- [All guides in one file — English](https://docs.holycrm.app/llms-full.txt)
+- [All guides in one file — Español](https://docs.holycrm.app/llms-full-es.txt)
+- [All guides in one file — Português (Brasil)](https://docs.holycrm.app/llms-full-pt-BR.txt)
+- [All guides in one file — Português](https://docs.holycrm.app/llms-full-pt.txt)

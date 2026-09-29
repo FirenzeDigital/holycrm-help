@@ -34,5 +34,37 @@ how much, for as long as it applies.
 
 ## Upgrading
 
-Ready to move to the paid plan, or not sure which side of a limit your church is on? Reach
-out to **support@holycrm.app** — a real person will help, usually within a day or two.
+Church admins will find **Billing** under Admin Settings in the menu. It shows your current
+plan, when your trial or paid period ends, and your payment history. A reminder banner also
+appears at the top of the app during the last week of your trial, with a shortcut to it.
+
+The paid plan is **USD 30 a month** or **USD 300 a year** (pay 10 months, get 12).
+
+1. Open **Billing** and choose **Monthly** or **Yearly**.
+2. Click **Pay by bank transfer**. You'll go to a secure GalioPay page where you can pay
+   from any Argentine bank account or wallet. The amount is shown in pesos, converted with
+   the day's official exchange rate.
+3. When you're done, you're taken back to HolyCRM. The page confirms your payment as soon as
+   the bank reports it — usually within a minute. If it takes longer, you don't need to pay
+   again: the page updates on its own once it arrives.
+
+If you close the payment page by accident, **Continue payment** on the Billing page takes you
+back to the same one.
+
+Paying during your trial doesn't cost you any trial days: your paid time starts when the
+trial ends.
+
+## Renewing
+
+Payments don't renew automatically — nothing is ever charged without you. We email your
+church's admins a week before your paid period ends and again the day before. You can renew
+early at any time; the new period starts when the current one ends.
+
+If the period ends without a renewal, everything stays unlocked for **7 more days**. After
+that your church moves to the Free plan — nothing is deleted, and you can upgrade again
+whenever you like.
+
+## Invoices and other ways to pay
+
+Need an invoice for a payment, or want to pay from outside Argentina? Write to
+**support@holycrm.app** — a real person will help, usually within a day or two.

@@ -35,6 +35,39 @@ quanto, enquanto isso valer.
 
 ## Fazer upgrade
 
-Pronto para migrar para o plano pago, ou não sabe de que lado de um limite a sua igreja
-está? Fale com a gente em **support@holycrm.app** — uma pessoa de verdade vai te ajudar,
-geralmente em até dois dias.
+Os administradores da igreja encontram **Faturamento** no menu, em Configurações
+administrativas. Lá você vê o plano atual, quando termina o teste ou o período pago, e o
+histórico de pagamentos. Na última semana do teste também aparece um aviso no topo do app
+com um atalho para essa página.
+
+O plano pago custa **USD 30 por mês** ou **USD 300 por ano** (pague 10 meses, leve 12).
+
+1. Abra **Faturamento** e escolha **Mensal** ou **Anual**.
+2. Clique em **Pagar por transferência**. Você vai para uma página segura da GalioPay, onde
+   pode pagar de qualquer conta bancária ou carteira da Argentina. O valor aparece em pesos,
+   convertido pela cotação oficial do dia.
+3. Ao terminar, você volta para o HolyCRM. A página confirma o pagamento assim que o banco
+   informar — geralmente em menos de um minuto. Se demorar mais, não precisa pagar de novo:
+   a página se atualiza sozinha quando a confirmação chegar.
+
+Se fechou a página de pagamento sem querer, **Continuar pagamento** em Faturamento leva de
+volta para a mesma página.
+
+Pagar durante o teste não faz você perder dias: o tempo pago começa quando o teste termina.
+
+## Renovar
+
+Os pagamentos não são renovados automaticamente — nada é cobrado sem você. Enviamos um
+e-mail para os administradores da igreja uma semana antes do fim do período pago e de novo
+na véspera. Você pode renovar antes a qualquer momento; o novo período começa quando o atual
+terminar.
+
+Se o período terminar sem renovação, tudo continua liberado por **mais 7 dias**. Depois
+disso a igreja passa para o plano grátis — nada é apagado, e você pode fazer upgrade de novo
+quando quiser.
+
+## Notas fiscais e outras formas de pagamento
+
+Precisa de nota fiscal de um pagamento, ou quer pagar de fora da Argentina? Fale com a gente
+em **support@holycrm.app** — uma pessoa de verdade vai te ajudar, geralmente em até dois
+dias.

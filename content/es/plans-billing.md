@@ -35,6 +35,40 @@ cuánto, mientras siga aplicando.
 
 ## Pasar al plan pago
 
-¿Ya estás listo para pasar al plan pago, o no estás seguro de qué lado de un límite está tu
-iglesia? Escribinos a **support@holycrm.app** — te va a responder una persona real, por lo
-general en menos de dos días.
+Los administradores de la iglesia encuentran **Facturación** en el menú, dentro de
+Configuración de administración. Ahí ves tu plan actual, cuándo termina tu prueba o el
+período pago, y tu historial de pagos. Durante la última semana de la prueba también aparece
+un aviso arriba de la app con un acceso directo.
+
+El plan pago cuesta **USD 30 por mes** o **USD 300 por año** (pagá 10 meses, llevá 12).
+
+1. Abrí **Facturación** y elegí **Mensual** o **Anual**.
+2. Hacé clic en **Pagar con transferencia**. Vas a ir a una página segura de GalioPay donde
+   podés pagar desde cualquier cuenta bancaria o billetera de Argentina. El monto aparece en
+   pesos, convertido con la cotización oficial del día.
+3. Cuando terminás, volvés a HolyCRM. La página confirma tu pago apenas el banco lo informa
+   — por lo general en menos de un minuto. Si tarda más, no hace falta que pagues de nuevo:
+   la página se actualiza sola cuando llega.
+
+Si cerraste la página de pago sin querer, **Continuar pago** en Facturación te lleva de nuevo
+a la misma.
+
+Pagar durante la prueba no te hace perder días: tu tiempo pago empieza cuando termina la
+prueba.
+
+## Renovar
+
+Los pagos no se renuevan solos — nunca se cobra nada sin vos. Les enviamos un correo a los
+administradores de tu iglesia una semana antes de que termine el período pago y otra vez el
+día anterior. Podés renovar antes cuando quieras; el nuevo período empieza cuando termina el
+actual.
+
+Si el período termina sin renovación, todo sigue habilitado **7 días más**. Después tu
+iglesia pasa al plan gratis — no se borra nada, y podés volver a pasar al plan pago cuando
+quieras.
+
+## Facturas y otras formas de pago
+
+¿Necesitás factura de un pago, o querés pagar desde fuera de Argentina? Escribinos a
+**support@holycrm.app** — te va a responder una persona real, por lo general en menos de dos
+días.
