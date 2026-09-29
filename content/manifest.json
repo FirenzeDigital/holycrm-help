@@ -115,7 +115,7 @@
         "pt-BR": "Suporte",
         "pt": "Suporte"
       },
-      "pages": ["faq"]
+      "pages": ["faq", "ask-ai"]
     }
   ],
   "pages": {
@@ -326,6 +326,15 @@
         "pt": "Perguntas frequentes"
       },
       "file": "faq.md"
+    },
+    "ask-ai": {
+      "title": {
+        "en": "Ask an AI Assistant",
+        "es": "Preguntarle a una IA",
+        "pt-BR": "Perguntar a uma IA",
+        "pt": "Perguntar a uma IA"
+      },
+      "file": "ask-ai.md"
     }
   }
 }

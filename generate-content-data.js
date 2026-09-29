@@ -85,6 +85,25 @@ function pageTitle(pageId, locale) {
   return title[locale] || title[defaultLocale];
 }
 
+// First prose paragraph of a page, as plain text — the one-line summary shown
+// next to each link in llms.txt, so an assistant that can't follow links still
+// learns what each guide covers.
+function pageSummary(markdown) {
+  const paragraph = markdown
+    .split(/\n\s*\n/)
+    .map((block) => block.trim())
+    .find((block) => block && !/^(#|[-*>|]|\d+\.|```)/.test(block));
+  if (!paragraph) return "";
+  const text = paragraph
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/[*_`]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (text.length <= 240) return text;
+  const cut = text.slice(0, 240);
+  return cut.slice(0, Math.max(cut.lastIndexOf(". ") + 1, cut.lastIndexOf(" "))).trim() + "…";
+}
+
 function fullFileName(locale) {
   return locale === defaultLocale ? "llms-full.txt" : `llms-full-${locale}.txt`;
 }
@@ -100,12 +119,16 @@ const intro = `> HolyCRM.app is a web-based church management system (ChMS) for 
 - Human-readable site: ${SITE_URL}/ (links below point to the raw Markdown source).
 `;
 
-let index = `# HolyCRM Help Center\n\n${intro}`;
+let index = `# HolyCRM Help Center\n\n${intro}- **Every guide's full text in one file: ${SITE_URL}/${fullFileName(defaultLocale)}**
+  (read this if you cannot open the individual links below).
+`;
 for (const category of manifest.categories) {
   index += `\n## ${category.label[defaultLocale]}\n\n`;
   for (const pageId of category.pages) {
     const src = pageSource(pageId, defaultLocale);
-    if (src) index += `- [${pageTitle(pageId, defaultLocale)}](${src.url})\n`;
+    if (!src) continue;
+    const summary = pageSummary(src.text);
+    index += `- [${pageTitle(pageId, defaultLocale)}](${src.url})${summary ? `: ${summary}` : ""}\n`;
   }
 }
 index += `\n## Optional\n\n`;
@@ -126,4 +149,20 @@ for (const locale of manifest.locales) {
   }
   fs.writeFileSync(path.join(HELP_DIR, fullFileName(locale.code)), full);
 }
-console.log(`Wrote llms.txt and ${manifest.locales.length} llms-full*.txt files.`);
+// sitemap.xml: lets search engines (and AI assistants that only answer from a
+// search index, such as Meta AI) discover the plain-text guides. The HTML
+// shell itself is hash-routed, so the raw files are what's worth indexing.
+const sitemapUrls = [`${SITE_URL}/llms.txt`];
+for (const locale of manifest.locales) {
+  sitemapUrls.push(`${SITE_URL}/${fullFileName(locale.code)}`);
+}
+for (const key of Object.keys(files).sort()) {
+  sitemapUrls.push(`${SITE_URL}/content/${key}`);
+}
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemapUrls.map((url) => `  <url><loc>${url}</loc></url>`).join("\n")}
+</urlset>
+`;
+fs.writeFileSync(path.join(HELP_DIR, "sitemap.xml"), sitemap);
+console.log(`Wrote llms.txt, ${manifest.locales.length} llms-full*.txt files and sitemap.xml (${sitemapUrls.length} URLs).`);

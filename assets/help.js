@@ -26,6 +26,8 @@ const UI_STRINGS = {
     previous: "Previous",
     next: "Next",
     titleSuffix: " — HolyCRM Help",
+    copy: "Copy",
+    copied: "Copied!",
   },
   es: {
     brandTag: "Centro de ayuda",
@@ -39,6 +41,8 @@ const UI_STRINGS = {
     previous: "Anterior",
     next: "Siguiente",
     titleSuffix: " — Ayuda de HolyCRM",
+    copy: "Copiar",
+    copied: "¡Copiado!",
   },
   "pt-BR": {
     brandTag: "Central de Ajuda",
@@ -52,6 +56,8 @@ const UI_STRINGS = {
     previous: "Anterior",
     next: "Próximo",
     titleSuffix: " — Ajuda do HolyCRM",
+    copy: "Copiar",
+    copied: "Copiado!",
   },
   pt: {
     brandTag: "Central de Ajuda",
@@ -65,6 +71,8 @@ const UI_STRINGS = {
     previous: "Anterior",
     next: "Seguinte",
     titleSuffix: " — Ajuda do HolyCRM",
+    copy: "Copiar",
+    copied: "Copiado!",
   },
 };
 
@@ -271,6 +279,26 @@ function localizedContent(file) {
   throw new Error("content not found: " + file);
 }
 
+// Adds a "Copy" button to every code block, e.g. the ready-made AI prompt
+// on the "Ask an AI Assistant" page.
+function addCopyButtons() {
+  if (!navigator.clipboard) return;
+  for (const pre of contentEl.querySelectorAll("pre")) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "help-copy-btn";
+    btn.textContent = t("copy");
+    btn.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText((pre.querySelector("code") || pre).textContent.trim());
+        btn.textContent = t("copied");
+        setTimeout(() => { btn.textContent = t("copy"); }, 2000);
+      } catch (err) { /* clipboard blocked — the text is still selectable */ }
+    });
+    pre.prepend(btn);
+  }
+}
+
 function renderPage(pageId) {
   const page = manifest.pages[pageId];
   if (!page) {
@@ -283,6 +311,7 @@ function renderPage(pageId) {
   try {
     const md = localizedContent(page.file);
     contentEl.innerHTML = window.marked.parse(md);
+    addCopyButtons();
     document.title = localized(page.title, pageId) + t("titleSuffix");
   } catch (err) {
     contentEl.innerHTML = `<p class="help-error">${t("pageError")}</p>`;

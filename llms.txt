@@ -9,66 +9,69 @@
   see or change depends on their role (admin, manager, volunteer, member).
 - Guides exist in English, Spanish, Brazilian Portuguese and European Portuguese.
 - Human-readable site: https://docs.holycrm.app/ (links below point to the raw Markdown source).
+- **Every guide's full text in one file: https://docs.holycrm.app/llms-full.txt**
+  (read this if you cannot open the individual links below).
 
 ## Getting Started
 
-- [Getting Started](https://docs.holycrm.app/content/en/getting-started.md)
+- [Getting Started](https://docs.holycrm.app/content/en/getting-started.md): Welcome to HolyCRM — the admin app your church uses to manage members, small groups, ministries, rotas, events, attendance, giving and communication, all in one place.
 
 ## Overview
 
-- [Dashboard](https://docs.holycrm.app/content/en/dashboard.md)
-- [Calendar](https://docs.holycrm.app/content/en/calendar.md)
-- [Calendar Sync](https://docs.holycrm.app/content/en/calendar-sync.md)
-- [Reports](https://docs.holycrm.app/content/en/reports.md)
+- [Dashboard](https://docs.holycrm.app/content/en/dashboard.md): The Dashboard is your church's home screen — a snapshot of what's happening, updated live from your real data. Every card loads independently and simply hides itself if you don't have permission to see it or if there's no data yet, so a…
+- [Calendar](https://docs.holycrm.app/content/en/calendar.md): The Calendar brings together everything with a schedule — Events, Ministry Activities and Rotas — in one agenda, month, week or day view.
+- [Calendar Sync](https://docs.holycrm.app/content/en/calendar-sync.md): Subscribe to your church's schedule from your own Google, Apple or Outlook calendar, so services, ministry activities and small-group meetings show up automatically alongside the rest of your life — without opening HolyCRM to check.
+- [Reports](https://docs.holycrm.app/content/en/reports.md): Reports answers the question every pastor actually asks — is your church connecting with people? — instead of a pile of generic charts. Visible to Admin and Manager roles only, since it includes giving figures.
 
 ## People
 
-- [Members](https://docs.holycrm.app/content/en/members.md)
-- [Growth Ladder](https://docs.holycrm.app/content/en/growth-ladder.md)
-- [Import Data](https://docs.holycrm.app/content/en/data-import.md)
-- [Small Groups](https://docs.holycrm.app/content/en/groups.md)
-- [Visitors](https://docs.holycrm.app/content/en/visitors.md)
+- [Members](https://docs.holycrm.app/content/en/members.md): Members is your church's directory — every person in your congregation, with their contact details, status, and the tags/relationships that connect them to the rest of the app.
+- [Growth Ladder](https://docs.holycrm.app/content/en/growth-ladder.md): A simple way to see where each person actually is on their journey with your church, not just whether they're an active member or not. Every active member carries a Growth stage: New, Attending, Connected, Serving, or Leading.
+- [Import Data](https://docs.holycrm.app/content/en/data-import.md): If your church already has a member list in a spreadsheet, Import Data lets you bring it in instead of retyping everyone by hand. It currently imports Members only.
+- [Small Groups](https://docs.holycrm.app/content/en/groups.md): Small Groups (also called cells) get their own purpose-built screen: a card-grid list, a detail page with a leader/schedule sidebar, a members panel, a meeting log, and group multiplication.
+- [Visitors](https://docs.holycrm.app/content/en/visitors.md): Track first-time guests from their first visit through follow-up and, hopefully, membership.
 
 ## Ministries & Rotas
 
-- [Ministries & Ministry Members](https://docs.holycrm.app/content/en/ministries.md)
-- [Rotas (Service Scheduling)](https://docs.holycrm.app/content/en/rotas.md)
+- [Ministries & Ministry Members](https://docs.holycrm.app/content/en/ministries.md): A Ministry is a standing team — Worship, Kids, Ushers, Tech, and so on. Ministries hold the group identity; Ministry Members and Ministry Activities hang off a ministry.
+- [Rotas (Service Scheduling)](https://docs.holycrm.app/content/en/rotas.md): Rotas are how you schedule volunteers into service roles for a specific event or ministry activity occurrence — "who's on Sound this Sunday," "who's greeting at the 9am service."
 
 ## Events
 
-- [Events & Registrations](https://docs.holycrm.app/content/en/events.md)
+- [Events & Registrations](https://docs.holycrm.app/content/en/events.md): Fill in the details, schedule (date/time, with a location so the correct timezone is used) and notes. Events appear on the Calendar and can have Rotas attached (a Role Requirement can point at an event instead of a ministry activity).
 
 ## Attendance
 
-- [Attendance & Check-in](https://docs.holycrm.app/content/en/attendance.md)
+- [Attendance & Check-in](https://docs.holycrm.app/content/en/attendance.md): Three related screens cover attendance, depending on what you're tracking:
 
 ## Communications
 
-- [Bulk Email & Templates](https://docs.holycrm.app/content/en/bulk-email.md)
-- [Church Links](https://docs.holycrm.app/content/en/church-links.md)
-- [Church Website](https://docs.holycrm.app/content/en/church-website.md)
+- [Bulk Email & Templates](https://docs.holycrm.app/content/en/bulk-email.md): Send announcements, newsletters and updates to your congregation, and reuse designs as templates.
+- [Church Links](https://docs.holycrm.app/content/en/church-links.md): A single branded page — a "link in bio" — for your church's Instagram, TikTok or Facebook profile: one URL with every link people actually need (service times, giving, socials, your address) instead of one link that only goes to your…
+- [Church Website](https://docs.holycrm.app/content/en/church-website.md): A full public website for your church — beyond a single link-in-bio page: an About section, service times, upcoming events, ministries, a Visit Us section with directions, your latest message, and a "connect with us" form, generated…
 
 ## Finance
 
-- [Giving & Finance](https://docs.holycrm.app/content/en/finance.md)
+- [Giving & Finance](https://docs.holycrm.app/content/en/finance.md): Four screens cover money: Giving (member-facing donation view), Transactions (the full ledger), Categories (income/expense categories) and the Finance Dashboard (KPIs and charts).
 
 ## Admin Settings
 
-- [Church Settings & Locations](https://docs.holycrm.app/content/en/church-settings.md)
-- [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md)
-- [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md)
-- [Data & Privacy](https://docs.holycrm.app/content/en/data-privacy.md)
-- [Plans & Billing](https://docs.holycrm.app/content/en/plans-billing.md)
+- [Church Settings & Locations](https://docs.holycrm.app/content/en/church-settings.md): The global configuration for your church: name, default timezone, default currency, minor age cutoff, and your church logo.
+- [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md): There's an important difference between a Member (a person in your congregation) and a User (someone with a login to this app). Most members never log in; a user is a member of your staff/volunteer team who needs access to HolyCRM itself.
+- [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md): A simple, flexible label you attach to members — "Worship Team," "First Responders," "Youth Leader," anything your church finds useful. Create tags once under Admin Settings → Tags, then pick them from a chip picker on any member's record.…
+- [Data & Privacy](https://docs.holycrm.app/content/en/data-privacy.md): Under Admin Settings → Data & Privacy, an Admin can confirm your church's data responsibilities, download a full copy of your church's data, request deletion, and review a log of who's changed Member and Giving records recently. This…
+- [Plans & Billing](https://docs.holycrm.app/content/en/plans-billing.md): Every new church starts with a 30-day trial — the entire app unlocked, every module, no limits on people, team members or locations. No card required.
 
 ## Account
 
-- [My Profile](https://docs.holycrm.app/content/en/profile.md)
-- [My Availability](https://docs.holycrm.app/content/en/my-availability.md)
-- [My Giving](https://docs.holycrm.app/content/en/my-giving.md)
+- [My Profile](https://docs.holycrm.app/content/en/profile.md): Your own account settings — visible and editable by anyone with a login, regardless of role or which church(es) you belong to.
+- [My Availability](https://docs.holycrm.app/content/en/my-availability.md): Let your church know when you're usually free to serve, so schedulers see it when filling a Rota — instead of asking around or guessing.
+- [My Giving](https://docs.holycrm.app/content/en/my-giving.md): Your own giving history — visible if you have a Member-role login linked to your member record in the congregation. This is different from the Giving screen staff use, which shows everyone's giving; My Giving only ever shows yours.
 
 ## Support
 
-- [Frequently Asked Questions](https://docs.holycrm.app/content/en/faq.md)
+- [Frequently Asked Questions](https://docs.holycrm.app/content/en/faq.md): <details class="help-faq-item" open> <summary>I can't see a menu item I expected to see. Why?</summary>
+- [Ask an AI Assistant](https://docs.holycrm.app/content/en/ask-ai.md): You can ask ChatGPT, Claude, Gemini or another AI assistant questions about HolyCRM, and it will answer from this Help Center instead of guessing. It's handy when you'd rather ask "how do I schedule volunteers for Sunday?" than search…
 
 ## Optional
 
