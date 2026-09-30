@@ -37,6 +37,23 @@ Besides your links, the public page also shows:
 - A **Share** button and a QR code for print materials — a bulletin, a welcome card, a
   sign in the lobby.
 
+## When your link is shared
+
+When someone shares your Church Links address on WhatsApp, Instagram, Facebook or in a
+text message, the preview shows your church's name, a short description and a picture.
+You set the description and picture once, under **Search & sharing** on the
+[Church Website](#/church-website) screen — they're used for both your website and your
+Church Links page. If you leave them blank, a general description and your logo are used.
+
+**Tip — preview it yourself.** Paste your website or Church Links address into Facebook's
+[Sharing Debugger](https://developers.facebook.com/tools/debug) (you'll need to sign in with a Facebook account) and click
+**Debug**. It shows the title, description and picture that Facebook, Instagram and
+WhatsApp read from your page. After changing your description or share image, wait about a
+minute and click **Scrape Again** so Facebook picks up the new version.
+
+Apps keep old previews for a while, so a change can take some time to show on a link
+that was already shared.
+
 ## Choosing a look
 
 Below the page URL banner, pick a style under **Links page style** — each one is designed

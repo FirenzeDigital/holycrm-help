@@ -40,6 +40,25 @@ Além dos seus links, a página pública também mostra:
 - Um botão de **Compartilhar** e um QR code para materiais impressos — um boletim, um
   cartão de boas-vindas, uma placa na entrada.
 
+## Quando o seu link é compartilhado
+
+Quando alguém compartilha o endereço dos seus Links da igreja no WhatsApp, Instagram,
+Facebook ou numa mensagem, a pré-visualização mostra o nome da sua igreja, uma descrição
+curta e uma imagem. A descrição e a imagem são configuradas uma única vez, em
+**Buscadores e pré-visualização** na tela [Site da igreja](#/church-website) — valem
+tanto para o seu site quanto para a sua página de Links. Se ficarem em branco, são usados
+uma descrição geral e o seu logo.
+
+**Dica — veja a pré-visualização você mesmo.** Cole o endereço do seu site ou dos seus
+Links da igreja no [Depurador de Compartilhamento](https://developers.facebook.com/tools/debug) do Facebook (é preciso entrar com
+uma conta do Facebook) e clique em **Depurar** (*Debug*). Ele mostra o título, a descrição e
+a imagem que o Facebook, o Instagram e o WhatsApp leem da sua página. Depois de mudar a
+descrição ou a imagem de compartilhamento, espere um minuto e clique em **Coletar
+novamente** (*Scrape Again*) para o Facebook pegar a versão nova.
+
+Os apps guardam pré-visualizações antigas por um tempo, então uma mudança pode demorar a
+aparecer num link que já tinha sido compartilhado.
+
 ## Escolhendo um estilo
 
 Abaixo do banner com a URL da página, escolha um estilo em **Estilo da página de

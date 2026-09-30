@@ -75,7 +75,7 @@
         "pt-BR": "Comunicações",
         "pt": "Comunicações"
       },
-      "pages": ["bulk-email", "church-links", "church-website"]
+      "pages": ["bulk-email", "church-links", "church-website", "getting-found"]
     },
     {
       "id": "finance",
@@ -317,6 +317,15 @@
     "my-giving": {
       "title": { "en": "My Giving", "es": "Mis ofrendas", "pt-BR": "Minhas ofertas", "pt": "As minhas ofertas" },
       "file": "my-giving.md"
+    },
+    "getting-found": {
+      "title": {
+        "en": "Getting Found on Google",
+        "es": "Aparecer en Google",
+        "pt-BR": "Aparecer no Google",
+        "pt": "Aparecer no Google"
+      },
+      "file": "getting-found.md"
     },
     "faq": {
       "title": {

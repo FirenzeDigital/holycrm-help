@@ -47,6 +47,35 @@ personalidade da sua igreja, e troque quando quiser sem perder conteúdo.
   novo [Visitante](#/visitors) na sua lista de acompanhamento.
 - Suas redes sociais, reaproveitadas de [Links da igreja](#/church-links).
 
+## Buscadores e pré-visualização
+
+Na seção **Buscadores e pré-visualização** da tela Site da igreja você controla como o seu
+site aparece no Google e quando alguém compartilha o link:
+
+- **Descrição para buscadores e pré-visualização** — uma ou duas frases (até 160
+  caracteres) que o Google mostra abaixo do nome da sua igreja e que a pré-visualização do
+  link usa. Escreva pensando em alguém que nunca ouviu falar da sua igreja: quem vocês são,
+  onde se reúnem, o que esperar. Se ficar em branco, é usado o começo do seu texto "Sobre".
+- **Imagem de compartilhamento** — a imagem mostrada quando alguém compartilha o link do
+  seu site. Ela é recortada no formato largo de 1200 × 630, então uma foto da congregação
+  ou do templo funciona melhor que um logo. Se ficar em branco, é usada sua foto de capa
+  (ou seu logo).
+- **Ocultar meu site dos buscadores** — pede ao Google, Bing e outros buscadores que não
+  mostrem o seu site. Quem tiver o link ainda consegue abri-lo. Ative se a sua igreja
+  precisa se manter reservada, por exemplo onde cristãos sofrem perseguição.
+
+**Dica — veja a pré-visualização você mesmo.** Cole o endereço do seu site ou dos seus
+Links da igreja no [Depurador de Compartilhamento](https://developers.facebook.com/tools/debug) do Facebook (é preciso entrar com
+uma conta do Facebook) e clique em **Depurar** (*Debug*). Ele mostra o título, a descrição e
+a imagem que o Facebook, o Instagram e o WhatsApp leem da sua página. Depois de mudar a
+descrição ou a imagem de compartilhamento, espere um minuto e clique em **Coletar
+novamente** (*Scrape Again*) para o Facebook pegar a versão nova.
+
+Para um passo a passo sobre como colocar a sua igreja no Google e no Google Maps, veja [Aparecer no Google](#/getting-found).
+
+As mudanças podem levar alguns dias para aparecer no Google, porque ele só volta a visitar
+o seu site de tempos em tempos.
+
 ## Acompanhando o desempenho
 
 O banner **Seu site** na tela Site da igreja mostra a URL ao vivo, um contador de

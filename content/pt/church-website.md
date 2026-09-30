@@ -47,6 +47,36 @@ personalidade da sua igreja, e mude quando quiser sem perder conteúdo.
   a ser um novo [Visitante](#/visitors) na sua lista de acompanhamento.
 - As suas redes sociais, reaproveitadas de [Links da igreja](#/church-links).
 
+## Motores de pesquisa e pré-visualização
+
+Na secção **Motores de pesquisa e pré-visualização** do ecrã Site da igreja controla como o
+seu site aparece no Google e quando alguém partilha a ligação:
+
+- **Descrição para pesquisa e pré-visualização** — uma ou duas frases (até 160 caracteres)
+  que o Google mostra por baixo do nome da sua igreja e que a pré-visualização da ligação
+  usa. Escreva a pensar em alguém que nunca ouviu falar da sua igreja: quem são, onde se
+  reúnem, o que esperar. Se ficar em branco, é usado o início do seu texto "Sobre".
+- **Imagem de partilha** — a imagem mostrada quando alguém partilha a ligação do seu site.
+  É recortada no formato largo de 1200 × 630, por isso uma fotografia da congregação ou do
+  templo funciona melhor do que um logótipo. Se ficar em branco, é usada a sua foto de capa
+  (ou o seu logótipo).
+- **Ocultar o meu site dos motores de pesquisa** — pede ao Google, Bing e outros motores de
+  pesquisa que não mostrem o seu site. Quem tiver a ligação continua a conseguir abri-lo.
+  Ative esta opção se a sua igreja precisar de se manter reservada, por exemplo onde os
+  cristãos sofrem perseguição.
+
+**Dica — veja a pré-visualização por si.** Cole o endereço do seu site ou dos seus
+Links da igreja no [Depurador de Partilha](https://developers.facebook.com/tools/debug) do Facebook (tem de iniciar sessão com uma
+conta do Facebook) e clique em **Depurar** (*Debug*). Mostra o título, a descrição e a
+imagem que o Facebook, o Instagram e o WhatsApp leem da sua página. Depois de alterar a
+descrição ou a imagem de partilha, aguarde um minuto e clique em **Recolher novamente**
+(*Scrape Again*) para o Facebook obter a versão nova.
+
+Para um passo a passo sobre como colocar a sua igreja no Google e no Google Maps, veja [Aparecer no Google](#/getting-found).
+
+As alterações podem demorar alguns dias a aparecer no Google, porque este só volta a
+visitar o seu site de tempos a tempos.
+
 ## A acompanhar o desempenho
 
 O banner **O seu site** no ecrã Site da igreja mostra o URL em direto, um contador

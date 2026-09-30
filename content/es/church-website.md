@@ -46,6 +46,37 @@ personalidad de tu iglesia, y cambialo cuando quieras sin perder contenido.
   lo completa se convierte en un nuevo [Visitante](#/visitors) en tu lista de seguimiento.
 - Tus redes sociales, reutilizadas de [Enlaces de la iglesia](#/church-links).
 
+## Buscadores y vista previa
+
+En la sección **Buscadores y vista previa** de la pantalla Sitio web de la iglesia
+controlás cómo aparece tu sitio en Google y cuando alguien comparte el enlace:
+
+- **Descripción para buscadores y vista previa** — una o dos oraciones (hasta 160
+  caracteres) que Google muestra debajo del nombre de tu iglesia y que usa la vista previa
+  del enlace. Escribila pensando en alguien que nunca oyó de tu iglesia: quiénes son, dónde
+  se reúnen, qué puede esperar. Si la dejás vacía, se usa el comienzo de tu texto
+  "Acerca de".
+- **Imagen para compartir** — la imagen que aparece cuando alguien comparte el enlace de tu
+  sitio. Se recorta en formato ancho de 1200 × 630, así que una foto de la congregación o
+  del templo funciona mejor que un logo. Si la dejás vacía, se usa tu foto de portada (o
+  tu logo).
+- **Ocultar mi sitio web de los buscadores** — les pide a Google, Bing y otros buscadores
+  que no muestren tu sitio. Cualquiera que tenga el enlace puede seguir abriéndolo.
+  Activalo si tu iglesia necesita mantenerse en privado, por ejemplo donde los cristianos
+  sufren persecución.
+
+**Consejo — mirá la vista previa vos mismo.** Pegá la dirección de tu sitio web o de tus
+Enlaces de la iglesia en el [Depurador de contenido compartido](https://developers.facebook.com/tools/debug) de Facebook (tenés que
+iniciar sesión con una cuenta de Facebook) y tocá **Depurar** (*Debug*). Muestra el título,
+la descripción y la imagen que Facebook, Instagram y WhatsApp leen de tu página. Después de
+cambiar la descripción o la imagen para compartir, esperá un minuto y tocá **Volver a
+extraer** (*Scrape Again*) para que Facebook tome la versión nueva.
+
+Para una guía paso a paso sobre cómo hacer que tu iglesia aparezca en Google y Google Maps, mirá [Aparecer en Google](#/getting-found).
+
+Los cambios pueden tardar unos días en verse en Google, porque vuelve a visitar tu sitio
+cada tanto.
+
 ## Ver cómo le va
 
 El banner **Tu sitio web** en la pantalla Sitio web de la iglesia muestra la URL en

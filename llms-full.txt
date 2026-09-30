@@ -881,6 +881,23 @@ Besides your links, the public page also shows:
 - A **Share** button and a QR code for print materials — a bulletin, a welcome card, a
   sign in the lobby.
 
+## When your link is shared
+
+When someone shares your Church Links address on WhatsApp, Instagram, Facebook or in a
+text message, the preview shows your church's name, a short description and a picture.
+You set the description and picture once, under **Search & sharing** on the
+[Church Website](https://docs.holycrm.app/content/en/church-website.md) screen — they're used for both your website and your
+Church Links page. If you leave them blank, a general description and your logo are used.
+
+**Tip — preview it yourself.** Paste your website or Church Links address into Facebook's
+[Sharing Debugger](https://developers.facebook.com/tools/debug) (you'll need to sign in with a Facebook account) and click
+**Debug**. It shows the title, description and picture that Facebook, Instagram and
+WhatsApp read from your page. After changing your description or share image, wait about a
+minute and click **Scrape Again** so Facebook picks up the new version.
+
+Apps keep old previews for a while, so a change can take some time to show on a link
+that was already shared.
+
 ## Choosing a look
 
 Below the page URL banner, pick a style under **Links page style** — each one is designed
@@ -959,6 +976,33 @@ switch any time without losing content.
   new [Visitor](https://docs.holycrm.app/content/en/visitors.md) in your follow-up list.
 - Your social links, reused from [Church Links](https://docs.holycrm.app/content/en/church-links.md).
 
+## Search & sharing
+
+Under **Search & sharing** on the Church Website screen you control how your site
+appears on Google and when someone shares its link:
+
+- **Search & share description** — one or two sentences (up to 160 characters) that
+  Google shows under your church's name and that link previews use. Write it for someone
+  who has never heard of your church: who you are, where you meet, what to expect. If you
+  leave it blank, the start of your About text is used.
+- **Share image** — the picture shown when someone shares your website link. It's cropped
+  to a wide 1200 × 630 shape, so a photo of your congregation or building works better
+  than a logo. If you leave it blank, your cover photo (or your logo) is used.
+- **Hide my website from search engines** — asks Google, Bing and other search engines not
+  to list your website. Anyone with the link can still open it. Turn this on if your church
+  needs to stay private, for example where Christians face persecution.
+
+**Tip — preview it yourself.** Paste your website or Church Links address into Facebook's
+[Sharing Debugger](https://developers.facebook.com/tools/debug) (you'll need to sign in with a Facebook account) and click
+**Debug**. It shows the title, description and picture that Facebook, Instagram and
+WhatsApp read from your page. After changing your description or share image, wait about a
+minute and click **Scrape Again** so Facebook picks up the new version.
+
+For step-by-step help getting your church onto Google and Google Maps, see [Getting Found on Google](https://docs.holycrm.app/content/en/getting-found.md).
+
+Changes can take a few days to show up on Google, since it only revisits your site from
+time to time.
+
 ## Seeing how it's doing
 
 The **Your website** banner on the Church Website screen shows the live URL, a view
@@ -983,6 +1027,141 @@ on a website yet.
 
 Once connected, visiting your own domain shows your website (or Church Links page)
 directly — no holycrm.app address needed.
+
+---
+
+Source: https://docs.holycrm.app/content/en/getting-found.md
+Section: Communications
+
+# Getting Found on Google
+
+Most people looking for a church today start with a search: *"church near me"*,
+*"evangelical church in Springfield"*, or your church's name after hearing about it from a
+friend. This guide walks through the few things that make the biggest difference to whether
+they find you — most take a few minutes, and none need any technical knowledge.
+
+## How people actually find a church
+
+When someone searches for a church, Google usually shows two things:
+
+1. **A map with nearby churches** at the top — this comes from **Google Business Profile**,
+   not from your website.
+2. **Websites** below it — this is where your [Church Website](https://docs.holycrm.app/content/en/church-website.md) appears.
+
+So the two most useful steps are a Google Business Profile (for the map) and a complete
+church website (for everything else). Do both, and link them to each other.
+
+## 1. Set up your Google Business Profile
+
+This is free, and it's the single biggest help for local searches. It puts your church on
+Google Maps with your address, directions, photos and a link to your website.
+
+1. Go to [google.com/business](https://www.google.com/business) and sign in with a Google
+   account your church controls (not just one person's personal account, if you can avoid
+   it — people change roles).
+2. Search for your church's name. If it's already listed, choose **Claim this business**;
+   if not, create it.
+3. Choose **Church** as the category (or a more specific one, such as *Evangelical church*,
+   if Google offers it).
+4. Enter your address exactly as it appears on your website, plus your phone number.
+5. Under **Website**, enter your church website's address.
+6. Google will ask you to verify that you represent the church — usually by phone, email,
+   video or a postcard to your address. Follow its steps.
+7. Once verified, add photos (the building, a service, your people) and a short
+   description, and keep your service times up to date.
+
+## 2. Fill in your church website
+
+Google can only show what's on your page. The more complete your
+[Church Website](https://docs.holycrm.app/content/en/church-website.md) is, the more searches it can appear for.
+
+- **About text** — a few sentences about who you are. Mention your city or neighborhood by
+  name; that's what people search for.
+- **Address, phone and email** — the same address you used for Google Business Profile.
+  Keeping them identical everywhere helps Google trust that they're the same church.
+- **Service times** — they appear automatically from your recurring
+  [Ministry Activities](https://docs.holycrm.app/content/en/ministries.md) and upcoming [Events](https://docs.holycrm.app/content/en/events.md). Keep those current.
+- **Cover photo** — a real photo of your church or congregation looks better in search
+  results and link previews than a logo.
+- **Your social links** — add your Instagram, Facebook and YouTube in
+  [Church Links](https://docs.holycrm.app/content/en/church-links.md); they show on your website too, and help Google connect
+  your profiles to your church.
+
+## 3. Write a good description
+
+Under **Search & sharing** on the Church Website screen, the **Search & share description**
+is the line Google may show under your church's name, and the text in link previews on
+WhatsApp and Facebook. You have 160 characters — make them count.
+
+**Do:**
+
+- say what you are and where: *"Evangelical church in Riverside, Springfield."*
+- say when you meet: *"Sunday services at 10am and 6pm."*
+- give a reason to visit: *"Kids' ministry every Sunday. Everyone welcome."*
+
+**Avoid:**
+
+- only your church's name — Google already shows it;
+- general phrases that could describe any church (*"A place of faith and love"*) with
+  nothing about where or when;
+- ALL CAPS, lists of keywords, or emojis in place of words.
+
+A good example: *"Evangelical church in Riverside, Springfield. Sunday services at 10am
+and 6pm, kids' ministry, small groups during the week. Everyone welcome."*
+
+If you leave the description blank, the start of your About text is used instead.
+
+## 4. Use your own domain (recommended)
+
+An address like **www.gracechurch.org** is easier to remember, print and share than a
+holycrm.app address, and it's the address Google will list. You can connect a domain you
+own from the Church Website screen — see
+[Using your own domain](https://docs.holycrm.app/content/en/church-website.md).
+
+## 5. Tell Google about your site (optional)
+
+If your church has its own domain, you can use Google Search Console — free — to tell
+Google about your website directly and to see which searches bring people to it. It's the
+most technical step in this guide, so ask your church's IT volunteer if you have one.
+
+1. Go to [Google Search Console](https://search.google.com/search-console) and sign in.
+2. Choose **Add property** → **Domain**, and enter your domain (for example
+   `gracechurch.org`).
+3. Google shows a **TXT record**. Add it at your domain provider, the same place you added
+   the record when connecting your domain to HolyCRM, then click **Verify**.
+4. Open **Sitemaps**, enter `sitemap.xml` and click **Submit**. HolyCRM creates this file
+   for your domain automatically.
+
+After a few days, Search Console starts showing how often your site appears in searches
+and what people searched for. Bing has a similar free tool,
+[Bing Webmaster Tools](https://www.bing.com/webmasters), which can import everything from
+Search Console in one click.
+
+This step isn't available for a holycrm.app address — only a domain you own can be
+verified.
+
+## 6. Check how your link looks when shared
+
+Paste your website address into Facebook's
+[Sharing Debugger](https://developers.facebook.com/tools/debug) (sign in with a Facebook
+account) and click **Debug**. It shows the title, description and picture that Facebook,
+Instagram and WhatsApp use. After you change your description or share image, wait about a
+minute and click **Scrape Again**.
+
+## 7. Be patient
+
+Google doesn't list a new or changed website right away — it visits sites on its own
+schedule. Expect a few days to a few weeks before a new site shows up, and longer before it
+ranks well. Keeping your events, service times and photos current, and sharing your link
+on social media, all help over time.
+
+## If your church needs to stay private
+
+Some churches — for example where Christians face persecution — shouldn't be easy to find
+through a search engine. Turn on **Hide my website from search engines** under
+**Search & sharing** on the Church Website screen. Search engines are asked not to list
+your site, while anyone you give the link to can still open it. In that case, skip Google
+Business Profile and Search Console too.
 
 ---
 
