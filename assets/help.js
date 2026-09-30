@@ -108,14 +108,26 @@ function detectBrowserLocale() {
   return /^pt-br$/i.test(nav) ? "pt-BR" : nav.toLowerCase().split("-")[0];
 }
 
+// `?lang=<code>` wins: the app's Help link passes its active UI language, which
+// this site can't otherwise see (different origin, separate localStorage).
+function localeFromQuery() {
+  try {
+    return new URLSearchParams(location.search).get("lang");
+  } catch (e) {
+    return null;
+  }
+}
+
 function resolveInitialLocale() {
+  const supported = manifest.locales.map((l) => l.code);
+  const fromQuery = localeFromQuery();
+  if (fromQuery && supported.includes(fromQuery)) return fromQuery;
   let stored = null;
   try {
     stored = localStorage.getItem(LANG_STORAGE_KEY);
   } catch (e) {
     /* private browsing / blocked storage — fall through */
   }
-  const supported = manifest.locales.map((l) => l.code);
   if (stored && supported.includes(stored)) return stored;
   const detected = detectBrowserLocale();
   if (supported.includes(detected)) return detected;
@@ -335,6 +347,15 @@ function init() {
     return;
   }
   setLocale(resolveInitialLocale());
+  // setLocale() has remembered it; drop `?lang=` so a later pick from the
+  // language menu isn't overridden on reload.
+  if (localeFromQuery() !== null) {
+    try {
+      history.replaceState(null, "", location.pathname + location.hash);
+    } catch (e) {
+      /* ignore */
+    }
+  }
   buildLangSelect();
   buildSidebar("");
   route();

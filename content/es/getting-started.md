@@ -78,3 +78,6 @@ Este Centro de ayuda cubre qué hace cada módulo y por qué se comporta de esa 
 quedaste con una duda que no está acá, revisá primero las
 [Preguntas frecuentes](#/faq) — están armadas con las preguntas que las iglesias hacen más
 seguido.
+
+Dentro de la app, el botón **Ayuda** en la esquina superior derecha abre este Centro de ayuda
+en la página de la pantalla donde estás, en el idioma que estás usando.

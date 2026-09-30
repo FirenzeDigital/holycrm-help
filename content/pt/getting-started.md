@@ -75,3 +75,6 @@ ligeiramente desta tabela.
 Esta Central de Ajuda cobre o que cada módulo faz e porque se comporta dessa forma. Se ficou
 com uma dúvida que não está aqui, veja primeiro as [Perguntas frequentes](#/faq) — foram
 criadas a partir das perguntas que as igrejas mais fazem.
+
+Dentro da aplicação, o botão **Ajuda** no canto superior direito abre esta Central de Ajuda
+na página do ecrã em que está, no idioma que está a usar.

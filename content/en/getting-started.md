@@ -72,3 +72,6 @@ the table above.
 This Help Center covers what each module does and why it behaves the way it does. If you're
 stuck on something not covered here, check the [FAQ](#/faq) first — it's built from the
 questions churches actually ask most often.
+
+Inside the app, the **Help** button in the top-right corner opens this Help Center on the
+page for the screen you are on, in the language you are using.

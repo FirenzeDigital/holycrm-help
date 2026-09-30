@@ -96,6 +96,9 @@ você ficou com uma dúvida que não está aqui, confira primeiro as
 [Perguntas frequentes](https://docs.holycrm.app/content/pt-BR/faq.md) — elas foram criadas a partir das perguntas que as igrejas mais
 fazem.
 
+Dentro do app, o botão **Ajuda** no canto superior direito abre esta Central de Ajuda na
+página da tela em que você está, no idioma que você está usando.
+
 ---
 
 Source: https://docs.holycrm.app/content/pt-BR/dashboard.md
