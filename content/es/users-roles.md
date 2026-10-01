@@ -41,6 +41,18 @@ del tuyo (un Gestor no puede tocar a un Admin ni a otro Gestor), no podés edita
 fila desde esta pantalla, y una iglesia siempre conserva al menos un Admin — al último no se
 lo puede quitar ni degradar.
 
+## Vincular un usuario con un miembro
+
+Un usuario funciona mejor vinculado a la **ficha de miembro** de la persona: de ahí salen su
+nombre, Mis turnos, Mis ofrendas y Mi disponibilidad. En la lista de Usuarios, quien no tiene
+vínculo muestra *Sin miembro vinculado*.
+
+- Tocá **Vincular miembro** (o **Cambiar miembro**) en su fila, buscá al miembro y **Guardar**.
+  **Desvincular** saca el vínculo sin borrar nada.
+- También podés vincular **tu propio** usuario, desde tu fila.
+- Cada miembro se puede vincular a un solo usuario. Los que ya tienen uno aparecen como *ya
+  tiene usuario* en la búsqueda.
+
 ## Permisos personalizados
 
 Más allá de los cuatro roles estándar, un Admin puede ajustar el acceso por módulo en

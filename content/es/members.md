@@ -45,6 +45,12 @@ distintos haría que una edición deshaga silenciosamente a la otra. Cambialo de
 **Configuración de administración → Usuarios** — ver
 [Usuarios, roles y permisos](#/users-roles).
 
+## Invitar a un miembro a ingresar
+
+Para darle a un miembro su propio usuario (y que vea Mis turnos, Mis ofrendas…), tocá **Invitar
+como usuario** en su fila. Se abre la invitación de Usuarios con ese miembro ya elegido y su
+email completo — elegí el rol y enviá. El botón no aparece en miembros que ya tienen usuario.
+
 ## Traer los miembros que ya tenés
 
 No vuelvas a tipear todo tu directorio a mano — ver [Importar datos](#/data-import) para

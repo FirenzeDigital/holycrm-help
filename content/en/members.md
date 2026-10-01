@@ -40,6 +40,12 @@ kept in sync automatically, and editing it in two places would cause one edit to
 undo the other. Change it from **Admin Settings → Users** instead — see
 [Users, Roles & Permissions](#/users-roles).
 
+## Inviting a member to sign in
+
+To give a member their own login (to see My serving, My giving…), click **Invite as user** on
+their row. The Users invite form opens with that member already picked and their email filled
+in — choose the role and send. The button doesn't show for members who already have a login.
+
 ## Bringing in members you already have
 
 Don't retype your whole directory by hand — see [Import Data](#/data-import) to bring in a

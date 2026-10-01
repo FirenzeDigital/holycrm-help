@@ -392,6 +392,12 @@ distintos haría que una edición deshaga silenciosamente a la otra. Cambialo de
 **Configuración de administración → Usuarios** — ver
 [Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md).
 
+## Invitar a un miembro a ingresar
+
+Para darle a un miembro su propio usuario (y que vea Mis turnos, Mis ofrendas…), tocá **Invitar
+como usuario** en su fila. Se abre la invitación de Usuarios con ese miembro ya elegido y su
+email completo — elegí el rol y enviá. El botón no aparece en miembros que ya tienen usuario.
+
 ## Traer los miembros que ya tenés
 
 No vuelvas a tipear todo tu directorio a mano — ver [Importar datos](https://docs.holycrm.app/content/es/data-import.md) para
@@ -1540,6 +1546,18 @@ Algunas reglas de seguridad incorporadas: solo podés asignar o gestionar roles 
 del tuyo (un Gestor no puede tocar a un Admin ni a otro Gestor), no podés editar tu propia
 fila desde esta pantalla, y una iglesia siempre conserva al menos un Admin — al último no se
 lo puede quitar ni degradar.
+
+## Vincular un usuario con un miembro
+
+Un usuario funciona mejor vinculado a la **ficha de miembro** de la persona: de ahí salen su
+nombre, Mis turnos, Mis ofrendas y Mi disponibilidad. En la lista de Usuarios, quien no tiene
+vínculo muestra *Sin miembro vinculado*.
+
+- Tocá **Vincular miembro** (o **Cambiar miembro**) en su fila, buscá al miembro y **Guardar**.
+  **Desvincular** saca el vínculo sin borrar nada.
+- También podés vincular **tu propio** usuario, desde tu fila.
+- Cada miembro se puede vincular a un solo usuario. Los que ya tienen uno aparecen como *ya
+  tiene usuario* en la búsqueda.
 
 ## Permisos personalizados
 

@@ -381,6 +381,13 @@ com que uma edição anulasse silenciosamente a outra. Altere a partir de
 **Configurações administrativas → Utilizadores** — ver
 [Utilizadores, funções e permissões](https://docs.holycrm.app/content/pt/users-roles.md).
 
+## Convidar um membro a entrar
+
+Para dar a um membro o seu próprio utilizador (e ver As minhas escalas, As minhas ofertas…),
+clique em **Convidar como utilizador** na linha dele. O convite de Utilizadores abre com esse
+membro já escolhido e o e-mail preenchido — escolha a função e envie. O botão não aparece para
+membros que já têm utilizador.
+
 ## Trazer membros que já tem
 
 Não volte a escrever todo o seu diretório à mão — ver [Importar dados](https://docs.holycrm.app/content/pt/data-import.md) para
@@ -1517,6 +1524,18 @@ Algumas regras de segurança incorporadas: só pode atribuir ou gerir funções 
 (um Gestor não pode mexer num Admin nem noutro Gestor), não pode editar a sua própria linha
 neste ecrã, e uma igreja mantém sempre pelo menos um Admin — o último não pode ser removido
 nem despromovido.
+
+## Associar um utilizador a um membro
+
+Um utilizador funciona melhor associado à **ficha de membro** da pessoa: dela vêm o nome, As
+minhas escalas, As minhas ofertas e A minha disponibilidade. Na lista de Utilizadores, quem não
+tem associação aparece como *Sem membro associado*.
+
+- Clique em **Associar membro** (ou **Alterar membro**) na linha, pesquise o membro e
+  **Guardar**. **Desassociar** remove a associação sem apagar nada.
+- Também pode associar **o seu próprio** utilizador, na sua linha.
+- Cada membro só pode estar associado a um utilizador. Quem já tem um aparece como *já tem
+  utilizador* na pesquisa.
 
 ## Permissões personalizadas
 

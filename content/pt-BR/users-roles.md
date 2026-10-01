@@ -40,6 +40,18 @@ sua (um Gestor não pode mexer em um Admin nem em outro Gestor), você não pode
 própria linha nesta tela, e uma igreja sempre mantém pelo menos um Admin — o último não pode
 ser removido nem rebaixado.
 
+## Vinculando um usuário a um membro
+
+Um usuário funciona melhor vinculado ao **cadastro de membro** da pessoa: dele vêm o nome,
+Minhas escalas, Minhas ofertas e Minha disponibilidade. Na lista de Usuários, quem não tem
+vínculo aparece como *Sem membro vinculado*.
+
+- Clique em **Vincular membro** (ou **Alterar membro**) na linha, busque o membro e **Salvar**.
+  **Desvincular** remove o vínculo sem apagar nada.
+- Você também pode vincular **o seu próprio** usuário, na sua linha.
+- Cada membro pode ser vinculado a um único usuário. Quem já tem um aparece como *já tem
+  usuário* na busca.
+
 ## Permissões personalizadas
 
 Além das quatro funções padrão, um Admin pode ajustar o acesso por módulo em

@@ -365,6 +365,12 @@ kept in sync automatically, and editing it in two places would cause one edit to
 undo the other. Change it from **Admin Settings → Users** instead — see
 [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md).
 
+## Inviting a member to sign in
+
+To give a member their own login (to see My serving, My giving…), click **Invite as user** on
+their row. The Users invite form opens with that member already picked and their email filled
+in — choose the role and send. The button doesn't show for members who already have a login.
+
 ## Bringing in members you already have
 
 Don't retype your whole directory by hand — see [Import Data](https://docs.holycrm.app/content/en/data-import.md) to bring in a
@@ -1458,6 +1464,18 @@ A few built-in safety rules: you can only assign or manage roles *below* your ow
 Manager can't touch an Admin or another Manager's access), you can't edit your own row from
 this screen, and a church always keeps at least one Admin — the last one can't be removed or
 demoted.
+
+## Linking a login to a member
+
+A login works best when it's linked to the person's **member** record: their name, My serving,
+My giving and My availability all come from it. In the Users list, people without a link show
+*Not linked to a member*.
+
+- Click **Link member** (or **Change member**) on their row, search the member and **Save**.
+  **Unlink** removes the link without deleting anything.
+- You can link your **own** login too, from your row.
+- Each member can be linked to only one login. Members that already have one show *already has
+  a user* in the search.
 
 ## Custom permissions
 

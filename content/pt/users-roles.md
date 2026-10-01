@@ -40,6 +40,18 @@ Algumas regras de segurança incorporadas: só pode atribuir ou gerir funções 
 neste ecrã, e uma igreja mantém sempre pelo menos um Admin — o último não pode ser removido
 nem despromovido.
 
+## Associar um utilizador a um membro
+
+Um utilizador funciona melhor associado à **ficha de membro** da pessoa: dela vêm o nome, As
+minhas escalas, As minhas ofertas e A minha disponibilidade. Na lista de Utilizadores, quem não
+tem associação aparece como *Sem membro associado*.
+
+- Clique em **Associar membro** (ou **Alterar membro**) na linha, pesquise o membro e
+  **Guardar**. **Desassociar** remove a associação sem apagar nada.
+- Também pode associar **o seu próprio** utilizador, na sua linha.
+- Cada membro só pode estar associado a um utilizador. Quem já tem um aparece como *já tem
+  utilizador* na pesquisa.
+
 ## Permissões personalizadas
 
 Além das quatro funções padrão, um Admin pode ajustar o acesso por módulo em

@@ -39,6 +39,18 @@ Manager can't touch an Admin or another Manager's access), you can't edit your o
 this screen, and a church always keeps at least one Admin — the last one can't be removed or
 demoted.
 
+## Linking a login to a member
+
+A login works best when it's linked to the person's **member** record: their name, My serving,
+My giving and My availability all come from it. In the Users list, people without a link show
+*Not linked to a member*.
+
+- Click **Link member** (or **Change member**) on their row, search the member and **Save**.
+  **Unlink** removes the link without deleting anything.
+- You can link your **own** login too, from your row.
+- Each member can be linked to only one login. Members that already have one show *already has
+  a user* in the search.
+
 ## Custom permissions
 
 Beyond the four standard roles, an Admin can fine-tune access per module under

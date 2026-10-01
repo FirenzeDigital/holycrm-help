@@ -44,6 +44,13 @@ com que uma edição anulasse silenciosamente a outra. Altere a partir de
 **Configurações administrativas → Utilizadores** — ver
 [Utilizadores, funções e permissões](#/users-roles).
 
+## Convidar um membro a entrar
+
+Para dar a um membro o seu próprio utilizador (e ver As minhas escalas, As minhas ofertas…),
+clique em **Convidar como utilizador** na linha dele. O convite de Utilizadores abre com esse
+membro já escolhido e o e-mail preenchido — escolha a função e envie. O botão não aparece para
+membros que já têm utilizador.
+
 ## Trazer membros que já tem
 
 Não volte a escrever todo o seu diretório à mão — ver [Importar dados](#/data-import) para
