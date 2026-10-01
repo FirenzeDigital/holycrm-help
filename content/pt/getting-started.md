@@ -10,7 +10,9 @@ pesquisa acima, ou navegue por tema no menu lateral.
 
 ## Iniciar sessão
 
-1. Aceda à página de acesso da sua igreja e introduza o seu **e-mail e palavra-passe**.
+1. Aceda à página de acesso da sua igreja e introduza o seu **e-mail e palavra-passe**. Se
+   usa o Google com esse mesmo e-mail, pode escolher **Continuar com o Google** — sem
+   palavra-passe. Só funciona com a conta Google do e-mail com que a sua igreja o convidou.
 2. Se pertencer a mais do que uma igreja, ser-lhe-á pedido que escolha qual administrar —
    depois pode mudar de igreja dentro da aplicação sem voltar a iniciar sessão.
 3. Esqueceu-se da palavra-passe? Use **Esqueceu-se da palavra-passe?** no ecrã de acesso. Vai

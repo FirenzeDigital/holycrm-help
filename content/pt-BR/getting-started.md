@@ -10,7 +10,9 @@ busca acima, ou navegue por tópico no menu lateral.
 
 ## Fazendo login
 
-1. Acesse a tela de login da sua igreja e informe seu **e-mail e senha**.
+1. Acesse a tela de login da sua igreja e informe seu **e-mail e senha**. Se você usa o
+   Google com esse mesmo e-mail, pode escolher **Continuar com o Google** — sem senha. Só
+   funciona com a conta do Google do e-mail com o qual sua igreja convidou você.
 2. Se você pertence a mais de uma igreja, será solicitado a escolher qual administrar — depois
    você pode trocar de igreja de dentro do app, sem precisar entrar novamente.
 3. Esqueceu a senha? Use **Esqueceu sua senha?** na tela de login. Você receberá um link por

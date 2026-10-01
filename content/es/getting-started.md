@@ -10,7 +10,9 @@ buscador de arriba, o navegá por tema en el menú lateral.
 
 ## Iniciar sesión
 
-1. Entrá a la página de acceso de tu iglesia e ingresá tu **correo y contraseña**.
+1. Entrá a la página de acceso de tu iglesia e ingresá tu **correo y contraseña**. Si usás
+   Google con ese mismo correo, podés elegir **Continuar con Google** — sin contraseña. Solo
+   funciona con la cuenta de Google del correo con el que te invitó tu iglesia.
 2. Si perteneces a más de una iglesia, se te pedirá elegir cuál administrar — luego podés
    cambiar de iglesia desde dentro de la app sin volver a iniciar sesión.
 3. ¿Olvidaste tu contraseña? Usá **¿Olvidaste tu contraseña?** en la pantalla de acceso.

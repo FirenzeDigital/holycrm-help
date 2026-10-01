@@ -27,7 +27,9 @@ busca acima, ou navegue por tópico no menu lateral.
 
 ## Fazendo login
 
-1. Acesse a tela de login da sua igreja e informe seu **e-mail e senha**.
+1. Acesse a tela de login da sua igreja e informe seu **e-mail e senha**. Se você usa o
+   Google com esse mesmo e-mail, pode escolher **Continuar com o Google** — sem senha. Só
+   funciona com a conta do Google do e-mail com o qual sua igreja convidou você.
 2. Se você pertence a mais de uma igreja, será solicitado a escolher qual administrar — depois
    você pode trocar de igreja de dentro do app, sem precisar entrar novamente.
 3. Esqueceu a senha? Use **Esqueceu sua senha?** na tela de login. Você receberá um link por
@@ -1516,8 +1518,8 @@ Escolha a **função** dele:
 | **Membro** | Apenas autoatendimento: o próprio Perfil e, se vinculado a um cadastro da congregação, seus próprios dados de contato e histórico de ofertas. Sem acesso aos dados de mais ninguém. |
 
 A pessoa convidada recebe um e-mail com um link para definir a senha. Até ela fazer isso, o
-status aparece como **Convidado**; assim que ela define a senha, passa a **Ativo**
-automaticamente.
+status aparece como **Convidado**; assim que ela define a senha — ou entra com **Continuar
+com o Google** usando esse mesmo e-mail — passa a **Ativo** automaticamente.
 
 ## Gerenciando usuários existentes
 

@@ -26,8 +26,8 @@ Elegí su **rol**:
 | **Miembro** | Solo autoservicio: su propio Perfil y, si está vinculado a una ficha de la congregación, sus propios datos de contacto e historial de ofrendas. Sin acceso a los datos de nadie más. |
 
 La persona invitada recibe un correo con un enlace para configurar su contraseña. Hasta que lo
-haga, su estado figura como **Invitado**; una vez que configura su contraseña, pasa a
-**Activo** automáticamente.
+haga, su estado figura como **Invitado**; una vez que configura su contraseña — o entra con
+**Continuar con Google** usando ese mismo correo — pasa a **Activo** automáticamente.
 
 ## Gestionar usuarios existentes
 

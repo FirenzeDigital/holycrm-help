@@ -26,8 +26,8 @@ Escolha a **função** dele:
 | **Membro** | Apenas autoatendimento: o próprio Perfil e, se vinculado a um cadastro da congregação, seus próprios dados de contato e histórico de ofertas. Sem acesso aos dados de mais ninguém. |
 
 A pessoa convidada recebe um e-mail com um link para definir a senha. Até ela fazer isso, o
-status aparece como **Convidado**; assim que ela define a senha, passa a **Ativo**
-automaticamente.
+status aparece como **Convidado**; assim que ela define a senha — ou entra com **Continuar
+com o Google** usando esse mesmo e-mail — passa a **Ativo** automaticamente.
 
 ## Gerenciando usuários existentes
 

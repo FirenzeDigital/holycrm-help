@@ -25,7 +25,8 @@ Pick their **role**:
 | **Member** | Self-service only: their own Profile, plus — if linked to a record in the congregation — their own contact info and giving history. No access to other people's data. |
 
 An invited person receives an email with a link to set their password. Until they do, their
-status shows as **Invited**; once they set a password, they become **Active** automatically.
+status shows as **Invited**; once they set a password — or sign in with **Continue with
+Google** using that same email — they become **Active** automatically.
 
 ## Managing existing users
 

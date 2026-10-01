@@ -26,8 +26,8 @@ Escolha a sua **função**:
 | **Membro** | Apenas autosserviço: o seu próprio Perfil e, se associado a uma ficha da congregação, os seus próprios dados de contacto e histórico de ofertas. Sem acesso aos dados de mais ninguém. |
 
 A pessoa convidada recebe um e-mail com um link para definir a palavra-passe. Até o fazer, o
-seu estado aparece como **Convidado**; assim que define a palavra-passe, passa a **Ativo**
-automaticamente.
+seu estado aparece como **Convidado**; assim que define a palavra-passe — ou entra com
+**Continuar com o Google** usando esse mesmo e-mail — passa a **Ativo** automaticamente.
 
 ## Gerir utilizadores existentes
 

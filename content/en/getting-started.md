@@ -9,7 +9,9 @@ way you expected. Use the search box above, or browse by topic in the sidebar.
 
 ## Logging in
 
-1. Go to your church's HolyCRM login page and enter your **email and password**.
+1. Go to your church's HolyCRM login page and enter your **email and password**. If you use
+   Google with that same email, you can choose **Continue with Google** instead — no password
+   needed. It only works with the Google account for the email your church invited.
 2. If you belong to more than one church, you'll be asked to pick which one to manage —
    you can switch churches later from inside the app without logging out again.
 3. Forgot your password? Use **Forgot your password?** on the login screen. You'll get a
