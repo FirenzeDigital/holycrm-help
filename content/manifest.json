@@ -35,7 +35,7 @@
         "pt-BR": "Pessoas",
         "pt": "Pessoas"
       },
-      "pages": ["members", "growth-ladder", "data-import", "groups", "visitors"]
+      "pages": ["members", "growth-ladder", "data-import", "groups", "visitors", "prayer-requests"]
     },
     {
       "id": "ministries_rotas",
@@ -85,7 +85,7 @@
         "pt-BR": "Finanças",
         "pt": "Finanças"
       },
-      "pages": ["finance"]
+      "pages": ["finance", "online-giving"]
     },
     {
       "id": "admin",
@@ -105,7 +105,7 @@
         "pt-BR": "Conta",
         "pt": "Conta"
       },
-      "pages": ["profile", "my-availability", "my-giving"]
+      "pages": ["profile", "my-serving", "my-availability", "my-giving"]
     },
     {
       "id": "support",
@@ -344,6 +344,33 @@
         "pt": "Perguntar a uma IA"
       },
       "file": "ask-ai.md"
+    },
+    "prayer-requests": {
+      "title": {
+        "en": "Prayer Requests",
+        "es": "Pedidos de oración",
+        "pt-BR": "Pedidos de oração",
+        "pt": "Pedidos de oração"
+      },
+      "file": "prayer-requests.md"
+    },
+    "online-giving": {
+      "title": {
+        "en": "Online Giving Page",
+        "es": "Página para dar online",
+        "pt-BR": "Página de contribuições online",
+        "pt": "Página de contribuições online"
+      },
+      "file": "online-giving.md"
+    },
+    "my-serving": {
+      "title": {
+        "en": "My serving",
+        "es": "Mis turnos",
+        "pt-BR": "Minhas escalas",
+        "pt": "As minhas escalas"
+      },
+      "file": "my-serving.md"
     }
   }
 }

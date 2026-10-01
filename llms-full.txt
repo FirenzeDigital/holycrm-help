@@ -570,6 +570,49 @@ follow-up person, and importing visitors directly from a connect-card form.
 
 ---
 
+Source: https://docs.holycrm.app/content/en/prayer-requests.md
+Section: People
+
+# Prayer Requests
+
+Let anyone — members, visitors, people who follow your church online — send you a prayer
+request from their phone, and keep track of them in one place so none gets forgotten.
+
+## Turning it on
+
+In [Church Settings](https://docs.holycrm.app/content/en/church-settings.md), tick **Public prayer request form** and save. Your
+church now has a simple public page where people write their request. Once it's on:
+
+- a **🙏 Prayer request** button appears on your [Church Links](https://docs.holycrm.app/content/en/church-links.md) page and on
+  your [Church Website](https://docs.holycrm.app/content/en/church-website.md);
+- the **Prayer Requests** screen shows the page's link, a **Copy link** button and a QR code
+  you can download — put it on the screen during the service, in the bulletin or in your
+  WhatsApp groups.
+
+The form asks for the request and, optionally, a name, phone and email. People can also tick
+**Only for the pastors** if they don't want it shared with the prayer team.
+
+## Following up
+
+Every request arrives in **Prayer Requests** as **New**. From there you can:
+
+- change its **Status** to **Praying**, **Answered** (celebrate it!) or **Archived**;
+- **assign** it to someone who will pray or follow up;
+- add **internal notes** that only your team sees;
+- filter by status, or show only the requests marked **Pastors only**.
+
+You can also add requests yourself — for example one someone shared with you after the
+service — with **Add prayer request**.
+
+## Who can see them
+
+By default, only Admins and Managers can see and manage prayer requests, because people often
+share personal things. If you have a prayer team, you can give them access in
+[Users & Roles](https://docs.holycrm.app/content/en/users-roles.md) with custom permissions. Requests marked **Pastors only** are
+flagged so your team knows not to share them.
+
+---
+
 Source: https://docs.holycrm.app/content/en/ministries.md
 Section: Ministries & Rotas
 
@@ -634,6 +677,11 @@ activity occurrence — "who's on Sound this Sunday," "who's greeting at the 9am
    requirement automatically inherits its date, time and location — you don't re-enter the
    schedule, just pick the volunteer(s).
 
+**Who can be picked.** Type a name in **Volunteers** to search. New churches let any member
+serve. If your church turned that off in Church Settings (*Any member can volunteer*), only
+people marked as volunteers on their Members record appear; if nobody is marked yet, the form
+tells you what to do. Availability never limits the list — it only suggests who fits best.
+
 ## Seeing what needs coverage
 
 The [Calendar](https://docs.holycrm.app/content/en/calendar.md)'s **rota focus** control has a **needs volunteers** view —
@@ -645,9 +693,55 @@ Volunteer **double-booking** is also detected automatically — if the same pers
 to two overlapping duties, it's flagged as a scheduling clash on the calendar, regardless of
 which location filter you have selected.
 
+## Planning the week
+
+**Rotas** shows one week at a time — use **‹ This week ›** to move. Every service and activity
+that happens that week is a card with its date and time, and weekly activities show up on
+their actual date (for example *Fri 9 Oct · 20:00*), so you always know which day you're
+filling.
+
+- **Fill** (or **Edit**) opens a small window right on the board: search people by name, tap
+  to add them, tap × to take someone off, and **Save**. You stay on the board.
+- For weekly activities, a person is added **only for that date** unless you tick **Repeat
+  every week**. People who serve every week show a 🔁 next to their name.
+- **Copy last week** repeats last week's team on weekly activities, for the roles where
+  people were scheduled just for that date. It only adds — nobody is removed.
+- **+ Role** adds a role a service needs (and how many people). If the role doesn't exist yet,
+  choose **New role…** and type its name. Services that don't have any roles yet are listed at
+  the bottom under *Also this week, without roles*.
+- If people have shared their availability, the window suggests who is free at that time —
+  one tap adds them.
+
+Volunteers see their own dates in [My serving](https://docs.holycrm.app/content/en/my-serving.md) and can confirm from there.
+
+## Asking volunteers to confirm
+
+On the **Rotas** board, each upcoming service has a **Confirmations** button showing how many
+people have answered (for example *Confirmations · 3/5*). Open it to see everyone serving on
+that date and where they stand: ✅ confirmed, ❌ can't make it, ⏳ waiting for an answer, or
+not asked yet.
+
+1. Click **Ask to confirm**. Everyone who has an email address gets an email with a button to
+   confirm or say they can't make it. No login is needed — the link is personal to them.
+2. For anyone without email, or who usually doesn't read it, click **WhatsApp** next to their
+   name. WhatsApp opens on your phone or computer with the message already written, including
+   their personal link — you just tap send. **Copy link** lets you send it any other way.
+3. Answers appear on the board straight away, next to each name.
+4. If someone hasn't answered when the service is less than a day away, they get one reminder
+   email automatically.
+5. If someone says they can't make it, the person who asked gets an email (with the
+   volunteer's note, if they left one) so they can find a replacement.
+
+For weekly activities, confirmations are for the **next** date the activity happens.
+
+**WhatsApp and phone numbers:** set your **Phone country code** in
+[Church Settings](https://docs.holycrm.app/content/en/church-settings.md) so numbers saved without it (like *11 5555-1234*) open
+the right chat. In Argentina, mobile numbers need the 9 after the country code for WhatsApp
+— the safest is to save them in full, like *+54 9 11 5555-1234*.
+
 ## What's not built yet
 
-Individual accept/decline responses from volunteers, substitution history, moving or
+Substitution history, an automatic WhatsApp message without anyone tapping send, moving or
 cancelling a single occurrence of a recurring rota independently of the rest of the series,
 and a fully event-linked staffing model (the current model links a rota to an event or
 activity, but the deeper "series → occurrence → requirement" structure described in the
@@ -1227,6 +1321,53 @@ statement directly to a giver, and PDF export beyond your browser's own print-to
 
 ---
 
+Source: https://docs.holycrm.app/content/en/online-giving.md
+Section: Finance
+
+# Online Giving Page
+
+Give your congregation one simple page with every way they can give their tithes and
+offerings — bank transfer details, PIX, alias, mobile wallets or a payment link — with a
+**Copy** button next to each detail so nobody has to type an account number by hand.
+
+HolyCRM doesn't handle the money: people give from their own bank or wallet app, straight
+into your church's account. There are no extra fees from HolyCRM.
+
+## Turning it on
+
+1. Open **Giving Methods** (under Finance) and click **Add giving method**.
+2. Pick the **Type** — the form then shows only the fields that type needs:
+   - **PIX (Brazil)** — your PIX key, the account holder and the city. The page shows a PIX
+     **QR code** and a **copia e cola** button, ready for any Brazilian bank app.
+   - **Bank transfer — alias / CBU / CVU (Argentina)** — alias, CBU or CVU, holder, CUIT and bank.
+   - **SPEI — CLABE (Mexico)** and **Bank transfer — CCI (Peru)**.
+   - **Mobile wallet or instant-payment key** — Yape, Plin, Nequi, Daviplata, Bre-B, Pago
+     Móvil, MB WAY, Bizum… with the number or key.
+   - **Bank account (other countries)** — Chile, Colombia, Uruguay and anywhere else: bank,
+     account type, account number, holder and tax ID.
+   - **UK bank account — sort code** and **IBAN — SEPA (Europe)**.
+   - **Online payment link** — Mercado Pago, PayPal, Stripe or any payment page.
+   - **Other / instructions** — free text, for anything else.
+3. Optionally add a **Title** (for example *Tithes and offerings* or *Missions fund*),
+   **Instructions** (*"add the word OFRENDA as the reference"*), the **Currency** and an
+   **Order**.
+4. In [Church Settings](https://docs.holycrm.app/content/en/church-settings.md), tick **Public giving page** and save.
+
+You can add as many methods as you want — for example one for tithes and another for a
+building fund. **Hidden** removes a method from the page without deleting it.
+
+## Sharing it
+
+Once it's on, a **🎁 Give** button appears on your [Church Links](https://docs.holycrm.app/content/en/church-links.md) page and
+your [Church Website](https://docs.holycrm.app/content/en/church-website.md). The **Giving Methods** screen shows the page's link
+and a QR code you can download: show it on screen at offering time, print it in the bulletin
+or post it in your WhatsApp groups.
+
+Gifts made this way still need to be recorded in [Giving & Finance](https://docs.holycrm.app/content/en/finance.md) by your
+treasurer, as with cash or any other transfer.
+
+---
+
 Source: https://docs.holycrm.app/content/en/church-settings.md
 Section: Admin Settings
 
@@ -1245,6 +1386,14 @@ minor age cutoff, and your church logo.
   it blank if you don't need currency formatting yet.
 - **Logo** — upload an image here to have it available as a one-click insert in the
   [Bulk Email](https://docs.holycrm.app/content/en/bulk-email.md) composer, and to personalize your church's identity in the app.
+
+- **Public prayer request form** — turns on a public page where anyone can send your church
+  a prayer request. See [Prayer Requests](https://docs.holycrm.app/content/en/prayer-requests.md).
+- **Public giving page** — turns on a public page with your church's ways to give (bank
+  details, PIX, alias, payment links). See [Online Giving Page](https://docs.holycrm.app/content/en/online-giving.md).
+- **Phone country code** — your country's dialling code, numbers only (54 Argentina, 55
+  Brazil, 52 Mexico, 44 UK…). HolyCRM adds it to phone numbers saved without one when it
+  opens a WhatsApp chat, for example when [asking volunteers to confirm](https://docs.holycrm.app/content/en/rotas.md).
 
 Only Admins and Managers can change these settings.
 
@@ -1544,6 +1693,28 @@ This card simply doesn't appear if your login isn't linked to a member record �
 normal for most staff logins, not an error. See [My Giving](https://docs.holycrm.app/content/en/my-giving.md) for your own
 giving history, and [My Availability](https://docs.holycrm.app/content/en/my-availability.md) to let your church know when
 you're usually free to serve — both shown the same way, linked to this same record.
+
+---
+
+Source: https://docs.holycrm.app/content/en/my-serving.md
+Section: Account
+
+# My serving
+
+**My serving** (under your account) lists the dates you're serving in the next 8 weeks — the
+service or activity, your role and the time.
+
+For each date, tap **✅ I'll be there** or **❌ I can't make it** (you can add a short reason).
+Your coordinator sees your answer straight away on the Rotas board, and if you can't make it
+they get an email so they can find someone else. Changed your mind? Tap **Change**.
+
+If you get an email or WhatsApp message asking you to confirm, it's the same answer — you can
+reply from either place.
+
+If the page says no member record is linked to your account, ask your church admin to link
+your login to your member profile.
+
+Want to be suggested for the times that suit you? Fill in [My availability](https://docs.holycrm.app/content/en/my-availability.md).
 
 ---
 

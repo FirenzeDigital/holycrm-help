@@ -14,6 +14,14 @@ minor age cutoff, and your church logo.
 - **Logo** — upload an image here to have it available as a one-click insert in the
   [Bulk Email](#/bulk-email) composer, and to personalize your church's identity in the app.
 
+- **Public prayer request form** — turns on a public page where anyone can send your church
+  a prayer request. See [Prayer Requests](#/prayer-requests).
+- **Public giving page** — turns on a public page with your church's ways to give (bank
+  details, PIX, alias, payment links). See [Online Giving Page](#/online-giving).
+- **Phone country code** — your country's dialling code, numbers only (54 Argentina, 55
+  Brazil, 52 Mexico, 44 UK…). HolyCRM adds it to phone numbers saved without one when it
+  opens a WhatsApp chat, for example when [asking volunteers to confirm](#/rotas).
+
 Only Admins and Managers can change these settings.
 
 ## Locations

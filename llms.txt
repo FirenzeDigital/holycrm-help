@@ -30,6 +30,7 @@
 - [Import Data](https://docs.holycrm.app/content/en/data-import.md): If your church already has a member list in a spreadsheet, Import Data lets you bring it in instead of retyping everyone by hand. It currently imports Members only.
 - [Small Groups](https://docs.holycrm.app/content/en/groups.md): Small Groups (also called cells) get their own purpose-built screen: a card-grid list, a detail page with a leader/schedule sidebar, a members panel, a meeting log, and group multiplication.
 - [Visitors](https://docs.holycrm.app/content/en/visitors.md): Track first-time guests from their first visit through follow-up and, hopefully, membership.
+- [Prayer Requests](https://docs.holycrm.app/content/en/prayer-requests.md): Let anyone — members, visitors, people who follow your church online — send you a prayer request from their phone, and keep track of them in one place so none gets forgotten.
 
 ## Ministries & Rotas
 
@@ -54,6 +55,7 @@
 ## Finance
 
 - [Giving & Finance](https://docs.holycrm.app/content/en/finance.md): Four screens cover money: Giving (member-facing donation view), Transactions (the full ledger), Categories (income/expense categories) and the Finance Dashboard (KPIs and charts).
+- [Online Giving Page](https://docs.holycrm.app/content/en/online-giving.md): Give your congregation one simple page with every way they can give their tithes and offerings — bank transfer details, PIX, alias, mobile wallets or a payment link — with a Copy button next to each detail so nobody has to type an account…
 
 ## Admin Settings
 
@@ -66,6 +68,7 @@
 ## Account
 
 - [My Profile](https://docs.holycrm.app/content/en/profile.md): Your own account settings — visible and editable by anyone with a login, regardless of role or which church(es) you belong to.
+- [My serving](https://docs.holycrm.app/content/en/my-serving.md): For each date, tap ✅ I'll be there or ❌ I can't make it (you can add a short reason). Your coordinator sees your answer straight away on the Rotas board, and if you can't make it they get an email so they can find someone else. Changed…
 - [My Availability](https://docs.holycrm.app/content/en/my-availability.md): Let your church know when you're usually free to serve, so schedulers see it when filling a Rota — instead of asking around or guessing.
 - [My Giving](https://docs.holycrm.app/content/en/my-giving.md): Your own giving history — visible if you have a Member-role login linked to your member record in the congregation. This is different from the Giving screen staff use, which shows everyone's giving; My Giving only ever shows yours.
 

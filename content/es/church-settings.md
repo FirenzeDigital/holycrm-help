@@ -16,6 +16,14 @@ predeterminada, edad límite para menores, y el logo de tu iglesia.
   editor de [Correos masivos](#/bulk-email), y para personalizar la identidad de tu iglesia en
   la app.
 
+- **Formulario público de pedidos de oración** — activa una página pública donde cualquiera
+  puede enviarle un pedido de oración a tu iglesia. Mirá [Pedidos de oración](#/prayer-requests).
+- **Página pública para dar** — activa una página pública con las formas de dar de tu iglesia
+  (datos bancarios, alias, PIX, links de pago). Mirá [Página para dar online](#/online-giving).
+- **Código de país del teléfono** — el código de tu país, solo números (54 Argentina, 55
+  Brasil, 52 México, 44 Reino Unido…). HolyCRM lo agrega a los teléfonos guardados sin él
+  cuando abre un chat de WhatsApp, por ejemplo al [pedir confirmación a los voluntarios](#/rotas).
+
 Solo los Admins y Gestores pueden cambiar esta configuración.
 
 ## Sedes

@@ -598,6 +598,51 @@ de um formulário de cartão de visita.
 
 ---
 
+Source: https://docs.holycrm.app/content/pt-BR/prayer-requests.md
+Section: Pessoas
+
+# Pedidos de oração
+
+Permita que qualquer pessoa — membros, visitantes, quem acompanha sua igreja pelas redes —
+envie um pedido de oração pelo celular, e acompanhe todos em um só lugar para que nenhum seja
+esquecido.
+
+## Ativando
+
+Em [Configurações da igreja](https://docs.holycrm.app/content/pt-BR/church-settings.md), marque **Formulário público de pedidos de
+oração** e salve. Sua igreja passa a ter uma página pública simples onde as pessoas escrevem o
+pedido. Depois de ativado:
+
+- aparece um botão **🙏 Pedido de oração** na sua página de [Links](https://docs.holycrm.app/content/pt-BR/church-links.md) e no seu
+  [Site](https://docs.holycrm.app/content/pt-BR/church-website.md);
+- a tela **Pedidos de oração** mostra o link da página, um botão **Copiar link** e um QR Code
+  para baixar — mostre no telão durante o culto, no boletim ou nos grupos de WhatsApp.
+
+O formulário pede o pedido e, opcionalmente, nome, telefone e email. A pessoa também pode
+marcar **Somente para os pastores** se não quiser que seja compartilhado com a equipe de
+oração.
+
+## Acompanhamento
+
+Cada pedido chega em **Pedidos de oração** como **Novo**. A partir daí você pode:
+
+- mudar a **Situação** para **Orando**, **Respondido** (comemore!) ou **Arquivado**;
+- **atribuir** a alguém que vai orar ou acompanhar;
+- adicionar **observações internas** que só sua equipe vê;
+- filtrar por situação, ou ver só os marcados **Somente pastores**.
+
+Você também pode cadastrar pedidos — por exemplo, um que alguém compartilhou depois do culto —
+com **Adicionar pedido de oração**.
+
+## Quem pode ver
+
+Por padrão, só Admins e Gestores podem ver e gerenciar os pedidos de oração, porque as
+pessoas costumam compartilhar coisas pessoais. Se você tem uma equipe de oração, pode dar acesso
+em [Usuários e funções](https://docs.holycrm.app/content/pt-BR/users-roles.md) com permissões personalizadas. Os pedidos marcados
+**Somente pastores** ficam sinalizados para que a equipe saiba que não devem ser compartilhados.
+
+---
+
 Source: https://docs.holycrm.app/content/pt-BR/ministries.md
 Section: Ministérios e escalas
 
@@ -667,6 +712,12 @@ recepção do culto das 9h".
    a um requisito herda automaticamente sua data, horário e local — você não digita o horário
    de novo, só escolhe o(s) voluntário(s).
 
+**Quem pode ser escolhido.** Digite um nome em **Voluntários** para buscar. Igrejas novas
+permitem que qualquer membro sirva. Se sua igreja desativou isso em Configurações da igreja
+(*Qualquer membro pode ser voluntário*), aparecem só as pessoas marcadas como voluntárias no
+cadastro de Membros; se ainda não houver nenhuma, o formulário explica o que fazer. A
+disponibilidade nunca limita a lista: só sugere quem se encaixa melhor.
+
 ## Vendo o que precisa de cobertura
 
 O controle de **foco de escala** do [Calendário](https://docs.holycrm.app/content/pt-BR/calendar.md) tem uma visão de **precisam de
@@ -678,10 +729,54 @@ O **duplo agendamento** de um voluntário também é detectado automaticamente �
 pessoa estiver escalada em dois turnos que se sobrepõem, isso é sinalizado como conflito de
 horário no calendário, independentemente do filtro de local selecionado.
 
+## Planejando a semana
+
+**Escalas** mostra uma semana por vez — use **‹ Esta semana ›** para navegar. Cada culto e
+atividade daquela semana é um cartão com data e horário, e as atividades semanais aparecem na
+data real (por exemplo *sex 9 out · 20:00*), então você sempre sabe qual dia está preenchendo.
+
+- **Preencher** (ou **Editar**) abre uma janelinha no próprio quadro: busque pessoas pelo nome,
+  toque para adicionar, toque no × para tirar alguém e **Salvar**. Você continua no quadro.
+- Nas atividades semanais, a pessoa entra **só naquela data**, a menos que você marque
+  **Repetir todas as semanas**. Quem serve toda semana tem um 🔁 ao lado do nome.
+- **Copiar semana passada** repete a equipe da semana anterior nas atividades semanais, nas
+  funções em que havia gente escalada só para aquela data. Só adiciona, não tira ninguém.
+- **+ Função** adiciona uma função que o culto precisa (e quantas pessoas). Se a função ainda
+  não existe, escolha **Nova função…** e digite o nome. Cultos e atividades sem funções aparecem
+  embaixo, em *Também nesta semana, sem funções*.
+- Se as pessoas cadastraram a disponibilidade, a janelinha sugere quem está livre naquele
+  horário — um toque e ela entra.
+
+Os voluntários veem suas datas em [Minhas escalas](https://docs.holycrm.app/content/pt-BR/my-serving.md) e podem confirmar por lá.
+
+## Pedindo confirmação aos voluntários
+
+No quadro de **Escalas**, cada culto ou atividade próxima tem um botão **Confirmações** que
+mostra quantas pessoas já responderam (por exemplo *Confirmações · 3/5*). Abra-o para ver todos
+que servem naquela data e a situação de cada um: ✅ confirmado, ❌ não pode, ⏳ aguardando
+resposta, ou ainda não solicitado.
+
+1. Clique em **Pedir confirmação**. Todos que têm email recebem uma mensagem com um botão para
+   confirmar ou avisar que não podem. Não é preciso fazer login — o link é pessoal.
+2. Para quem não tem email, ou quase não lê, clique em **WhatsApp** ao lado do nome. O WhatsApp
+   abre no seu celular ou computador com a mensagem já escrita, incluindo o link pessoal — é só
+   tocar em enviar. **Copiar link** permite mandar por qualquer outro meio.
+3. As respostas aparecem no quadro na hora, ao lado de cada nome.
+4. Se alguém não respondeu e falta menos de um dia para o culto, recebe automaticamente um email
+   de lembrete.
+5. Se alguém avisar que não pode, quem pediu a confirmação recebe um email (com a mensagem do
+   voluntário, se ele deixou uma) para encontrar um substituto.
+
+Nas atividades semanais, as confirmações são para a **próxima** data da atividade.
+
+**WhatsApp e números de telefone:** preencha o **Código do país do telefone** em
+[Configurações da igreja](https://docs.holycrm.app/content/pt-BR/church-settings.md) para que números salvos sem ele (como
+*11 95555-1234*) abram a conversa certa. O mais seguro é salvar os números completos, como
+*+55 11 95555-1234*.
+
 ## O que ainda não existe
 
-Respostas individuais de aceitar/recusar por parte dos voluntários, histórico de
-substituições, mover ou cancelar uma única ocorrência de uma escala recorrente de forma
+Histórico de substituições, uma mensagem de WhatsApp automática sem que ninguém toque em enviar, mover ou cancelar uma única ocorrência de uma escala recorrente de forma
 independente do resto da série, e um modelo de escala totalmente vinculado a eventos (o
 modelo atual vincula uma escala a um evento ou atividade, mas a estrutura mais profunda
 "série → ocorrência → requisito" descrita nas notas internas de arquitetura ainda não foi
@@ -1287,6 +1382,52 @@ imprimir do próprio navegador.
 
 ---
 
+Source: https://docs.holycrm.app/content/pt-BR/online-giving.md
+Section: Finanças
+
+# Página de contribuições online
+
+Ofereça à sua igreja uma única página com todas as formas de entregar dízimos e ofertas —
+chave PIX, dados bancários, carteiras digitais ou um link de pagamento — com um botão
+**Copiar** ao lado de cada dado para ninguém precisar digitar número de conta.
+
+O HolyCRM não movimenta o dinheiro: as pessoas contribuem pelo app do próprio banco ou
+carteira, direto na conta da igreja. O HolyCRM não cobra taxas extras.
+
+## Ativando
+
+1. Abra **Formas de contribuir** (em Finanças) e clique em **Adicionar forma de contribuir**.
+2. Escolha o **Tipo** — o formulário mostra só os campos que esse tipo precisa:
+   - **PIX (Brasil)** — sua chave PIX, o titular e a cidade. A página mostra um **QR Code** PIX
+     e um botão **copia e cola**, pronto para qualquer app de banco.
+   - **Transferência — alias / CBU / CVU (Argentina)**, **SPEI — CLABE (México)** e
+     **Transferência — CCI (Peru)**.
+   - **Carteira digital ou chave de pagamento instantâneo** — Yape, Plin, Nequi, Bre-B, Pago
+     Móvil, MB WAY, Bizum… com o número ou a chave.
+   - **Conta bancária (outros países)** — banco, tipo de conta, número, titular e documento.
+   - **Conta bancária do Reino Unido — sort code** e **IBAN — SEPA (Europa)**.
+   - **Link de pagamento online** — Mercado Pago, PayPal, Stripe ou outra página de pagamento.
+   - **Outro / instruções** — texto livre, para qualquer outra coisa.
+3. Se quiser, adicione um **Título** (por exemplo *Dízimos e ofertas* ou *Fundo de missões*),
+   **Instruções**, a **Moeda** e uma **Ordem**.
+4. Em [Configurações da igreja](https://docs.holycrm.app/content/pt-BR/church-settings.md), marque **Página pública de contribuições**
+   e salve.
+
+Você pode cadastrar quantas formas quiser — por exemplo uma para dízimos e outra para o fundo
+de construção. **Oculto** tira uma forma da página sem excluí-la.
+
+## Compartilhando
+
+Depois de ativada, aparece um botão **🎁 Contribuir** na sua página de [Links](https://docs.holycrm.app/content/pt-BR/church-links.md)
+e no seu [Site](https://docs.holycrm.app/content/pt-BR/church-website.md). A tela **Formas de contribuir** mostra o link da página e um
+QR Code para baixar: mostre no telão na hora da oferta, imprima no boletim ou envie nos grupos
+de WhatsApp.
+
+As contribuições feitas assim continuam precisando ser registradas pelo tesoureiro em
+[Ofertas e finanças](https://docs.holycrm.app/content/pt-BR/finance.md), como o dinheiro em espécie ou qualquer outra transferência.
+
+---
+
 Source: https://docs.holycrm.app/content/pt-BR/church-settings.md
 Section: Configurações administrativas
 
@@ -1306,6 +1447,15 @@ para menores, e o logo da sua igreja.
 - **Logo** — faça upload de uma imagem aqui para tê-la disponível como inserção de um clique
   no editor de [E-mails em massa](https://docs.holycrm.app/content/pt-BR/bulk-email.md), e para personalizar a identidade da sua
   igreja no app.
+
+- **Formulário público de pedidos de oração** — ativa uma página pública onde qualquer pessoa
+  pode enviar um pedido de oração à sua igreja. Veja [Pedidos de oração](https://docs.holycrm.app/content/pt-BR/prayer-requests.md).
+- **Página pública de contribuições** — ativa uma página pública com as formas de contribuir da
+  sua igreja (chave PIX, dados bancários, links de pagamento). Veja
+  [Página de contribuições online](https://docs.holycrm.app/content/pt-BR/online-giving.md).
+- **Código do país do telefone** — o código do seu país, só números (55 Brasil, 54 Argentina,
+  52 México, 44 Reino Unido…). O HolyCRM o adiciona aos telefones salvos sem ele ao abrir uma
+  conversa no WhatsApp, por exemplo ao [pedir confirmação aos voluntários](https://docs.holycrm.app/content/pt-BR/rotas.md).
 
 Só Admins e Gestores podem alterar essas configurações.
 
@@ -1619,6 +1769,29 @@ membro — isso é normal para a maioria dos logins da equipe, não é um erro. 
 [Minha disponibilidade](https://docs.holycrm.app/content/pt-BR/my-availability.md) para avisar a sua igreja de quando você
 costuma estar livre para servir — as duas aparecem da mesma forma, vinculadas a este
 mesmo cadastro.
+
+---
+
+Source: https://docs.holycrm.app/content/pt-BR/my-serving.md
+Section: Conta
+
+# Minhas escalas
+
+**Minhas escalas** (na sua conta) mostra as datas em que você vai servir nas próximas 8 semanas —
+o culto ou atividade, sua função e o horário.
+
+Em cada data, toque em **✅ Estarei lá** ou **❌ Não posso** (pode adicionar um motivo curto). Seu
+coordenador vê a resposta na hora no quadro de Escalas e, se você não puder, recebe um email para
+encontrar outra pessoa. Mudou de ideia? Toque em **Alterar**.
+
+Se você receber um email ou WhatsApp pedindo confirmação, é a mesma resposta — pode responder
+por qualquer um dos dois.
+
+Se a página disser que não há registro de membro vinculado à sua conta, peça ao admin da sua
+igreja para vincular seu usuário ao seu cadastro de membro.
+
+Quer ser sugerido nos horários que funcionam para você? Preencha
+[Minha disponibilidade](https://docs.holycrm.app/content/pt-BR/my-availability.md).
 
 ---
 

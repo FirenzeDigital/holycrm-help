@@ -15,6 +15,15 @@ para menores, e o logo da sua igreja.
   no editor de [E-mails em massa](#/bulk-email), e para personalizar a identidade da sua
   igreja no app.
 
+- **Formulário público de pedidos de oração** — ativa uma página pública onde qualquer pessoa
+  pode enviar um pedido de oração à sua igreja. Veja [Pedidos de oração](#/prayer-requests).
+- **Página pública de contribuições** — ativa uma página pública com as formas de contribuir da
+  sua igreja (chave PIX, dados bancários, links de pagamento). Veja
+  [Página de contribuições online](#/online-giving).
+- **Código do país do telefone** — o código do seu país, só números (55 Brasil, 54 Argentina,
+  52 México, 44 Reino Unido…). O HolyCRM o adiciona aos telefones salvos sem ele ao abrir uma
+  conversa no WhatsApp, por exemplo ao [pedir confirmação aos voluntários](#/rotas).
+
 Só Admins e Gestores podem alterar essas configurações.
 
 ## Locais
