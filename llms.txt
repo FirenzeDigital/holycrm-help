@@ -68,6 +68,7 @@
 ## Account
 
 - [My Profile](https://docs.holycrm.app/content/en/profile.md): Your own account settings — visible and editable by anyone with a login, regardless of role or which church(es) you belong to.
+- [My Teams (for leaders)](https://docs.holycrm.app/content/en/my-teams.md): If you lead a small group or a ministry, My teams shows the teams you lead and lets you look after them, without needing access to the whole church directory.
 - [My serving](https://docs.holycrm.app/content/en/my-serving.md): For each date, tap ✅ I'll be there or ❌ I can't make it (you can add a short reason). Your coordinator sees your answer straight away on the Rotas board, and if you can't make it they get an email so they can find someone else. Changed…
 - [My Availability](https://docs.holycrm.app/content/en/my-availability.md): Let your church know when you're usually free to serve, so schedulers see it when filling a Rota — instead of asking around or guessing.
 - [My Giving](https://docs.holycrm.app/content/en/my-giving.md): Your own giving history — visible to anyone whose login is linked to their own member record in the congregation, whatever their role (Member, Volunteer, Coordinator or Administrator). This is different from the Giving screen staff use,…

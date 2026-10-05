@@ -30,6 +30,8 @@ access to the church immediately.
 
 Most people who serve on rotas only need the **Member** role: being on a rota depends on **Serves on rotas** in their member record, not on their login, and Members already see their own rotas and availability.
 
+Leading a small group or ministry adds access to **that team** — see [My Teams](#/my-teams).
+
 An invited person receives an email with a link to set their password. Until they do, their
 status shows as **Invited**; once they set a password — or sign in with **Continue with
 Google** using that same email — they become **Active** automatically.

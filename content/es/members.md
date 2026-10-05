@@ -60,3 +60,5 @@ traer una planilla.
 
 La lista de Miembros tiene búsqueda y filtros por columna (estado, etiquetas, etc.) para que
 puedas acotar rápido a, por ejemplo, "voluntarios activos etiquetados Equipo de Alabanza."
+
+La lista muestra lo esencial: nombre, teléfono, correo, etapa de crecimiento, etiquetas y estado. Usá el **botón de columnas** (arriba a la derecha de la lista) para ver más, como fecha de nacimiento, notas o adultos responsables; tu elección queda guardada en ese dispositivo.

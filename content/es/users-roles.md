@@ -31,6 +31,8 @@ todo acceso a la iglesia de inmediato.
 
 La mayoría de quienes sirven en turnos solo necesitan el rol **Miembro**: estar en un turno depende de **Sirve en turnos** en su ficha de miembro, no de su usuario, y los Miembros ya ven sus propios turnos y su disponibilidad.
 
+Liderar un grupo pequeño o un ministerio suma acceso a **ese equipo** — ver [Mis equipos](#/my-teams).
+
 La persona invitada recibe un correo con un enlace para configurar su contraseña. Hasta que lo
 haga, su estado figura como **Invitado**; una vez que configura su contraseña — o entra con
 **Continuar con Google** usando ese mismo correo — pasa a **Activo** automáticamente.

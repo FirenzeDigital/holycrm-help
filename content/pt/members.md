@@ -60,3 +60,5 @@ trazer uma folha de cálculo.
 
 A lista de Membros tem pesquisa e filtros por coluna (estado, etiquetas, etc.) para conseguir
 rapidamente chegar a, por exemplo, "voluntários ativos com a etiqueta Equipa de Louvor."
+
+A lista mostra o essencial: nome, telefone, e-mail, etapa de crescimento, etiquetas e estado. Use o **botão de colunas** (no canto superior direito da lista) para ver mais, como data de nascimento, notas ou responsáveis; a sua escolha fica guardada nesse dispositivo.

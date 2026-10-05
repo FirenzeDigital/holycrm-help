@@ -55,3 +55,5 @@ spreadsheet.
 
 The Members list supports search and column filters (status, tags, etc.) so you can quickly
 narrow down to, say, "active volunteers tagged Worship Team."
+
+The list shows the essentials: name, phone, email, growth stage, tags and status. Use the **columns button** (top right of the list) to show more, such as birth date, notes or guardians; your choice is remembered on that device.

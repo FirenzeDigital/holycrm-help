@@ -59,3 +59,5 @@ trazer uma planilha.
 
 A lista de Membros tem busca e filtros por coluna (status, tags, etc.) para você conseguir
 rapidamente chegar a, por exemplo, "voluntários ativos com a tag Equipe de Louvor."
+
+A lista mostra o essencial: nome, telefone, e-mail, etapa de crescimento, tags e status. Use o **botão de colunas** (no canto superior direito da lista) para ver mais, como data de nascimento, observações ou responsáveis; sua escolha fica salva naquele dispositivo.

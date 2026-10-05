@@ -31,6 +31,8 @@ ninguém consegue chegar por outro caminho a dados que a sua função não permi
 
 A maioria de quem serve nas escalas só precisa da função **Membro**: estar numa escala depende de **Serve nas escalas** na ficha do membro, não do login, e os Membros já veem as suas próprias escalas e disponibilidade.
 
+Liderar um pequeno grupo ou ministério acrescenta acesso **a essa equipa** — veja [As minhas equipas](#/my-teams).
+
 A pessoa convidada recebe um e-mail com um link para definir a palavra-passe. Até o fazer, o
 seu estado aparece como **Convidado**; assim que define a palavra-passe — ou entra com
 **Continuar com o Google** usando esse mesmo e-mail — passa a **Ativo** automaticamente.

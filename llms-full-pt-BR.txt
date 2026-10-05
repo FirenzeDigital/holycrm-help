@@ -413,6 +413,8 @@ trazer uma planilha.
 A lista de Membros tem busca e filtros por coluna (status, tags, etc.) para você conseguir
 rapidamente chegar a, por exemplo, "voluntários ativos com a tag Equipe de Louvor."
 
+A lista mostra o essencial: nome, telefone, e-mail, etapa de crescimento, tags e status. Use o **botão de colunas** (no canto superior direito da lista) para ver mais, como data de nascimento, observações ou responsáveis; sua escolha fica salva naquele dispositivo.
+
 ---
 
 Source: https://docs.holycrm.app/content/pt-BR/growth-ladder.md
@@ -1544,6 +1546,8 @@ ninguém consegue chegar por outro caminho a dados que sua função não permite
 
 A maioria de quem serve nas escalas só precisa da função **Membro**: estar numa escala depende de **Serve nas escalas** no cadastro do membro, não do login, e os Membros já veem suas próprias escalas e disponibilidade.
 
+Liderar um pequeno grupo ou ministério acrescenta acesso **àquela equipe** — veja [Minhas equipes](https://docs.holycrm.app/content/pt-BR/my-teams.md).
+
 A pessoa convidada recebe um e-mail com um link para definir a senha. Até ela fazer isso, o
 status aparece como **Convidado**; assim que ela define a senha — ou entra com **Continuar
 com o Google** usando esse mesmo e-mail — passa a **Ativo** automaticamente.
@@ -1833,6 +1837,49 @@ membro — isso é normal para a maioria dos logins da equipe, não é um erro. 
 [Minha disponibilidade](https://docs.holycrm.app/content/pt-BR/my-availability.md) para avisar a sua igreja de quando você
 costuma estar livre para servir — as duas aparecem da mesma forma, vinculadas a este
 mesmo cadastro.
+
+---
+
+Source: https://docs.holycrm.app/content/pt-BR/my-teams.md
+Section: Conta
+
+# Minhas equipes (para líderes)
+
+Se você lidera um pequeno grupo ou um ministério, **Minhas equipes** mostra as equipes que você
+lidera e permite acompanhá-las, sem precisar de acesso a todo o cadastro da igreja.
+
+**Uma regra:** sua função diz *que tipo* de coisas você pode fazer no HolyCRM; liderar uma
+equipe acrescenta *aquela equipe*.
+
+## Quem vê Minhas equipes
+
+Minhas equipes aparece no menu (e como cartão no Painel) para quem for:
+
+- **líder** ou **colíder** de um pequeno grupo, ou seu **supervisor**;
+- **líder** ou **colíder** de um ministério, ou estiver definido como líder do ministério.
+
+Seu login precisa estar vinculado ao seu cadastro de membro (um Administrador faz isso em
+**Usuários → Vincular membro**). Quem é líder é definido onde sempre foi: nas pessoas do pequeno
+grupo ou em **Membros do ministério**, pela secretaria da igreja.
+
+## O que você pode fazer
+
+- **Ver as pessoas da sua equipe** com telefone, e-mail e endereço. Nos ministérios, você também
+  vê quando cada pessoa pode servir.
+- **Adicionar alguém** à sua equipe: digite pelo menos duas letras do nome e escolha a pessoa.
+- **Remover alguém** da sua equipe. Líderes e colíderes só são alterados pela secretaria da
+  igreja.
+- **Registrar uma reunião do pequeno grupo**: data, tema, visitantes e oferta, e marque quem
+  veio. Isso registra a presença de todo o grupo.
+
+## O que liderar nunca abre
+
+Liderar uma equipe só acrescenta aquela equipe. Não mostra outras equipes, o cadastro completo
+de membros, finanças, pedidos de oração nem configurações. Coordenadores e Administradores
+continuam com suas telas de sempre.
+
+Na tela **Usuários**, Administradores e Coordenadores veem "Também lidera: …" ao lado de cada
+pessoa, para que fique sempre claro por que alguém tem acesso a uma equipe.
 
 ---
 

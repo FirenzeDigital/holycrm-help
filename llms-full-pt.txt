@@ -408,6 +408,8 @@ trazer uma folha de cálculo.
 A lista de Membros tem pesquisa e filtros por coluna (estado, etiquetas, etc.) para conseguir
 rapidamente chegar a, por exemplo, "voluntários ativos com a etiqueta Equipa de Louvor."
 
+A lista mostra o essencial: nome, telefone, e-mail, etapa de crescimento, etiquetas e estado. Use o **botão de colunas** (no canto superior direito da lista) para ver mais, como data de nascimento, notas ou responsáveis; a sua escolha fica guardada nesse dispositivo.
+
 ---
 
 Source: https://docs.holycrm.app/content/pt/growth-ladder.md
@@ -1539,6 +1541,8 @@ ninguém consegue chegar por outro caminho a dados que a sua função não permi
 
 A maioria de quem serve nas escalas só precisa da função **Membro**: estar numa escala depende de **Serve nas escalas** na ficha do membro, não do login, e os Membros já veem as suas próprias escalas e disponibilidade.
 
+Liderar um pequeno grupo ou ministério acrescenta acesso **a essa equipa** — veja [As minhas equipas](https://docs.holycrm.app/content/pt/my-teams.md).
+
 A pessoa convidada recebe um e-mail com um link para definir a palavra-passe. Até o fazer, o
 seu estado aparece como **Convidado**; assim que define a palavra-passe — ou entra com
 **Continuar com o Google** usando esse mesmo e-mail — passa a **Ativo** automaticamente.
@@ -1828,6 +1832,49 @@ membro — isso é normal para a maioria dos acessos da equipa, não é um erro.
 [As minhas ofertas](https://docs.holycrm.app/content/pt/my-giving.md) para o seu próprio histórico de ofertas, e
 [A minha disponibilidade](https://docs.holycrm.app/content/pt/my-availability.md) para avisar a sua igreja de quando costuma
 estar livre para servir — ambas aparecem da mesma forma, associadas a esta mesma ficha.
+
+---
+
+Source: https://docs.holycrm.app/content/pt/my-teams.md
+Section: Conta
+
+# As minhas equipas (para líderes)
+
+Se lidera um pequeno grupo ou um ministério, **As minhas equipas** mostra as equipas que lidera
+e permite acompanhá-las, sem precisar de acesso a todo o registo da igreja.
+
+**Uma regra:** a sua função diz *que tipo* de coisas pode fazer no HolyCRM; liderar uma equipa
+acrescenta *essa equipa*.
+
+## Quem vê As minhas equipas
+
+As minhas equipas aparece no menu (e como cartão no Painel) para quem for:
+
+- **líder** ou **colíder** de um pequeno grupo, ou o seu **supervisor**;
+- **líder** ou **colíder** de um ministério, ou estiver definido como líder do ministério.
+
+O seu acesso tem de estar associado à sua ficha de membro (um Administrador faz isso em
+**Usuários → Associar membro**). Quem é líder define-se onde sempre se definiu: nas pessoas do
+pequeno grupo ou em **Membros do ministério**, pela secretaria da igreja.
+
+## O que pode fazer
+
+- **Ver as pessoas da sua equipa** com telefone, e-mail e morada. Nos ministérios, vê também
+  quando cada pessoa pode servir.
+- **Adicionar alguém** à sua equipa: escreva pelo menos duas letras do nome e escolha a pessoa.
+- **Remover alguém** da sua equipa. Líderes e colíderes só são alterados pela secretaria da
+  igreja.
+- **Registar uma reunião do pequeno grupo**: data, tema, visitantes e oferta, e marque quem veio.
+  Isso regista as presenças de todo o grupo.
+
+## O que liderar nunca abre
+
+Liderar uma equipa só acrescenta essa equipa. Não mostra outras equipas, o registo completo de
+membros, finanças, pedidos de oração nem definições. Coordenadores e Administradores continuam
+com os seus ecrãs de sempre.
+
+No ecrã **Usuários**, Administradores e Coordenadores veem "Também lidera: …" ao lado de cada
+pessoa, para que fique sempre claro porque alguém tem acesso a uma equipa.
 
 ---
 

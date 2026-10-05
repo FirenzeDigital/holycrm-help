@@ -418,6 +418,8 @@ traer una planilla.
 La lista de Miembros tiene búsqueda y filtros por columna (estado, etiquetas, etc.) para que
 puedas acotar rápido a, por ejemplo, "voluntarios activos etiquetados Equipo de Alabanza."
 
+La lista muestra lo esencial: nombre, teléfono, correo, etapa de crecimiento, etiquetas y estado. Usá el **botón de columnas** (arriba a la derecha de la lista) para ver más, como fecha de nacimiento, notas o adultos responsables; tu elección queda guardada en ese dispositivo.
+
 ---
 
 Source: https://docs.holycrm.app/content/es/growth-ladder.md
@@ -1560,6 +1562,8 @@ todo acceso a la iglesia de inmediato.
 
 La mayoría de quienes sirven en turnos solo necesitan el rol **Miembro**: estar en un turno depende de **Sirve en turnos** en su ficha de miembro, no de su usuario, y los Miembros ya ven sus propios turnos y su disponibilidad.
 
+Liderar un grupo pequeño o un ministerio suma acceso a **ese equipo** — ver [Mis equipos](https://docs.holycrm.app/content/es/my-teams.md).
+
 La persona invitada recibe un correo con un enlace para configurar su contraseña. Hasta que lo
 haga, su estado figura como **Invitado**; una vez que configura su contraseña — o entra con
 **Continuar con Google** usando ese mismo correo — pasa a **Activo** automáticamente.
@@ -1855,6 +1859,49 @@ Esta tarjeta simplemente no aparece si tu acceso no está vinculado a una ficha 
 [Mis ofrendas](https://docs.holycrm.app/content/es/my-giving.md) para tu propio historial de ofrendas, y
 [Mi disponibilidad](https://docs.holycrm.app/content/es/my-availability.md) para avisarle a tu iglesia cuándo solés estar
 libre para servir — las dos se muestran de la misma forma, vinculadas a esta misma ficha.
+
+---
+
+Source: https://docs.holycrm.app/content/es/my-teams.md
+Section: Cuenta
+
+# Mis equipos (para líderes)
+
+Si liderás un grupo pequeño o un ministerio, **Mis equipos** muestra los equipos que liderás y
+te permite acompañarlos, sin necesitar acceso a todo el directorio de la iglesia.
+
+**Una regla:** tu rol dice *qué tipo* de cosas podés hacer en HolyCRM; liderar un equipo suma
+*ese equipo*.
+
+## Quién ve Mis equipos
+
+Mis equipos aparece en el menú (y como tarjeta en el Panel principal) para quien sea:
+
+- **líder** o **colíder** de un grupo pequeño, o su **supervisor**;
+- **líder** o **colíder** de un ministerio, o figure como líder del ministerio.
+
+Tu usuario tiene que estar vinculado a tu ficha de miembro (lo hace un Administrador en
+**Usuarios → Vincular miembro**). Quién es líder se define donde siempre: en las personas del
+grupo pequeño o en **Miembros del ministerio**, desde la oficina de la iglesia.
+
+## Qué podés hacer
+
+- **Ver a las personas de tu equipo** con su teléfono, correo y dirección. En los ministerios
+  también ves cuándo puede servir cada uno.
+- **Agregar a alguien** a tu equipo: escribí al menos dos letras de su nombre y elegilo.
+- **Quitar a alguien** de tu equipo. Los líderes y colíderes solo los cambia la oficina de la
+  iglesia.
+- **Reportar una reunión del grupo pequeño**: fecha, tema, visitantes y ofrenda, y marcá quiénes
+  vinieron. Eso registra la asistencia de todo el grupo.
+
+## Lo que liderar nunca abre
+
+Liderar un equipo solo suma ese equipo. No te muestra otros equipos, el directorio completo de
+miembros, finanzas, pedidos de oración ni la configuración. Coordinadores y Administradores
+siguen con sus pantallas de siempre.
+
+En la pantalla **Usuarios**, Administradores y Coordinadores ven "También lidera: …" al lado de
+cada persona, así siempre queda claro por qué alguien tiene acceso a un equipo.
 
 ---
 

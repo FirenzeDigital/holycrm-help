@@ -390,6 +390,8 @@ spreadsheet.
 The Members list supports search and column filters (status, tags, etc.) so you can quickly
 narrow down to, say, "active volunteers tagged Worship Team."
 
+The list shows the essentials: name, phone, email, growth stage, tags and status. Use the **columns button** (top right of the list) to show more, such as birth date, notes or guardians; your choice is remembered on that device.
+
 ---
 
 Source: https://docs.holycrm.app/content/en/growth-ladder.md
@@ -1477,6 +1479,8 @@ access to the church immediately.
 
 Most people who serve on rotas only need the **Member** role: being on a rota depends on **Serves on rotas** in their member record, not on their login, and Members already see their own rotas and availability.
 
+Leading a small group or ministry adds access to **that team** — see [My Teams](https://docs.holycrm.app/content/en/my-teams.md).
+
 An invited person receives an email with a link to set their password. Until they do, their
 status shows as **Invited**; once they set a password — or sign in with **Continue with
 Google** using that same email — they become **Active** automatically.
@@ -1753,6 +1757,48 @@ This card simply doesn't appear if your login isn't linked to a member record �
 normal for most staff logins, not an error. See [My Giving](https://docs.holycrm.app/content/en/my-giving.md) for your own
 giving history, and [My Availability](https://docs.holycrm.app/content/en/my-availability.md) to let your church know when
 you're usually free to serve — both shown the same way, linked to this same record.
+
+---
+
+Source: https://docs.holycrm.app/content/en/my-teams.md
+Section: Account
+
+# My Teams (for leaders)
+
+If you lead a small group or a ministry, **My teams** shows the teams you lead and lets you
+look after them, without needing access to the whole church directory.
+
+**One rule:** your role says *what kind* of things you can do in HolyCRM; leading a team adds
+*that team*.
+
+## Who sees My teams
+
+My teams appears in the menu (and as a tile on the Dashboard) for anyone who is:
+
+- the **leader** or **co-leader** of a small group, or its **supervisor**;
+- the **leader** or **co-leader** of a ministry, or set as the ministry's leader.
+
+Your login must be linked to your member record (an Administrator does that under **Users →
+Link member**). Being a leader is set where it always is: in the small group's people or in
+**Ministry members**, by the church office.
+
+## What you can do
+
+- **See your team's people** with their phone, email and address. For ministries, you also see
+  when each person is available to serve.
+- **Add someone** to your team: type at least two letters of their name and pick them.
+- **Remove someone** from your team. Leaders and co-leaders can only be changed by the church
+  office.
+- **Report a small-group meeting**: date, topic, visitors and offering, then tick who came. This
+  records attendance for everyone in the group.
+
+## What leading never opens
+
+Leading a team only adds that team. It doesn't show you other teams, the full member directory,
+finance, prayer requests or settings. Coordinators and Administrators keep their usual screens.
+
+On the **Users** screen, Administrators and Coordinators see "Also leads: …" next to each person,
+so it's always clear why someone has access to a team.
 
 ---
 

@@ -105,7 +105,7 @@
         "pt-BR": "Conta",
         "pt": "Conta"
       },
-      "pages": ["profile", "my-serving", "my-availability", "my-giving"]
+      "pages": ["profile", "my-teams", "my-serving", "my-availability", "my-giving"]
     },
     {
       "id": "support",
@@ -313,6 +313,10 @@
         "pt": "A minha disponibilidade"
       },
       "file": "my-availability.md"
+    },
+    "my-teams": {
+      "title": { "en": "My Teams (for leaders)", "es": "Mis equipos (para líderes)", "pt-BR": "Minhas equipes (para líderes)", "pt": "As minhas equipas (para líderes)" },
+      "file": "my-teams.md"
     },
     "my-giving": {
       "title": { "en": "My Giving", "es": "Mis ofrendas", "pt-BR": "Minhas ofertas", "pt": "As minhas ofertas" },
