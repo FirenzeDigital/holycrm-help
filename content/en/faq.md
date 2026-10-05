@@ -3,8 +3,8 @@
 <details class="help-faq-item" open>
 <summary>I can't see a menu item I expected to see. Why?</summary>
 
-What you see depends on your role (Admin, Manager, Volunteer or Member) and any custom
-permission your church has set for you. Ask an Admin or Manager to check
+What you see depends on your role (Administrator, Coordinator, Volunteer or Member) and any custom
+permission your church has set for you. Ask an Administrator or Coordinator to check
 [Users, Roles & Permissions](#/users-roles) — either your role needs to change, or a custom
 permission needs to be granted for that module.
 </details>
@@ -21,7 +21,7 @@ already entered by hand.
 <details class="help-faq-item">
 <summary>Why is a member's email field locked and I can't edit it?</summary>
 
-That member also has a HolyCRM login (they're a Volunteer, Manager or Admin). Their login
+That member also has a HolyCRM login (they're a Volunteer, Coordinator or Administrator). Their login
 email and member-record email are kept in sync automatically, so editing it from the Members
 form would just get overwritten. Change it from **Admin Settings → Users** instead — see
 [Users, Roles & Permissions](#/users-roles).

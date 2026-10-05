@@ -29,7 +29,7 @@ detail, not something you'd want cluttering a personal calendar.
 
 ## If you need to turn it off
 
-Ask an Admin to **regenerate** the link from the Calendar screen. This immediately
+Ask an Administrator to **regenerate** the link from the Calendar screen. This immediately
 invalidates every previously-shared link, including yours, so anyone who wants to keep
 seeing updates needs to subscribe again with the new one. Use this if a link was shared
 somewhere it shouldn't have been.

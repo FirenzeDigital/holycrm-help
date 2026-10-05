@@ -20,6 +20,18 @@ event, walk-in, online, other), address, and notes.
 `visitor_followup` tag role (see [Tags & Tag Roles](#/tags)), only members carrying that tag
 are offered; otherwise every active member is.
 
+## Welcome team: "Welcome a visitor"
+
+People on your welcome team don't need access to the whole Visitors list. Give them the
+**Welcome a visitor** screen instead (it's included for the Volunteer role by default): a
+short form with name, phone, WhatsApp, email, how they heard about you and notes. The
+visitor goes straight into Visitors as **New**, with today as their first visit, and your
+follow-up team picks it up from there.
+
+Below the form, **Visitors you added** lists only the people that person added, so they can
+fix a typo. They can't see anyone else's visitors or delete any. In the visitor's detail,
+coordinators see **Captured by** with the name of whoever added them.
+
 ## Logging follow-up
 
 Open a visitor's detail page and log each contact — a call, message, WhatsApp, visit,

@@ -33,7 +33,7 @@ culto — con **Agregar pedido de oración**.
 
 ## Quién los puede ver
 
-Por defecto, solo los Admins y Gestores pueden ver y gestionar los pedidos de oración,
+Por defecto, solo los Administradores y Coordinadores pueden ver y gestionar los pedidos de oración,
 porque la gente suele compartir cosas personales. Si tenés un equipo de oración, podés darle
 acceso en [Usuarios y roles](#/users-roles) con permisos personalizados. Los pedidos marcados
 **Solo pastores** quedan señalados para que tu equipo sepa que no hay que compartirlos.

@@ -18,12 +18,18 @@ Perfil vazio.
 
 Escolha a sua **função**:
 
-| Função | Pode tipicamente |
+| Função | O que pode fazer (por predefinição) |
 |---|---|
-| **Admin** | Tudo, incluindo Configurações da igreja e convidar/gerir outros utilizadores. |
-| **Gestor (Manager)** | Operação do dia a dia na maioria dos módulos, mas não as Configurações da igreja nem promover alguém a Gestor/Admin. |
-| **Voluntário** | Acesso restrito e focado numa tarefa — normalmente presenças/check-in — consoante o que a sua igreja configurar. |
-| **Membro** | Apenas autosserviço: o seu próprio Perfil e, se associado a uma ficha da congregação, os seus próprios dados de contacto e histórico de ofertas. Sem acesso aos dados de mais ninguém. |
+| **Administrador** | Tudo, incluindo utilizadores, permissões personalizadas, Dados e privacidade e faturação. |
+| **Coordenador** | O dia a dia do ministério e da administração: pessoas, pequenos grupos, ministérios e escalas, eventos, presenças, finanças, e-mail e configurações da igreja. Não pode alterar permissões, Dados e privacidade nem faturação, nem promover alguém a Coordenador/Administrador. |
+| **Voluntário** | Serviço prático à porta e nos cultos: receber visitantes, registar presenças e fazer o check-in, encontrando as pessoas só pelo nome. Sem acesso ao registo de membros, finanças, pedidos de oração, pequenos grupos, ministérios, planeamento de escalas, e-mail nem relatórios. |
+| **Membro** | Apenas autosserviço: o seu próprio perfil, as suas escalas, a sua disponibilidade e o seu histórico de ofertas. Sem acesso aos dados de mais ninguém. |
+
+Estes limites são aplicados pelo servidor do HolyCRM, não apenas escondidos do menu, por isso
+ninguém consegue chegar por outro caminho a dados que a sua função não permite. Um utilizador
+**suspenso** perde todo o acesso à igreja imediatamente.
+
+A maioria de quem serve nas escalas só precisa da função **Membro**: estar numa escala depende de **Serve nas escalas** na ficha do membro, não do login, e os Membros já veem as suas próprias escalas e disponibilidade.
 
 A pessoa convidada recebe um e-mail com um link para definir a palavra-passe. Até o fazer, o
 seu estado aparece como **Convidado**; assim que define a palavra-passe — ou entra com
@@ -36,8 +42,8 @@ sem eliminar a conta nem o histórico), **reativar**, **remover da igreja** por 
 **reenviar um convite** que ainda não foi aceite, ou **editar o e-mail de acesso**.
 
 Algumas regras de segurança incorporadas: só pode atribuir ou gerir funções *abaixo* da sua
-(um Gestor não pode mexer num Admin nem noutro Gestor), não pode editar a sua própria linha
-neste ecrã, e uma igreja mantém sempre pelo menos um Admin — o último não pode ser removido
+(um Coordenador não pode mexer num Administrador nem noutro Coordenador), não pode editar a sua própria linha
+neste ecrã, e uma igreja mantém sempre pelo menos um Administrador — o último não pode ser removido
 nem despromovido.
 
 ## Associar um utilizador a um membro
@@ -54,14 +60,29 @@ tem associação aparece como *Sem membro associado*.
 
 ## Permissões personalizadas
 
-Além das quatro funções padrão, um Admin pode ajustar o acesso por módulo em
-**Configurações administrativas → Acesso personalizado de utilizador** — por exemplo,
-permitindo que Voluntários criem Eventos mesmo que isso não faça parte da função predefinida
-de Voluntário. Estes ajustes aplicam-se por cima das predefinições da função, especificamente
-para a sua igreja.
+Cada função vem com o acesso recomendado pelo HolyCRM. Um Administrador pode alterá-lo para a
+sua igreja em **Configurações de administração → Acesso personalizado do usuário**:
+
+1. Escolha a função no topo (Coordenador, Voluntário ou Membro). Um número ao lado da função
+   mostra quantos ecrãs personalizou para ela.
+2. Cada ecrã tem até quatro caixas: **Ver**, **Adicionar**, **Editar** e **Excluir**. Um
+   traço significa que essa ação não existe nesse ecrã. Marcar Adicionar, Editar ou Excluir
+   marca também Ver; desmarcar Ver limpa as restantes.
+3. As linhas alteradas ficam assinaladas; nada se aplica até carregar em **Salvar
+   alterações**. As alterações aplicam-se a todas as pessoas com essa função, e o HolyCRM
+   aplica-as em todo o lado, não só no menu.
+
+Alguns ecrãs partilham o mesmo ajuste — por exemplo, Check-in e Check-in das crianças seguem
+**Presença** — e aparecem como "Também se aplica a" por baixo dela. **Repor predefinição**
+desfaz um ecrã; **Repor todas as predefinições** desfaz tudo para essa função.
+
+Duas coisas não podem ser alteradas aqui: a função **Administrador** tem sempre acesso
+completo (para que ninguém deixe a igreja sem acesso a este ecrã), e Faturação, Dados e
+Privacidade e Acesso personalizado do usuário ficam com os Administradores (Usuários, com
+Administradores e Coordenadores).
 
 ## O Meu Perfil vs. Utilizadores
 
 **O Meu Perfil** (em Conta) é onde qualquer pessoa gere o seu *próprio* acesso — nome, avatar,
-palavra-passe e e-mail. O ecrã de Utilizadores é onde um Admin/Gestor gere o acesso *dos
+palavra-passe e e-mail. O ecrã de Utilizadores é onde um Administrador/Coordenador gere o acesso *dos
 outros*. Ver [O Meu Perfil](#/profile).

@@ -21,7 +21,7 @@
 - [Dashboard](https://docs.holycrm.app/content/en/dashboard.md): The Dashboard is your church's home screen — a snapshot of what's happening, updated live from your real data. Every card loads independently and simply hides itself if you don't have permission to see it or if there's no data yet, so a…
 - [Calendar](https://docs.holycrm.app/content/en/calendar.md): The Calendar brings together everything with a schedule — Events, Ministry Activities and Rotas — in one agenda, month, week or day view.
 - [Calendar Sync](https://docs.holycrm.app/content/en/calendar-sync.md): Subscribe to your church's schedule from your own Google, Apple or Outlook calendar, so services, ministry activities and small-group meetings show up automatically alongside the rest of your life — without opening HolyCRM to check.
-- [Reports](https://docs.holycrm.app/content/en/reports.md): Reports answers the question every pastor actually asks — is your church connecting with people? — instead of a pile of generic charts. Visible to Admin and Manager roles only, since it includes giving figures.
+- [Reports](https://docs.holycrm.app/content/en/reports.md): Reports answers the question every pastor actually asks — is your church connecting with people? — instead of a pile of generic charts. Visible to Administrator and Coordinator roles only, since it includes giving figures.
 
 ## People
 
@@ -62,7 +62,7 @@
 - [Church Settings & Locations](https://docs.holycrm.app/content/en/church-settings.md): The global configuration for your church: name, default timezone, default currency, minor age cutoff, and your church logo.
 - [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md): There's an important difference between a Member (a person in your congregation) and a User (someone with a login to this app). Most members never log in; a user is a member of your staff/volunteer team who needs access to HolyCRM itself.
 - [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md): A simple, flexible label you attach to members — "Worship Team," "First Responders," "Youth Leader," anything your church finds useful. Create tags once under Admin Settings → Tags, then pick them from a chip picker on any member's record.…
-- [Data & Privacy](https://docs.holycrm.app/content/en/data-privacy.md): Under Admin Settings → Data & Privacy, an Admin can confirm your church's data responsibilities, download a full copy of your church's data, request deletion, and review a log of who's changed Member and Giving records recently. This…
+- [Data & Privacy](https://docs.holycrm.app/content/en/data-privacy.md): Under Admin Settings → Data & Privacy, an Administrator can confirm your church's data responsibilities, download a full copy of your church's data, request deletion, and review a log of who's changed Member and Giving records recently.…
 - [Plans & Billing](https://docs.holycrm.app/content/en/plans-billing.md): Every new church starts with a 30-day trial — the entire app unlocked, every module, no limits on people, team members or locations. No card required.
 
 ## Account
@@ -70,7 +70,7 @@
 - [My Profile](https://docs.holycrm.app/content/en/profile.md): Your own account settings — visible and editable by anyone with a login, regardless of role or which church(es) you belong to.
 - [My serving](https://docs.holycrm.app/content/en/my-serving.md): For each date, tap ✅ I'll be there or ❌ I can't make it (you can add a short reason). Your coordinator sees your answer straight away on the Rotas board, and if you can't make it they get an email so they can find someone else. Changed…
 - [My Availability](https://docs.holycrm.app/content/en/my-availability.md): Let your church know when you're usually free to serve, so schedulers see it when filling a Rota — instead of asking around or guessing.
-- [My Giving](https://docs.holycrm.app/content/en/my-giving.md): Your own giving history — visible if you have a Member-role login linked to your member record in the congregation. This is different from the Giving screen staff use, which shows everyone's giving; My Giving only ever shows yours.
+- [My Giving](https://docs.holycrm.app/content/en/my-giving.md): Your own giving history — visible to anyone whose login is linked to their own member record in the congregation, whatever their role (Member, Volunteer, Coordinator or Administrator). This is different from the Giving screen staff use,…
 
 ## Support
 

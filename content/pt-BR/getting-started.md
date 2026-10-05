@@ -37,7 +37,7 @@ O menu à esquerda está agrupado por tema:
   e privacidade.
 - **Conta** — seu próprio Perfil.
 
-**Você pode não ver todos os itens.** O que aparece depende da sua função (Admin, Gestor,
+**Você pode não ver todos os itens.** O que aparece depende da sua função (Administrador, Coordenador,
 Voluntário ou Membro) e de qualquer permissão personalizada que sua igreja tenha configurado
 para você — veja [Usuários, funções e permissões](#/users-roles) se algo que você esperava ver
 estiver faltando. Alguns módulos (Escalas, Finanças, E-mail em massa, Check-in de crianças e
@@ -48,10 +48,10 @@ estiver faltando.
 
 | Função | Uso típico |
 |---|---|
-| **Admin** | Acesso total a tudo, incluindo Configurações da igreja e convidar outros usuários. |
-| **Gestor (Manager)** | Operação do dia a dia — membros, grupos, eventos, escalas, comunicações, finanças — sem as configurações de nível de conta que um Admin tem. |
-| **Voluntário** | Acesso restrito e focado em uma tarefa (por exemplo, registrar presença ou operar o check-in), conforme o que sua igreja tiver liberado. |
-| **Membro** | Autoatendimento somente leitura — principalmente o próprio Perfil. |
+| **Administrador** | Acesso total a tudo, incluindo Configurações da igreja e convidar outros usuários. |
+| **Coordenador** | Operação do dia a dia — membros, grupos, eventos, escalas, comunicações, finanças — sem as configurações de nível de conta que um Administrador tem. |
+| **Voluntário** | Serviço prático — receber visitantes, registrar presença e fazer o check-in (encontrando as pessoas só pelo nome). Sem cadastro de membros, finanças, pedidos de oração nem relatórios. |
+| **Membro** | Apenas autoatendimento — seu próprio perfil, suas escalas, sua disponibilidade e seu histórico de ofertas. |
 
 Uma igreja pode ajustar isso com mais detalhe por pessoa; seu acesso real pode diferir um
 pouco desta tabela.

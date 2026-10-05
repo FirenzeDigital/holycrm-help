@@ -21,6 +21,19 @@ a função de etiqueta `acompanhamento de visitantes` (ver
 [Etiquetas e funções de etiqueta](#/tags)), só os membros com essa etiqueta são oferecidos;
 caso contrário, são oferecidos todos os membros ativos.
 
+## Equipa de receção: "Receber um visitante"
+
+Quem está na equipa de receção não precisa de ver toda a lista de Visitantes. Dê a essas
+pessoas o ecrã **Receber um visitante** (já vem incluído para a função Voluntário): um
+formulário curto com nome, telefone, WhatsApp, e-mail, como conheceu a igreja e notas. O
+visitante entra diretamente em Visitantes como **Novo**, com hoje como primeira visita, e a
+equipa de acompanhamento trata do resto.
+
+Por baixo do formulário, **Visitantes que adicionou** mostra apenas as pessoas que esse
+utilizador registou, para corrigir algum erro de escrita. Não vê os visitantes de mais
+ninguém nem pode eliminar nenhum. No detalhe do visitante, os coordenadores veem
+**Registado por** com o nome de quem o adicionou.
+
 ## Registar um contacto de acompanhamento
 
 Abra a página de detalhe de um visitante e registe cada contacto — uma chamada, mensagem,

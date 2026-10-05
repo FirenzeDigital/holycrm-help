@@ -3,8 +3,8 @@
 <details class="help-faq-item" open>
 <summary>Não estou vendo um item de menu que eu esperava ver. Por quê?</summary>
 
-O que você vê depende da sua função (Admin, Gestor, Voluntário ou Membro) e de qualquer
-permissão personalizada que sua igreja tenha configurado para você. Peça a um Admin ou Gestor
+O que você vê depende da sua função (Administrador, Coordenador, Voluntário ou Membro) e de qualquer
+permissão personalizada que sua igreja tenha configurado para você. Peça a um Administrador ou Coordenador
 para conferir [Usuários, funções e permissões](#/users-roles) — ou sua função precisa mudar,
 ou uma permissão personalizada precisa ser concedida para aquele módulo.
 </details>
@@ -21,7 +21,7 @@ verifica se você já cadastrou essa pessoa manualmente antes.
 <details class="help-faq-item">
 <summary>Por que o e-mail de um membro está bloqueado e eu não consigo editar?</summary>
 
-Esse membro também tem um login no HolyCRM (é Voluntário, Gestor ou Admin). O e-mail de login
+Esse membro também tem um login no HolyCRM (é Voluntário, Coordenador ou Administrador). O e-mail de login
 dele e o e-mail do cadastro de membro são mantidos sincronizados automaticamente, então
 editar pelo formulário de Membros faria essa edição ser sobrescrita. Altere pela tela
 **Configurações administrativas → Usuários** — veja

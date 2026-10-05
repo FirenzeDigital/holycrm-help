@@ -13,7 +13,7 @@ independentemente da função ou de a quantas igrejas ela pertença.
   login caso sua sessão seja comprometida.
 
 O Perfil não controla sua função nem a quais igrejas você tem acesso — isso é gerenciado por
-um Admin ou Gestor em cada igreja; veja [Usuários, funções e permissões](#/users-roles).
+um Administrador ou Coordenador em cada igreja; veja [Usuários, funções e permissões](#/users-roles).
 
 Se você pertence a mais de uma igreja, use o seletor de igreja em outra parte do app para
 alternar entre elas — seu Perfil é compartilhado entre todas, já que está vinculado ao seu

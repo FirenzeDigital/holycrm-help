@@ -12,7 +12,7 @@ Campos úteis:
 
 - **Estado** — ativo, inativo, etc. A maioria dos relatórios e seletores só contam membros
   *ativos*.
-- **Voluntário** — uma caixa de verificação que marca alguém como disponível para servir. Isto
+- **Serve nas escalas** — uma caixa de verificação que marca alguém como disponível para servir. Isto
   é importante para o agendamento de escalas — ver [Ministérios e escalas](#/ministries).
 - **Etiquetas** — um seletor flexível de etiquetas (ver
   [Etiquetas e funções de etiqueta](#/tags)) para agrupar pessoas da forma que fizer sentido
@@ -36,7 +36,7 @@ verificação que assinala manualmente, em vez de ser calculado automaticamente.
 
 ## O e-mail fica bloqueado para membros com acesso
 
-Se um membro também tiver um acesso ao HolyCRM (é Voluntário, Gestor ou Admin e já iniciou
+Se um membro também tiver um acesso ao HolyCRM (é Voluntário, Coordenador ou Administrador e já iniciou
 sessão), o campo de e-mail fica bloqueado no formulário de Membros, com uma nota a remeter
 para o ecrã de Utilizadores. Isto é intencional: o e-mail de acesso e o e-mail da ficha de
 membro são mantidos sincronizados automaticamente, e editá-lo em dois sítios diferentes faria

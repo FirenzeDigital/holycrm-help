@@ -32,7 +32,7 @@ Também pode registar pedidos — por exemplo, um que alguém partilhou depois d
 
 ## Quem pode ver
 
-Por omissão, só Admins e Gestores podem ver e gerir os pedidos de oração, porque as
+Por omissão, só Administradores e Coordenadores podem ver e gerir os pedidos de oração, porque as
 pessoas costumam partilhar coisas pessoais. Se tem uma equipa de oração, pode dar-lhe acesso em
 [Utilizadores e funções](#/users-roles) com permissões personalizadas. Os pedidos marcados
 **Apenas pastores** ficam assinalados para que a equipa saiba que não devem ser partilhados.

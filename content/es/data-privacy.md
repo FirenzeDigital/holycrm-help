@@ -1,6 +1,6 @@
 # Datos y privacidad
 
-En **Configuración de administración → Datos y privacidad**, un Admin puede confirmar las
+En **Configuración de administración → Datos y privacidad**, un Administrador puede confirmar las
 responsabilidades de datos de tu iglesia, descargar una copia completa de los datos de tu
 iglesia, solicitar su eliminación y revisar un registro de quién modificó recientemente los
 registros de Miembros y Ofrendas. Esta pantalla existe porque los registros de tu iglesia —
@@ -56,8 +56,8 @@ primer lugar para revisar.
 
 ## Quién puede ver esto
 
-Datos y privacidad es visible solo para **Admins** — no aparece en el menú de Managers,
-Voluntarios ni Miembros.
+Datos y privacidad es visible solo para **Administradores** — no aparece en el menú de Coordinadores,
+Servidores ni Miembros.
 
 ## Lo que todavía no existe
 

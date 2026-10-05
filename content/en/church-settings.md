@@ -22,7 +22,7 @@ minor age cutoff, and your church logo.
   Brazil, 52 Mexico, 44 UK…). HolyCRM adds it to phone numbers saved without one when it
   opens a WhatsApp chat, for example when [asking volunteers to confirm](#/rotas).
 
-Only Admins and Managers can change these settings.
+Only Administrators and Coordinators can change these settings.
 
 ## Locations
 

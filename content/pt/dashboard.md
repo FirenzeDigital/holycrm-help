@@ -3,7 +3,15 @@
 O Painel é o ecrã inicial da sua igreja — uma fotografia do momento, atualizada em tempo real
 com os seus dados reais. Cada cartão carrega de forma independente e simplesmente esconde-se
 se não tiver permissão para o ver ou se ainda não houver dados, pelo que um acesso de
-Voluntário pode ver um painel bastante mais curto do que o de um Admin, e isso é esperado.
+Voluntário pode ver um painel bastante mais curto do que o de um Administrador, e isso é esperado.
+
+## Ações rápidas (Voluntários e Membros)
+
+Quem não gere os dados da igreja — Voluntários e Membros — vê **Ações rápidas**: um cartão
+para cada ecrã que pode usar, como Receber um visitante, Check-in, Presença, As minhas
+escalas, A minha disponibilidade, As minhas ofertas e O meu perfil. O cartão **As minhas
+escalas** mostra também a próxima data para servir e se já a confirmou. Toque num cartão para
+ir diretamente.
 
 ## O que vai ver
 
@@ -20,7 +28,7 @@ a aparecer.
 **Faixa de números-chave:**
 
 - Membros ativos, com quantos entraram este mês.
-- Voluntários, em percentagem dos membros ativos.
+- Servem nas escalas, em percentagem dos membros ativos.
 - Pessoas atualmente num pequeno grupo.
 - Visitantes este mês, e a respetiva taxa de conversão.
 - O que vem nos próximos 7 dias.

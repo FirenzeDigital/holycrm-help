@@ -52,7 +52,7 @@ The left-hand menu is grouped by topic:
 - **Admin Settings** — Church Settings, Locations, Users, Tags, Data & Privacy.
 - **Account** — your own Profile.
 
-**You may not see every item.** What's visible depends on your role (Admin, Manager,
+**You may not see every item.** What's visible depends on your role (Administrator, Coordinator,
 Volunteer or Member) and on any custom permission your church has set for you — see
 [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md) if something you expect to see is missing. A few
 modules (Rotas, Finance, Bulk Email, Kids Check-in and others) also depend on your church's
@@ -62,10 +62,10 @@ plan — see [Plans & Billing](https://docs.holycrm.app/content/en/plans-billing
 
 | Role | Typical use |
 |---|---|
-| **Admin** | Full access to everything, including Church Settings and inviting other users. |
-| **Manager** | Day-to-day operations — members, groups, events, rotas, communications, finance — without the account-level settings an Admin has. |
-| **Volunteer** | Narrow, task-focused access (e.g. taking attendance, running check-in) depending on what your church has granted. |
-| **Member** | Read-only self-service — mainly your own Profile. |
+| **Administrator** | Full access to everything, including Church Settings and inviting other users. |
+| **Coordinator** | Day-to-day operations — members, groups, events, rotas, communications, finance — without the account-level settings an Administrator has. |
+| **Volunteer** | Hands-on serving — welcome visitors, take attendance and run check-in (finding people by name only). No member directory, finance, prayer requests or reports. |
+| **Member** | Self-service only — your own profile, rotas, availability and giving history. |
 
 A church can fine-tune this further per person; your actual access can differ slightly from
 the table above.
@@ -105,7 +105,14 @@ Section: Overview
 The Dashboard is your church's home screen — a snapshot of what's happening, updated live
 from your real data. Every card loads independently and simply hides itself if you don't
 have permission to see it or if there's no data yet, so a Volunteer login might see a much
-shorter Dashboard than an Admin's, and that's expected.
+shorter Dashboard than an Administrator's, and that's expected.
+
+## Quick actions (Volunteers and Members)
+
+People who don't manage the church's records — Volunteers and Members — see **Quick actions**
+instead: one tile per screen they can use, such as Welcome a visitor, Check-in, Attendance,
+My serving, My availability, My giving and My profile. The **My serving** tile also shows
+their next date to serve and whether they've confirmed it. Tap a tile to go straight there.
 
 ## What you'll see
 
@@ -122,7 +129,7 @@ back.
 **Key numbers strip:**
 
 - Active members, with how many joined this month.
-- Volunteers, as a percentage of active members.
+- Serve on rotas, as a percentage of active members.
 - People currently in a small group.
 - Visitors this month, and their conversion rate.
 - What's coming up in the next 7 days.
@@ -258,7 +265,7 @@ detail, not something you'd want cluttering a personal calendar.
 
 ## If you need to turn it off
 
-Ask an Admin to **regenerate** the link from the Calendar screen. This immediately
+Ask an Administrator to **regenerate** the link from the Calendar screen. This immediately
 invalidates every previously-shared link, including yours, so anyone who wants to keep
 seeing updates needs to subscribe again with the new one. Use this if a link was shared
 somewhere it shouldn't have been.
@@ -271,7 +278,7 @@ Section: Overview
 # Reports
 
 Reports answers the question every pastor actually asks — **is your church connecting
-with people?** — instead of a pile of generic charts. Visible to Admin and Manager roles
+with people?** — instead of a pile of generic charts. Visible to Administrator and Coordinator roles
 only, since it includes giving figures.
 
 ## Quick answers, always for this month
@@ -338,7 +345,7 @@ always come back and fill in more later.
 Useful fields:
 
 - **Status** — active, inactive, etc. Most reports and pickers only count *active* members.
-- **Volunteer** — a checkbox marking someone as available to serve. This matters for rota
+- **Serves on rotas** — a checkbox marking someone as available to serve. This matters for rota
   scheduling — see [Ministries & Rotas](https://docs.holycrm.app/content/en/ministries.md).
 - **Tags** — a flexible label picker (see [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md)) for grouping people
   any way your church finds useful, beyond ministries and groups.
@@ -360,7 +367,7 @@ instead of it being calculated automatically.
 
 ## Email is locked for members with a login
 
-If a member also has a HolyCRM login (they're a Volunteer, Manager or Admin who signed in),
+If a member also has a HolyCRM login (they're a Volunteer, Coordinator or Administrator who signed in),
 their email field is locked on the Members form with a note pointing you to the Users
 screen instead. This is intentional: their login email and their member-record email are
 kept in sync automatically, and editing it in two places would cause one edit to silently
@@ -559,6 +566,18 @@ event, walk-in, online, other), address, and notes.
 `visitor_followup` tag role (see [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md)), only members carrying that tag
 are offered; otherwise every active member is.
 
+## Welcome team: "Welcome a visitor"
+
+People on your welcome team don't need access to the whole Visitors list. Give them the
+**Welcome a visitor** screen instead (it's included for the Volunteer role by default): a
+short form with name, phone, WhatsApp, email, how they heard about you and notes. The
+visitor goes straight into Visitors as **New**, with today as their first visit, and your
+follow-up team picks it up from there.
+
+Below the form, **Visitors you added** lists only the people that person added, so they can
+fix a typo. They can't see anyone else's visitors or delete any. In the visitor's detail,
+coordinators see **Captured by** with the name of whoever added them.
+
 ## Logging follow-up
 
 Open a visitor's detail page and log each contact — a call, message, WhatsApp, visit,
@@ -614,7 +633,7 @@ service — with **Add prayer request**.
 
 ## Who can see them
 
-By default, only Admins and Managers can see and manage prayer requests, because people often
+By default, only Administrators and Coordinators can see and manage prayer requests, because people often
 share personal things. If you have a prayer team, you can give them access in
 [Users & Roles](https://docs.holycrm.app/content/en/users-roles.md) with custom permissions. Requests marked **Pastors only** are
 flagged so your team knows not to share them.
@@ -1403,7 +1422,7 @@ minor age cutoff, and your church logo.
   Brazil, 52 Mexico, 44 UK…). HolyCRM adds it to phone numbers saved without one when it
   opens a WhatsApp chat, for example when [asking volunteers to confirm](https://docs.holycrm.app/content/en/rotas.md).
 
-Only Admins and Managers can change these settings.
+Only Administrators and Coordinators can change these settings.
 
 ## Locations
 
@@ -1445,12 +1464,18 @@ Member invited without a linked record just sees an empty Profile page.
 
 Pick their **role**:
 
-| Role | Can typically do |
+| Role | What they can do (by default) |
 |---|---|
-| **Admin** | Everything, including Church Settings and inviting/managing other users. |
-| **Manager** | Day-to-day operations across most modules, but not Church Settings or promoting anyone to Manager/Admin. |
-| **Volunteer** | Narrow, task-focused access — commonly attendance/check-in duties — as your church configures it. |
-| **Member** | Self-service only: their own Profile, plus — if linked to a record in the congregation — their own contact info and giving history. No access to other people's data. |
+| **Administrator** | Everything, including users, custom permissions, Data & Privacy and billing. |
+| **Coordinator** | Day-to-day ministry and administration: people, small groups, ministries and rotas, events, attendance, finance, email and church settings. Can't change permissions, Data & Privacy or billing, and can't promote anyone to Coordinator/Administrator. |
+| **Volunteer** | Hands-on serving at the door and in services: welcome visitors, take attendance and run check-in, finding people by name only. No access to the member directory, finance, prayer requests, small groups, ministries, rota planning, email or reports. |
+| **Member** | Self-service only: their own profile, their rotas, availability and giving history. No access to anyone else's data. |
+
+These limits are enforced by HolyCRM's server, not only hidden from the menu, so someone
+can't reach data their role doesn't allow by any other route. A **suspended** user loses all
+access to the church immediately.
+
+Most people who serve on rotas only need the **Member** role: being on a rota depends on **Serves on rotas** in their member record, not on their login, and Members already see their own rotas and availability.
 
 An invited person receives an email with a link to set their password. Until they do, their
 status shows as **Invited**; once they set a password — or sign in with **Continue with
@@ -1464,8 +1489,8 @@ church** entirely, **resend an invite** that hasn't been accepted yet, or **edit
 email**.
 
 A few built-in safety rules: you can only assign or manage roles *below* your own (a
-Manager can't touch an Admin or another Manager's access), you can't edit your own row from
-this screen, and a church always keeps at least one Admin — the last one can't be removed or
+Coordinator can't touch an Administrator or another Coordinator's access), you can't edit your own row from
+this screen, and a church always keeps at least one Administrator — the last one can't be removed or
 demoted.
 
 ## Linking a login to a member
@@ -1482,15 +1507,29 @@ My giving and My availability all come from it. In the Users list, people withou
 
 ## Custom permissions
 
-Beyond the four standard roles, an Admin can fine-tune access per module under
-**Admin Settings → Custom User Access** — for example, letting Volunteers create Events
-even though that's not part of the default Volunteer role. These overrides apply on top of
-the standard role defaults, specifically for your church.
+Each role comes with HolyCRM's recommended access. An Administrator can change it for your
+church under **Admin Settings → Custom User Access**:
+
+1. Pick the role at the top (Coordinator, Volunteer or Member). A number next to a role shows
+   how many screens you've customized for it.
+2. Each screen has up to four boxes: **View**, **Add**, **Edit** and **Delete**. A dash means
+   that action doesn't exist for that screen. Ticking Add, Edit or Delete also ticks View;
+   unticking View clears the rest.
+3. Changed rows are marked; nothing applies until you press **Save changes**. Changes apply to
+   everyone with that role, and HolyCRM enforces them everywhere, not just in the menu.
+
+Some screens share one setting — for example, Check-in and Kids Check-in follow
+**Attendance** — and are listed as "Also applies to" under it. **Restore default** undoes one
+screen; **Restore all defaults** undoes everything for that role.
+
+Two things can't be changed here: the **Administrator** role always has full access (so nobody
+locks the church out of this screen), and Billing, Data & Privacy and Custom User Access stay
+with Administrators (Users with Administrators and Coordinators).
 
 ## My Profile vs. Users
 
 **My Profile** (under Account) is where anyone manages their *own* login — name, avatar,
-password, and email. The Users screen is where an Admin/Manager manages *everyone else's*
+password, and email. The Users screen is where an Administrator/Coordinator manages *everyone else's*
 access. See [My Profile](https://docs.holycrm.app/content/en/profile.md).
 
 ---
@@ -1539,7 +1578,7 @@ Section: Admin Settings
 
 # Data & Privacy
 
-Under **Admin Settings → Data & Privacy**, an Admin can confirm your church's data
+Under **Admin Settings → Data & Privacy**, an Administrator can confirm your church's data
 responsibilities, download a full copy of your church's data, request deletion, and review
 a log of who's changed Member and Giving records recently. This screen exists because your
 church's records — who your members are, what they give, sometimes information about
@@ -1590,7 +1629,7 @@ looks like it changed unexpectedly, this is the first place to check.
 
 ## Who can see this
 
-Data & Privacy is visible to **Admins only** — it doesn't appear in the menu for Managers,
+Data & Privacy is visible to **Administrators only** — it doesn't appear in the menu for Coordinators,
 Volunteers, or Members.
 
 ## What's not built yet
@@ -1696,7 +1735,7 @@ role or which church(es) you belong to.
   your session were ever compromised.
 
 Profile doesn't control your role or which churches you can access — that's managed by an
-Admin or Manager at each church; see [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md).
+Administrator or Coordinator at each church; see [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md).
 
 If you belong to more than one church, use the church switcher elsewhere in the app to move
 between them — your Profile itself is shared across all of them, since it's tied to your
@@ -1767,7 +1806,7 @@ A specific date always overrides the weekly pattern for that day.
 
 ## How this is used
 
-When a Manager or Admin fills a rota role requirement, HolyCRM checks who's published
+When a Coordinator or Administrator fills a rota role requirement, HolyCRM checks who's published
 availability that covers that slot and suggests them first — see
 [Ministries & Rotas](https://docs.holycrm.app/content/en/ministries.md). If no one has published availability for a given time,
 you'll see a note saying so instead of a wrong suggestion.
@@ -1775,8 +1814,8 @@ you'll see a note saying so instead of a wrong suggestion.
 ## If you don't see this screen
 
 My Availability only appears if your login is linked to a member record in the
-congregation — see [My Profile](https://docs.holycrm.app/content/en/profile.md) under "My church info." Ask your church's Admin
-or Manager if you think that's missing.
+congregation — see [My Profile](https://docs.holycrm.app/content/en/profile.md) under "My church info." Ask your church's Administrator
+or Coordinator if you think that's missing.
 
 ---
 
@@ -1785,8 +1824,8 @@ Section: Account
 
 # My Giving
 
-Your own giving history — visible if you have a **Member**-role login linked to your
-member record in the congregation. This is different from the [Giving](https://docs.holycrm.app/content/en/finance.md) screen
+Your own giving history — visible to anyone whose login is linked to their own member
+record in the congregation, whatever their role (Member, Volunteer, Coordinator or Administrator). This is different from the [Giving](https://docs.holycrm.app/content/en/finance.md) screen
 staff use, which shows everyone's giving; My Giving only ever shows **yours**.
 
 ## What you'll see
@@ -1798,7 +1837,7 @@ Pick a **year**, and you'll see a total for that year plus a list of each indivi
 
 This means one of two things: no gifts have been recorded against your member record yet
 for the selected year, or your login isn't linked to a member record at all. If you think
-that's wrong, ask your church's Admin or Manager — they can link your login to your
+that's wrong, ask your church's Administrator or Coordinator — they can link your login to your
 member record from **Admin Settings → Users**.
 
 ## Where your name and contact info come from
@@ -1817,8 +1856,8 @@ Section: Support
 <details class="help-faq-item" open>
 <summary>I can't see a menu item I expected to see. Why?</summary>
 
-What you see depends on your role (Admin, Manager, Volunteer or Member) and any custom
-permission your church has set for you. Ask an Admin or Manager to check
+What you see depends on your role (Administrator, Coordinator, Volunteer or Member) and any custom
+permission your church has set for you. Ask an Administrator or Coordinator to check
 [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md) — either your role needs to change, or a custom
 permission needs to be granted for that module.
 </details>
@@ -1835,7 +1874,7 @@ already entered by hand.
 <details class="help-faq-item">
 <summary>Why is a member's email field locked and I can't edit it?</summary>
 
-That member also has a HolyCRM login (they're a Volunteer, Manager or Admin). Their login
+That member also has a HolyCRM login (they're a Volunteer, Coordinator or Administrator). Their login
 email and member-record email are kept in sync automatically, so editing it from the Members
 form would just get overwritten. Change it from **Admin Settings → Users** instead — see
 [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md).

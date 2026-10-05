@@ -33,7 +33,7 @@ com **Adicionar pedido de oração**.
 
 ## Quem pode ver
 
-Por padrão, só Admins e Gestores podem ver e gerenciar os pedidos de oração, porque as
+Por padrão, só Administradores e Coordenadores podem ver e gerenciar os pedidos de oração, porque as
 pessoas costumam compartilhar coisas pessoais. Se você tem uma equipe de oração, pode dar acesso
 em [Usuários e funções](#/users-roles) com permissões personalizadas. Os pedidos marcados
 **Somente pastores** ficam sinalizados para que a equipe saiba que não devem ser compartilhados.

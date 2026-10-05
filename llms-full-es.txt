@@ -55,8 +55,8 @@ El menú de la izquierda está agrupado por tema:
   Etiquetas, Datos y privacidad.
 - **Cuenta** — tu propio Perfil.
 
-**Es posible que no veas todos los ítems.** Lo que ves depende de tu rol (Admin, Gestor,
-Voluntario o Miembro) y de cualquier permiso personalizado que tu iglesia te haya asignado —
+**Es posible que no veas todos los ítems.** Lo que ves depende de tu rol (Administrador, Coordinador,
+Servidor o Miembro) y de cualquier permiso personalizado que tu iglesia te haya asignado —
 ver [Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md) si falta algo que esperabas encontrar. Algunos
 módulos (Turnos, Finanzas, Correos masivos, Check-in de niños y otros) también dependen del
 plan de tu iglesia — ver [Planes y facturación](https://docs.holycrm.app/content/es/plans-billing.md).
@@ -65,10 +65,10 @@ plan de tu iglesia — ver [Planes y facturación](https://docs.holycrm.app/cont
 
 | Rol | Uso típico |
 |---|---|
-| **Admin** | Acceso total, incluida la Configuración de la iglesia e invitar a otros usuarios. |
-| **Gestor (Manager)** | Operación del día a día — miembros, grupos, eventos, turnos, comunicaciones, finanzas — sin la configuración a nivel de cuenta que sí tiene un Admin. |
-| **Voluntario** | Acceso acotado y enfocado en una tarea (por ejemplo, tomar asistencia o llevar el check-in), según lo que tu iglesia haya habilitado. |
-| **Miembro** | Autoservicio de solo lectura — principalmente tu propio Perfil. |
+| **Administrador** | Acceso total, incluida la Configuración de la iglesia e invitar a otros usuarios. |
+| **Coordinador** | Operación del día a día — miembros, grupos, eventos, turnos, comunicaciones, finanzas — sin la configuración a nivel de cuenta que sí tiene un Administrador. |
+| **Servidor** | Servicio práctico — recibir visitantes, tomar asistencia y hacer el check-in (buscando a las personas solo por nombre). Sin directorio de miembros, finanzas, pedidos de oración ni informes. |
+| **Miembro** | Solo autoservicio — tu propio perfil, tus turnos, tu disponibilidad y tu historial de ofrendas. |
 
 Una iglesia puede ajustar esto con más detalle por persona; tu acceso real puede diferir
 levemente de esta tabla.
@@ -110,8 +110,16 @@ Section: Resumen
 
 El Panel principal es la pantalla de inicio de tu iglesia — una foto del momento, actualizada
 en vivo con tus datos reales. Cada tarjeta carga de forma independiente y simplemente se
-oculta si no tenés permiso para verla o si todavía no hay datos, así que un Voluntario puede
-ver un panel mucho más corto que un Admin, y eso es lo esperado.
+oculta si no tenés permiso para verla o si todavía no hay datos, así que un Servidor puede
+ver un panel mucho más corto que un Administrador, y eso es lo esperado.
+
+## Acciones rápidas (Servidores y Miembros)
+
+Quienes no administran los datos de la iglesia — Servidores y Miembros — ven **Acciones
+rápidas**: una tarjeta por cada pantalla que pueden usar, como Recibir a un visitante,
+Check-in, Asistencia, Mis turnos, Mi disponibilidad, Mis ofrendas y Mi perfil. La tarjeta
+**Mis turnos** muestra además su próxima fecha para servir y si ya la confirmó. Tocá una
+tarjeta para ir directo.
 
 ## Qué vas a ver
 
@@ -128,7 +136,7 @@ vuelve a aparecer.
 **Franja de números clave:**
 
 - Miembros activos, con cuántos se sumaron este mes.
-- Voluntarios, como porcentaje de los miembros activos.
+- Sirven en turnos, como porcentaje de los miembros activos.
 - Personas actualmente en un grupo pequeño.
 - Visitantes este mes, y su tasa de conversión.
 - Lo que viene en los próximos 7 días.
@@ -156,7 +164,7 @@ Si tu iglesia define una edad límite para menores, también podés ver una tarj
 
 ## Por qué falta o está vacío un panel
 
-- **Falta por completo**: no tenés permiso para leer esos datos (por ejemplo, un Voluntario
+- **Falta por completo**: no tenés permiso para leer esos datos (por ejemplo, un Servidor
   normalmente no puede ver los números de Finanzas).
 - **Presente pero vacío**: la función existe, simplemente todavía no hay nada que mostrar —
   por ejemplo, ningún visitante registrado este mes.
@@ -274,7 +282,7 @@ en tu calendario personal.
 
 ## Si necesitás desactivarlo
 
-Pedile a un Admin que **regenere** el enlace desde la pantalla de Calendario. Esto invalida
+Pedile a un Administrador que **regenere** el enlace desde la pantalla de Calendario. Esto invalida
 de inmediato todos los enlaces compartidos antes, incluido el tuyo, así que quien quiera
 seguir recibiendo actualizaciones tiene que suscribirse de nuevo con el nuevo enlace. Usá
 esto si un enlace se compartió en algún lugar donde no debería haber estado.
@@ -288,7 +296,7 @@ Section: Resumen
 
 Informes responde la pregunta que todo pastor se hace en realidad — **¿tu iglesia está
 realmente conectando a las personas?** — en vez de mostrar un montón de gráficos
-genéricos. Visible solo para los roles Admin y Gestor, ya que incluye cifras de ofrendas.
+genéricos. Visible solo para los roles Administrador y Coordinador, ya que incluye cifras de ofrendas.
 
 ## Respuestas rápidas, siempre de este mes
 
@@ -361,7 +369,7 @@ Campos útiles:
 
 - **Estado** — activo, inactivo, etc. La mayoría de los reportes y selectores solo cuentan
   miembros *activos*.
-- **Voluntario** — una casilla que marca a alguien como disponible para servir. Esto importa
+- **Sirve en turnos** — una casilla que marca a alguien como disponible para servir. Esto importa
   para la programación de turnos — ver [Ministerios y turnos](https://docs.holycrm.app/content/es/ministries.md).
 - **Etiquetas** — un selector flexible de etiquetas (ver
   [Etiquetas y roles de etiqueta](https://docs.holycrm.app/content/es/tags.md)) para agrupar personas de la forma que le sirva a
@@ -386,7 +394,7 @@ podés marcar a mano en lugar de calcularse automáticamente.
 
 ## El correo queda bloqueado para miembros con acceso
 
-Si un miembro también tiene un acceso a HolyCRM (es Voluntario, Gestor o Admin y ya inició
+Si un miembro también tiene un acceso a HolyCRM (es Servidor, Coordinador o Administrador y ya inició
 sesión), su campo de correo queda bloqueado en el formulario de Miembros, con una nota que te
 lleva a la pantalla de Usuarios. Esto es intencional: su correo de acceso y el correo de su
 ficha de miembro se mantienen sincronizados automáticamente, y editarlo en dos lugares
@@ -591,6 +599,19 @@ invitado, evento, llegó de casualidad, en línea, otro), dirección y notas.
 etiqueta `seguimiento de visitantes` (ver [Etiquetas y roles de etiqueta](https://docs.holycrm.app/content/es/tags.md)), solo se
 ofrecen los miembros con esa etiqueta; si no, se ofrecen todos los miembros activos.
 
+## Equipo de bienvenida: "Recibir a un visitante"
+
+Quienes están en el equipo de bienvenida no necesitan ver toda la lista de Visitantes. Dales
+la pantalla **Recibir a un visitante** (viene incluida para el rol Servidor): un formulario
+corto con nombre, teléfono, WhatsApp, correo, cómo nos conoció y notas. El visitante entra
+directo en Visitantes como **Nuevo**, con hoy como primera visita, y el equipo de
+seguimiento se encarga desde ahí.
+
+Debajo del formulario, **Visitantes que agregaste** muestra solo a las personas que esa
+persona cargó, para que pueda corregir un error de tipeo. No ve los visitantes de nadie más
+ni puede borrar ninguno. En el detalle del visitante, los coordinadores ven **Registrado
+por** con el nombre de quien lo agregó.
+
 ## Registrar un seguimiento
 
 Abrí la página de detalle de un visitante y registrá cada contacto — una llamada, mensaje,
@@ -650,7 +671,7 @@ culto — con **Agregar pedido de oración**.
 
 ## Quién los puede ver
 
-Por defecto, solo los Admins y Gestores pueden ver y gestionar los pedidos de oración,
+Por defecto, solo los Administradores y Coordinadores pueden ver y gestionar los pedidos de oración,
 porque la gente suele compartir cosas personales. Si tenés un equipo de oración, podés darle
 acceso en [Usuarios y roles](https://docs.holycrm.app/content/es/users-roles.md) con permisos personalizados. Los pedidos marcados
 **Solo pastores** quedan señalados para que tu equipo sepa que no hay que compartirlos.
@@ -1482,7 +1503,7 @@ predeterminada, edad límite para menores, y el logo de tu iglesia.
   Brasil, 52 México, 44 Reino Unido…). HolyCRM lo agrega a los teléfonos guardados sin él
   cuando abre un chat de WhatsApp, por ejemplo al [pedir confirmación a los voluntarios](https://docs.holycrm.app/content/es/rotas.md).
 
-Solo los Admins y Gestores pueden cambiar esta configuración.
+Solo los Administradores y Coordinadores pueden cambiar esta configuración.
 
 ## Sedes
 
@@ -1526,12 +1547,18 @@ vacío.
 
 Elegí su **rol**:
 
-| Rol | Puede hacer típicamente |
+| Rol | Qué puede hacer (por defecto) |
 |---|---|
-| **Admin** | Todo, incluida la Configuración de la iglesia e invitar/gestionar otros usuarios. |
-| **Gestor (Manager)** | Operación del día a día en la mayoría de los módulos, pero no la Configuración de la iglesia ni ascender a nadie a Gestor/Admin. |
-| **Voluntario** | Acceso acotado y enfocado en una tarea — comúnmente asistencia/check-in — según lo que tu iglesia configure. |
-| **Miembro** | Solo autoservicio: su propio Perfil y, si está vinculado a una ficha de la congregación, sus propios datos de contacto e historial de ofrendas. Sin acceso a los datos de nadie más. |
+| **Administrador** | Todo, incluidos usuarios, permisos personalizados, Datos y privacidad y facturación. |
+| **Coordinador** | El día a día del ministerio y la administración: personas, grupos pequeños, ministerios y turnos, eventos, asistencia, finanzas, correo y configuración de la iglesia. No puede cambiar permisos, Datos y privacidad ni facturación, ni ascender a nadie a Coordinador/Administrador. |
+| **Servidor** | Servicio práctico en la puerta y en los cultos: recibir visitantes, tomar asistencia y hacer el check-in, buscando a las personas solo por nombre. Sin acceso al directorio de miembros, finanzas, pedidos de oración, grupos pequeños, ministerios, planificación de turnos, correo ni informes. |
+| **Miembro** | Solo autoservicio: su propio perfil, sus turnos, su disponibilidad y su historial de ofrendas. Sin acceso a los datos de nadie más. |
+
+Estos límites los aplica el servidor de HolyCRM, no solo se ocultan del menú, así que nadie
+puede llegar por otro camino a datos que su rol no permite. Un usuario **suspendido** pierde
+todo acceso a la iglesia de inmediato.
+
+La mayoría de quienes sirven en turnos solo necesitan el rol **Miembro**: estar en un turno depende de **Sirve en turnos** en su ficha de miembro, no de su usuario, y los Miembros ya ven sus propios turnos y su disponibilidad.
 
 La persona invitada recibe un correo con un enlace para configurar su contraseña. Hasta que lo
 haga, su estado figura como **Invitado**; una vez que configura su contraseña — o entra con
@@ -1545,8 +1572,8 @@ completo, **reenviar una invitación** que todavía no fue aceptada, o **editar 
 acceso**.
 
 Algunas reglas de seguridad incorporadas: solo podés asignar o gestionar roles *por debajo*
-del tuyo (un Gestor no puede tocar a un Admin ni a otro Gestor), no podés editar tu propia
-fila desde esta pantalla, y una iglesia siempre conserva al menos un Admin — al último no se
+del tuyo (un Coordinador no puede tocar a un Administrador ni a otro Coordinador), no podés editar tu propia
+fila desde esta pantalla, y una iglesia siempre conserva al menos un Administrador — al último no se
 lo puede quitar ni degradar.
 
 ## Vincular un usuario con un miembro
@@ -1563,16 +1590,32 @@ vínculo muestra *Sin miembro vinculado*.
 
 ## Permisos personalizados
 
-Más allá de los cuatro roles estándar, un Admin puede ajustar el acceso por módulo en
-**Configuración de administración → Acceso personalizado de usuario** — por ejemplo,
-permitiendo que los Voluntarios creen Eventos aunque eso no forme parte del rol Voluntario por
-defecto. Estos ajustes se aplican por encima de los valores predeterminados del rol,
-específicamente para tu iglesia.
+Cada rol viene con el acceso recomendado por HolyCRM. Un Administrador puede cambiarlo para tu
+iglesia en **Administración → Permisos Personalizados**:
+
+1. Elegí el rol arriba (Coordinador, Servidor o Miembro). Un número al lado del rol indica
+   cuántas pantallas personalizaste para él.
+2. Cada pantalla tiene hasta cuatro casillas: **Ver**, **Agregar**, **Editar** y **Eliminar**.
+   Un guion significa que esa acción no existe en esa pantalla. Marcar Agregar, Editar o
+   Eliminar también marca Ver; desmarcar Ver quita las demás.
+3. Las filas cambiadas quedan marcadas; nada se aplica hasta que tocás **Guardar cambios**.
+   Los cambios valen para todas las personas con ese rol, y HolyCRM los respeta en todos
+   lados, no solo en el menú.
+
+Algunas pantallas comparten un mismo ajuste — por ejemplo, Check-in y Check-in de niños siguen
+a **Asistencia** — y aparecen como "También aplica a" debajo de ella. **Restaurar
+predeterminado** deshace una pantalla; **Restaurar todo lo predeterminado** deshace todo para
+ese rol.
+
+Dos cosas no se pueden cambiar acá: el rol **Administrador** siempre tiene acceso completo
+(para que nadie deje a la iglesia sin acceso a esta pantalla), y Facturación, Datos y
+privacidad y Permisos Personalizados quedan para los Administradores (Usuarios, para
+Administradores y Coordinadores).
 
 ## Mi perfil vs. Usuarios
 
 **Mi perfil** (en Cuenta) es donde cualquiera gestiona su *propio* acceso — nombre, avatar,
-contraseña y correo. La pantalla de Usuarios es donde un Admin/Gestor gestiona el acceso de
+contraseña y correo. La pantalla de Usuarios es donde un Administrador/Coordinador gestiona el acceso de
 *los demás*. Ver [Mi perfil](https://docs.holycrm.app/content/es/profile.md).
 
 ---
@@ -1625,7 +1668,7 @@ Section: Configuración de administración
 
 # Datos y privacidad
 
-En **Configuración de administración → Datos y privacidad**, un Admin puede confirmar las
+En **Configuración de administración → Datos y privacidad**, un Administrador puede confirmar las
 responsabilidades de datos de tu iglesia, descargar una copia completa de los datos de tu
 iglesia, solicitar su eliminación y revisar un registro de quién modificó recientemente los
 registros de Miembros y Ofrendas. Esta pantalla existe porque los registros de tu iglesia —
@@ -1681,8 +1724,8 @@ primer lugar para revisar.
 
 ## Quién puede ver esto
 
-Datos y privacidad es visible solo para **Admins** — no aparece en el menú de Managers,
-Voluntarios ni Miembros.
+Datos y privacidad es visible solo para **Administradores** — no aparece en el menú de Coordinadores,
+Servidores ni Miembros.
 
 ## Lo que todavía no existe
 
@@ -1792,8 +1835,8 @@ sin importar su rol o a cuántas iglesias pertenezca.
   él y confirmás con tu contraseña. Esto te protege de que alguien redirija silenciosamente tu
   correo de acceso si tu sesión llegara a estar comprometida.
 
-El Perfil no controla tu rol ni a qué iglesias podés acceder — eso lo gestiona un Admin o
-Gestor en cada iglesia; ver [Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md).
+El Perfil no controla tu rol ni a qué iglesias podés acceder — eso lo gestiona un Administrador o
+Coordinador en cada iglesia; ver [Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md).
 
 Si pertenecés a más de una iglesia, usá el selector de iglesias en otra parte de la app para
 moverte entre ellas — tu Perfil se comparte entre todas, ya que está ligado a tu único acceso,
@@ -1869,7 +1912,7 @@ Una fecha específica siempre tiene prioridad sobre el patrón semanal para ese 
 
 ## Cómo se usa
 
-Cuando un Manager o un Admin completa un requerimiento de rol en un turno, HolyCRM revisa
+Cuando un Coordinador o un Administrador completa un requerimiento de rol en un turno, HolyCRM revisa
 quién publicó disponibilidad que cubra ese horario y lo sugiere primero — ver [Ministerios
 y turnos](https://docs.holycrm.app/content/es/ministries.md). Si nadie publicó disponibilidad para un horario determinado, vas a
 ver un aviso en lugar de una sugerencia equivocada.
@@ -1878,7 +1921,7 @@ ver un aviso en lugar de una sugerencia equivocada.
 
 Mi disponibilidad solo aparece si tu inicio de sesión está vinculado a una ficha de
 miembro en la congregación — ver [Mi perfil](https://docs.holycrm.app/content/es/profile.md), en "Mi información en la
-iglesia". Consultá con el Admin o Manager de tu iglesia si creés que falta.
+iglesia". Consultá con el Administrador o Coordinador de tu iglesia si creés que falta.
 
 ---
 
@@ -1887,8 +1930,8 @@ Section: Cuenta
 
 # Mis ofrendas
 
-Tu propio historial de ofrendas — visible si tenés un acceso con rol **Miembro** vinculado
-a tu ficha en la congregación. Esto es distinto de la pantalla [Ofrendas](https://docs.holycrm.app/content/es/finance.md) que
+Tu propio historial de ofrendas — visible para cualquiera cuyo acceso esté vinculado a su
+ficha en la congregación, sea cual sea su rol (Miembro, Servidor, Coordinador o Administrador). Esto es distinto de la pantalla [Ofrendas](https://docs.holycrm.app/content/es/finance.md) que
 usa el equipo, que muestra las ofrendas de todos; Mis ofrendas solo muestra **las tuyas**.
 
 ## Qué vas a ver
@@ -1900,7 +1943,7 @@ individual — fecha, una breve descripción, y monto.
 
 Esto significa una de dos cosas: todavía no se registró ninguna ofrenda a tu nombre para
 el año elegido, o tu acceso no está vinculado a ninguna ficha de miembro. Si te parece que
-está mal, consultá con el Admin o Gestor de tu iglesia — pueden vincular tu acceso a tu
+está mal, consultá con el Administrador o Coordinador de tu iglesia — pueden vincular tu acceso a tu
 ficha desde **Configuración de administración → Usuarios**.
 
 ## De dónde vienen tu nombre y tus datos de contacto
@@ -1919,8 +1962,8 @@ Section: Soporte
 <details class="help-faq-item" open>
 <summary>No veo un ítem del menú que esperaba ver. ¿Por qué?</summary>
 
-Lo que ves depende de tu rol (Admin, Gestor, Voluntario o Miembro) y de cualquier permiso
-personalizado que tu iglesia te haya configurado. Pedile a un Admin o Gestor que revise
+Lo que ves depende de tu rol (Administrador, Coordinador, Servidor o Miembro) y de cualquier permiso
+personalizado que tu iglesia te haya configurado. Pedile a un Administrador o Coordinador que revise
 [Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md) — o hay que cambiar tu rol, o hay que otorgar un
 permiso personalizado para ese módulo.
 </details>
@@ -1937,7 +1980,7 @@ verifica si ya cargaste a esa persona a mano antes.
 <details class="help-faq-item">
 <summary>¿Por qué el correo de un miembro está bloqueado y no puedo editarlo?</summary>
 
-Ese miembro también tiene un acceso a HolyCRM (es Voluntario, Gestor o Admin). Su correo de
+Ese miembro también tiene un acceso a HolyCRM (es Servidor, Coordinador o Administrador). Su correo de
 acceso y el correo de su ficha de miembro se mantienen sincronizados automáticamente, así que
 editarlo desde el formulario de Miembros haría que se sobrescriba solo. Cambialo desde
 **Configuración de administración → Usuarios** — ver

@@ -35,7 +35,7 @@ The left-hand menu is grouped by topic:
 - **Admin Settings** — Church Settings, Locations, Users, Tags, Data & Privacy.
 - **Account** — your own Profile.
 
-**You may not see every item.** What's visible depends on your role (Admin, Manager,
+**You may not see every item.** What's visible depends on your role (Administrator, Coordinator,
 Volunteer or Member) and on any custom permission your church has set for you — see
 [Users, Roles & Permissions](#/users-roles) if something you expect to see is missing. A few
 modules (Rotas, Finance, Bulk Email, Kids Check-in and others) also depend on your church's
@@ -45,10 +45,10 @@ plan — see [Plans & Billing](#/plans-billing).
 
 | Role | Typical use |
 |---|---|
-| **Admin** | Full access to everything, including Church Settings and inviting other users. |
-| **Manager** | Day-to-day operations — members, groups, events, rotas, communications, finance — without the account-level settings an Admin has. |
-| **Volunteer** | Narrow, task-focused access (e.g. taking attendance, running check-in) depending on what your church has granted. |
-| **Member** | Read-only self-service — mainly your own Profile. |
+| **Administrator** | Full access to everything, including Church Settings and inviting other users. |
+| **Coordinator** | Day-to-day operations — members, groups, events, rotas, communications, finance — without the account-level settings an Administrator has. |
+| **Volunteer** | Hands-on serving — welcome visitors, take attendance and run check-in (finding people by name only). No member directory, finance, prayer requests or reports. |
+| **Member** | Self-service only — your own profile, rotas, availability and giving history. |
 
 A church can fine-tune this further per person; your actual access can differ slightly from
 the table above.

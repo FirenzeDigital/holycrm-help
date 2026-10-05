@@ -12,8 +12,8 @@ independentemente da função ou de a quantas igrejas pertença.
   e confirmar com a sua palavra-passe. Isto protege-o de alguém redirecionar silenciosamente o
   seu e-mail de acesso caso a sua sessão fique comprometida.
 
-O Perfil não controla a sua função nem a que igrejas tem acesso — isso é gerido por um Admin
-ou Gestor em cada igreja; ver [Utilizadores, funções e permissões](#/users-roles).
+O Perfil não controla a sua função nem a que igrejas tem acesso — isso é gerido por um Administrador
+ou Coordenador em cada igreja; ver [Utilizadores, funções e permissões](#/users-roles).
 
 Se pertencer a mais do que uma igreja, use o seletor de igreja noutra parte da aplicação para
 alternar entre elas — o seu Perfil é partilhado entre todas, já que está associado ao seu

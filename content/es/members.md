@@ -12,7 +12,7 @@ Campos útiles:
 
 - **Estado** — activo, inactivo, etc. La mayoría de los reportes y selectores solo cuentan
   miembros *activos*.
-- **Voluntario** — una casilla que marca a alguien como disponible para servir. Esto importa
+- **Sirve en turnos** — una casilla que marca a alguien como disponible para servir. Esto importa
   para la programación de turnos — ver [Ministerios y turnos](#/ministries).
 - **Etiquetas** — un selector flexible de etiquetas (ver
   [Etiquetas y roles de etiqueta](#/tags)) para agrupar personas de la forma que le sirva a
@@ -37,7 +37,7 @@ podés marcar a mano en lugar de calcularse automáticamente.
 
 ## El correo queda bloqueado para miembros con acceso
 
-Si un miembro también tiene un acceso a HolyCRM (es Voluntario, Gestor o Admin y ya inició
+Si un miembro también tiene un acceso a HolyCRM (es Servidor, Coordinador o Administrador y ya inició
 sesión), su campo de correo queda bloqueado en el formulario de Miembros, con una nota que te
 lleva a la pantalla de Usuarios. Esto es intencional: su correo de acceso y el correo de su
 ficha de miembro se mantienen sincronizados automáticamente, y editarlo en dos lugares

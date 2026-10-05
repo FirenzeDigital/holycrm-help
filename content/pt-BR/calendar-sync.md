@@ -32,7 +32,7 @@ programação interna, não algo que você queira ver no seu calendário pessoal
 
 ## Se precisar desativar
 
-Peça a um Admin para **regenerar** o link na tela do Calendário. Isso invalida
+Peça a um Administrador para **regenerar** o link na tela do Calendário. Isso invalida
 imediatamente todos os links compartilhados antes, incluindo o seu, então quem quiser
 continuar recebendo as atualizações precisa se inscrever de novo com o novo link. Use isso
 se um link foi compartilhado em algum lugar que não deveria.

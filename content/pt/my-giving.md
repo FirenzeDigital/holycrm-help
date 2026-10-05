@@ -1,7 +1,8 @@
 # As minhas ofertas
 
-O seu próprio histórico de ofertas — visível se tiver um acesso com função **Membro**
-associado à sua ficha na congregação. Isto é diferente do ecrã [Ofertas](#/finance) que a
+O seu próprio histórico de ofertas — visível para qualquer pessoa cujo acesso esteja
+associado à própria ficha na congregação, seja qual for a função (Membro, Voluntário, Coordenador
+ou Administrador). Isto é diferente do ecrã [Ofertas](#/finance) que a
 equipa usa, que mostra as ofertas de toda a gente; As minhas ofertas só mostra **as suas**.
 
 ## O que vai ver
@@ -13,7 +14,7 @@ individual — data, uma breve descrição, e valor.
 
 Isto significa uma de duas coisas: ainda não foi registada nenhuma oferta em seu nome para
 o ano escolhido, ou o seu acesso não está associado a nenhuma ficha de membro. Se lhe
-parecer que está errado, fale com o Admin ou Gestor da sua igreja — podem associar o seu
+parecer que está errado, fale com o Administrador ou Coordenador da sua igreja — podem associar o seu
 acesso à sua ficha em **Configurações administrativas → Utilizadores**.
 
 ## De onde vêm o seu nome e os seus dados de contacto

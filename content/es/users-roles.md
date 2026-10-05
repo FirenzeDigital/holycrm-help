@@ -18,12 +18,18 @@ vacío.
 
 Elegí su **rol**:
 
-| Rol | Puede hacer típicamente |
+| Rol | Qué puede hacer (por defecto) |
 |---|---|
-| **Admin** | Todo, incluida la Configuración de la iglesia e invitar/gestionar otros usuarios. |
-| **Gestor (Manager)** | Operación del día a día en la mayoría de los módulos, pero no la Configuración de la iglesia ni ascender a nadie a Gestor/Admin. |
-| **Voluntario** | Acceso acotado y enfocado en una tarea — comúnmente asistencia/check-in — según lo que tu iglesia configure. |
-| **Miembro** | Solo autoservicio: su propio Perfil y, si está vinculado a una ficha de la congregación, sus propios datos de contacto e historial de ofrendas. Sin acceso a los datos de nadie más. |
+| **Administrador** | Todo, incluidos usuarios, permisos personalizados, Datos y privacidad y facturación. |
+| **Coordinador** | El día a día del ministerio y la administración: personas, grupos pequeños, ministerios y turnos, eventos, asistencia, finanzas, correo y configuración de la iglesia. No puede cambiar permisos, Datos y privacidad ni facturación, ni ascender a nadie a Coordinador/Administrador. |
+| **Servidor** | Servicio práctico en la puerta y en los cultos: recibir visitantes, tomar asistencia y hacer el check-in, buscando a las personas solo por nombre. Sin acceso al directorio de miembros, finanzas, pedidos de oración, grupos pequeños, ministerios, planificación de turnos, correo ni informes. |
+| **Miembro** | Solo autoservicio: su propio perfil, sus turnos, su disponibilidad y su historial de ofrendas. Sin acceso a los datos de nadie más. |
+
+Estos límites los aplica el servidor de HolyCRM, no solo se ocultan del menú, así que nadie
+puede llegar por otro camino a datos que su rol no permite. Un usuario **suspendido** pierde
+todo acceso a la iglesia de inmediato.
+
+La mayoría de quienes sirven en turnos solo necesitan el rol **Miembro**: estar en un turno depende de **Sirve en turnos** en su ficha de miembro, no de su usuario, y los Miembros ya ven sus propios turnos y su disponibilidad.
 
 La persona invitada recibe un correo con un enlace para configurar su contraseña. Hasta que lo
 haga, su estado figura como **Invitado**; una vez que configura su contraseña — o entra con
@@ -37,8 +43,8 @@ completo, **reenviar una invitación** que todavía no fue aceptada, o **editar 
 acceso**.
 
 Algunas reglas de seguridad incorporadas: solo podés asignar o gestionar roles *por debajo*
-del tuyo (un Gestor no puede tocar a un Admin ni a otro Gestor), no podés editar tu propia
-fila desde esta pantalla, y una iglesia siempre conserva al menos un Admin — al último no se
+del tuyo (un Coordinador no puede tocar a un Administrador ni a otro Coordinador), no podés editar tu propia
+fila desde esta pantalla, y una iglesia siempre conserva al menos un Administrador — al último no se
 lo puede quitar ni degradar.
 
 ## Vincular un usuario con un miembro
@@ -55,14 +61,30 @@ vínculo muestra *Sin miembro vinculado*.
 
 ## Permisos personalizados
 
-Más allá de los cuatro roles estándar, un Admin puede ajustar el acceso por módulo en
-**Configuración de administración → Acceso personalizado de usuario** — por ejemplo,
-permitiendo que los Voluntarios creen Eventos aunque eso no forme parte del rol Voluntario por
-defecto. Estos ajustes se aplican por encima de los valores predeterminados del rol,
-específicamente para tu iglesia.
+Cada rol viene con el acceso recomendado por HolyCRM. Un Administrador puede cambiarlo para tu
+iglesia en **Administración → Permisos Personalizados**:
+
+1. Elegí el rol arriba (Coordinador, Servidor o Miembro). Un número al lado del rol indica
+   cuántas pantallas personalizaste para él.
+2. Cada pantalla tiene hasta cuatro casillas: **Ver**, **Agregar**, **Editar** y **Eliminar**.
+   Un guion significa que esa acción no existe en esa pantalla. Marcar Agregar, Editar o
+   Eliminar también marca Ver; desmarcar Ver quita las demás.
+3. Las filas cambiadas quedan marcadas; nada se aplica hasta que tocás **Guardar cambios**.
+   Los cambios valen para todas las personas con ese rol, y HolyCRM los respeta en todos
+   lados, no solo en el menú.
+
+Algunas pantallas comparten un mismo ajuste — por ejemplo, Check-in y Check-in de niños siguen
+a **Asistencia** — y aparecen como "También aplica a" debajo de ella. **Restaurar
+predeterminado** deshace una pantalla; **Restaurar todo lo predeterminado** deshace todo para
+ese rol.
+
+Dos cosas no se pueden cambiar acá: el rol **Administrador** siempre tiene acceso completo
+(para que nadie deje a la iglesia sin acceso a esta pantalla), y Facturación, Datos y
+privacidad y Permisos Personalizados quedan para los Administradores (Usuarios, para
+Administradores y Coordinadores).
 
 ## Mi perfil vs. Usuarios
 
 **Mi perfil** (en Cuenta) es donde cualquiera gestiona su *propio* acceso — nombre, avatar,
-contraseña y correo. La pantalla de Usuarios es donde un Admin/Gestor gestiona el acceso de
+contraseña y correo. La pantalla de Usuarios es donde un Administrador/Coordinador gestiona el acceso de
 *los demás*. Ver [Mi perfil](#/profile).

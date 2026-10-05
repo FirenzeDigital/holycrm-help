@@ -1,7 +1,7 @@
 # Reports
 
 Reports answers the question every pastor actually asks — **is your church connecting
-with people?** — instead of a pile of generic charts. Visible to Admin and Manager roles
+with people?** — instead of a pile of generic charts. Visible to Administrator and Coordinator roles
 only, since it includes giving figures.
 
 ## Quick answers, always for this month

@@ -27,7 +27,7 @@ Uma data específica sempre tem prioridade sobre o padrão semanal naquele dia.
 
 ## Como isso é usado
 
-Quando um Manager ou Admin preenche um requisito de função numa escala, a HolyCRM verifica
+Quando um Coordenador ou Administrador preenche um requisito de função numa escala, a HolyCRM verifica
 quem publicou disponibilidade que cobre aquele horário e sugere essa pessoa primeiro —
 veja [Ministérios e escalas](#/ministries). Se ninguém publicou disponibilidade para um
 determinado horário, você vai ver um aviso em vez de uma sugestão errada.
@@ -36,4 +36,4 @@ determinado horário, você vai ver um aviso em vez de uma sugestão errada.
 
 Minha disponibilidade só aparece se o seu login estiver vinculado a um cadastro de membro
 na congregação — veja [Meu perfil](#/profile), em "Minhas informações na igreja". Fale com
-o Admin ou Manager da sua igreja se achar que isso está faltando.
+o Administrador ou Coordenador da sua igreja se achar que isso está faltando.

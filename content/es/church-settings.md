@@ -24,7 +24,7 @@ predeterminada, edad límite para menores, y el logo de tu iglesia.
   Brasil, 52 México, 44 Reino Unido…). HolyCRM lo agrega a los teléfonos guardados sin él
   cuando abre un chat de WhatsApp, por ejemplo al [pedir confirmación a los voluntarios](#/rotas).
 
-Solo los Admins y Gestores pueden cambiar esta configuración.
+Solo los Administradores y Coordinadores pueden cambiar esta configuración.
 
 ## Sedes
 

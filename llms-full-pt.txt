@@ -54,7 +54,7 @@ O menu à esquerda está agrupado por tema:
   Etiquetas, Dados e privacidade.
 - **Conta** — o seu próprio Perfil.
 
-**É possível que não veja todos os itens.** O que vê depende da sua função (Admin, Gestor,
+**É possível que não veja todos os itens.** O que vê depende da sua função (Administrador, Coordenador,
 Voluntário ou Membro) e de qualquer permissão personalizada que a sua igreja lhe tenha
 atribuído — ver [Utilizadores, funções e permissões](https://docs.holycrm.app/content/pt/users-roles.md) se faltar algo que
 esperava encontrar. Alguns módulos (Escalas, Finanças, E-mail em massa, Check-in de crianças
@@ -64,10 +64,10 @@ e outros) também dependem do plano da igreja — ver [Planos e faturação](htt
 
 | Função | Uso típico |
 |---|---|
-| **Admin** | Acesso total a tudo, incluindo Configurações da igreja e convidar outros utilizadores. |
-| **Gestor (Manager)** | Operação do dia a dia — membros, grupos, eventos, escalas, comunicações, finanças — sem as configurações ao nível da conta que um Admin tem. |
-| **Voluntário** | Acesso restrito e focado numa tarefa (por exemplo, registar presenças ou operar o check-in), consoante o que a sua igreja tiver ativado. |
-| **Membro** | Acesso apenas de leitura — principalmente o seu próprio Perfil. |
+| **Administrador** | Acesso total a tudo, incluindo Configurações da igreja e convidar outros utilizadores. |
+| **Coordenador** | Operação do dia a dia — membros, grupos, eventos, escalas, comunicações, finanças — sem as configurações ao nível da conta que um Administrador tem. |
+| **Voluntário** | Serviço prático — receber visitantes, registar presenças e fazer o check-in (encontrando as pessoas só pelo nome). Sem registo de membros, finanças, pedidos de oração nem relatórios. |
+| **Membro** | Apenas autosserviço — o seu próprio perfil, as suas escalas, a sua disponibilidade e o seu histórico de ofertas. |
 
 Uma igreja pode ajustar isto com mais detalhe por pessoa; o seu acesso real pode diferir
 ligeiramente desta tabela.
@@ -108,7 +108,15 @@ Section: Visão geral
 O Painel é o ecrã inicial da sua igreja — uma fotografia do momento, atualizada em tempo real
 com os seus dados reais. Cada cartão carrega de forma independente e simplesmente esconde-se
 se não tiver permissão para o ver ou se ainda não houver dados, pelo que um acesso de
-Voluntário pode ver um painel bastante mais curto do que o de um Admin, e isso é esperado.
+Voluntário pode ver um painel bastante mais curto do que o de um Administrador, e isso é esperado.
+
+## Ações rápidas (Voluntários e Membros)
+
+Quem não gere os dados da igreja — Voluntários e Membros — vê **Ações rápidas**: um cartão
+para cada ecrã que pode usar, como Receber um visitante, Check-in, Presença, As minhas
+escalas, A minha disponibilidade, As minhas ofertas e O meu perfil. O cartão **As minhas
+escalas** mostra também a próxima data para servir e se já a confirmou. Toque num cartão para
+ir diretamente.
 
 ## O que vai ver
 
@@ -125,7 +133,7 @@ a aparecer.
 **Faixa de números-chave:**
 
 - Membros ativos, com quantos entraram este mês.
-- Voluntários, em percentagem dos membros ativos.
+- Servem nas escalas, em percentagem dos membros ativos.
 - Pessoas atualmente num pequeno grupo.
 - Visitantes este mês, e a respetiva taxa de conversão.
 - O que vem nos próximos 7 dias.
@@ -267,7 +275,7 @@ programação interna, não algo que queira ver no seu calendário pessoal.
 
 ## Se precisar de desativar
 
-Peça a um Admin para **regenerar** a ligação no ecrã do Calendário. Isto invalida de
+Peça a um Administrador para **regenerar** a ligação no ecrã do Calendário. Isto invalida de
 imediato todas as ligações partilhadas antes, incluindo a sua, pelo que quem quiser
 continuar a receber atualizações tem de subscrever de novo com a nova ligação. Use isto se
 uma ligação foi partilhada nalgum sítio onde não devia.
@@ -281,7 +289,7 @@ Section: Visão geral
 
 Relatórios responde à pergunta que todo o pastor realmente faz — **a sua igreja está de
 facto a ligar pessoas?** — em vez de mostrar um monte de gráficos genéricos. Visível
-apenas para as funções Admin e Gestor, já que inclui números de ofertas.
+apenas para as funções Administrador e Coordenador, já que inclui números de ofertas.
 
 ## Respostas rápidas, sempre deste mês
 
@@ -351,7 +359,7 @@ Campos úteis:
 
 - **Estado** — ativo, inativo, etc. A maioria dos relatórios e seletores só contam membros
   *ativos*.
-- **Voluntário** — uma caixa de verificação que marca alguém como disponível para servir. Isto
+- **Serve nas escalas** — uma caixa de verificação que marca alguém como disponível para servir. Isto
   é importante para o agendamento de escalas — ver [Ministérios e escalas](https://docs.holycrm.app/content/pt/ministries.md).
 - **Etiquetas** — um seletor flexível de etiquetas (ver
   [Etiquetas e funções de etiqueta](https://docs.holycrm.app/content/pt/tags.md)) para agrupar pessoas da forma que fizer sentido
@@ -375,7 +383,7 @@ verificação que assinala manualmente, em vez de ser calculado automaticamente.
 
 ## O e-mail fica bloqueado para membros com acesso
 
-Se um membro também tiver um acesso ao HolyCRM (é Voluntário, Gestor ou Admin e já iniciou
+Se um membro também tiver um acesso ao HolyCRM (é Voluntário, Coordenador ou Administrador e já iniciou
 sessão), o campo de e-mail fica bloqueado no formulário de Membros, com uma nota a remeter
 para o ecrã de Utilizadores. Isto é intencional: o e-mail de acesso e o e-mail da ficha de
 membro são mantidos sincronizados automaticamente, e editá-lo em dois sítios diferentes faria
@@ -580,6 +588,19 @@ a função de etiqueta `acompanhamento de visitantes` (ver
 [Etiquetas e funções de etiqueta](https://docs.holycrm.app/content/pt/tags.md)), só os membros com essa etiqueta são oferecidos;
 caso contrário, são oferecidos todos os membros ativos.
 
+## Equipa de receção: "Receber um visitante"
+
+Quem está na equipa de receção não precisa de ver toda a lista de Visitantes. Dê a essas
+pessoas o ecrã **Receber um visitante** (já vem incluído para a função Voluntário): um
+formulário curto com nome, telefone, WhatsApp, e-mail, como conheceu a igreja e notas. O
+visitante entra diretamente em Visitantes como **Novo**, com hoje como primeira visita, e a
+equipa de acompanhamento trata do resto.
+
+Por baixo do formulário, **Visitantes que adicionou** mostra apenas as pessoas que esse
+utilizador registou, para corrigir algum erro de escrita. Não vê os visitantes de mais
+ninguém nem pode eliminar nenhum. No detalhe do visitante, os coordenadores veem
+**Registado por** com o nome de quem o adicionou.
+
 ## Registar um contacto de acompanhamento
 
 Abra a página de detalhe de um visitante e registe cada contacto — uma chamada, mensagem,
@@ -638,7 +659,7 @@ Também pode registar pedidos — por exemplo, um que alguém partilhou depois d
 
 ## Quem pode ver
 
-Por omissão, só Admins e Gestores podem ver e gerir os pedidos de oração, porque as
+Por omissão, só Administradores e Coordenadores podem ver e gerir os pedidos de oração, porque as
 pessoas costumam partilhar coisas pessoais. Se tem uma equipa de oração, pode dar-lhe acesso em
 [Utilizadores e funções](https://docs.holycrm.app/content/pt/users-roles.md) com permissões personalizadas. Os pedidos marcados
 **Apenas pastores** ficam assinalados para que a equipa saiba que não devem ser partilhados.
@@ -1460,7 +1481,7 @@ limite para menores, e o logótipo da sua igreja.
   44 Reino Unido…). O HolyCRM acrescenta-o aos números guardados sem ele ao abrir uma conversa
   no WhatsApp, por exemplo ao [pedir confirmação aos voluntários](https://docs.holycrm.app/content/pt/rotas.md).
 
-Só Admins e Gestores podem alterar estas configurações.
+Só Administradores e Coordenadores podem alterar estas configurações.
 
 ## Locais
 
@@ -1505,12 +1526,18 @@ Perfil vazio.
 
 Escolha a sua **função**:
 
-| Função | Pode tipicamente |
+| Função | O que pode fazer (por predefinição) |
 |---|---|
-| **Admin** | Tudo, incluindo Configurações da igreja e convidar/gerir outros utilizadores. |
-| **Gestor (Manager)** | Operação do dia a dia na maioria dos módulos, mas não as Configurações da igreja nem promover alguém a Gestor/Admin. |
-| **Voluntário** | Acesso restrito e focado numa tarefa — normalmente presenças/check-in — consoante o que a sua igreja configurar. |
-| **Membro** | Apenas autosserviço: o seu próprio Perfil e, se associado a uma ficha da congregação, os seus próprios dados de contacto e histórico de ofertas. Sem acesso aos dados de mais ninguém. |
+| **Administrador** | Tudo, incluindo utilizadores, permissões personalizadas, Dados e privacidade e faturação. |
+| **Coordenador** | O dia a dia do ministério e da administração: pessoas, pequenos grupos, ministérios e escalas, eventos, presenças, finanças, e-mail e configurações da igreja. Não pode alterar permissões, Dados e privacidade nem faturação, nem promover alguém a Coordenador/Administrador. |
+| **Voluntário** | Serviço prático à porta e nos cultos: receber visitantes, registar presenças e fazer o check-in, encontrando as pessoas só pelo nome. Sem acesso ao registo de membros, finanças, pedidos de oração, pequenos grupos, ministérios, planeamento de escalas, e-mail nem relatórios. |
+| **Membro** | Apenas autosserviço: o seu próprio perfil, as suas escalas, a sua disponibilidade e o seu histórico de ofertas. Sem acesso aos dados de mais ninguém. |
+
+Estes limites são aplicados pelo servidor do HolyCRM, não apenas escondidos do menu, por isso
+ninguém consegue chegar por outro caminho a dados que a sua função não permite. Um utilizador
+**suspenso** perde todo o acesso à igreja imediatamente.
+
+A maioria de quem serve nas escalas só precisa da função **Membro**: estar numa escala depende de **Serve nas escalas** na ficha do membro, não do login, e os Membros já veem as suas próprias escalas e disponibilidade.
 
 A pessoa convidada recebe um e-mail com um link para definir a palavra-passe. Até o fazer, o
 seu estado aparece como **Convidado**; assim que define a palavra-passe — ou entra com
@@ -1523,8 +1550,8 @@ sem eliminar a conta nem o histórico), **reativar**, **remover da igreja** por 
 **reenviar um convite** que ainda não foi aceite, ou **editar o e-mail de acesso**.
 
 Algumas regras de segurança incorporadas: só pode atribuir ou gerir funções *abaixo* da sua
-(um Gestor não pode mexer num Admin nem noutro Gestor), não pode editar a sua própria linha
-neste ecrã, e uma igreja mantém sempre pelo menos um Admin — o último não pode ser removido
+(um Coordenador não pode mexer num Administrador nem noutro Coordenador), não pode editar a sua própria linha
+neste ecrã, e uma igreja mantém sempre pelo menos um Administrador — o último não pode ser removido
 nem despromovido.
 
 ## Associar um utilizador a um membro
@@ -1541,16 +1568,31 @@ tem associação aparece como *Sem membro associado*.
 
 ## Permissões personalizadas
 
-Além das quatro funções padrão, um Admin pode ajustar o acesso por módulo em
-**Configurações administrativas → Acesso personalizado de utilizador** — por exemplo,
-permitindo que Voluntários criem Eventos mesmo que isso não faça parte da função predefinida
-de Voluntário. Estes ajustes aplicam-se por cima das predefinições da função, especificamente
-para a sua igreja.
+Cada função vem com o acesso recomendado pelo HolyCRM. Um Administrador pode alterá-lo para a
+sua igreja em **Configurações de administração → Acesso personalizado do usuário**:
+
+1. Escolha a função no topo (Coordenador, Voluntário ou Membro). Um número ao lado da função
+   mostra quantos ecrãs personalizou para ela.
+2. Cada ecrã tem até quatro caixas: **Ver**, **Adicionar**, **Editar** e **Excluir**. Um
+   traço significa que essa ação não existe nesse ecrã. Marcar Adicionar, Editar ou Excluir
+   marca também Ver; desmarcar Ver limpa as restantes.
+3. As linhas alteradas ficam assinaladas; nada se aplica até carregar em **Salvar
+   alterações**. As alterações aplicam-se a todas as pessoas com essa função, e o HolyCRM
+   aplica-as em todo o lado, não só no menu.
+
+Alguns ecrãs partilham o mesmo ajuste — por exemplo, Check-in e Check-in das crianças seguem
+**Presença** — e aparecem como "Também se aplica a" por baixo dela. **Repor predefinição**
+desfaz um ecrã; **Repor todas as predefinições** desfaz tudo para essa função.
+
+Duas coisas não podem ser alteradas aqui: a função **Administrador** tem sempre acesso
+completo (para que ninguém deixe a igreja sem acesso a este ecrã), e Faturação, Dados e
+Privacidade e Acesso personalizado do usuário ficam com os Administradores (Usuários, com
+Administradores e Coordenadores).
 
 ## O Meu Perfil vs. Utilizadores
 
 **O Meu Perfil** (em Conta) é onde qualquer pessoa gere o seu *próprio* acesso — nome, avatar,
-palavra-passe e e-mail. O ecrã de Utilizadores é onde um Admin/Gestor gere o acesso *dos
+palavra-passe e e-mail. O ecrã de Utilizadores é onde um Administrador/Coordenador gere o acesso *dos
 outros*. Ver [O Meu Perfil](https://docs.holycrm.app/content/pt/profile.md).
 
 ---
@@ -1602,7 +1644,7 @@ Section: Configurações administrativas
 
 # Dados e privacidade
 
-Em **Configurações administrativas → Dados e privacidade**, um Admin pode confirmar as
+Em **Configurações administrativas → Dados e privacidade**, um Administrador pode confirmar as
 responsabilidades de dados da sua igreja, descarregar uma cópia completa dos dados da sua
 igreja, solicitar a eliminação e rever um registo de quem alterou recentemente os registos
 de Membros e Ofertas. Este ecrã existe porque os registos da sua igreja — quem são os
@@ -1656,7 +1698,7 @@ lugar a verificar.
 
 ## Quem pode ver isto
 
-Dados e privacidade está visível apenas para **Admins** — não aparece no menu de Managers,
+Dados e privacidade está visível apenas para **Administradores** — não aparece no menu de Coordenadores,
 Voluntários ou Membros.
 
 ## O que ainda não existe
@@ -1766,8 +1808,8 @@ independentemente da função ou de a quantas igrejas pertença.
   e confirmar com a sua palavra-passe. Isto protege-o de alguém redirecionar silenciosamente o
   seu e-mail de acesso caso a sua sessão fique comprometida.
 
-O Perfil não controla a sua função nem a que igrejas tem acesso — isso é gerido por um Admin
-ou Gestor em cada igreja; ver [Utilizadores, funções e permissões](https://docs.holycrm.app/content/pt/users-roles.md).
+O Perfil não controla a sua função nem a que igrejas tem acesso — isso é gerido por um Administrador
+ou Coordenador em cada igreja; ver [Utilizadores, funções e permissões](https://docs.holycrm.app/content/pt/users-roles.md).
 
 Se pertencer a mais do que uma igreja, use o seletor de igreja noutra parte da aplicação para
 alternar entre elas — o seu Perfil é partilhado entre todas, já que está associado ao seu
@@ -1842,7 +1884,7 @@ Uma data específica tem sempre prioridade sobre o padrão semanal nesse dia.
 
 ## Como isto é usado
 
-Quando um Manager ou Admin preenche um requisito de função numa escala, a HolyCRM verifica
+Quando um Coordenador ou Administrador preenche um requisito de função numa escala, a HolyCRM verifica
 quem publicou disponibilidade que cobre esse horário e sugere essa pessoa primeiro — ver
 [Ministérios e escalas](https://docs.holycrm.app/content/pt/ministries.md). Se ninguém publicou disponibilidade para um
 determinado horário, vai ver um aviso em vez de uma sugestão errada.
@@ -1851,7 +1893,7 @@ determinado horário, vai ver um aviso em vez de uma sugestão errada.
 
 A minha disponibilidade só aparece se o seu início de sessão estiver associado a uma
 ficha de membro na congregação — ver [O meu perfil](https://docs.holycrm.app/content/pt/profile.md), em "As minhas informações
-na igreja". Fale com o Admin ou Manager da sua igreja se achar que isto está em falta.
+na igreja". Fale com o Administrador ou Coordenador da sua igreja se achar que isto está em falta.
 
 ---
 
@@ -1860,8 +1902,9 @@ Section: Conta
 
 # As minhas ofertas
 
-O seu próprio histórico de ofertas — visível se tiver um acesso com função **Membro**
-associado à sua ficha na congregação. Isto é diferente do ecrã [Ofertas](https://docs.holycrm.app/content/pt/finance.md) que a
+O seu próprio histórico de ofertas — visível para qualquer pessoa cujo acesso esteja
+associado à própria ficha na congregação, seja qual for a função (Membro, Voluntário, Coordenador
+ou Administrador). Isto é diferente do ecrã [Ofertas](https://docs.holycrm.app/content/pt/finance.md) que a
 equipa usa, que mostra as ofertas de toda a gente; As minhas ofertas só mostra **as suas**.
 
 ## O que vai ver
@@ -1873,7 +1916,7 @@ individual — data, uma breve descrição, e valor.
 
 Isto significa uma de duas coisas: ainda não foi registada nenhuma oferta em seu nome para
 o ano escolhido, ou o seu acesso não está associado a nenhuma ficha de membro. Se lhe
-parecer que está errado, fale com o Admin ou Gestor da sua igreja — podem associar o seu
+parecer que está errado, fale com o Administrador ou Coordenador da sua igreja — podem associar o seu
 acesso à sua ficha em **Configurações administrativas → Utilizadores**.
 
 ## De onde vêm o seu nome e os seus dados de contacto
@@ -1893,8 +1936,8 @@ Section: Suporte
 <details class="help-faq-item" open>
 <summary>Não estou a ver um item de menu que esperava ver. Porquê?</summary>
 
-O que vê depende da sua função (Admin, Gestor, Voluntário ou Membro) e de qualquer permissão
-personalizada que a sua igreja lhe tenha configurado. Peça a um Admin ou Gestor para verificar
+O que vê depende da sua função (Administrador, Coordenador, Voluntário ou Membro) e de qualquer permissão
+personalizada que a sua igreja lhe tenha configurado. Peça a um Administrador ou Coordenador para verificar
 [Utilizadores, funções e permissões](https://docs.holycrm.app/content/pt/users-roles.md) — ou a sua função precisa de mudar, ou uma
 permissão personalizada precisa de ser concedida para esse módulo.
 </details>
@@ -1911,7 +1954,7 @@ verifica se já registou essa pessoa manualmente antes.
 <details class="help-faq-item">
 <summary>Porque é que o e-mail de um membro está bloqueado e não consigo editar?</summary>
 
-Esse membro também tem um acesso ao HolyCRM (é Voluntário, Gestor ou Admin). O e-mail de
+Esse membro também tem um acesso ao HolyCRM (é Voluntário, Coordenador ou Administrador). O e-mail de
 acesso dele e o e-mail da ficha de membro são mantidos sincronizados automaticamente, pelo que
 editá-lo a partir do formulário de Membros faria com que essa edição fosse substituída.
 Altere a partir de **Configurações administrativas → Utilizadores** — ver

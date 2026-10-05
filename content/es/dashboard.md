@@ -2,8 +2,16 @@
 
 El Panel principal es la pantalla de inicio de tu iglesia — una foto del momento, actualizada
 en vivo con tus datos reales. Cada tarjeta carga de forma independiente y simplemente se
-oculta si no tenés permiso para verla o si todavía no hay datos, así que un Voluntario puede
-ver un panel mucho más corto que un Admin, y eso es lo esperado.
+oculta si no tenés permiso para verla o si todavía no hay datos, así que un Servidor puede
+ver un panel mucho más corto que un Administrador, y eso es lo esperado.
+
+## Acciones rápidas (Servidores y Miembros)
+
+Quienes no administran los datos de la iglesia — Servidores y Miembros — ven **Acciones
+rápidas**: una tarjeta por cada pantalla que pueden usar, como Recibir a un visitante,
+Check-in, Asistencia, Mis turnos, Mi disponibilidad, Mis ofrendas y Mi perfil. La tarjeta
+**Mis turnos** muestra además su próxima fecha para servir y si ya la confirmó. Tocá una
+tarjeta para ir directo.
 
 ## Qué vas a ver
 
@@ -20,7 +28,7 @@ vuelve a aparecer.
 **Franja de números clave:**
 
 - Miembros activos, con cuántos se sumaron este mes.
-- Voluntarios, como porcentaje de los miembros activos.
+- Sirven en turnos, como porcentaje de los miembros activos.
 - Personas actualmente en un grupo pequeño.
 - Visitantes este mes, y su tasa de conversión.
 - Lo que viene en los próximos 7 días.
@@ -48,7 +56,7 @@ Si tu iglesia define una edad límite para menores, también podés ver una tarj
 
 ## Por qué falta o está vacío un panel
 
-- **Falta por completo**: no tenés permiso para leer esos datos (por ejemplo, un Voluntario
+- **Falta por completo**: no tenés permiso para leer esos datos (por ejemplo, un Servidor
   normalmente no puede ver los números de Finanzas).
 - **Presente pero vacío**: la función existe, simplemente todavía no hay nada que mostrar —
   por ejemplo, ningún visitante registrado este mes.

@@ -2,7 +2,7 @@
 
 Relatórios responde a pergunta que todo pastor realmente faz — **a sua igreja está de
 fato conectando pessoas?** — em vez de mostrar um monte de gráficos genéricos. Visível
-apenas para as funções Admin e Gestor, já que inclui números de ofertas.
+apenas para as funções Administrador e Coordenador, já que inclui números de ofertas.
 
 ## Respostas rápidas, sempre deste mês
 

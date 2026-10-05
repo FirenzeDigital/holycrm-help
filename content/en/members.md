@@ -11,7 +11,7 @@ always come back and fill in more later.
 Useful fields:
 
 - **Status** — active, inactive, etc. Most reports and pickers only count *active* members.
-- **Volunteer** — a checkbox marking someone as available to serve. This matters for rota
+- **Serves on rotas** — a checkbox marking someone as available to serve. This matters for rota
   scheduling — see [Ministries & Rotas](#/ministries).
 - **Tags** — a flexible label picker (see [Tags & Tag Roles](#/tags)) for grouping people
   any way your church finds useful, beyond ministries and groups.
@@ -33,7 +33,7 @@ instead of it being calculated automatically.
 
 ## Email is locked for members with a login
 
-If a member also has a HolyCRM login (they're a Volunteer, Manager or Admin who signed in),
+If a member also has a HolyCRM login (they're a Volunteer, Coordinator or Administrator who signed in),
 their email field is locked on the Members form with a note pointing you to the Users
 screen instead. This is intentional: their login email and their member-record email are
 kept in sync automatically, and editing it in two places would cause one edit to silently

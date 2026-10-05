@@ -2,7 +2,7 @@
 
 Informes responde la pregunta que todo pastor se hace en realidad — **¿tu iglesia está
 realmente conectando a las personas?** — en vez de mostrar un montón de gráficos
-genéricos. Visible solo para los roles Admin y Gestor, ya que incluye cifras de ofrendas.
+genéricos. Visible solo para los roles Administrador y Coordinador, ya que incluye cifras de ofrendas.
 
 ## Respuestas rápidas, siempre de este mes
 

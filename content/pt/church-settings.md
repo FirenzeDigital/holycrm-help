@@ -24,7 +24,7 @@ limite para menores, e o logótipo da sua igreja.
   44 Reino Unido…). O HolyCRM acrescenta-o aos números guardados sem ele ao abrir uma conversa
   no WhatsApp, por exemplo ao [pedir confirmação aos voluntários](#/rotas).
 
-Só Admins e Gestores podem alterar estas configurações.
+Só Administradores e Coordenadores podem alterar estas configurações.
 
 ## Locais
 

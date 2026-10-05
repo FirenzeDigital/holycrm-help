@@ -12,7 +12,7 @@ Campos úteis:
 
 - **Status** — ativo, inativo, etc. A maioria dos relatórios e seletores só conta membros
   *ativos*.
-- **Voluntário** — uma caixa de seleção marcando alguém como disponível para servir. Isso
+- **Serve nas escalas** — uma caixa de seleção marcando alguém como disponível para servir. Isso
   importa para o agendamento de escalas — veja [Ministérios e escalas](#/ministries).
 - **Tags** — um seletor flexível de tags (veja [Tags e funções de tag](#/tags)) para agrupar
   pessoas da forma que fizer sentido para sua igreja, além de ministérios e grupos.
@@ -35,7 +35,7 @@ seleção que você marca manualmente, em vez de ser calculado automaticamente.
 
 ## O e-mail fica bloqueado para membros com login
 
-Se um membro também tiver um login no HolyCRM (é Voluntário, Gestor ou Admin e já entrou no
+Se um membro também tiver um login no HolyCRM (é Voluntário, Coordenador ou Administrador e já entrou no
 sistema), o campo de e-mail dele fica bloqueado no formulário de Membros, com uma nota
 apontando para a tela de Usuários. Isso é intencional: o e-mail de login e o e-mail do
 cadastro de membro são mantidos sincronizados automaticamente, e editar em dois lugares faria

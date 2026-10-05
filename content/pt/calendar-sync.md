@@ -31,7 +31,7 @@ programação interna, não algo que queira ver no seu calendário pessoal.
 
 ## Se precisar de desativar
 
-Peça a um Admin para **regenerar** a ligação no ecrã do Calendário. Isto invalida de
+Peça a um Administrador para **regenerar** a ligação no ecrã do Calendário. Isto invalida de
 imediato todas as ligações partilhadas antes, incluindo a sua, pelo que quem quiser
 continuar a receber atualizações tem de subscrever de novo com a nova ligação. Use isto se
 uma ligação foi partilhada nalgum sítio onde não devia.

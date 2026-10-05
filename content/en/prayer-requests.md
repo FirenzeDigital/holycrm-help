@@ -31,7 +31,7 @@ service — with **Add prayer request**.
 
 ## Who can see them
 
-By default, only Admins and Managers can see and manage prayer requests, because people often
+By default, only Administrators and Coordinators can see and manage prayer requests, because people often
 share personal things. If you have a prayer team, you can give them access in
 [Users & Roles](#/users-roles) with custom permissions. Requests marked **Pastors only** are
 flagged so your team knows not to share them.

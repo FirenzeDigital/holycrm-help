@@ -1,7 +1,7 @@
 # Mis ofrendas
 
-Tu propio historial de ofrendas — visible si tenés un acceso con rol **Miembro** vinculado
-a tu ficha en la congregación. Esto es distinto de la pantalla [Ofrendas](#/finance) que
+Tu propio historial de ofrendas — visible para cualquiera cuyo acceso esté vinculado a su
+ficha en la congregación, sea cual sea su rol (Miembro, Servidor, Coordinador o Administrador). Esto es distinto de la pantalla [Ofrendas](#/finance) que
 usa el equipo, que muestra las ofrendas de todos; Mis ofrendas solo muestra **las tuyas**.
 
 ## Qué vas a ver
@@ -13,7 +13,7 @@ individual — fecha, una breve descripción, y monto.
 
 Esto significa una de dos cosas: todavía no se registró ninguna ofrenda a tu nombre para
 el año elegido, o tu acceso no está vinculado a ninguna ficha de miembro. Si te parece que
-está mal, consultá con el Admin o Gestor de tu iglesia — pueden vincular tu acceso a tu
+está mal, consultá con el Administrador o Coordinador de tu iglesia — pueden vincular tu acceso a tu
 ficha desde **Configuración de administración → Usuarios**.
 
 ## De dónde vienen tu nombre y tus datos de contacto

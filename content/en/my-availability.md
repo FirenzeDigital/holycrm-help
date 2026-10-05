@@ -23,7 +23,7 @@ A specific date always overrides the weekly pattern for that day.
 
 ## How this is used
 
-When a Manager or Admin fills a rota role requirement, HolyCRM checks who's published
+When a Coordinator or Administrator fills a rota role requirement, HolyCRM checks who's published
 availability that covers that slot and suggests them first — see
 [Ministries & Rotas](#/ministries). If no one has published availability for a given time,
 you'll see a note saying so instead of a wrong suggestion.
@@ -31,5 +31,5 @@ you'll see a note saying so instead of a wrong suggestion.
 ## If you don't see this screen
 
 My Availability only appears if your login is linked to a member record in the
-congregation — see [My Profile](#/profile) under "My church info." Ask your church's Admin
-or Manager if you think that's missing.
+congregation — see [My Profile](#/profile) under "My church info." Ask your church's Administrator
+or Coordinator if you think that's missing.

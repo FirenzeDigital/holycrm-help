@@ -38,8 +38,8 @@ El menú de la izquierda está agrupado por tema:
   Etiquetas, Datos y privacidad.
 - **Cuenta** — tu propio Perfil.
 
-**Es posible que no veas todos los ítems.** Lo que ves depende de tu rol (Admin, Gestor,
-Voluntario o Miembro) y de cualquier permiso personalizado que tu iglesia te haya asignado —
+**Es posible que no veas todos los ítems.** Lo que ves depende de tu rol (Administrador, Coordinador,
+Servidor o Miembro) y de cualquier permiso personalizado que tu iglesia te haya asignado —
 ver [Usuarios, roles y permisos](#/users-roles) si falta algo que esperabas encontrar. Algunos
 módulos (Turnos, Finanzas, Correos masivos, Check-in de niños y otros) también dependen del
 plan de tu iglesia — ver [Planes y facturación](#/plans-billing).
@@ -48,10 +48,10 @@ plan de tu iglesia — ver [Planes y facturación](#/plans-billing).
 
 | Rol | Uso típico |
 |---|---|
-| **Admin** | Acceso total, incluida la Configuración de la iglesia e invitar a otros usuarios. |
-| **Gestor (Manager)** | Operación del día a día — miembros, grupos, eventos, turnos, comunicaciones, finanzas — sin la configuración a nivel de cuenta que sí tiene un Admin. |
-| **Voluntario** | Acceso acotado y enfocado en una tarea (por ejemplo, tomar asistencia o llevar el check-in), según lo que tu iglesia haya habilitado. |
-| **Miembro** | Autoservicio de solo lectura — principalmente tu propio Perfil. |
+| **Administrador** | Acceso total, incluida la Configuración de la iglesia e invitar a otros usuarios. |
+| **Coordinador** | Operación del día a día — miembros, grupos, eventos, turnos, comunicaciones, finanzas — sin la configuración a nivel de cuenta que sí tiene un Administrador. |
+| **Servidor** | Servicio práctico — recibir visitantes, tomar asistencia y hacer el check-in (buscando a las personas solo por nombre). Sin directorio de miembros, finanzas, pedidos de oración ni informes. |
+| **Miembro** | Solo autoservicio — tu propio perfil, tus turnos, tu disponibilidad y tu historial de ofrendas. |
 
 Una iglesia puede ajustar esto con más detalle por persona; tu acceso real puede diferir
 levemente de esta tabla.

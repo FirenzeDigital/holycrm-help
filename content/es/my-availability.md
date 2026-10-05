@@ -26,7 +26,7 @@ Una fecha específica siempre tiene prioridad sobre el patrón semanal para ese 
 
 ## Cómo se usa
 
-Cuando un Manager o un Admin completa un requerimiento de rol en un turno, HolyCRM revisa
+Cuando un Coordinador o un Administrador completa un requerimiento de rol en un turno, HolyCRM revisa
 quién publicó disponibilidad que cubra ese horario y lo sugiere primero — ver [Ministerios
 y turnos](#/ministries). Si nadie publicó disponibilidad para un horario determinado, vas a
 ver un aviso en lugar de una sugerencia equivocada.
@@ -35,4 +35,4 @@ ver un aviso en lugar de una sugerencia equivocada.
 
 Mi disponibilidad solo aparece si tu inicio de sesión está vinculado a una ficha de
 miembro en la congregación — ver [Mi perfil](#/profile), en "Mi información en la
-iglesia". Consultá con el Admin o Manager de tu iglesia si creés que falta.
+iglesia". Consultá con el Administrador o Coordinador de tu iglesia si creés que falta.

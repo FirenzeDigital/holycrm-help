@@ -20,6 +20,19 @@ invitado, evento, llegó de casualidad, en línea, otro), dirección y notas.
 etiqueta `seguimiento de visitantes` (ver [Etiquetas y roles de etiqueta](#/tags)), solo se
 ofrecen los miembros con esa etiqueta; si no, se ofrecen todos los miembros activos.
 
+## Equipo de bienvenida: "Recibir a un visitante"
+
+Quienes están en el equipo de bienvenida no necesitan ver toda la lista de Visitantes. Dales
+la pantalla **Recibir a un visitante** (viene incluida para el rol Servidor): un formulario
+corto con nombre, teléfono, WhatsApp, correo, cómo nos conoció y notas. El visitante entra
+directo en Visitantes como **Nuevo**, con hoy como primera visita, y el equipo de
+seguimiento se encarga desde ahí.
+
+Debajo del formulario, **Visitantes que agregaste** muestra solo a las personas que esa
+persona cargó, para que pueda corregir un error de tipeo. No ve los visitantes de nadie más
+ni puede borrar ninguno. En el detalle del visitante, los coordinadores ven **Registrado
+por** con el nombre de quien lo agregó.
+
 ## Registrar un seguimiento
 
 Abrí la página de detalle de un visitante y registrá cada contacto — una llamada, mensaje,

@@ -20,6 +20,19 @@ preencher o resto depois: sobrenome, telefone, WhatsApp, e-mail, como conheceu a
 função de tag `acompanhamento de visitantes` (veja [Tags e funções de tag](#/tags)), só os
 membros com essa tag são oferecidos; caso contrário, todos os membros ativos aparecem.
 
+## Equipe de recepção: "Receber um visitante"
+
+Quem está na equipe de recepção não precisa ver toda a lista de Visitantes. Dê a essas
+pessoas a tela **Receber um visitante** (já vem incluída para a função Voluntário): um
+formulário curto com nome, telefone, WhatsApp, e-mail, como conheceu a igreja e
+observações. O visitante entra direto em Visitantes como **Novo**, com hoje como primeira
+visita, e a equipe de acompanhamento cuida a partir daí.
+
+Abaixo do formulário, **Visitantes que você adicionou** mostra apenas as pessoas que aquele
+usuário cadastrou, para corrigir algum erro de digitação. Ele não vê os visitantes de mais
+ninguém nem pode excluir nenhum. No detalhe do visitante, os coordenadores veem
+**Registrado por** com o nome de quem o adicionou.
+
 ## Registrando um contato de acompanhamento
 
 Abra a página de detalhes de um visitante e registre cada contato — uma ligação, mensagem,

@@ -1,6 +1,6 @@
 # Data & Privacy
 
-Under **Admin Settings → Data & Privacy**, an Admin can confirm your church's data
+Under **Admin Settings → Data & Privacy**, an Administrator can confirm your church's data
 responsibilities, download a full copy of your church's data, request deletion, and review
 a log of who's changed Member and Giving records recently. This screen exists because your
 church's records — who your members are, what they give, sometimes information about
@@ -51,7 +51,7 @@ looks like it changed unexpectedly, this is the first place to check.
 
 ## Who can see this
 
-Data & Privacy is visible to **Admins only** — it doesn't appear in the menu for Managers,
+Data & Privacy is visible to **Administrators only** — it doesn't appear in the menu for Coordinators,
 Volunteers, or Members.
 
 ## What's not built yet

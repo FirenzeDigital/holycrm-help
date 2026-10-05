@@ -24,7 +24,7 @@ para menores, e o logo da sua igreja.
   52 México, 44 Reino Unido…). O HolyCRM o adiciona aos telefones salvos sem ele ao abrir uma
   conversa no WhatsApp, por exemplo ao [pedir confirmação aos voluntários](#/rotas).
 
-Só Admins e Gestores podem alterar essas configurações.
+Só Administradores e Coordenadores podem alterar essas configurações.
 
 ## Locais
 

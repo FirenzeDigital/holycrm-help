@@ -33,7 +33,7 @@ en tu calendario personal.
 
 ## Si necesitás desactivarlo
 
-Pedile a un Admin que **regenere** el enlace desde la pantalla de Calendario. Esto invalida
+Pedile a un Administrador que **regenere** el enlace desde la pantalla de Calendario. Esto invalida
 de inmediato todos los enlaces compartidos antes, incluido el tuyo, así que quien quiera
 seguir recibiendo actualizaciones tiene que suscribirse de nuevo con el nuevo enlace. Usá
 esto si un enlace se compartió en algún lugar donde no debería haber estado.

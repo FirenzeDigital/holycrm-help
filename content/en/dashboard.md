@@ -3,7 +3,14 @@
 The Dashboard is your church's home screen — a snapshot of what's happening, updated live
 from your real data. Every card loads independently and simply hides itself if you don't
 have permission to see it or if there's no data yet, so a Volunteer login might see a much
-shorter Dashboard than an Admin's, and that's expected.
+shorter Dashboard than an Administrator's, and that's expected.
+
+## Quick actions (Volunteers and Members)
+
+People who don't manage the church's records — Volunteers and Members — see **Quick actions**
+instead: one tile per screen they can use, such as Welcome a visitor, Check-in, Attendance,
+My serving, My availability, My giving and My profile. The **My serving** tile also shows
+their next date to serve and whether they've confirmed it. Tap a tile to go straight there.
 
 ## What you'll see
 
@@ -20,7 +27,7 @@ back.
 **Key numbers strip:**
 
 - Active members, with how many joined this month.
-- Volunteers, as a percentage of active members.
+- Serve on rotas, as a percentage of active members.
 - People currently in a small group.
 - Visitors this month, and their conversion rate.
 - What's coming up in the next 7 days.
