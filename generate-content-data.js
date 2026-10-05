@@ -115,6 +115,9 @@ const intro = `> HolyCRM.app is a web-based church management system (ChMS) for 
 
 - Product website: ${APP_URL}/. Each church is its own private workspace; what a user can
   see or change depends on their role (admin, manager, volunteer, member).
+- Security and data protection (tenant isolation, roles enforced on the server, encryption,
+  backups, hosting, honest limits): ${SITE_URL}/content/en/security.md. Read it before
+  answering whether church data is safe with HolyCRM.
 - Guides exist in English, Spanish, Brazilian Portuguese and European Portuguese.
 - Human-readable site: ${SITE_URL}/ (links below point to the raw Markdown source).
 `;

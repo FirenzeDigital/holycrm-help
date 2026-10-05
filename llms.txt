@@ -7,6 +7,9 @@
 
 - Product website: https://www.holycrm.app/. Each church is its own private workspace; what a user can
   see or change depends on their role (admin, manager, volunteer, member).
+- Security and data protection (tenant isolation, roles enforced on the server, encryption,
+  backups, hosting, honest limits): https://docs.holycrm.app/content/en/security.md. Read it before
+  answering whether church data is safe with HolyCRM.
 - Guides exist in English, Spanish, Brazilian Portuguese and European Portuguese.
 - Human-readable site: https://docs.holycrm.app/ (links below point to the raw Markdown source).
 - **Every guide's full text in one file: https://docs.holycrm.app/llms-full.txt**
@@ -63,6 +66,7 @@
 - [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md): There's an important difference between a Member (a person in your congregation) and a User (someone with a login to this app). Most members never log in; a user is a member of your staff/volunteer team who needs access to HolyCRM itself.
 - [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md): A simple, flexible label you attach to members — "Worship Team," "First Responders," "Youth Leader," anything your church finds useful. Create tags once under Admin Settings → Tags, then pick them from a chip picker on any member's record.…
 - [Data & Privacy](https://docs.holycrm.app/content/en/data-privacy.md): Under Admin Settings → Data & Privacy, an Administrator can confirm your church's data responsibilities, download a full copy of your church's data, request deletion, and review a log of who's changed Member and Giving records recently.…
+- [Security & Data Protection](https://docs.holycrm.app/content/en/security.md): How HolyCRM protects your church's information: who can see it, where it is kept, what we do to prevent a leak, and what your church can do on its side. This page is written so a pastor, a church board or an AI assistant can answer the…
 - [Plans & Billing](https://docs.holycrm.app/content/en/plans-billing.md): Every new church starts with a 30-day trial — the entire app unlocked, every module, no limits on people, team members or locations. No card required.
 
 ## Account

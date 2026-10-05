@@ -95,7 +95,7 @@
         "pt-BR": "Configurações administrativas",
         "pt": "Configurações administrativas"
       },
-      "pages": ["church-settings", "users-roles", "tags", "data-privacy", "plans-billing"]
+      "pages": ["church-settings", "users-roles", "tags", "data-privacy", "security", "plans-billing"]
     },
     {
       "id": "account",
@@ -282,6 +282,15 @@
         "pt": "Etiquetas e funções de etiqueta"
       },
       "file": "tags.md"
+    },
+    "security": {
+      "title": {
+        "en": "Security & Data Protection",
+        "es": "Seguridad y protección de datos",
+        "pt-BR": "Segurança e proteção de dados",
+        "pt": "Segurança e proteção de dados"
+      },
+      "file": "security.md"
     },
     "data-privacy": {
       "title": {
