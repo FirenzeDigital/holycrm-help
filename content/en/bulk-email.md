@@ -40,6 +40,15 @@ sending.
 Use **Send test to my email** to receive the exact email you've composed at your own
 address before sending it to your real audience — a good habit before any real send.
 
+### Sending as an app notification
+
+**Send as** chooses **Email**, **App notification**, or both. An app notification is a short
+message: the **Subject** is its title and **Notification text** (up to 200 characters) is
+the message; merge variables work in both. It reaches people whose member record is linked to
+a HolyCRM login: they see it in the app's bell, and on their phone if they turned
+notifications on. People without a login only get the email. **Send test notification to
+me** shows you how it looks first.
+
 ## Email Templates
 
 Save a design you'll reuse — a welcome email, a monthly newsletter layout — as a Template,

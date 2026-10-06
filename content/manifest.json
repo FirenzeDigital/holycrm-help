@@ -105,7 +105,7 @@
         "pt-BR": "Conta",
         "pt": "Conta"
       },
-      "pages": ["profile", "my-teams", "my-serving", "my-availability", "my-giving"]
+      "pages": ["profile", "notifications", "my-teams", "my-serving", "my-availability", "my-giving"]
     },
     {
       "id": "support",
@@ -313,6 +313,10 @@
     "profile": {
       "title": { "en": "My Profile", "es": "Mi perfil", "pt-BR": "Meu perfil", "pt": "O meu perfil" },
       "file": "profile.md"
+    },
+    "notifications": {
+      "title": { "en": "Notifications", "es": "Notificaciones", "pt-BR": "Notificações", "pt": "Notificações" },
+      "file": "notifications.md"
     },
     "my-availability": {
       "title": {

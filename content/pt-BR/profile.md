@@ -33,3 +33,8 @@ membro — isso é normal para a maioria dos logins da equipe, não é um erro. 
 [Minha disponibilidade](#/my-availability) para avisar a sua igreja de quando você
 costuma estar livre para servir — as duas aparecem da mesma forma, vinculadas a este
 mesmo cadastro.
+
+## Notificações
+
+O cartão **Notificações** ativa as notificações no aparelho que você está usando, envia um
+teste e permite escolher sobre o que ser avisado. Veja [Notificações](#/notifications).

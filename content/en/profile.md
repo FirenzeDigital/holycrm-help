@@ -30,3 +30,8 @@ This card simply doesn't appear if your login isn't linked to a member record â€
 normal for most staff logins, not an error. See [My Giving](#/my-giving) for your own
 giving history, and [My Availability](#/my-availability) to let your church know when
 you're usually free to serve â€” both shown the same way, linked to this same record.
+
+## Notifications
+
+The **Notifications** card turns notifications on for the device you're using, sends a test,
+and lets you choose what to be notified about. See [Notifications](#/notifications).

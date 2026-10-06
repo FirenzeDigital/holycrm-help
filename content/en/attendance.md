@@ -60,6 +60,14 @@ regular printer, and the security model is a human visually comparing two printe
 That matches how most churches already run paper tag stubs; this just keeps the record
 digital.
 
+### Paging a guardian
+
+In **Check out**, each child with a guardian on file has **Page guardian**. It sends the
+guardian a notification on their phone asking them to come, showing the session and their
+tag's code (never the child's name). The screen tells you if it reached their phone; if they
+don't use the HolyCRM app with notifications on, it says so, so you know to call them
+instead. The row shows when they were last paged.
+
 ## Setting up who counts as a minor
 
 See [Members](#/members) — a member is a minor once their birth date is below your church's

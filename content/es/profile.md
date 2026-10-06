@@ -32,3 +32,8 @@ Esta tarjeta simplemente no aparece si tu acceso no está vinculado a una ficha 
 [Mis ofrendas](#/my-giving) para tu propio historial de ofrendas, y
 [Mi disponibilidad](#/my-availability) para avisarle a tu iglesia cuándo solés estar
 libre para servir — las dos se muestran de la misma forma, vinculadas a esta misma ficha.
+
+## Notificaciones
+
+La tarjeta **Notificaciones** activa las notificaciones en el dispositivo que estás usando,
+envía una prueba y te deja elegir sobre qué avisarte. Mirá [Notificaciones](#/notifications).

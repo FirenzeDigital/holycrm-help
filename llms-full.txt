@@ -900,6 +900,14 @@ regular printer, and the security model is a human visually comparing two printe
 That matches how most churches already run paper tag stubs; this just keeps the record
 digital.
 
+### Paging a guardian
+
+In **Check out**, each child with a guardian on file has **Page guardian**. It sends the
+guardian a notification on their phone asking them to come, showing the session and their
+tag's code (never the child's name). The screen tells you if it reached their phone; if they
+don't use the HolyCRM app with notifications on, it says so, so you know to call them
+instead. The row shows when they were last paged.
+
 ## Setting up who counts as a minor
 
 See [Members](https://docs.holycrm.app/content/en/members.md) — a member is a minor once their birth date is below your church's
@@ -960,6 +968,15 @@ sending.
 
 Use **Send test to my email** to receive the exact email you've composed at your own
 address before sending it to your real audience — a good habit before any real send.
+
+### Sending as an app notification
+
+**Send as** chooses **Email**, **App notification**, or both. An app notification is a short
+message: the **Subject** is its title and **Notification text** (up to 200 characters) is
+the message; merge variables work in both. It reaches people whose member record is linked to
+a HolyCRM login: they see it in the app's bell, and on their phone if they turned
+notifications on. People without a login only get the email. **Send test notification to
+me** shows you how it looks first.
 
 ## Email Templates
 
@@ -1865,6 +1882,92 @@ This card simply doesn't appear if your login isn't linked to a member record �
 normal for most staff logins, not an error. See [My Giving](https://docs.holycrm.app/content/en/my-giving.md) for your own
 giving history, and [My Availability](https://docs.holycrm.app/content/en/my-availability.md) to let your church know when
 you're usually free to serve — both shown the same way, linked to this same record.
+
+## Notifications
+
+The **Notifications** card turns notifications on for the device you're using, sends a test,
+and lets you choose what to be notified about. See [Notifications](https://docs.holycrm.app/content/en/notifications.md).
+
+---
+
+Source: https://docs.holycrm.app/content/en/notifications.md
+Section: Account
+
+# Notifications
+
+HolyCRM can let you know when something needs you, like being asked to serve, even when the
+app is closed.
+
+## The bell
+
+The **bell** at the top of the app shows your notifications for the church you're in. A number
+on it means there are ones you haven't read. Tap one to open what it's about; **Mark all as
+read** clears the number. Notifications are kept for 90 days.
+
+## Turning notifications on for your phone or computer
+
+Notifications are turned on **per device**: your phone and your computer are separate.
+
+1. Open the bell and tap **Turn on notifications**, or go to **My Profile → Notifications**.
+2. Your browser asks for permission: choose **Allow**.
+3. Tap **Send a test** in My Profile to check it works. The test should arrive within a few
+   seconds.
+
+**iPhone and iPad:** notifications only work once HolyCRM is installed on your Home Screen
+(iOS 16.4 or later). Install it first (see [Getting Started](https://docs.holycrm.app/content/en/getting-started.md)), open it from
+its icon, then turn notifications on from there.
+
+**Android and computers:** they work in Chrome, Edge, Firefox and Samsung Internet, whether or
+not you installed the app. They don't work in private or incognito windows.
+
+## What you'll be notified about
+
+- **When you're asked to serve** on a rota, with a link to answer.
+- **A reminder** the day before if you haven't answered yet.
+- **The day before you serve**, once you've confirmed.
+- **Event reminders:** the day before an event you're registered for, with the time.
+- **Small group:** on the day your group meets, a few hours before.
+- **Announcements** your church sends as an app notification.
+- **A thank-you** when a gift of yours is recorded (never the amount).
+- **Kids check-in:** if the kids' team needs you, a page asking you to come, with your tag's
+  code. This one can't be switched off.
+- **If you lead rotas:** when a volunteer says they can't serve, so you can find a replacement.
+- **If you see Visitors:** when a new visitor arrives (from the app or your "New here?" form),
+  and when a visitor is assigned to you for follow-up.
+- **If you see Prayer Requests:** when a new request arrives, and when one is assigned to you.
+  The notification never shows the request itself or who sent it.
+- **Administrators:** when someone they invited joins the team, plan and trial reminders, and
+  when a payment is received.
+
+When several of the same kind arrive close together (say, a list of visitors imported at
+once), you get one notification that counts them, like "12 new visitors", not twelve.
+
+Under **My Profile → Notifications → What to notify me about** you can switch each kind off
+for the church you're in. If you belong to more than one church, each one has its own switches.
+
+Notifications only say *what* happened. Details stay inside the app, behind your login,
+because notifications can appear on a locked screen.
+
+## Devices and signing out
+
+**My Profile → Notifications** lists the devices where notifications are on. **Remove** stops
+them on a device you no longer use. Signing out also turns them off on that device, so on a
+shared computer the next person isn't sent yours.
+
+## The "Tap to copy the URL for this app" notice on Android
+
+While HolyCRM is open, Android may show a quiet notice from Chrome saying **"Tap to copy the
+URL for this app"**, with **Share** and **Open in Chrome**. Chrome adds it to every app
+installed from the browser; it isn't a HolyCRM notification. To hide it, long-press it and
+turn that kind of Chrome notification off. That hides it for **every** app you installed
+from Chrome, and HolyCRM's own notifications keep working.
+
+## Not getting notifications?
+
+- **"Notifications are blocked"**: you chose *Block* when the browser asked. Allow
+  notifications for HolyCRM in the browser's site settings, then come back.
+- Check the device isn't in *Do not disturb* or battery saver mode, which can hold them back.
+- You'll still find everything in the bell, and you'll still get the usual emails.
 
 ---
 

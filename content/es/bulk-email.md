@@ -42,6 +42,15 @@ Usá **Enviar prueba a mi correo** para recibir en tu propia dirección el corre
 redactaste antes de enviarlo a tu audiencia real — un buen hábito antes de cualquier envío
 real.
 
+### Enviar como notificación en la app
+
+**Enviar como** elige **Correo**, **Notificación en la app** o ambos. Una notificación es un
+mensaje corto: el **Asunto** es el título y el **Texto de la notificación** (hasta 200
+caracteres) es el mensaje; las variables funcionan en los dos. Llega a las personas cuya ficha
+de miembro está vinculada a un usuario de HolyCRM: la ven en la campanita de la app, y en su
+celular si activaron las notificaciones. Quien no tiene usuario solo recibe el correo.
+**Enviarme una notificación de prueba** te muestra cómo se ve antes.
+
 ## Plantillas de correo
 
 Guardá un diseño que vas a reutilizar — un correo de bienvenida, el formato de un boletín

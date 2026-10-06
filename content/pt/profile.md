@@ -32,3 +32,8 @@ membro — isso é normal para a maioria dos acessos da equipa, não é um erro.
 [As minhas ofertas](#/my-giving) para o seu próprio histórico de ofertas, e
 [A minha disponibilidade](#/my-availability) para avisar a sua igreja de quando costuma
 estar livre para servir — ambas aparecem da mesma forma, associadas a esta mesma ficha.
+
+## Notificações
+
+O cartão **Notificações** ativa as notificações no dispositivo que está a usar, envia um
+teste e permite escolher sobre o que ser avisado. Veja [Notificações](#/notifications).

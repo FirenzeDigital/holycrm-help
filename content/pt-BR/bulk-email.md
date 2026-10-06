@@ -41,6 +41,15 @@ Use **Enviar teste para meu e-mail** para receber no seu próprio endereço o e-
 você redigiu, antes de enviá-lo para seu público real — um bom hábito antes de qualquer envio
 de verdade.
 
+### Enviar como notificação no app
+
+**Enviar como** escolhe **E-mail**, **Notificação no app** ou ambos. A notificação é uma
+mensagem curta: o **Assunto** é o título e o **Texto da notificação** (até 200 caracteres) é
+a mensagem; as variáveis funcionam nos dois. Ela chega às pessoas cujo cadastro de membro está
+ligado a um login do HolyCRM: elas a veem no sininho do app, e no celular se ativaram as
+notificações. Quem não tem login recebe só o e-mail. **Enviar uma notificação de teste para
+mim** mostra como fica antes.
+
 ## Modelos de e-mail
 
 Salve um design que você vai reutilizar — um e-mail de boas-vindas, o layout de um boletim

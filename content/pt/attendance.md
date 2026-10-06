@@ -63,6 +63,14 @@ papel da sua impressora normal, e o modelo de segurança é uma pessoa a compara
 dois códigos impressos. Isto está em linha com a forma como a maioria das igrejas já funciona
 com talões de papel; isto apenas mantém o registo digital.
 
+### Chamar o responsável
+
+Em **Registar saída**, cada criança com responsável registado tem **Chamar o responsável**. Isso
+envia uma notificação ao telemóvel do responsável a pedir que venha, com a sessão e o código
+da etiqueta (nunca o nome da criança). O ecrã indica se chegou ao telemóvel; se a pessoa não
+usa a app do HolyCRM com notificações, avisa, para que lhe telefone. A linha mostra quando
+foi a última chamada.
+
 ## Configurar quem conta como menor de idade
 
 Ver [Membros](#/members) — um membro é menor de idade a partir do momento em que a sua data de

@@ -61,6 +61,14 @@ tu impresora normal, y el modelo de seguridad es una persona comparando visualme
 códigos impresos. Eso coincide con cómo ya funcionan la mayoría de las iglesias con talones de
 papel; esto solo mantiene el registro digital.
 
+### Llamar al adulto responsable
+
+En **Registrar salida**, cada niño con un adulto responsable cargado tiene **Llamar al
+responsable**. Le envía una notificación a su celular pidiéndole que venga, con la sesión y
+el código de su etiqueta (nunca el nombre del niño). La pantalla te dice si llegó a su
+celular; si no usa la app de HolyCRM con notificaciones, te lo avisa para que lo llames por
+teléfono. La fila muestra cuándo se lo llamó por última vez.
+
 ## Configurar quién cuenta como menor
 
 Ver [Miembros](#/members) — un miembro es menor una vez que su fecha de nacimiento está por
