@@ -13,12 +13,12 @@ afuera. Tu iglesia sigue automáticamente en el **plan gratis**:
 | Personas | Hasta 50 |
 | Miembros del equipo (con acceso) | Hasta 2 |
 | Sedes | 1 |
-| Incluye | Miembros, Visitas, Grupos, Asistencia, Eventos y calendario |
+| Incluye | Miembros e Importar datos, Visitas, Grupos pequeños y Mis equipos, Asistencia, Eventos y calendario, Pedidos de oración, Página para dar, Etiquetas, y las pantallas personales de cada uno (Mi perfil, Mis turnos, Mi disponibilidad, Mis ofrendas) |
 
-Todo lo demás —turnos (rotas), finanzas, correo masivo, check-in de niños, confirmaciones de
-asistencia a eventos, reportes, tu sitio web, campos personalizados, enlaces de la iglesia y
-acceso personalizado de usuarios— vuelve a estar disponible en cuanto tu iglesia pasa al
-plan pago.
+Todo lo demás —ministerios, turnos, finanzas (ofrendas por miembro, transacciones, categorías
+y panel de finanzas), correos masivos y plantillas, check-in y check-in de niños,
+inscripciones a eventos, informes, tu sitio web, enlaces de la iglesia, campos personalizados
+y permisos personalizados— vuelve a estar disponible en cuanto tu iglesia pasa al plan pago.
 
 ## Si tu iglesia ya superó un límite del plan gratis
 

@@ -75,9 +75,9 @@ HolyCRM works in any browser, and you can also install it on your phone, tablet 
 so it opens from its own icon, full screen, like any other app.
 
 - **Android** — open HolyCRM in Chrome (or Edge, or Samsung Internet) and tap **Install app**
-  at the top of the screen.
-- **iPhone and iPad** — open HolyCRM, tap **Install app** at the top of the screen and follow
-  the steps: tap **Share**, choose **Add to Home Screen**, then tap **Add**.
+  on the login screen or at the top of the app.
+- **iPhone and iPad** — open HolyCRM, tap **Install app** on the login screen or at the top of
+  the app, and follow the steps: tap **Share**, choose **Add to Home Screen**, then tap **Add**.
 - **Computer** — in Chrome or Edge, **Install app** adds HolyCRM to your computer's apps.
 
 No **Install app** button? Either HolyCRM is already installed on that device, or your browser

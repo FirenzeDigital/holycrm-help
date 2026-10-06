@@ -98,9 +98,9 @@ O HolyCRM funciona em qualquer navegador, e também o pode instalar no telemóve
 computador para que abra a partir do seu próprio ícone, em ecrã inteiro, como qualquer outra app.
 
 - **Android** — abra o HolyCRM no Chrome (ou Edge, ou Samsung Internet) e toque em
-  **Instalar app** no topo do ecrã.
-- **iPhone e iPad** — abra o HolyCRM, toque em **Instalar app** no topo do ecrã e siga os
-  passos: toque em **Partilhar**, escolha **Adicionar ao ecrã principal** e depois toque em
+  **Instalar app** no ecrã de início de sessão ou no topo da app.
+- **iPhone e iPad** — abra o HolyCRM, toque em **Instalar app** no ecrã de início de sessão ou
+  no topo da app e siga os passos: toque em **Partilhar**, escolha **Adicionar ao ecrã principal** e depois toque em
   **Adicionar**.
 - **Computador** — no Chrome ou no Edge, **Instalar app** adiciona o HolyCRM às apps do computador.
 
@@ -1831,12 +1831,13 @@ fica sem acesso. A igreja continua automaticamente no **plano gratuito**:
 | Pessoas | Até 50 |
 | Membros da equipa (com acesso) | Até 2 |
 | Sedes | 1 |
-| Inclui | Membros, Visitantes, Grupos, Presenças, Eventos e calendário |
+| Inclui | Membros e Importar dados, Visitantes, Pequenos grupos e As minhas equipas, Presenças, Eventos e calendário, Pedidos de oração, Página de contribuições, Etiquetas, e os ecrãs pessoais de cada um (O meu perfil, As minhas escalas, A minha disponibilidade, As minhas ofertas) |
 
-Tudo o resto — escalas de serviço, finanças, e-mail em massa, check-in de crianças,
-confirmação de presença em eventos, relatórios, o site da igreja, campos personalizados,
-ligações da igreja e acesso personalizado de utilizadores — volta a ficar disponível assim
-que a igreja mudar para o plano pago.
+Tudo o resto — ministérios, escalas de serviço, finanças (ofertas por membro, movimentos,
+categorias e painel de finanças), e-mails em massa e modelos, check-in e check-in de
+crianças, inscrições em eventos, relatórios, o site da igreja, ligações da igreja, campos
+personalizados e permissões personalizadas — volta a ficar disponível assim que a igreja
+mudar para o plano pago.
 
 ## Se a igreja já ultrapassou um limite do plano gratuito
 

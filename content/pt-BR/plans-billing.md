@@ -13,12 +13,13 @@ fica sem acesso. A sua igreja continua automaticamente no **plano grátis**:
 | Pessoas | Até 50 |
 | Membros da equipe (com login) | Até 2 |
 | Unidades | 1 |
-| Inclui | Membros, Visitantes, Grupos, Presença, Eventos e agenda |
+| Inclui | Membros e Importar dados, Visitantes, Pequenos grupos e Minhas equipes, Presença, Eventos e agenda, Pedidos de oração, Página de contribuições, Tags, e as telas pessoais de cada um (Meu perfil, Minhas escalas, Minha disponibilidade, Minhas ofertas) |
 
-Tudo o resto — escalas de serviço, finanças, e-mail em massa, check-in de crianças,
-confirmação de presença em eventos, relatórios, o site da sua igreja, campos
-personalizados, links da igreja e acesso personalizado de usuários — volta a ficar
-disponível assim que a sua igreja migrar para o plano pago.
+Tudo o resto — ministérios, escalas de serviço, finanças (ofertas por membro, movimentos,
+categorias e painel de finanças), e-mails em massa e modelos, check-in e check-in infantil,
+inscrições em eventos, relatórios, o site da sua igreja, links da igreja, campos
+personalizados e permissões personalizadas — volta a ficar disponível assim que a sua igreja
+migrar para o plano pago.
 
 ## Se a sua igreja já passou de um limite do plano grátis
 

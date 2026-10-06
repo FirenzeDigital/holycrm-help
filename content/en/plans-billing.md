@@ -13,11 +13,12 @@ and nobody is locked out. Your church automatically continues on the **Free plan
 | People | Up to 50 |
 | Team members (logins) | Up to 2 |
 | Locations | 1 |
-| Included | Members, Visitors, Groups, Attendance, Events & calendar |
+| Included | Members and Import data, Visitors, Small groups and My teams, Attendance, Events & calendar, Prayer requests, Giving page, Tags, and everyone's own screens (My profile, My serving, My availability, My giving) |
 
-Everything else — Rotas, Finance, Bulk Email, Kids Check-in, event RSVPs, Reports, your
-church website, Custom Fields, Church Links, and Custom User Access — becomes available
-again as soon as your church moves to the paid plan.
+Everything else — Ministries, Rotas, Finance (giving by member, transactions, categories
+and the finance dashboard), Bulk Email and templates, Check-in and Kids Check-in, event
+registrations, Reports, your church website, Church Links, Custom Fields and Custom User
+Access — becomes available again as soon as your church moves to the paid plan.
 
 ## If your church is already over a Free plan limit
 
