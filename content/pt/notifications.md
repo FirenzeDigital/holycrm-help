@@ -27,7 +27,9 @@ a app instalada. Não funcionam em janelas privadas ou anónimas.
 
 ## Sobre o que é avisado
 
-- **Quando lhe pedem para servir** numa escala, com uma ligação para responder.
+- **Quando lhe pedem para servir** numa escala. No Android e no computador a notificação traz
+  os botões **Posso servir** / **Não posso**; "Não posso" permite escrever uma mensagem. Ou
+  toque nela para responder.
 - **Um lembrete** no dia anterior, se ainda não respondeu.
 - **Na véspera do dia em que serve**, depois de confirmar.
 - **Lembretes de eventos:** na véspera de um evento em que está inscrito(a), com a hora.
@@ -37,7 +39,8 @@ a app instalada. Não funcionam em janelas privadas ou anónimas.
 - **Check-in de crianças:** se a equipa das crianças precisar de si, um chamado a pedir que
   venha, com o código da sua etiqueta. Este não pode ser desativado.
 - **Se coordena escalas:** quando um voluntário avisa que não pode servir, para encontrar um
-  substituto.
+  substituto, e dois dias antes de um culto se alguma função ainda tiver vagas ("Faltam 2
+  pessoas em Culto de domingo").
 - **Se vê Visitantes:** quando chega um visitante novo (pela app ou pelo formulário "Primeira
   vez aqui?") e quando um visitante lhe é atribuído para acompanhamento.
 - **Se vê Pedidos de oração:** quando chega um pedido novo e quando um lhe é atribuído. A

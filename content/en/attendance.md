@@ -64,9 +64,12 @@ digital.
 
 In **Check out**, each child with a guardian on file has **Page guardian**. It sends the
 guardian a notification on their phone asking them to come, showing the session and their
-tag's code (never the child's name). The screen tells you if it reached their phone; if they
-don't use the HolyCRM app with notifications on, it says so, so you know to call them
-instead. The row shows when they were last paged.
+tag's code (never the child's name). The row shows when they were last paged.
+
+After paging, the guardian's phone number appears with **Call them** and **WhatsApp** (a
+ready-to-send message from your own WhatsApp, with the session and code). If the app couldn't
+reach their phone, the screen says so: call or message them instead. If it did, those buttons
+are there in case they don't answer.
 
 ## Setting up who counts as a minor
 

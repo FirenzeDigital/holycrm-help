@@ -937,13 +937,17 @@ papel da sua impressora normal, e o modelo de segurança é uma pessoa a compara
 dois códigos impressos. Isto está em linha com a forma como a maioria das igrejas já funciona
 com talões de papel; isto apenas mantém o registo digital.
 
-### Chamar o responsável
+### Avisar o responsável
 
-Em **Registar saída**, cada criança com responsável registado tem **Chamar o responsável**. Isso
-envia uma notificação ao telemóvel do responsável a pedir que venha, com a sessão e o código
-da etiqueta (nunca o nome da criança). O ecrã indica se chegou ao telemóvel; se a pessoa não
-usa a app do HolyCRM com notificações, avisa, para que lhe telefone. A linha mostra quando
-foi a última chamada.
+Em **Registar saída**, cada criança com responsável registado tem **Avisar o responsável**.
+Isso envia uma notificação ao telemóvel do responsável a pedir que venha, com a sessão e o
+código da etiqueta (nunca o nome da criança). A linha mostra quando foi avisado pela última
+vez.
+
+Depois de avisar, aparece o telefone do responsável com **Telefonar** e **WhatsApp** (uma
+mensagem pronta a enviar a partir do seu próprio WhatsApp, com a sessão e o código). Se a app
+não chegou ao telemóvel, o ecrã indica-o: telefone ou envie mensagem. Se chegou, esses botões
+ficam disponíveis caso não responda.
 
 ## Configurar quem conta como menor de idade
 
@@ -1998,7 +2002,9 @@ a app instalada. Não funcionam em janelas privadas ou anónimas.
 
 ## Sobre o que é avisado
 
-- **Quando lhe pedem para servir** numa escala, com uma ligação para responder.
+- **Quando lhe pedem para servir** numa escala. No Android e no computador a notificação traz
+  os botões **Posso servir** / **Não posso**; "Não posso" permite escrever uma mensagem. Ou
+  toque nela para responder.
 - **Um lembrete** no dia anterior, se ainda não respondeu.
 - **Na véspera do dia em que serve**, depois de confirmar.
 - **Lembretes de eventos:** na véspera de um evento em que está inscrito(a), com a hora.
@@ -2008,7 +2014,8 @@ a app instalada. Não funcionam em janelas privadas ou anónimas.
 - **Check-in de crianças:** se a equipa das crianças precisar de si, um chamado a pedir que
   venha, com o código da sua etiqueta. Este não pode ser desativado.
 - **Se coordena escalas:** quando um voluntário avisa que não pode servir, para encontrar um
-  substituto.
+  substituto, e dois dias antes de um culto se alguma função ainda tiver vagas ("Faltam 2
+  pessoas em Culto de domingo").
 - **Se vê Visitantes:** quando chega um visitante novo (pela app ou pelo formulário "Primeira
   vez aqui?") e quando um visitante lhe é atribuído para acompanhamento.
 - **Se vê Pedidos de oração:** quando chega um pedido novo e quando um lhe é atribuído. A

@@ -27,7 +27,8 @@ not you installed the app. They don't work in private or incognito windows.
 
 ## What you'll be notified about
 
-- **When you're asked to serve** on a rota, with a link to answer.
+- **When you're asked to serve** on a rota. On Android and computers the notification has
+  **I can serve** / **I can't** buttons; "I can't" lets you add a note. Or tap it to answer.
 - **A reminder** the day before if you haven't answered yet.
 - **The day before you serve**, once you've confirmed.
 - **Event reminders:** the day before an event you're registered for, with the time.
@@ -36,7 +37,9 @@ not you installed the app. They don't work in private or incognito windows.
 - **A thank-you** when a gift of yours is recorded (never the amount).
 - **Kids check-in:** if the kids' team needs you, a page asking you to come, with your tag's
   code. This one can't be switched off.
-- **If you lead rotas:** when a volunteer says they can't serve, so you can find a replacement.
+- **If you lead rotas:** when a volunteer says they can't serve, so you can find a replacement,
+  and two days before a service if any role still has open places ("Sunday service needs 2
+  more people").
 - **If you see Visitors:** when a new visitor arrives (from the app or your "New here?" form),
   and when a visitor is assigned to you for follow-up.
 - **If you see Prayer Requests:** when a new request arrives, and when one is assigned to you.

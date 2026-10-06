@@ -63,13 +63,17 @@ papel da sua impressora comum, e o modelo de segurança é uma pessoa comparando
 dois códigos impressos. Isso condiz com a forma como a maioria das igrejas já funciona com
 canhotos de papel; isso só mantém o registro digital.
 
-### Chamar o responsável
+### Avisar o responsável
 
-Em **Registrar saída**, cada criança com responsável cadastrado tem **Chamar o responsável**. Isso
-envia uma notificação ao celular do responsável pedindo que ele venha, mostrando a sessão e o
-código da etiqueta (nunca o nome da criança). A tela informa se chegou ao celular; se a
-pessoa não usa o app do HolyCRM com notificações, ela avisa, para você ligar. A linha mostra
-quando foi a última chamada.
+Em **Registrar saída**, cada criança com responsável cadastrado tem **Avisar o responsável**.
+Isso envia uma notificação ao celular do responsável pedindo que ele venha, com a sessão e o
+código da etiqueta (nunca o nome da criança). A linha mostra quando ele foi avisado pela
+última vez.
+
+Depois de avisar, aparece o telefone do responsável com **Ligar** e **WhatsApp** (uma
+mensagem pronta para enviar do seu próprio WhatsApp, com a sessão e o código). Se o app não
+chegou ao celular dele, a tela avisa: ligue ou mande mensagem. Se chegou, esses botões ficam
+ali caso ele não responda.
 
 ## Configurando quem conta como menor de idade
 

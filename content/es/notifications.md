@@ -27,7 +27,9 @@ la app instalada. No funcionan en ventanas privadas o de incógnito.
 
 ## Sobre qué te avisa
 
-- **Cuando te piden servir** en un turno, con un enlace para responder.
+- **Cuando te piden servir** en un turno. En Android y computadoras la notificación trae los
+  botones **Puedo servir** / **No puedo**; "No puedo" te deja agregar un mensaje. O tocala
+  para responder.
 - **Un recordatorio** el día anterior si todavía no respondiste.
 - **El día antes de servir**, una vez que confirmaste.
 - **Recordatorios de eventos:** el día antes de un evento en el que te anotaste, con la hora.
@@ -37,7 +39,8 @@ la app instalada. No funcionan en ventanas privadas o de incógnito.
 - **Check-in de niños:** si el equipo de niños te necesita, un aviso pidiéndote que vengas,
   con el código de tu etiqueta. Este no se puede desactivar.
 - **Si coordinás turnos:** cuando un voluntario avisa que no puede servir, para que busques un
-  reemplazo.
+  reemplazo, y dos días antes de un culto si algún rol todavía tiene lugares libres ("Faltan 2
+  personas en Culto del domingo").
 - **Si ves Visitantes:** cuando llega un visitante nuevo (desde la app o tu formulario
   "¿Nos visitás por primera vez?") y cuando te asignan un visitante para hacer el seguimiento.
 - **Si ves Pedidos de oración:** cuando llega un pedido nuevo y cuando te asignan uno. La

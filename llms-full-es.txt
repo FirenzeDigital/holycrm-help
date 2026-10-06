@@ -948,13 +948,17 @@ tu impresora normal, y el modelo de seguridad es una persona comparando visualme
 códigos impresos. Eso coincide con cómo ya funcionan la mayoría de las iglesias con talones de
 papel; esto solo mantiene el registro digital.
 
-### Llamar al adulto responsable
+### Avisar al adulto responsable
 
-En **Registrar salida**, cada niño con un adulto responsable cargado tiene **Llamar al
-responsable**. Le envía una notificación a su celular pidiéndole que venga, con la sesión y
-el código de su etiqueta (nunca el nombre del niño). La pantalla te dice si llegó a su
-celular; si no usa la app de HolyCRM con notificaciones, te lo avisa para que lo llames por
-teléfono. La fila muestra cuándo se lo llamó por última vez.
+En **Registrar salida**, cada niño con un adulto responsable cargado tiene **Avisar al
+responsable**. Le envía una notificación a su celular pidiéndole que venga, con la sesión y el
+código de su etiqueta (nunca el nombre del niño). La fila muestra cuándo se le avisó por
+última vez.
+
+Después de avisar, aparece el teléfono del responsable con **Llamar** y **WhatsApp** (un
+mensaje listo para enviar desde tu propio WhatsApp, con la sesión y el código). Si la app no
+llegó a su celular, la pantalla te lo dice: llamalo o escribile. Si llegó, esos botones quedan
+por si no responde.
 
 ## Configurar quién cuenta como menor
 
@@ -2023,7 +2027,9 @@ la app instalada. No funcionan en ventanas privadas o de incógnito.
 
 ## Sobre qué te avisa
 
-- **Cuando te piden servir** en un turno, con un enlace para responder.
+- **Cuando te piden servir** en un turno. En Android y computadoras la notificación trae los
+  botones **Puedo servir** / **No puedo**; "No puedo" te deja agregar un mensaje. O tocala
+  para responder.
 - **Un recordatorio** el día anterior si todavía no respondiste.
 - **El día antes de servir**, una vez que confirmaste.
 - **Recordatorios de eventos:** el día antes de un evento en el que te anotaste, con la hora.
@@ -2033,7 +2039,8 @@ la app instalada. No funcionan en ventanas privadas o de incógnito.
 - **Check-in de niños:** si el equipo de niños te necesita, un aviso pidiéndote que vengas,
   con el código de tu etiqueta. Este no se puede desactivar.
 - **Si coordinás turnos:** cuando un voluntario avisa que no puede servir, para que busques un
-  reemplazo.
+  reemplazo, y dos días antes de un culto si algún rol todavía tiene lugares libres ("Faltan 2
+  personas en Culto del domingo").
 - **Si ves Visitantes:** cuando llega un visitante nuevo (desde la app o tu formulario
   "¿Nos visitás por primera vez?") y cuando te asignan un visitante para hacer el seguimiento.
 - **Si ves Pedidos de oración:** cuando llega un pedido nuevo y cuando te asignan uno. La
