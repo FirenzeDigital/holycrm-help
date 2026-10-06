@@ -94,6 +94,22 @@ levemente de esta tabla.
 7. **Enviá tu primer correo masivo** — un mensaje de bienvenida o un anuncio — una vez que
    tengas algunos miembros con correo electrónico.
 
+## Instalá HolyCRM en tu celular
+
+HolyCRM funciona en cualquier navegador, y además podés instalarlo en tu celular, tablet o
+computadora para que se abra desde su propio ícono, en pantalla completa, como cualquier otra app.
+
+- **Android** — abrí HolyCRM en Chrome (o Edge, o Samsung Internet) y tocá **Instalar app**
+  arriba de la pantalla.
+- **iPhone y iPad** — abrí HolyCRM, tocá **Instalar app** arriba de la pantalla y seguí los
+  pasos: tocá **Compartir**, elegí **Agregar a inicio** y después tocá **Agregar**.
+- **Computadora** — en Chrome o Edge, **Instalar app** agrega HolyCRM a las apps de tu computadora.
+
+¿No ves el botón **Instalar app**? O HolyCRM ya está instalado en ese dispositivo, o tu navegador
+no puede instalar apps: buscá **Agregar a pantalla de inicio** o **Instalar** en el menú del navegador.
+
+La app instalada se actualiza sola: siempre abre la última versión de HolyCRM.
+
 ## ¿Necesitás ayuda?
 
 Este Centro de ayuda cubre qué hace cada módulo y por qué se comporta de esa manera. Si te

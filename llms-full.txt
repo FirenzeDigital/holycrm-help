@@ -89,6 +89,22 @@ the table above.
 7. **Send your first Bulk Email** — a welcome note or an announcement — once you have a few
    members with email addresses.
 
+## Install HolyCRM on your phone
+
+HolyCRM works in any browser, and you can also install it on your phone, tablet or computer
+so it opens from its own icon, full screen, like any other app.
+
+- **Android** — open HolyCRM in Chrome (or Edge, or Samsung Internet) and tap **Install app**
+  at the top of the screen.
+- **iPhone and iPad** — open HolyCRM, tap **Install app** at the top of the screen and follow
+  the steps: tap **Share**, choose **Add to Home Screen**, then tap **Add**.
+- **Computer** — in Chrome or Edge, **Install app** adds HolyCRM to your computer's apps.
+
+No **Install app** button? Either HolyCRM is already installed on that device, or your browser
+can't install apps — look for **Add to Home screen** or **Install** in the browser's menu instead.
+
+The installed app updates itself: it always opens the latest version of HolyCRM.
+
 ## Getting help
 
 This Help Center covers what each module does and why it behaves the way it does. If you're
