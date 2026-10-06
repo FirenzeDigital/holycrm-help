@@ -91,6 +91,9 @@ navegador não instala apps — procure **Adicionar à tela inicial** ou **Insta
 
 O app instalado se atualiza sozinho: ele sempre abre a versão mais recente do HolyCRM.
 
+Se a sua igreja mostrar um código QR ou compartilhar um link para instalar, escaneie ou abra no
+celular: a página mostra exatamente o que tocar no seu aparelho.
+
 ## Precisa de ajuda?
 
 Esta Central de Ajuda cobre o que cada módulo faz e por que ele se comporta dessa forma. Se

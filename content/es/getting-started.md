@@ -90,6 +90,9 @@ no puede instalar apps: buscá **Agregar a pantalla de inicio** o **Instalar** e
 
 La app instalada se actualiza sola: siempre abre la última versión de HolyCRM.
 
+Si tu iglesia muestra un código QR o comparte un enlace para instalar, escanealo o abrilo en tu
+celular: la página te muestra exactamente qué tocar en tu dispositivo.
+
 ## ¿Necesitás ayuda?
 
 Este Centro de ayuda cubre qué hace cada módulo y por qué se comporta de esa manera. Si te

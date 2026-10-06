@@ -24,6 +24,14 @@ minor age cutoff, and your church logo.
 
 Only Administrators and Coordinators can change these settings.
 
+## Share the app
+
+The **Share the app** card at the top of Church Settings has a link and a QR code that anyone in
+your church can use to install HolyCRM on their phone. Show the QR code on screen during a
+service, print it in your bulletin, or send the link in your church's group chat. People scan it,
+follow the steps for their phone, and then log in as usual. Use **Download QR** for a
+print-quality image.
+
 ## Locations
 
 If your church meets in more than one place — multiple campuses, an outdoor venue, a rented

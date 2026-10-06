@@ -26,6 +26,14 @@ para menores, e o logo da sua igreja.
 
 Só Administradores e Coordenadores podem alterar essas configurações.
 
+## Compartilhe o app
+
+O cartão **Compartilhe o app**, no topo das Configurações da igreja, tem um link e um código QR
+para qualquer pessoa da sua igreja instalar o HolyCRM no celular. Mostre o código QR no telão
+durante o culto, imprima no boletim ou envie o link no grupo da igreja. Cada pessoa escaneia,
+segue os passos para o seu celular e depois faz login normalmente. Use **Baixar QR** para uma
+imagem com qualidade de impressão.
+
 ## Locais
 
 Se sua igreja se reúne em mais de um lugar — vários campi, um local ao ar livre, um salão

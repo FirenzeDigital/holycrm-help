@@ -111,6 +111,9 @@ navegador não instala apps — procure **Adicionar à tela inicial** ou **Insta
 
 O app instalado se atualiza sozinho: ele sempre abre a versão mais recente do HolyCRM.
 
+Se a sua igreja mostrar um código QR ou compartilhar um link para instalar, escaneie ou abra no
+celular: a página mostra exatamente o que tocar no seu aparelho.
+
 ## Precisa de ajuda?
 
 Esta Central de Ajuda cobre o que cada módulo faz e por que ele se comporta dessa forma. Se
@@ -1510,6 +1513,14 @@ para menores, e o logo da sua igreja.
   conversa no WhatsApp, por exemplo ao [pedir confirmação aos voluntários](https://docs.holycrm.app/content/pt-BR/rotas.md).
 
 Só Administradores e Coordenadores podem alterar essas configurações.
+
+## Compartilhe o app
+
+O cartão **Compartilhe o app**, no topo das Configurações da igreja, tem um link e um código QR
+para qualquer pessoa da sua igreja instalar o HolyCRM no celular. Mostre o código QR no telão
+durante o culto, imprima no boletim ou envie o link no grupo da igreja. Cada pessoa escaneia,
+segue os passos para o seu celular e depois faz login normalmente. Use **Baixar QR** para uma
+imagem com qualidade de impressão.
 
 ## Locais
 

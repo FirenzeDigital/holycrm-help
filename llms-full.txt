@@ -105,6 +105,9 @@ can't install apps — look for **Add to Home screen** or **Install** in the bro
 
 The installed app updates itself: it always opens the latest version of HolyCRM.
 
+If your church shows a QR code or shares an install link, scan it or open it on your phone:
+the page shows exactly what to tap on your device.
+
 ## Getting help
 
 This Help Center covers what each module does and why it behaves the way it does. If you're
@@ -1444,6 +1447,14 @@ minor age cutoff, and your church logo.
   opens a WhatsApp chat, for example when [asking volunteers to confirm](https://docs.holycrm.app/content/en/rotas.md).
 
 Only Administrators and Coordinators can change these settings.
+
+## Share the app
+
+The **Share the app** card at the top of Church Settings has a link and a QR code that anyone in
+your church can use to install HolyCRM on their phone. Show the QR code on screen during a
+service, print it in your bulletin, or send the link in your church's group chat. People scan it,
+follow the steps for their phone, and then log in as usual. Use **Download QR** for a
+print-quality image.
 
 ## Locations
 

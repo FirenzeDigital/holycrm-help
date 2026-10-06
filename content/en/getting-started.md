@@ -85,6 +85,9 @@ can't install apps — look for **Add to Home screen** or **Install** in the bro
 
 The installed app updates itself: it always opens the latest version of HolyCRM.
 
+If your church shows a QR code or shares an install link, scan it or open it on your phone:
+the page shows exactly what to tap on your device.
+
 ## Getting help
 
 This Help Center covers what each module does and why it behaves the way it does. If you're
