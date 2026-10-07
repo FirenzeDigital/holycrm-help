@@ -43,6 +43,11 @@ atribuído — ver [Utilizadores, funções e permissões](#/users-roles) se fal
 esperava encontrar. Alguns módulos (Escalas, Finanças, E-mail em massa, Check-in de crianças
 e outros) também dependem do plano da igreja — ver [Planos e faturação](#/plans-billing).
 
+**No telemóvel**, uma barra na parte de baixo do ecrã leva-o diretamente aos ecrãs que mais usa
+(por exemplo o Painel e **As minhas escalas**), e **Menu**, na ponta direita, abre o menu
+completo. Nas listas, o botão para adicionar algo novo fica no canto inferior direito, ao alcance
+do polegar.
+
 ## As quatro funções, em resumo
 
 | Função | Uso típico |

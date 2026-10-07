@@ -50,6 +50,9 @@ data real (por exemplo *sex 9 out · 20:00*), então você sempre sabe qual dia 
   embaixo, em *Também nesta semana, sem funções*.
 - Se as pessoas cadastraram a disponibilidade, a janelinha sugere quem está livre naquele
   horário — um toque e ela entra.
+- Se alguém que você adicionar já serve no mesmo horário naquela semana (em outra função, ou em
+  outro culto ou atividade que se sobrepõe), a janelinha avisa com um ⚠️ e diz onde. É só um
+  aviso: você ainda pode salvar.
 
 Os voluntários veem suas datas em [Minhas escalas](#/my-serving) e podem confirmar por lá.
 

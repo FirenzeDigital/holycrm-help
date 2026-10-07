@@ -35,6 +35,9 @@ a aparecer.
 - Escalas que ainda precisam de voluntários (aparece a âmbar quando há alguma).
 - Receita líquida deste mês.
 
+Clique num número para abrir o ecrã correspondente (por exemplo, **Membros ativos** abre
+Membros), desde que a sua função possa usar esse ecrã.
+
 **Painéis principais:**
 
 - **Próximos 7 dias** — uma agenda combinada de eventos, atividades de ministério e reuniões

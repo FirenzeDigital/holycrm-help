@@ -44,6 +44,11 @@ ver [Usuarios, roles y permisos](#/users-roles) si falta algo que esperabas enco
 módulos (Turnos, Finanzas, Correos masivos, Check-in de niños y otros) también dependen del
 plan de tu iglesia — ver [Planes y facturación](#/plans-billing).
 
+**En el celular**, una barra en la parte de abajo de la pantalla te lleva directo a las pantallas
+que más usás (por ejemplo el Panel principal y **Mis turnos**), y **Menú**, en su extremo derecho, abre
+el menú completo. En las listas, el botón para agregar algo nuevo queda en la esquina inferior
+derecha, al alcance del pulgar.
+
 ## Los cuatro roles, en resumen
 
 | Rol | Uso típico |

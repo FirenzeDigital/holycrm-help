@@ -51,6 +51,9 @@ real (por exemplo *sex 9 out · 20:00*), para saber sempre que dia está a preen
   aparecem em baixo, em *Também esta semana, sem funções*.
 - Se as pessoas registaram a disponibilidade, a janela sugere quem está livre a essa hora — um
   toque e entra.
+- Se alguém que adicionar já serve à mesma hora nessa semana (noutra função, ou noutro culto ou
+  atividade que se sobrepõe), a janela avisa com um ⚠️ e diz onde. É apenas um aviso: pode
+  guardar na mesma.
 
 Os voluntários veem as suas datas em [As minhas escalas](#/my-serving) e podem confirmar aí.
 

@@ -61,6 +61,11 @@ Volunteer or Member) and on any custom permission your church has set for you �
 modules (Rotas, Finance, Bulk Email, Kids Check-in and others) also depend on your church's
 plan — see [Plans & Billing](https://docs.holycrm.app/content/en/plans-billing.md).
 
+**On a phone**, a bar along the bottom of the screen takes you straight to the screens you use
+most (for example the Dashboard and **My serving**), and **Menu** at its right end opens the full
+menu. On lists, the button to add something new sits in the bottom-right corner, within reach of
+your thumb.
+
 ## The four roles, in a nutshell
 
 | Role | Typical use |
@@ -157,6 +162,9 @@ back.
 - What's coming up in the next 7 days.
 - Rotas that still need volunteers (shown in amber when there are any).
 - Net giving/income this month.
+
+Click a number to open the screen behind it (for example **Active members** opens Members),
+as long as your role can use that screen.
 
 **Main panels:**
 
@@ -762,6 +770,9 @@ filling.
   the bottom under *Also this week, without roles*.
 - If people have shared their availability, the window suggests who is free at that time —
   one tap adds them.
+- If someone you add already serves at the same time that week (another role, or another
+  service that overlaps), the window warns you with a ⚠️ and says where. It's only a warning:
+  you can still save.
 
 Volunteers see their own dates in [My serving](https://docs.holycrm.app/content/en/my-serving.md) and can confirm from there.
 

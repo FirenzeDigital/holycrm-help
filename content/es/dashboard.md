@@ -35,6 +35,9 @@ vuelve a aparecer.
 - Turnos que todavía necesitan voluntarios (se muestra en ámbar cuando hay alguno).
 - Ofrenda/ingreso neto de este mes.
 
+Hacé clic en un número para abrir la pantalla correspondiente (por ejemplo **Miembros activos**
+abre Miembros), siempre que tu rol pueda usar esa pantalla.
+
 **Paneles principales:**
 
 - **Próximos 7 días** — una agenda combinada de eventos, actividades de ministerio y

@@ -44,6 +44,10 @@ estiver faltando. Alguns módulos (Escalas, Finanças, E-mail em massa, Check-in
 outros) também dependem do plano da sua igreja — veja [Planos e cobrança](#/plans-billing).
 estiver faltando.
 
+**No celular**, uma barra na parte de baixo da tela leva você direto às telas que mais usa (por
+exemplo o Painel e **Minhas escalas**), e **Menu**, na ponta direita, abre o menu completo. Nas
+listas, o botão para adicionar algo novo fica no canto inferior direito, ao alcance do polegar.
+
 ## As quatro funções, resumidamente
 
 | Função | Uso típico |

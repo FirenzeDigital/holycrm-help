@@ -48,6 +48,9 @@ filling.
   the bottom under *Also this week, without roles*.
 - If people have shared their availability, the window suggests who is free at that time —
   one tap adds them.
+- If someone you add already serves at the same time that week (another role, or another
+  service that overlaps), the window warns you with a ⚠️ and says where. It's only a warning:
+  you can still save.
 
 Volunteers see their own dates in [My serving](#/my-serving) and can confirm from there.
 

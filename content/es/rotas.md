@@ -51,6 +51,9 @@ en su fecha real (por ejemplo *vie 9 oct · 20:00*), así siempre sabés qué d�
   tienen roles aparecen abajo, en *También esta semana, sin roles*.
 - Si la gente cargó su disponibilidad, la ventanita sugiere quién está libre en ese horario —
   un toque y se agrega.
+- Si alguien que agregás ya sirve a la misma hora esa semana (en otro rol, o en otro culto o
+  actividad que se superpone), la ventanita te avisa con un ⚠️ y te dice dónde. Es solo un
+  aviso: igual podés guardar.
 
 Los voluntarios ven sus fechas en [Mis turnos](#/my-serving) y pueden confirmar desde ahí.
 

@@ -34,6 +34,9 @@ back.
 - Rotas that still need volunteers (shown in amber when there are any).
 - Net giving/income this month.
 
+Click a number to open the screen behind it (for example **Active members** opens Members),
+as long as your role can use that screen.
+
 **Main panels:**
 
 - **Next 7 days** — a merged agenda of events, ministry activities and small-group

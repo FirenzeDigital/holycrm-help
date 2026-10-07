@@ -41,6 +41,11 @@ Volunteer or Member) and on any custom permission your church has set for you â€
 modules (Rotas, Finance, Bulk Email, Kids Check-in and others) also depend on your church's
 plan â€” see [Plans & Billing](#/plans-billing).
 
+**On a phone**, a bar along the bottom of the screen takes you straight to the screens you use
+most (for example the Dashboard and **My serving**), and **Menu** at its right end opens the full
+menu. On lists, the button to add something new sits in the bottom-right corner, within reach of
+your thumb.
+
 ## The four roles, in a nutshell
 
 | Role | Typical use |
