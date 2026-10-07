@@ -64,7 +64,7 @@ plan — see [Plans & Billing](https://docs.holycrm.app/content/en/plans-billing
 **On a phone**, a bar along the bottom of the screen takes you straight to the screens you use
 most (for example the Dashboard and **My serving**), and **Menu** at its right end opens the full
 menu. On lists, the button to add something new sits in the bottom-right corner, within reach of
-your thumb.
+your thumb, and list filters open with the **Filters** button next to the search box.
 
 ## The four roles, in a nutshell
 

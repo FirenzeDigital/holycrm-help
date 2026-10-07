@@ -47,7 +47,8 @@ plan de tu iglesia — ver [Planes y facturación](#/plans-billing).
 **En el celular**, una barra en la parte de abajo de la pantalla te lleva directo a las pantallas
 que más usás (por ejemplo el Panel principal y **Mis turnos**), y **Menú**, en su extremo derecho, abre
 el menú completo. En las listas, el botón para agregar algo nuevo queda en la esquina inferior
-derecha, al alcance del pulgar.
+derecha, al alcance del pulgar, y
+los filtros de las listas se abren con el botón **Filtros**, junto al buscador.
 
 ## Los cuatro roles, en resumen
 

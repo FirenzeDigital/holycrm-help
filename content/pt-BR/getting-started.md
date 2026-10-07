@@ -46,7 +46,8 @@ estiver faltando.
 
 **No celular**, uma barra na parte de baixo da tela leva você direto às telas que mais usa (por
 exemplo o Painel e **Minhas escalas**), e **Menu**, na ponta direita, abre o menu completo. Nas
-listas, o botão para adicionar algo novo fica no canto inferior direito, ao alcance do polegar.
+listas, o botão para adicionar algo novo fica no canto inferior direito, ao alcance do polegar, e os filtros
+das listas abrem no botão **Filtros**, ao lado da busca.
 
 ## As quatro funções, resumidamente
 
