@@ -1,4 +1,4 @@
-# Correos masivos y plantillas
+# Comunicados y plantillas de correo
 
 Enviá anuncios, boletines y novedades a tu congregación, y reutilizá diseños como plantillas.
 
@@ -51,10 +51,19 @@ de miembro está vinculada a un usuario de HolyCRM: la ven en la campanita de la
 celular si activaron las notificaciones. Quien no tiene usuario solo recibe el correo.
 **Enviarme una notificación de prueba** te muestra cómo se ve antes.
 
+### Enviar a tu webhook
+
+Si un Administrador conectó un [webhook](#/integrations), **Enviar como** también ofrece **Solo
+webhook**, y las demás opciones muestran la casilla **También enviar a mi webhook**. El
+comunicado (asunto, mensaje y la lista de personas a las que va dirigido, con nombre, correo y
+teléfono) llega a tu propia automatización (por ejemplo un flujo de Zapier, Make o n8n), que
+puede reenviarlo por WhatsApp, Telegram, SMS o lo que necesites. Enviar al webhook no cuenta para
+el límite mensual de correos. **Envíos recientes** muestra si el webhook lo recibió.
+
 ## Plantillas de correo
 
 Guardá un diseño que vas a reutilizar — un correo de bienvenida, el formato de un boletín
-mensual — como Plantilla, y después cargalo en un Correo masivo nuevo más adelante en lugar
+mensual — como Plantilla, y después cargalo en un comunicado nuevo más adelante en lugar
 de rearmarlo desde cero. Las plantillas muestran las variables combinadas como marcadores
 literales `{{placeholder}}` en la vista previa, ya que todavía no hay un destinatario
 específico.
@@ -86,6 +95,9 @@ si tu audiencia es más grande, consultá sobre dividir el envío.
 cuántos usaste y cuándo se renueva el conteo, el día 1 de cada mes. Un envío que superaría
 el límite no se envía, así nadie recibe medio mensaje. Las notificaciones de la app no
 cuentan para este límite, así que para anuncios cortos son una buena alternativa.
+
+Para enviar sin este límite, un Administrador puede conectar la cuenta de correo de tu
+iglesia en [Integraciones](#/integrations).
 
 ## Lo que todavía no existe
 

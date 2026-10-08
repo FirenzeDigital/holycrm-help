@@ -50,7 +50,7 @@ The left-hand menu is grouped by topic:
 - **Ministries & Rotas** — Ministries, Ministry Members, and volunteer scheduling ("rotas").
 - **Events** — one-time events and who's registered for them.
 - **Attendance** — general attendance, Check-in, and Kids Check-in.
-- **Communications** — Bulk Email and reusable Email Templates.
+- **Communications** — Announcements (by email, app notification or webhook) and reusable Email Templates.
 - **Finance** — Giving, transactions, categories and the Finance Dashboard.
 - **Admin Settings** — Church Settings, Locations, Users, Tags, Data & Privacy.
 - **Account** — your own Profile.
@@ -58,7 +58,7 @@ The left-hand menu is grouped by topic:
 **You may not see every item.** What's visible depends on your role (Administrator, Coordinator,
 Volunteer or Member) and on any custom permission your church has set for you — see
 [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md) if something you expect to see is missing. A few
-modules (Rotas, Finance, Bulk Email, Kids Check-in and others) also depend on your church's
+modules (Rotas, Finance, Announcements, Kids Check-in and others) also depend on your church's
 plan — see [Plans & Billing](https://docs.holycrm.app/content/en/plans-billing.md).
 
 **On a phone**, a bar along the bottom of the screen takes you straight to the screens you use
@@ -91,7 +91,7 @@ the table above.
    **Service Roles** and start filling **Rotas**.
 6. **Try Check-in or Kids Check-in** before your next service so your team isn't learning it
    live.
-7. **Send your first Bulk Email** — a welcome note or an announcement — once you have a few
+7. **Send your first announcement** — a welcome note or an announcement — once you have a few
    members with email addresses.
 
 ## Install HolyCRM on your phone
@@ -941,7 +941,7 @@ simple sessions list.
 Source: https://docs.holycrm.app/content/en/bulk-email.md
 Section: Communications
 
-# Bulk Email & Templates
+# Announcements & Email Templates
 
 Send announcements, newsletters and updates to your congregation, and reuse designs as
 templates.
@@ -992,10 +992,19 @@ a HolyCRM login: they see it in the app's bell, and on their phone if they turne
 notifications on. People without a login only get the email. **Send test notification to
 me** shows you how it looks first.
 
+### Sending to your webhook
+
+If an Administrator has connected a [webhook](https://docs.holycrm.app/content/en/integrations.md), **Send as** also offers
+**Webhook only**, and the other options get an **Also send to my webhook** checkbox. The
+announcement — subject, message and the list of people it's for, with their names, emails and
+phones — goes to your own automation (for example a Zapier, Make or n8n flow), which can pass it
+on through WhatsApp, Telegram, SMS or anything else. Sending to the webhook doesn't count
+toward the monthly email limit. **Recent sends** shows whether the webhook received it.
+
 ## Email Templates
 
 Save a design you'll reuse — a welcome email, a monthly newsletter layout — as a Template,
-then load it into a new Bulk Email later instead of rebuilding it from scratch. Templates
+then load it into a new announcement later instead of rebuilding it from scratch. Templates
 show merge variables as literal `{{placeholders}}` in the preview, since there's no specific
 recipient yet.
 
@@ -1025,6 +1034,9 @@ recipient counts as one email, test emails included). The screen shows how many 
 and when the count resets, on the 1st of each month. A send that would go over the limit
 isn't sent at all, so nobody gets half a message. App notifications don't count toward this
 limit, so for short announcements they're a good alternative.
+
+To send without this limit, an Administrator can connect your church's own email account
+under [Integrations](https://docs.holycrm.app/content/en/integrations.md).
 
 ## What's not built yet
 
@@ -1482,7 +1494,7 @@ minor age cutoff, and your church logo.
   doesn't specify its own. Search-as-you-type over the full list of world currencies; leave
   it blank if you don't need currency formatting yet.
 - **Logo** — upload an image here to have it available as a one-click insert in the
-  [Bulk Email](https://docs.holycrm.app/content/en/bulk-email.md) composer, and to personalize your church's identity in the app.
+  [Announcements](https://docs.holycrm.app/content/en/bulk-email.md) composer, and to personalize your church's identity in the app.
 
 - **Public prayer request form** — turns on a public page where anyone can send your church
   a prayer request. See [Prayer Requests](https://docs.holycrm.app/content/en/prayer-requests.md).
@@ -1653,6 +1665,115 @@ untagging a group of members at once.
 
 ---
 
+Source: https://docs.holycrm.app/content/en/integrations.md
+Section: Admin Settings
+
+# Integrations
+
+Under **Admin Settings → Integrations**, an Administrator can connect services your church
+already uses. Today that's **your own email server**: Announcements can send its emails through your
+church's own email account instead of HolyCRM's.
+
+You can also connect a **webhook** to pass your announcements on to your own automations
+(see below).
+
+## Why send through your own email account
+
+- **Emails come from your church's address** (for example `office@yourchurch.org`), so replies
+  go straight to you and people recognize the sender.
+- **No HolyCRM monthly limit.** Emails sent through your own account don't count toward the
+  [1,000 emails a month](https://docs.holycrm.app/content/en/bulk-email.md) that come with HolyCRM. Your email provider's own
+  sending limits apply instead (see below).
+
+## Before you start
+
+You need an email account that allows sending through **SMTP**, and its settings. Most do:
+
+- **Google (Gmail or Google Workspace):** server `smtp.gmail.com`, port 587. Use an **app
+  password**, not your normal password: in your Google Account go to Security → 2-Step
+  Verification → App passwords. Google Workspace accounts can send about 2,000 emails a day.
+- **Microsoft 365 / Outlook:** server `smtp.office365.com`, port 587. Your Microsoft 365
+  administrator may need to allow "Authenticated SMTP" for the mailbox.
+- **Mailgun, SendGrid, Amazon SES, Brevo** and similar sending services: use the SMTP
+  credentials from your account with them.
+
+If you're not sure, ask whoever looks after your church's email for the "SMTP settings".
+
+## Setting it up
+
+1. Go to **Admin Settings → Integrations**.
+2. Choose your **Provider**. This fills in the server and port for you, and shows a tip for
+   that provider.
+3. Enter the **Username** and **Password**, the **From address** your emails should come
+   from, and the **From name** people will see (usually your church's name). The from address
+   must be one your account is allowed to send from.
+4. Click **Save**.
+5. Click **Send test email**. HolyCRM sends a test to your own email address through your
+   server and shows the result after a few seconds. Check it arrived (look in spam too).
+6. Click **Turn on**.
+
+From then on, Announcements shows **"Sending through your own email server"** instead of the
+monthly limit, and every email goes out through your account.
+
+You can only turn it on after a successful test, and **saving any change turns it off again**
+until you send a new test. That way it's never on with settings that don't work.
+
+## If the test fails
+
+The screen explains what went wrong in plain words, with the technical message underneath:
+
+- **The server rejected the username or password:** check them again. With Google, make sure
+  you used an app password.
+- **Couldn't reach the server:** check the server name and port.
+- **The secure connection failed:** port 587 goes with STARTTLS, port 465 with SSL/TLS.
+- **The server refused the email:** the from address is probably not one this account may
+  send from.
+
+Problems with real sends show up in the same place, as **Last problem**, and under the send in
+Announcements' **Recent sends**. If your server can't deliver an email, that email fails: HolyCRM
+never sends it through its own email instead.
+
+## Turning it off or removing it
+
+**Turn off** goes back to sending through HolyCRM's email, which counts toward the monthly
+limit again. Your settings stay saved, so you can turn it back on later. **Remove** deletes the
+settings; emails still waiting to go out through your server will fail.
+
+## Webhook (automations)
+
+A webhook sends each announcement you choose to a web address of your own, usually an
+automation tool such as **Zapier**, **Make** or **n8n**, where you decide what happens next:
+send it on through WhatsApp or Telegram, add the people to a spreadsheet, and so on. It's meant
+for whoever looks after your church's tech; nothing changes for members.
+
+**Privacy:** each delivery includes the names, email addresses and phone numbers of the people
+the announcement is for. Only connect a service your church trusts and is allowed to share this
+information with.
+
+1. In your automation tool, create a flow that starts with "receive a webhook" (Zapier: *Webhooks
+   by Zapier → Catch Hook*; Make: *Custom webhook*; n8n: *Webhook* node). Copy the address it
+   gives you; it starts with `https://`.
+2. In **Integrations → Webhook**, paste it as the **Webhook URL** and click **Save**.
+3. HolyCRM shows a **signing secret** once. Copy it and keep it with your automation: it lets
+   your automation check that each delivery really comes from HolyCRM. If you lose it, click
+   **New signing secret** (the old one stops working).
+4. Click **Send test**. The screen shows what your webhook answered.
+5. Click **Turn on**.
+
+Now, in [Announcements](https://docs.holycrm.app/content/en/bulk-email.md), choose **Webhook only**, or tick **Also send to my
+webhook**. Each delivery contains the subject, the message (as HTML and plain text) with
+variables such as `{{first_name}}` left for your automation to fill in, and the list of
+recipients. If your webhook doesn't answer, HolyCRM tries again several times over the next
+hours; the result shows in **Recent sends** and here as **Last problem**.
+
+For developers: every request is signed. The `X-HolyCRM-Signature` header is
+`sha256=` + the HMAC-SHA256 of `<X-HolyCRM-Timestamp>.<raw body>` with your signing secret.
+`X-HolyCRM-Delivery` stays the same when a delivery is retried, so you can ignore duplicates.
+
+Only Administrators can see and change Integrations, and it's part of the paid plan.
+
+---
+
 Source: https://docs.holycrm.app/content/en/data-privacy.md
 Section: Admin Settings
 
@@ -1782,7 +1903,7 @@ These are the things a careful reviewer should know:
 - **No formal certification.** HolyCRM is not independently certified (for example SOC 2 or ISO 27001).
 - **No built-in two-step sign-in yet.** If you want two-step verification today, sign in with Google and turn it on in your Google account.
 - **The operator can reach the servers.** Like any hosted service, HolyCRM's operators technically have access to the servers that store your data. They use it only to run, support and protect the service, as the Privacy Policy describes.
-- **Some things are public on purpose.** Your church website, Church Links page, giving page and prayer-request form are public pages, and they show only what your church chooses to publish there. Images inserted in bulk emails can be opened by anyone who has the link, as with any email image. A calendar subscription link shows your church's schedule to anyone who has that link, so share it with care.
+- **Some things are public on purpose.** Your church website, Church Links page, giving page and prayer-request form are public pages, and they show only what your church chooses to publish there. Images inserted in Announcements emails can be opened by anyone who has the link, as with any email image. A calendar subscription link shows your church's schedule to anyone who has that link, so share it with care.
 - **Your own settings matter.** Giving someone the Administrator role, or a weak password, can expose data no matter how the platform is built.
 
 ## What your church can do
@@ -1820,7 +1941,7 @@ and nobody is locked out. Your church automatically continues on the **Free plan
 | Included | Members and Import data, Visitors, Small groups and My teams, Attendance, Events & calendar, Prayer requests, Giving page, Tags, and everyone's own screens (My profile, My serving, My availability, My giving) |
 
 Everything else — Ministries, Rotas, Finance (giving by member, transactions, categories
-and the finance dashboard), Bulk Email and templates, Check-in and Kids Check-in, event
+and the finance dashboard), Announcements and email templates, Check-in and Kids Check-in, event
 registrations, Reports, your church website, Church Links, Custom Fields and Custom User
 Access — becomes available again as soon as your church moves to the paid plan.
 
@@ -2209,11 +2330,11 @@ correct timezone set — see [Calendar](https://docs.holycrm.app/content/en/cale
 </details>
 
 <details class="help-faq-item">
-<summary>Can I personalize a bulk email with each recipient's name?</summary>
+<summary>Can I personalize an announcement email with each recipient's name?</summary>
 
 Yes — click into a text field in the composer, then click a variable like **First name**
 from the toolbar to insert `{{first_name}}`. It's replaced with each recipient's actual value
-when the email sends. See [Bulk Email & Templates](https://docs.holycrm.app/content/en/bulk-email.md).
+when the email sends. See [Announcements & Email Templates](https://docs.holycrm.app/content/en/bulk-email.md).
 </details>
 
 <details class="help-faq-item">
@@ -2244,7 +2365,7 @@ lookup.
 <summary>How do I add a church logo, and where does it show up?</summary>
 
 Upload it in [Church Settings](https://docs.holycrm.app/content/en/church-settings.md). It becomes available as a one-click
-"Insert church logo" button in the [Bulk Email](https://docs.holycrm.app/content/en/bulk-email.md) composer.
+"Insert church logo" button in the [Announcements](https://docs.holycrm.app/content/en/bulk-email.md) composer.
 </details>
 
 <details class="help-faq-item">

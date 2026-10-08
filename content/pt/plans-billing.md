@@ -17,7 +17,7 @@ fica sem acesso. A igreja continua automaticamente no **plano gratuito**:
 | Inclui | Membros e Importar dados, Visitantes, Pequenos grupos e As minhas equipas, Presenças, Eventos e calendário, Pedidos de oração, Página de contribuições, Etiquetas, e os ecrãs pessoais de cada um (O meu perfil, As minhas escalas, A minha disponibilidade, As minhas ofertas) |
 
 Tudo o resto — ministérios, escalas de serviço, finanças (ofertas por membro, movimentos,
-categorias e painel de finanças), e-mails em massa e modelos, check-in e check-in de
+categorias e painel de finanças), Comunicados e modelos de e-mail, check-in e check-in de
 crianças, inscrições em eventos, relatórios, o site da igreja, ligações da igreja, campos
 personalizados e permissões personalizadas — volta a ficar disponível assim que a igreja
 mudar para o plano pago.

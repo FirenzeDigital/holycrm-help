@@ -12,7 +12,7 @@ limite para menores, e o logótipo da sua igreja.
   transação não especifica a sua própria moeda. Pesquisa à medida que escreve sobre a lista
   completa de moedas mundiais; deixe em branco se ainda não precisar de formatação de moeda.
 - **Logótipo** — carregue uma imagem aqui para a ter disponível como inserção com um clique no
-  editor de [E-mails em massa](#/bulk-email), e para personalizar a identidade da sua igreja
+  editor de [Comunicados](#/bulk-email), e para personalizar a identidade da sua igreja
   na aplicação.
 
 - **Formulário público de pedidos de oração** — ativa uma página pública onde qualquer pessoa

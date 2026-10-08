@@ -67,11 +67,11 @@ correct timezone set — see [Calendar](#/calendar) and
 </details>
 
 <details class="help-faq-item">
-<summary>Can I personalize a bulk email with each recipient's name?</summary>
+<summary>Can I personalize an announcement email with each recipient's name?</summary>
 
 Yes — click into a text field in the composer, then click a variable like **First name**
 from the toolbar to insert `{{first_name}}`. It's replaced with each recipient's actual value
-when the email sends. See [Bulk Email & Templates](#/bulk-email).
+when the email sends. See [Announcements & Email Templates](#/bulk-email).
 </details>
 
 <details class="help-faq-item">
@@ -102,7 +102,7 @@ lookup.
 <summary>How do I add a church logo, and where does it show up?</summary>
 
 Upload it in [Church Settings](#/church-settings). It becomes available as a one-click
-"Insert church logo" button in the [Bulk Email](#/bulk-email) composer.
+"Insert church logo" button in the [Announcements](#/bulk-email) composer.
 </details>
 
 <details class="help-faq-item">

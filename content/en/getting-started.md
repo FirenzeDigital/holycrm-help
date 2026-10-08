@@ -30,7 +30,7 @@ The left-hand menu is grouped by topic:
 - **Ministries & Rotas** — Ministries, Ministry Members, and volunteer scheduling ("rotas").
 - **Events** — one-time events and who's registered for them.
 - **Attendance** — general attendance, Check-in, and Kids Check-in.
-- **Communications** — Bulk Email and reusable Email Templates.
+- **Communications** — Announcements (by email, app notification or webhook) and reusable Email Templates.
 - **Finance** — Giving, transactions, categories and the Finance Dashboard.
 - **Admin Settings** — Church Settings, Locations, Users, Tags, Data & Privacy.
 - **Account** — your own Profile.
@@ -38,7 +38,7 @@ The left-hand menu is grouped by topic:
 **You may not see every item.** What's visible depends on your role (Administrator, Coordinator,
 Volunteer or Member) and on any custom permission your church has set for you — see
 [Users, Roles & Permissions](#/users-roles) if something you expect to see is missing. A few
-modules (Rotas, Finance, Bulk Email, Kids Check-in and others) also depend on your church's
+modules (Rotas, Finance, Announcements, Kids Check-in and others) also depend on your church's
 plan — see [Plans & Billing](#/plans-billing).
 
 **On a phone**, a bar along the bottom of the screen takes you straight to the screens you use
@@ -71,7 +71,7 @@ the table above.
    **Service Roles** and start filling **Rotas**.
 6. **Try Check-in or Kids Check-in** before your next service so your team isn't learning it
    live.
-7. **Send your first Bulk Email** — a welcome note or an announcement — once you have a few
+7. **Send your first announcement** — a welcome note or an announcement — once you have a few
    members with email addresses.
 
 ## Install HolyCRM on your phone

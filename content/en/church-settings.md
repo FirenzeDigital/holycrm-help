@@ -12,7 +12,7 @@ minor age cutoff, and your church logo.
   doesn't specify its own. Search-as-you-type over the full list of world currencies; leave
   it blank if you don't need currency formatting yet.
 - **Logo** — upload an image here to have it available as a one-click insert in the
-  [Bulk Email](#/bulk-email) composer, and to personalize your church's identity in the app.
+  [Announcements](#/bulk-email) composer, and to personalize your church's identity in the app.
 
 - **Public prayer request form** — turns on a public page where anyone can send your church
   a prayer request. See [Prayer Requests](#/prayer-requests).

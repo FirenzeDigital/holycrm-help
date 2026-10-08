@@ -31,7 +31,7 @@ O menu à esquerda está agrupado por tema:
 - **Ministérios e escalas** — Ministérios, Membros de ministério e a escala de voluntários.
 - **Eventos** — eventos pontuais e quem está inscrito.
 - **Presença** — presença geral, Check-in e Check-in infantil.
-- **Comunicações** — E-mails em massa e modelos reutilizáveis de e-mail.
+- **Comunicações** — Comunicados (por e-mail, notificação do app ou webhook) e modelos reutilizáveis de e-mail.
 - **Finanças** — Ofertas, transações, categorias e o Painel financeiro.
 - **Configurações administrativas** — Configurações da igreja, Locais, Usuários, Tags, Dados
   e privacidade.
@@ -40,7 +40,7 @@ O menu à esquerda está agrupado por tema:
 **Você pode não ver todos os itens.** O que aparece depende da sua função (Administrador, Coordenador,
 Voluntário ou Membro) e de qualquer permissão personalizada que sua igreja tenha configurado
 para você — veja [Usuários, funções e permissões](#/users-roles) se algo que você esperava ver
-estiver faltando. Alguns módulos (Escalas, Finanças, E-mail em massa, Check-in de crianças e
+estiver faltando. Alguns módulos (Escalas, Finanças, Comunicados, Check-in de crianças e
 outros) também dependem do plano da sua igreja — veja [Planos e cobrança](#/plans-billing).
 estiver faltando.
 
@@ -76,7 +76,7 @@ pouco desta tabela.
    **Escalas**.
 6. **Teste o Check-in ou o Check-in infantil** antes do seu próximo culto, para que sua equipe
    não aprenda na hora.
-7. **Envie seu primeiro e-mail em massa** — uma mensagem de boas-vindas ou um aviso — assim que
+7. **Envie seu primeiro comunicado** — uma mensagem de boas-vindas ou um aviso — assim que
    tiver alguns membros com e-mail cadastrado.
 
 ## Instale o HolyCRM no seu celular

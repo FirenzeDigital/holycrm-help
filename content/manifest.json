@@ -95,7 +95,7 @@
         "pt-BR": "Configurações administrativas",
         "pt": "Configurações administrativas"
       },
-      "pages": ["church-settings", "users-roles", "tags", "data-privacy", "security", "plans-billing"]
+      "pages": ["church-settings", "users-roles", "tags", "integrations", "data-privacy", "security", "plans-billing"]
     },
     {
       "id": "account",
@@ -222,10 +222,10 @@
     },
     "bulk-email": {
       "title": {
-        "en": "Bulk Email & Templates",
-        "es": "Correos masivos y plantillas",
-        "pt-BR": "E-mails em massa e modelos",
-        "pt": "E-mails em massa e modelos"
+        "en": "Announcements & Email Templates",
+        "es": "Comunicados y plantillas de correo",
+        "pt-BR": "Comunicados e modelos de e-mail",
+        "pt": "Comunicados e modelos de e-mail"
       },
       "file": "bulk-email.md"
     },
@@ -291,6 +291,15 @@
         "pt": "Segurança e proteção de dados"
       },
       "file": "security.md"
+    },
+    "integrations": {
+      "title": {
+        "en": "Integrations",
+        "es": "Integraciones",
+        "pt-BR": "Integrações",
+        "pt": "Integrações"
+      },
+      "file": "integrations.md"
     },
     "data-privacy": {
       "title": {

@@ -12,7 +12,7 @@ para menores, e o logo da sua igreja.
   transação não especifica a própria moeda. Busca conforme você digita, sobre a lista
   completa de moedas mundiais; deixe em branco se ainda não precisar de formatação de moeda.
 - **Logo** — faça upload de uma imagem aqui para tê-la disponível como inserção de um clique
-  no editor de [E-mails em massa](#/bulk-email), e para personalizar a identidade da sua
+  no editor de [Comunicados](#/bulk-email), e para personalizar a identidade da sua
   igreja no app.
 
 - **Formulário público de pedidos de oração** — ativa uma página pública onde qualquer pessoa

@@ -70,11 +70,11 @@ horário correto configurado — ver [Calendário](#/calendar) e
 </details>
 
 <details class="help-faq-item">
-<summary>Posso personalizar um e-mail em massa com o nome de cada destinatário?</summary>
+<summary>Posso personalizar o e-mail de um comunicado com o nome de cada destinatário?</summary>
 
 Sim — clique num campo de texto no editor, depois clique numa variável como **Primeiro nome**
 na barra de ferramentas para inserir `{{first_name}}`. É substituída pelo valor real de cada
-destinatário no envio. Ver [E-mails em massa e modelos](#/bulk-email).
+destinatário no envio. Ver [Comunicados e modelos de e-mail](#/bulk-email).
 </details>
 
 <details class="help-faq-item">
@@ -105,7 +105,7 @@ há consulta automática de taxa de câmbio.
 <summary>Como adiciono um logótipo da igreja, e onde é que aparece?</summary>
 
 Carregue-o em [Configurações da igreja](#/church-settings). Fica disponível como um botão
-"Inserir logótipo da igreja" com um clique no editor de [E-mails em massa](#/bulk-email).
+"Inserir logótipo da igreja" com um clique no editor de [Comunicados](#/bulk-email).
 </details>
 
 <details class="help-faq-item">

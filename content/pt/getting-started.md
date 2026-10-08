@@ -31,7 +31,7 @@ O menu à esquerda está agrupado por tema:
 - **Ministérios e escalas** — Ministérios, Membros de ministério e a escala de voluntários.
 - **Eventos** — eventos pontuais e quem está inscrito.
 - **Presenças** — presenças em geral, Check-in e Check-in de crianças.
-- **Comunicações** — E-mails em massa e modelos reutilizáveis de e-mail.
+- **Comunicações** — Comunicados (por e-mail, notificação da app ou webhook) e modelos reutilizáveis de e-mail.
 - **Finanças** — Ofertas, transações, categorias e o Painel financeiro.
 - **Configurações administrativas** — Configurações da igreja, Locais, Utilizadores,
   Etiquetas, Dados e privacidade.
@@ -40,7 +40,7 @@ O menu à esquerda está agrupado por tema:
 **É possível que não veja todos os itens.** O que vê depende da sua função (Administrador, Coordenador,
 Voluntário ou Membro) e de qualquer permissão personalizada que a sua igreja lhe tenha
 atribuído — ver [Utilizadores, funções e permissões](#/users-roles) se faltar algo que
-esperava encontrar. Alguns módulos (Escalas, Finanças, E-mail em massa, Check-in de crianças
+esperava encontrar. Alguns módulos (Escalas, Finanças, Comunicados, Check-in de crianças
 e outros) também dependem do plano da igreja — ver [Planos e faturação](#/plans-billing).
 
 **No telemóvel**, uma barra na parte de baixo do ecrã leva-o diretamente aos ecrãs que mais usa
@@ -74,7 +74,7 @@ ligeiramente desta tabela.
    som, receção...), configure **Funções de serviço** e comece a preencher as **Escalas**.
 6. **Experimente o Check-in ou o Check-in de crianças** antes do próximo culto, para que a sua
    equipa não aprenda na hora.
-7. **Envie o seu primeiro e-mail em massa** — uma mensagem de boas-vindas ou um aviso — assim
+7. **Envie o seu primeiro comunicado** — uma mensagem de boas-vindas ou um aviso — assim
    que tiver alguns membros com e-mail registado.
 
 ## Instale o HolyCRM no seu telemóvel

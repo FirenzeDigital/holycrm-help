@@ -70,11 +70,11 @@ del evento tenga la zona horaria correcta configurada — ver [Calendario](#/cal
 </details>
 
 <details class="help-faq-item">
-<summary>¿Puedo personalizar un correo masivo con el nombre de cada destinatario?</summary>
+<summary>¿Puedo personalizar un comunicado por correo con el nombre de cada destinatario?</summary>
 
 Sí — hacé clic en un campo de texto del editor, y después hacé clic en una variable como
 **Nombre** en la barra de herramientas para insertar `{{first_name}}`. Se reemplaza por el
-valor real de cada destinatario al enviarse. Ver [Correos masivos y plantillas](#/bulk-email).
+valor real de cada destinatario al enviarse. Ver [Comunicados y plantillas de correo](#/bulk-email).
 </details>
 
 <details class="help-faq-item">
@@ -106,7 +106,7 @@ automática de tipo de cambio.
 <summary>¿Cómo agrego un logo de la iglesia, y dónde aparece?</summary>
 
 Subilo en [Configuración de la iglesia](#/church-settings). Queda disponible como botón de
-"Insertar logo de la iglesia" con un clic en el editor de [Correos masivos](#/bulk-email).
+"Insertar logo de la iglesia" con un clic en el editor de [Comunicados](#/bulk-email).
 </details>
 
 <details class="help-faq-item">

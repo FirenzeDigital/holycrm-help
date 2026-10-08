@@ -32,7 +32,7 @@ El menú de la izquierda está agrupado por tema:
   voluntarios ("turnos").
 - **Eventos** — eventos puntuales y quiénes están inscritos.
 - **Asistencia** — asistencia general, Check-in y Check-in de niños.
-- **Comunicaciones** — Correos masivos y plantillas reutilizables de correo.
+- **Comunicaciones** — Comunicados (por correo, notificación de la app o webhook) y plantillas reutilizables de correo.
 - **Finanzas** — Ofrendas, transacciones, categorías y el Panel de finanzas.
 - **Configuración de administración** — Configuración de la iglesia, Sedes, Usuarios,
   Etiquetas, Datos y privacidad.
@@ -41,7 +41,7 @@ El menú de la izquierda está agrupado por tema:
 **Es posible que no veas todos los ítems.** Lo que ves depende de tu rol (Administrador, Coordinador,
 Servidor o Miembro) y de cualquier permiso personalizado que tu iglesia te haya asignado —
 ver [Usuarios, roles y permisos](#/users-roles) si falta algo que esperabas encontrar. Algunos
-módulos (Turnos, Finanzas, Correos masivos, Check-in de niños y otros) también dependen del
+módulos (Turnos, Finanzas, Comunicados, Check-in de niños y otros) también dependen del
 plan de tu iglesia — ver [Planes y facturación](#/plans-billing).
 
 **En el celular**, una barra en la parte de abajo de la pantalla te lleva directo a las pantallas
@@ -77,7 +77,7 @@ levemente de esta tabla.
    **Turnos**.
 6. **Probá el Check-in o el Check-in de niños** antes de tu próximo culto, para que tu equipo
    no lo aprenda en el momento.
-7. **Enviá tu primer correo masivo** — un mensaje de bienvenida o un anuncio — una vez que
+7. **Enviá tu primer comunicado** — un mensaje de bienvenida o un anuncio — una vez que
    tengas algunos miembros con correo electrónico.
 
 ## Instalá HolyCRM en tu celular

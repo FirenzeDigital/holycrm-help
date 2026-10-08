@@ -55,7 +55,7 @@ Isto é o que alguém que avalia com cuidado deveria saber:
 - **Sem certificação formal.** O HolyCRM não tem certificação independente (por exemplo, SOC 2 ou ISO 27001).
 - **Ainda não há verificação em duas etapas própria.** Se você quer verificação em duas etapas hoje, entre com o Google e ative-a na sua conta Google.
 - **O operador consegue acessar os servidores.** Como em qualquer serviço hospedado, os operadores do HolyCRM têm acesso técnico aos servidores que guardam os seus dados. Usam esse acesso só para operar, dar suporte e proteger o serviço, como descreve a Política de Privacidade.
-- **Algumas coisas são públicas de propósito.** O site da igreja, a página Church Links, a página de ofertas e o formulário de pedidos de oração são páginas públicas, e mostram só o que a sua igreja escolhe publicar ali. As imagens inseridas nos e-mails em massa podem ser abertas por qualquer pessoa que tenha o link, como qualquer imagem de e-mail. Um link de assinatura do calendário mostra a agenda da igreja a quem tiver esse link, então compartilhe com cuidado.
+- **Algumas coisas são públicas de propósito.** O site da igreja, a página Church Links, a página de ofertas e o formulário de pedidos de oração são páginas públicas, e mostram só o que a sua igreja escolhe publicar ali. As imagens inseridas nos e-mails dos Comunicados podem ser abertas por qualquer pessoa que tenha o link, como qualquer imagem de e-mail. Um link de assinatura do calendário mostra a agenda da igreja a quem tiver esse link, então compartilhe com cuidado.
 - **As suas próprias configurações importam.** Dar a função de Administrador a quem não precisa, ou usar uma senha fraca, pode expor dados não importa como a plataforma foi construída.
 
 ## O que a sua igreja pode fazer

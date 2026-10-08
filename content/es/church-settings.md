@@ -13,7 +13,7 @@ predeterminada, edad límite para menores, y el logo de tu iglesia.
   lista completa de monedas mundiales; dejala en blanco si todavía no necesitás formato de
   moneda.
 - **Logo** — subí una imagen acá para tenerla disponible como inserción de un clic en el
-  editor de [Correos masivos](#/bulk-email), y para personalizar la identidad de tu iglesia en
+  editor de [Comunicados](#/bulk-email), y para personalizar la identidad de tu iglesia en
   la app.
 
 - **Formulario público de pedidos de oración** — activa una página pública donde cualquiera

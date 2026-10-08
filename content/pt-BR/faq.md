@@ -70,11 +70,11 @@ tem o fuso horário correto configurado — veja [Calendário](#/calendar) e
 </details>
 
 <details class="help-faq-item">
-<summary>Posso personalizar um e-mail em massa com o nome de cada destinatário?</summary>
+<summary>Posso personalizar o e-mail de um comunicado com o nome de cada destinatário?</summary>
 
 Sim — clique em um campo de texto no editor, depois clique em uma variável como **Primeiro
 nome** na barra de ferramentas para inserir `{{first_name}}`. Ela é substituída pelo valor
-real de cada destinatário no envio. Veja [E-mails em massa e modelos](#/bulk-email).
+real de cada destinatário no envio. Veja [Comunicados e modelos de e-mail](#/bulk-email).
 </details>
 
 <details class="help-faq-item">
@@ -105,7 +105,7 @@ consulta automática de taxa de câmbio.
 <summary>Como eu adiciono um logo da igreja, e onde ele aparece?</summary>
 
 Faça o upload em [Configurações da igreja](#/church-settings). Ele fica disponível como um
-botão "Inserir logo da igreja" com um clique no editor de [E-mails em massa](#/bulk-email).
+botão "Inserir logo da igreja" com um clique no editor de [Comunicados](#/bulk-email).
 </details>
 
 <details class="help-faq-item">

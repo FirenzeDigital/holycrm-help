@@ -55,7 +55,7 @@ These are the things a careful reviewer should know:
 - **No formal certification.** HolyCRM is not independently certified (for example SOC 2 or ISO 27001).
 - **No built-in two-step sign-in yet.** If you want two-step verification today, sign in with Google and turn it on in your Google account.
 - **The operator can reach the servers.** Like any hosted service, HolyCRM's operators technically have access to the servers that store your data. They use it only to run, support and protect the service, as the Privacy Policy describes.
-- **Some things are public on purpose.** Your church website, Church Links page, giving page and prayer-request form are public pages, and they show only what your church chooses to publish there. Images inserted in bulk emails can be opened by anyone who has the link, as with any email image. A calendar subscription link shows your church's schedule to anyone who has that link, so share it with care.
+- **Some things are public on purpose.** Your church website, Church Links page, giving page and prayer-request form are public pages, and they show only what your church chooses to publish there. Images inserted in Announcements emails can be opened by anyone who has the link, as with any email image. A calendar subscription link shows your church's schedule to anyone who has that link, so share it with care.
 - **Your own settings matter.** Giving someone the Administrator role, or a weak password, can expose data no matter how the platform is built.
 
 ## What your church can do

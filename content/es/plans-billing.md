@@ -16,7 +16,7 @@ afuera. Tu iglesia sigue automáticamente en el **plan gratis**:
 | Incluye | Miembros e Importar datos, Visitas, Grupos pequeños y Mis equipos, Asistencia, Eventos y calendario, Pedidos de oración, Página para dar, Etiquetas, y las pantallas personales de cada uno (Mi perfil, Mis turnos, Mi disponibilidad, Mis ofrendas) |
 
 Todo lo demás —ministerios, turnos, finanzas (ofrendas por miembro, transacciones, categorías
-y panel de finanzas), correos masivos y plantillas, check-in y check-in de niños,
+y panel de finanzas), Comunicados y plantillas de correo, check-in y check-in de niños,
 inscripciones a eventos, informes, tu sitio web, enlaces de la iglesia, campos personalizados
 y permisos personalizados— vuelve a estar disponible en cuanto tu iglesia pasa al plan pago.
 

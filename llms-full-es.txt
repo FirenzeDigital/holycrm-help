@@ -52,7 +52,7 @@ El menú de la izquierda está agrupado por tema:
   voluntarios ("turnos").
 - **Eventos** — eventos puntuales y quiénes están inscritos.
 - **Asistencia** — asistencia general, Check-in y Check-in de niños.
-- **Comunicaciones** — Correos masivos y plantillas reutilizables de correo.
+- **Comunicaciones** — Comunicados (por correo, notificación de la app o webhook) y plantillas reutilizables de correo.
 - **Finanzas** — Ofrendas, transacciones, categorías y el Panel de finanzas.
 - **Configuración de administración** — Configuración de la iglesia, Sedes, Usuarios,
   Etiquetas, Datos y privacidad.
@@ -61,7 +61,7 @@ El menú de la izquierda está agrupado por tema:
 **Es posible que no veas todos los ítems.** Lo que ves depende de tu rol (Administrador, Coordinador,
 Servidor o Miembro) y de cualquier permiso personalizado que tu iglesia te haya asignado —
 ver [Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md) si falta algo que esperabas encontrar. Algunos
-módulos (Turnos, Finanzas, Correos masivos, Check-in de niños y otros) también dependen del
+módulos (Turnos, Finanzas, Comunicados, Check-in de niños y otros) también dependen del
 plan de tu iglesia — ver [Planes y facturación](https://docs.holycrm.app/content/es/plans-billing.md).
 
 **En el celular**, una barra en la parte de abajo de la pantalla te lleva directo a las pantallas
@@ -97,7 +97,7 @@ levemente de esta tabla.
    **Turnos**.
 6. **Probá el Check-in o el Check-in de niños** antes de tu próximo culto, para que tu equipo
    no lo aprenda en el momento.
-7. **Enviá tu primer correo masivo** — un mensaje de bienvenida o un anuncio — una vez que
+7. **Enviá tu primer comunicado** — un mensaje de bienvenida o un anuncio — una vez que
    tengas algunos miembros con correo electrónico.
 
 ## Instalá HolyCRM en tu celular
@@ -991,7 +991,7 @@ asistencia más allá de la simple lista de sesiones.
 Source: https://docs.holycrm.app/content/es/bulk-email.md
 Section: Comunicaciones
 
-# Correos masivos y plantillas
+# Comunicados y plantillas de correo
 
 Enviá anuncios, boletines y novedades a tu congregación, y reutilizá diseños como plantillas.
 
@@ -1044,10 +1044,19 @@ de miembro está vinculada a un usuario de HolyCRM: la ven en la campanita de la
 celular si activaron las notificaciones. Quien no tiene usuario solo recibe el correo.
 **Enviarme una notificación de prueba** te muestra cómo se ve antes.
 
+### Enviar a tu webhook
+
+Si un Administrador conectó un [webhook](https://docs.holycrm.app/content/es/integrations.md), **Enviar como** también ofrece **Solo
+webhook**, y las demás opciones muestran la casilla **También enviar a mi webhook**. El
+comunicado (asunto, mensaje y la lista de personas a las que va dirigido, con nombre, correo y
+teléfono) llega a tu propia automatización (por ejemplo un flujo de Zapier, Make o n8n), que
+puede reenviarlo por WhatsApp, Telegram, SMS o lo que necesites. Enviar al webhook no cuenta para
+el límite mensual de correos. **Envíos recientes** muestra si el webhook lo recibió.
+
 ## Plantillas de correo
 
 Guardá un diseño que vas a reutilizar — un correo de bienvenida, el formato de un boletín
-mensual — como Plantilla, y después cargalo en un Correo masivo nuevo más adelante en lugar
+mensual — como Plantilla, y después cargalo en un comunicado nuevo más adelante en lugar
 de rearmarlo desde cero. Las plantillas muestran las variables combinadas como marcadores
 literales `{{placeholder}}` en la vista previa, ya que todavía no hay un destinatario
 específico.
@@ -1079,6 +1088,9 @@ si tu audiencia es más grande, consultá sobre dividir el envío.
 cuántos usaste y cuándo se renueva el conteo, el día 1 de cada mes. Un envío que superaría
 el límite no se envía, así nadie recibe medio mensaje. Las notificaciones de la app no
 cuentan para este límite, así que para anuncios cortos son una buena alternativa.
+
+Para enviar sin este límite, un Administrador puede conectar la cuenta de correo de tu
+iglesia en [Integraciones](https://docs.holycrm.app/content/es/integrations.md).
 
 ## Lo que todavía no existe
 
@@ -1564,7 +1576,7 @@ predeterminada, edad límite para menores, y el logo de tu iglesia.
   lista completa de monedas mundiales; dejala en blanco si todavía no necesitás formato de
   moneda.
 - **Logo** — subí una imagen acá para tenerla disponible como inserción de un clic en el
-  editor de [Correos masivos](https://docs.holycrm.app/content/es/bulk-email.md), y para personalizar la identidad de tu iglesia en
+  editor de [Comunicados](https://docs.holycrm.app/content/es/bulk-email.md), y para personalizar la identidad de tu iglesia en
   la app.
 
 - **Formulario público de pedidos de oración** — activa una página pública donde cualquiera
@@ -1745,6 +1757,121 @@ desetiquetar en bloque a un grupo de miembros a la vez.
 
 ---
 
+Source: https://docs.holycrm.app/content/es/integrations.md
+Section: Configuración de administración
+
+# Integraciones
+
+En **Administración → Integraciones**, un Administrador puede conectar
+servicios que tu iglesia ya usa. Hoy eso es **tu propio servidor de correo**: Comunicados
+puede enviar desde la cuenta de correo de tu iglesia en lugar de la de HolyCRM.
+
+También podés conectar un **webhook** para pasar tus comunicados a tus propias
+automatizaciones (ver más abajo).
+
+## Por qué enviar desde tu propia cuenta de correo
+
+- **Los correos salen desde la dirección de tu iglesia** (por ejemplo `oficina@tuiglesia.org`),
+  así las respuestas te llegan directo y la gente reconoce quién escribe.
+- **Sin el límite mensual de HolyCRM.** Los correos que salen por tu cuenta no cuentan para
+  los [1.000 correos por mes](https://docs.holycrm.app/content/es/bulk-email.md) que incluye HolyCRM. Se aplican los límites de
+  envío de tu proveedor de correo (ver más abajo).
+
+## Antes de empezar
+
+Necesitás una cuenta de correo que permita enviar por **SMTP**, y sus datos. La mayoría lo
+permite:
+
+- **Google (Gmail o Google Workspace):** servidor `smtp.gmail.com`, puerto 587. Usá una
+  **contraseña de aplicación**, no tu contraseña normal: en tu Cuenta de Google andá a
+  Seguridad → Verificación en 2 pasos → Contraseñas de aplicaciones. Las cuentas de Google
+  Workspace pueden enviar unos 2.000 correos por día.
+- **Microsoft 365 / Outlook:** servidor `smtp.office365.com`, puerto 587. Puede que el
+  administrador de Microsoft 365 tenga que habilitar "SMTP autenticado" para el buzón.
+- **Mailgun, SendGrid, Amazon SES, Brevo** y servicios de envío parecidos: usá las
+  credenciales SMTP de tu cuenta en ese servicio.
+
+Si no estás seguro, pedile los "datos SMTP" a quien se ocupa del correo de tu iglesia.
+
+## Cómo configurarlo
+
+1. Andá a **Administración → Integraciones**.
+2. Elegí tu **Proveedor**. Eso completa el servidor y el puerto, y muestra un consejo para
+   ese proveedor.
+3. Escribí el **Usuario** y la **Contraseña**, la **Dirección del remitente** desde la que
+   tienen que salir los correos y el **Nombre del remitente** que va a ver la gente
+   (normalmente el nombre de tu iglesia). La dirección tiene que ser una desde la que tu
+   cuenta pueda enviar.
+4. Hacé clic en **Guardar**.
+5. Hacé clic en **Enviar correo de prueba**. HolyCRM envía una prueba a tu propia dirección por
+   tu servidor y muestra el resultado en unos segundos. Comprobá que haya llegado (mirá
+   también en spam).
+6. Hacé clic en **Activar**.
+
+Desde ese momento, Comunicados muestra **"Enviando por tu propio servidor de correo"** en
+lugar del límite mensual, y todos los correos salen por tu cuenta.
+
+Solo se puede activar después de una prueba exitosa, y **guardar cualquier cambio lo vuelve a
+desactivar** hasta que envíes una nueva prueba. Así nunca queda activado con datos que no
+funcionan.
+
+## Si la prueba falla
+
+La pantalla explica qué pasó en palabras simples, con el mensaje técnico debajo:
+
+- **El servidor rechazó el usuario o la contraseña:** revisalos. Con Google, fijate de haber
+  usado una contraseña de aplicación.
+- **No se pudo conectar con el servidor:** revisá el nombre del servidor y el puerto.
+- **Falló la conexión segura:** el puerto 587 va con STARTTLS y el 465 con SSL/TLS.
+- **El servidor rechazó el correo:** probablemente la dirección del remitente no es una desde
+  la que esta cuenta puede enviar.
+
+Los problemas con envíos reales aparecen en el mismo lugar, como **Último problema**, y debajo
+del envío en **Envíos recientes** de Comunicados. Si tu servidor no puede entregar un correo,
+ese correo falla: HolyCRM nunca lo envía por su propio correo en su lugar.
+
+## Desactivarlo o quitarlo
+
+**Desactivar** vuelve a enviar por el correo de HolyCRM, que otra vez cuenta para el límite
+mensual. Tu configuración queda guardada, así que podés volver a activarlo después.
+**Eliminar** borra la configuración; los correos que todavía estén esperando para salir por tu
+servidor van a fallar.
+
+## Webhook (automatizaciones)
+
+Un webhook envía cada comunicado que elijas a una dirección web propia, normalmente una
+herramienta de automatización como **Zapier**, **Make** o **n8n**, donde decidís qué pasa
+después: reenviarlo por WhatsApp o Telegram, sumar a las personas a una planilla, etc. Está
+pensado para quien se ocupa de la tecnología en tu iglesia; para los miembros no cambia nada.
+
+**Privacidad:** cada envío incluye el nombre, el correo y el teléfono de las personas a las que va
+dirigido el comunicado. Conectá solo un servicio en el que tu iglesia confíe y con el que pueda
+compartir esta información.
+
+1. En tu herramienta de automatización, creá un flujo que empiece con "recibir un webhook"
+   (Zapier: *Webhooks by Zapier → Catch Hook*; Make: *Custom webhook*; n8n: nodo *Webhook*).
+   Copiá la dirección que te da; empieza con `https://`.
+2. En **Integraciones → Webhook**, pegala como **URL del webhook** y hacé clic en **Guardar**.
+3. HolyCRM muestra un **secreto de firma** una sola vez. Copialo y guardalo junto a tu
+   automatización: le permite comprobar que cada envío viene realmente de HolyCRM. Si lo perdés,
+   hacé clic en **Nuevo secreto de firma** (el anterior deja de funcionar).
+4. Hacé clic en **Enviar prueba**. La pantalla muestra qué respondió tu webhook.
+5. Hacé clic en **Activar**.
+
+Ahora, en [Comunicados](https://docs.holycrm.app/content/es/bulk-email.md), elegí **Solo webhook** o marcá **También enviar a mi
+webhook**. Cada envío contiene el asunto, el mensaje (en HTML y en texto) con las variables como
+`{{first_name}}` sin completar para que las complete tu automatización, y la lista de
+destinatarios. Si tu webhook no responde, HolyCRM vuelve a intentarlo varias veces durante las
+horas siguientes; el resultado aparece en **Envíos recientes** y acá como **Último problema**.
+
+Para desarrolladores: cada pedido va firmado. El encabezado `X-HolyCRM-Signature` es `sha256=` +
+el HMAC-SHA256 de `<X-HolyCRM-Timestamp>.<cuerpo sin procesar>` con tu secreto de firma.
+`X-HolyCRM-Delivery` no cambia cuando se reintenta un envío, así podés ignorar duplicados.
+
+Solo los Administradores pueden ver y cambiar Integraciones, y es parte del plan pago.
+
+---
+
 Source: https://docs.holycrm.app/content/es/data-privacy.md
 Section: Configuración de administración
 
@@ -1880,7 +2007,7 @@ Esto es lo que una persona que evalúa con cuidado debería saber:
 - **Sin certificación formal.** HolyCRM no está certificado por terceros independientes (por ejemplo, SOC 2 o ISO 27001).
 - **Todavía no hay verificación en dos pasos propia.** Si hoy quieres verificación en dos pasos, inicia sesión con Google y actívala en tu cuenta de Google.
 - **El operador puede acceder a los servidores.** Como en cualquier servicio alojado, los operadores de HolyCRM tienen acceso técnico a los servidores que guardan tus datos. Lo usan solo para operar, dar soporte y proteger el servicio, como describe la Política de privacidad.
-- **Algunas cosas son públicas a propósito.** El sitio web de la iglesia, la página Church Links, la página de ofrendas y el formulario de pedidos de oración son páginas públicas, y muestran solo lo que tu iglesia decide publicar allí. Las imágenes insertadas en los correos masivos las puede abrir cualquiera que tenga el enlace, como cualquier imagen de un correo. Un enlace de suscripción al calendario muestra la agenda de tu iglesia a quien tenga ese enlace, así que compártelo con cuidado.
+- **Algunas cosas son públicas a propósito.** El sitio web de la iglesia, la página Church Links, la página de ofrendas y el formulario de pedidos de oración son páginas públicas, y muestran solo lo que tu iglesia decide publicar allí. Las imágenes insertadas en los correos de Comunicados las puede abrir cualquiera que tenga el enlace, como cualquier imagen de un correo. Un enlace de suscripción al calendario muestra la agenda de tu iglesia a quien tenga ese enlace, así que compártelo con cuidado.
 - **Tu propia configuración importa.** Dar el rol de Administrador a alguien que no lo necesita, o usar una contraseña débil, puede exponer datos sin importar cómo esté construida la plataforma.
 
 ## Lo que puede hacer tu iglesia
@@ -1918,7 +2045,7 @@ afuera. Tu iglesia sigue automáticamente en el **plan gratis**:
 | Incluye | Miembros e Importar datos, Visitas, Grupos pequeños y Mis equipos, Asistencia, Eventos y calendario, Pedidos de oración, Página para dar, Etiquetas, y las pantallas personales de cada uno (Mi perfil, Mis turnos, Mi disponibilidad, Mis ofrendas) |
 
 Todo lo demás —ministerios, turnos, finanzas (ofrendas por miembro, transacciones, categorías
-y panel de finanzas), correos masivos y plantillas, check-in y check-in de niños,
+y panel de finanzas), Comunicados y plantillas de correo, check-in y check-in de niños,
 inscripciones a eventos, informes, tu sitio web, enlaces de la iglesia, campos personalizados
 y permisos personalizados— vuelve a estar disponible en cuanto tu iglesia pasa al plan pago.
 
@@ -2324,11 +2451,11 @@ del evento tenga la zona horaria correcta configurada — ver [Calendario](https
 </details>
 
 <details class="help-faq-item">
-<summary>¿Puedo personalizar un correo masivo con el nombre de cada destinatario?</summary>
+<summary>¿Puedo personalizar un comunicado por correo con el nombre de cada destinatario?</summary>
 
 Sí — hacé clic en un campo de texto del editor, y después hacé clic en una variable como
 **Nombre** en la barra de herramientas para insertar `{{first_name}}`. Se reemplaza por el
-valor real de cada destinatario al enviarse. Ver [Correos masivos y plantillas](https://docs.holycrm.app/content/es/bulk-email.md).
+valor real de cada destinatario al enviarse. Ver [Comunicados y plantillas de correo](https://docs.holycrm.app/content/es/bulk-email.md).
 </details>
 
 <details class="help-faq-item">
@@ -2360,7 +2487,7 @@ automática de tipo de cambio.
 <summary>¿Cómo agrego un logo de la iglesia, y dónde aparece?</summary>
 
 Subilo en [Configuración de la iglesia](https://docs.holycrm.app/content/es/church-settings.md). Queda disponible como botón de
-"Insertar logo de la iglesia" con un clic en el editor de [Correos masivos](https://docs.holycrm.app/content/es/bulk-email.md).
+"Insertar logo de la iglesia" con un clic en el editor de [Comunicados](https://docs.holycrm.app/content/es/bulk-email.md).
 </details>
 
 <details class="help-faq-item">

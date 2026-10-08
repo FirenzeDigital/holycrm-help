@@ -1,4 +1,4 @@
-# E-mails em massa e modelos
+# Comunicados e modelos de e-mail
 
 Envie avisos, boletins e novidades à sua congregação, e reaproveite designs como modelos.
 
@@ -50,10 +50,19 @@ ligada a um início de sessão do HolyCRM: veem-na no sino da app, e no telemóv
 notificações. Quem não tem início de sessão recebe apenas o e-mail. **Enviar-me uma
 notificação de teste** mostra como fica antes.
 
+### Enviar para o seu webhook
+
+Se um Administrador ligou um [webhook](#/integrations), **Enviar como** também oferece **Só
+webhook**, e as outras opções mostram a caixa **Enviar também para o meu webhook**. O comunicado
+(assunto, mensagem e a lista de pessoas a quem se destina, com nome, e-mail e telefone) vai para
+a sua própria automação (por exemplo um fluxo do Zapier, Make ou n8n), que o pode reencaminhar
+por WhatsApp, Telegram, SMS ou o que precisar. Enviar para o webhook não conta para o limite
+mensal de e-mails. **Envios recentes** mostra se o webhook o recebeu.
+
 ## Modelos de e-mail
 
 Guarde um design que vai reutilizar — um e-mail de boas-vindas, o layout de um boletim
-mensal — como Modelo, e depois carregue-o num novo E-mail em massa mais tarde em vez de o
+mensal — como Modelo, e depois carregue-o num novo comunicado mais tarde em vez de o
 reconstruir do zero. Os modelos mostram as variáveis de combinação como marcadores literais
 `{{placeholder}}` na pré-visualização, já que ainda não há um destinatário específico.
 
@@ -84,6 +93,9 @@ destinatário conta como um e-mail, incluindo os de teste). O ecrã mostra quant
 quando a contagem renova, no dia 1 de cada mês. Um envio que ultrapassaria o limite não é
 enviado, para que ninguém receba metade de uma mensagem. As notificações da app não contam
 para este limite, por isso, para avisos curtos, são uma boa alternativa.
+
+Para enviar sem este limite, um Administrador pode ligar a conta de e-mail da sua igreja em
+[Integrações](#/integrations).
 
 ## O que ainda não existe
 

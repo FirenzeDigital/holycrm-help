@@ -1,4 +1,4 @@
-# Bulk Email & Templates
+# Announcements & Email Templates
 
 Send announcements, newsletters and updates to your congregation, and reuse designs as
 templates.
@@ -49,10 +49,19 @@ a HolyCRM login: they see it in the app's bell, and on their phone if they turne
 notifications on. People without a login only get the email. **Send test notification to
 me** shows you how it looks first.
 
+### Sending to your webhook
+
+If an Administrator has connected a [webhook](#/integrations), **Send as** also offers
+**Webhook only**, and the other options get an **Also send to my webhook** checkbox. The
+announcement — subject, message and the list of people it's for, with their names, emails and
+phones — goes to your own automation (for example a Zapier, Make or n8n flow), which can pass it
+on through WhatsApp, Telegram, SMS or anything else. Sending to the webhook doesn't count
+toward the monthly email limit. **Recent sends** shows whether the webhook received it.
+
 ## Email Templates
 
 Save a design you'll reuse — a welcome email, a monthly newsletter layout — as a Template,
-then load it into a new Bulk Email later instead of rebuilding it from scratch. Templates
+then load it into a new announcement later instead of rebuilding it from scratch. Templates
 show merge variables as literal `{{placeholders}}` in the preview, since there's no specific
 recipient yet.
 
@@ -82,6 +91,9 @@ recipient counts as one email, test emails included). The screen shows how many 
 and when the count resets, on the 1st of each month. A send that would go over the limit
 isn't sent at all, so nobody gets half a message. App notifications don't count toward this
 limit, so for short announcements they're a good alternative.
+
+To send without this limit, an Administrator can connect your church's own email account
+under [Integrations](#/integrations).
 
 ## What's not built yet
 
