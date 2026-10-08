@@ -1011,6 +1011,12 @@ recipient yet.
 A single send is capped at **500 recipients**. This keeps sending reliable; if your audience
 is bigger than that, ask about splitting the send.
 
+**Monthly email limit.** Each church can send up to **1,000 emails per month** (every
+recipient counts as one email, test emails included). The screen shows how many you've used
+and when the count resets, on the 1st of each month. A send that would go over the limit
+isn't sent at all, so nobody gets half a message. App notifications don't count toward this
+limit, so for short announcements they're a good alternative.
+
 ## What's not built yet
 
 Scheduling a send for later (sends go out immediately), SMS as a channel, open/click

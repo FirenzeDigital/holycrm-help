@@ -1065,6 +1065,12 @@ específico.
 Un envío individual tiene un tope de **500 destinatarios**. Esto mantiene el envío confiable;
 si tu audiencia es más grande, consultá sobre dividir el envío.
 
+**Límite mensual de correos.** Cada iglesia puede enviar hasta **1.000 correos por mes**
+(cada destinatario cuenta como un correo, incluidos los de prueba). La pantalla muestra
+cuántos usaste y cuándo se renueva el conteo, el día 1 de cada mes. Un envío que superaría
+el límite no se envía, así nadie recibe medio mensaje. Las notificaciones de la app no
+cuentan para este límite, así que para anuncios cortos son una buena alternativa.
+
 ## Lo que todavía no existe
 
 Programar un envío para más adelante (los envíos salen de inmediato), SMS como canal,

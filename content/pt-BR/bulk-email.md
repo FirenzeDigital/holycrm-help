@@ -70,6 +70,12 @@ recriá-lo do zero. Os modelos mostram as variáveis de mesclagem como marcadore
 Um único envio tem um limite de **500 destinatários**. Isso mantém o envio confiável; se seu
 público for maior que isso, pergunte sobre dividir o envio.
 
+**Limite mensal de e-mails.** Cada igreja pode enviar até **1.000 e-mails por mês** (cada
+destinatário conta como um e-mail, incluindo os de teste). A tela mostra quantos você já usou
+e quando a contagem renova, no dia 1º de cada mês. Um envio que passaria do limite não é
+enviado, assim ninguém recebe metade de uma mensagem. Notificações do app não contam para
+esse limite, então para avisos curtos elas são uma boa alternativa.
+
 ## O que ainda não existe
 
 Agendar um envio para mais tarde (os envios saem imediatamente), SMS como canal, rastreamento
