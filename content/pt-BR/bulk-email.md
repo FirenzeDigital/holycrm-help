@@ -65,6 +65,15 @@ recriá-lo do zero. Os modelos mostram as variáveis de mesclagem como marcadore
 - Todo e-mail enviado pelo HolyCRM inclui uma pequena linha "Sent with HolyCRM" — isso não é
   algo que você pode remover, e é mantido deliberadamente discreto.
 
+## Depois de enviar
+
+Os e-mails são enviados em segundo plano, normalmente em poucos minutos, então você pode sair
+da tela na hora. **Envios recentes** mostra o progresso de cada envio: quantos foram entregues
+do total, e **Enviando…** enquanto alguns ainda estão a caminho. Se um e-mail não puder ser
+entregue (por exemplo, o endereço não existe), ele conta como **Falharam** e o motivo aparece
+abaixo desse envio; os outros são enviados normalmente. Um e-mail de teste chega do mesmo
+jeito, normalmente em um minuto.
+
 ## Limites
 
 Um único envio tem um limite de **500 destinatários**. Isso mantém o envio confiável; se seu

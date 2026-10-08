@@ -1006,6 +1006,15 @@ recipient yet.
 - Every email sent through HolyCRM includes a small "Sent with HolyCRM" line — this isn't
   something you can remove, and it's kept deliberately understated.
 
+## After you send
+
+Emails go out in the background, usually within a few minutes, so you can leave the screen
+right away. **Recent sends** shows the progress of each send: how many have been delivered
+out of the total, and **Sending…** while some are still on their way. If an email can't be
+delivered (for example, the address doesn't exist), it's counted as **Failed** and the
+reason is shown under that send; the others still go out. A test email arrives the same way,
+usually within a minute.
+
 ## Limits
 
 A single send is capped at **500 recipients**. This keeps sending reliable; if your audience

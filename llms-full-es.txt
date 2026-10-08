@@ -1060,6 +1060,15 @@ específico.
 - Todo correo enviado a través de HolyCRM incluye una pequeña línea "Sent with HolyCRM" — no
   es algo que puedas quitar, y se mantiene deliberadamente discreta.
 
+## Después de enviar
+
+Los correos se envían en segundo plano, normalmente en pocos minutos, así que podés salir de
+la pantalla enseguida. **Envíos recientes** muestra el progreso de cada envío: cuántos se
+entregaron del total, y **Enviando…** mientras algunos todavía están en camino. Si un correo
+no se puede entregar (por ejemplo, la dirección no existe), se cuenta como **Fallidos** y el
+motivo aparece debajo de ese envío; los demás se envían igual. Un correo de prueba llega de la
+misma forma, normalmente en un minuto.
+
 ## Límites
 
 Un envío individual tiene un tope de **500 destinatarios**. Esto mantiene el envío confiable;
