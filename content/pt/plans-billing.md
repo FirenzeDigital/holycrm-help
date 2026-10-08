@@ -58,6 +58,15 @@ volta à mesma página.
 Pagar durante o período de teste não faz perder dias: o tempo pago começa quando o teste
 termina.
 
+## Pacotes de e-mails
+
+O plano pago inclui 1000 e-mails de Comunicados por mês. Se a sua igreja precisar de mais, um
+Administrador pode comprar **pacotes de e-mails** em **Faturação**: 5000 e-mails por US$5, pagos
+da mesma forma que o plano. Os e-mails do pacote só são usados quando os 1000 do mês acabam, e
+não expiram; Faturação e Comunicados mostram quantos restam. Um pacote não muda nem prolonga o
+seu plano. As igrejas que ligam o próprio servidor de e-mail em [Integrações](#/integrations) não
+têm qualquer limite de e-mails do HolyCRM.
+
 ## Renovar
 
 Os pagamentos não são renovados automaticamente — nunca é cobrado nada sem a sua

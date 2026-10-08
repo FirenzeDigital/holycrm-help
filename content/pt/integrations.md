@@ -4,8 +4,9 @@ Em **Configurações de administração → Integrações**, um Administrador po
 sua igreja já usa. Hoje isso é **o seu próprio servidor de e-mail**: os Comunicados podem
 enviar pela conta de e-mail da sua igreja em vez da do HolyCRM.
 
-Também pode ligar um **webhook** para passar os seus comunicados às suas próprias
-automações (ver abaixo).
+Também pode ligar até cinco **webhooks** para passar os comunicados e o que acontece na sua
+igreja (novos visitantes, membros, pedidos de oração, inscrições, respostas às escalas) às suas
+próprias automações (ver abaixo).
 
 ## Porquê enviar pela sua própria conta de e-mail
 
@@ -74,36 +75,70 @@ As suas configurações ficam guardadas, por isso pode voltar a ativar mais tard
 apaga as configurações; os e-mails que ainda estejam à espera de envio pelo seu servidor vão
 falhar.
 
-## Webhook (automações)
+## Webhooks (automações)
 
-Um webhook envia cada comunicado que escolher para um endereço web seu, normalmente uma
-ferramenta de automação como **Zapier**, **Make** ou **n8n**, onde decide o que acontece a
-seguir: reencaminhar por WhatsApp ou Telegram, adicionar as pessoas a uma folha de cálculo, etc.
-Destina-se a quem trata da tecnologia da sua igreja; para os membros nada muda.
+Um webhook envia coisas para um endereço web seu, normalmente uma ferramenta de automação como
+**Zapier**, **Make** ou **n8n**, onde decide o que acontece a seguir: reencaminhar por WhatsApp ou
+Telegram, adicionar a pessoa a uma folha de cálculo, avisar a equipa de boas-vindas, etc.
+Destina-se a quem trata da tecnologia da sua igreja; para os membros nada muda. Pode adicionar
+até **5 webhooks**, cada um com o seu endereço e com o que quer receber.
 
-**Privacidade:** cada envio inclui o nome, o e-mail e o telefone das pessoas a quem o comunicado
-se destina. Ligue apenas um serviço em que a sua igreja confie e com o qual possa partilhar estas
+### O que um webhook pode receber
+
+Marque o que cada webhook deve receber:
+
+- **Os comunicados que escolher enviar aos webhooks** (ver [Comunicados](#/bulk-email)).
+- **Novo visitante**: quem preencher o formulário "Primeira vez aqui?" ou for adicionado em Visitantes.
+- **Novo membro** (nunca crianças).
+- **Novo pedido de oração**: quem pediu e como contactar. **O pedido em si nunca é enviado**: a
+  sua equipa lê-o dentro do HolyCRM.
+- **Inscrição num evento**.
+- **Um voluntário confirmou** ou **recusou uma escala**.
+
+**Privacidade:** os envios incluem nomes, e-mails e telefones. As crianças (membros marcados como
+menores, com encarregados de educação ou abaixo da idade de menor da sua igreja) nunca são
+incluídas em nada enviado a um webhook, e notas, moradas e datas de nascimento nunca são
+enviadas. Ligue apenas serviços em que a sua igreja confie e com os quais possa partilhar estas
 informações.
+
+### Como configurar um
 
 1. Na sua ferramenta de automação, crie um fluxo que comece com "receber um webhook" (Zapier:
    *Webhooks by Zapier → Catch Hook*; Make: *Custom webhook*; n8n: nó *Webhook*). Copie o
    endereço que ela indica; começa por `https://`.
-2. Em **Integrações → Webhook**, cole-o como **URL do webhook** e clique em **Salvar**.
+2. Em **Integrações → Webhooks**, clique em **Adicionar um webhook**, dê-lhe um nome se quiser,
+   cole o endereço como **URL do webhook**, marque **O que enviar** e clique em **Salvar**.
 3. O HolyCRM mostra um **segredo de assinatura** uma única vez. Copie-o e guarde-o com a sua
    automação: permite confirmar que cada envio vem mesmo do HolyCRM. Se o perder, clique em
    **Novo segredo de assinatura** (o anterior deixa de funcionar).
 4. Clique em **Enviar teste**. O ecrã mostra o que o seu webhook respondeu.
 5. Clique em **Ativar**.
 
-Agora, em [Comunicados](#/bulk-email), escolha **Só webhook** ou marque **Enviar também para o
-meu webhook**. Cada envio contém o assunto, a mensagem (em HTML e em texto) com as variáveis como
-`{{first_name}}` por preencher para a sua automação completar, e a lista de destinatários. Se o
-seu webhook não responder, o HolyCRM volta a tentar várias vezes nas horas seguintes; o resultado
-aparece em **Envios recentes** e aqui como **Último problema**.
+Alterar o endereço ou o formato desativa o webhook até que um novo teste corra bem; alterar o que
+recebe, não. Se um webhook não responder, o HolyCRM volta a tentar várias vezes nas horas
+seguintes; os problemas aparecem nesse webhook como **Último problema** e, nos comunicados, também
+por baixo do envio em **Envios recentes**.
 
-Para programadores: todos os pedidos são assinados. O cabeçalho `X-HolyCRM-Signature` é
-`sha256=` + o HMAC-SHA256 de `<X-HolyCRM-Timestamp>.<corpo em bruto>` com o seu segredo de
-assinatura. `X-HolyCRM-Delivery` não muda quando um envio é repetido, por isso pode ignorar
-duplicados.
+### Formato: JSON do HolyCRM ou personalizado
+
+Por omissão cada envio é o mesmo JSON para qualquer ferramenta, que o Zapier, o Make e o n8n leem
+sem configurar nada. Cada envio inclui uma linha pronta no idioma da sua igreja, `summary` (por
+exemplo "Novo visitante: João Silva").
+
+Se o sítio para onde envia espera outra coisa, escolha **Personalizado (para programadores)** e
+escreva o corpo, com marcadores que o HolyCRM preenche, e cabeçalhos adicionais se forem
+precisos. **Começar a partir de um exemplo** preenche-o para dois casos comuns:
+
+- **ntfy** (notificações no telemóvel): uma mensagem de texto com título.
+- **Telegram** (um bot que publica num grupo): substitua `YOUR_CHAT_ID` pelo id do seu chat e use
+  `https://api.telegram.org/bot<o token do seu bot>/sendMessage` como URL.
+
+Para programadores: todos os pedidos são assinados. O cabeçalho `X-HolyCRM-Signature` é `sha256=`
++ o HMAC-SHA256 de `<X-HolyCRM-Timestamp>.<corpo em bruto>` com o seu segredo de assinatura
+(também no formato personalizado, sobre o corpo realmente enviado). `X-HolyCRM-Event` diz o que
+aconteceu, e `X-HolyCRM-Delivery` não muda quando um envio é repetido, por isso pode ignorar
+duplicados. Os modelos usam a sintaxe de templates do Go sobre o envio: `{{.data.summary}}`,
+`{{.data.subject}}`, `{{.church.name}}`, `{{range .data.recipients}}…{{end}}` e `{{json …}}` para
+inserir um valor como JSON. Um erro no modelo faz o teste falhar com esse erro.
 
 Só os Administradores podem ver e alterar Integrações, e fazem parte do plano pago.

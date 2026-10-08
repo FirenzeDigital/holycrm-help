@@ -4,8 +4,9 @@ Under **Admin Settings → Integrations**, an Administrator can connect services
 already uses. Today that's **your own email server**: Announcements can send its emails through your
 church's own email account instead of HolyCRM's.
 
-You can also connect a **webhook** to pass your announcements on to your own automations
-(see below).
+You can also connect up to five **webhooks** to pass announcements and what happens in your
+church (new visitors, members, prayer requests, registrations, serving answers) on to your own
+automations (see below).
 
 ## Why send through your own email account
 
@@ -69,35 +70,69 @@ never sends it through its own email instead.
 limit again. Your settings stay saved, so you can turn it back on later. **Remove** deletes the
 settings; emails still waiting to go out through your server will fail.
 
-## Webhook (automations)
+## Webhooks (automations)
 
-A webhook sends each announcement you choose to a web address of your own, usually an
-automation tool such as **Zapier**, **Make** or **n8n**, where you decide what happens next:
-send it on through WhatsApp or Telegram, add the people to a spreadsheet, and so on. It's meant
-for whoever looks after your church's tech; nothing changes for members.
+A webhook sends things to a web address of your own, usually an automation tool such as
+**Zapier**, **Make** or **n8n**, where you decide what happens next: send it on through
+WhatsApp or Telegram, add the person to a spreadsheet, notify the welcome team, and so on. It's
+meant for whoever looks after your church's tech; nothing changes for members. You can add up
+to **5 webhooks**, each with its own address and its own choice of what it receives.
 
-**Privacy:** each delivery includes the names, email addresses and phone numbers of the people
-the announcement is for. Only connect a service your church trusts and is allowed to share this
-information with.
+### What a webhook can receive
+
+Tick what each webhook should get:
+
+- **Announcements you choose to send to webhooks** (see [Announcements](#/bulk-email)).
+- **New visitor**: anyone who fills in the "New here?" form or is added in Visitors.
+- **New member** (never children).
+- **New prayer request**: who asked and how to reach them. **The request itself is never
+  sent**: your team reads it inside HolyCRM.
+- **Event registration**.
+- **A volunteer confirmed** or **declined a serving slot**.
+
+**Privacy:** deliveries include names, email addresses and phone numbers. Children (members
+marked as minors, with guardians, or under your church's minor age) are never included in
+anything sent to a webhook, and notes, addresses and birthdates are never sent. Only connect
+services your church trusts and is allowed to share this information with.
+
+### Setting one up
 
 1. In your automation tool, create a flow that starts with "receive a webhook" (Zapier: *Webhooks
    by Zapier → Catch Hook*; Make: *Custom webhook*; n8n: *Webhook* node). Copy the address it
    gives you; it starts with `https://`.
-2. In **Integrations → Webhook**, paste it as the **Webhook URL** and click **Save**.
-3. HolyCRM shows a **signing secret** once. Copy it and keep it with your automation: it lets
-   your automation check that each delivery really comes from HolyCRM. If you lose it, click
-   **New signing secret** (the old one stops working).
+2. In **Integrations → Webhooks**, click **Add a webhook**, give it a name if you like, paste the
+   address as the **Webhook URL**, tick **What to send** and click **Save**.
+3. HolyCRM shows a **signing secret** once. Copy it and keep it with your automation: it lets your
+   automation check that each delivery really comes from HolyCRM. If you lose it, click **New
+   signing secret** (the old one stops working).
 4. Click **Send test**. The screen shows what your webhook answered.
 5. Click **Turn on**.
 
-Now, in [Announcements](#/bulk-email), choose **Webhook only**, or tick **Also send to my
-webhook**. Each delivery contains the subject, the message (as HTML and plain text) with
-variables such as `{{first_name}}` left for your automation to fill in, and the list of
-recipients. If your webhook doesn't answer, HolyCRM tries again several times over the next
-hours; the result shows in **Recent sends** and here as **Last problem**.
+Changing the address or the format turns the webhook off until a new test succeeds; changing what
+it receives doesn't. If a webhook doesn't answer, HolyCRM tries again several times over the
+next hours; problems show on that webhook as **Last problem**, and for announcements also under
+the send in **Recent sends**.
 
-For developers: every request is signed. The `X-HolyCRM-Signature` header is
-`sha256=` + the HMAC-SHA256 of `<X-HolyCRM-Timestamp>.<raw body>` with your signing secret.
+### Format: HolyCRM JSON or custom
+
+By default each delivery is the same JSON for every tool, which Zapier, Make and n8n read without
+any setup. Every delivery includes a ready-made line in your church's language, `summary` (for
+example "New visitor: John Smith").
+
+If the place you send to expects something else, choose **Custom (for developers)** and write the
+body yourself, with placeholders HolyCRM fills in, plus extra headers if needed. **Start from an
+example** fills it in for two common cases:
+
+- **ntfy** (phone notifications): a plain-text message with a title.
+- **Telegram** (a bot posting in a group): replace `YOUR_CHAT_ID` with your chat's id and use
+  `https://api.telegram.org/bot<your bot token>/sendMessage` as the URL.
+
+For developers: every request is signed. The `X-HolyCRM-Signature` header is `sha256=` + the
+HMAC-SHA256 of `<X-HolyCRM-Timestamp>.<raw body>` with your signing secret (also with the custom
+format, over the body actually sent). `X-HolyCRM-Event` says what happened, and
 `X-HolyCRM-Delivery` stays the same when a delivery is retried, so you can ignore duplicates.
+Templates use Go template syntax over the delivery: `{{.data.summary}}`, `{{.data.subject}}`,
+`{{.church.name}}`, `{{range .data.recipients}}…{{end}}`, and `{{json …}}` to insert a value as
+JSON. A template error makes the test fail with the error.
 
 Only Administrators can see and change Integrations, and it's part of the paid plan.

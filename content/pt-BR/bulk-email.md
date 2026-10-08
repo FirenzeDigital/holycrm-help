@@ -50,10 +50,10 @@ ligado a um login do HolyCRM: elas a veem no sininho do app, e no celular se ati
 notificações. Quem não tem login recebe só o e-mail. **Enviar uma notificação de teste para
 mim** mostra como fica antes.
 
-### Enviar para o seu webhook
+### Enviar para os seus webhooks
 
-Se um Administrador conectou um [webhook](#/integrations), **Enviar como** também oferece **Só
-webhook**, e as outras opções mostram a caixa **Enviar também para o meu webhook**. O comunicado
+Se um Administrador conectou [webhooks](#/integrations) que recebem comunicados, **Enviar como** também oferece **Só
+webhook**, e as outras opções mostram a caixa **Enviar também para os meus webhooks**. O comunicado
 (assunto, mensagem e a lista de pessoas a quem se destina, com nome, e-mail e telefone) vai para
 a sua própria automação (por exemplo um fluxo do Zapier, Make ou n8n), que pode repassá-lo por
 WhatsApp, Telegram, SMS ou o que precisar. Enviar para o webhook não conta para o limite mensal
@@ -96,6 +96,10 @@ esse limite, então para avisos curtos elas são uma boa alternativa.
 
 Para enviar sem esse limite, um Administrador pode conectar a conta de e-mail da sua igreja
 em [Integrações](#/integrations).
+
+**Precisa de mais e-mails?** Um Administrador pode comprar um **pacote de e-mails** em
+[Faturamento](#/plans-billing): 5.000 e-mails por US$5. Os e-mails do pacote só são usados quando
+os 1.000 do mês acabam, e não expiram. A tela mostra quantos restam.
 
 ## O que ainda não existe
 

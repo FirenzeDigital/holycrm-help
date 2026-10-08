@@ -50,10 +50,10 @@ ligada a um início de sessão do HolyCRM: veem-na no sino da app, e no telemóv
 notificações. Quem não tem início de sessão recebe apenas o e-mail. **Enviar-me uma
 notificação de teste** mostra como fica antes.
 
-### Enviar para o seu webhook
+### Enviar para os seus webhooks
 
-Se um Administrador ligou um [webhook](#/integrations), **Enviar como** também oferece **Só
-webhook**, e as outras opções mostram a caixa **Enviar também para o meu webhook**. O comunicado
+Se um Administrador ligou [webhooks](#/integrations) que recebem comunicados, **Enviar como** também oferece **Só
+webhook**, e as outras opções mostram a caixa **Enviar também para os meus webhooks**. O comunicado
 (assunto, mensagem e a lista de pessoas a quem se destina, com nome, e-mail e telefone) vai para
 a sua própria automação (por exemplo um fluxo do Zapier, Make ou n8n), que o pode reencaminhar
 por WhatsApp, Telegram, SMS ou o que precisar. Enviar para o webhook não conta para o limite
@@ -96,6 +96,10 @@ para este limite, por isso, para avisos curtos, são uma boa alternativa.
 
 Para enviar sem este limite, um Administrador pode ligar a conta de e-mail da sua igreja em
 [Integrações](#/integrations).
+
+**Precisa de mais e-mails?** Um Administrador pode comprar um **pacote de e-mails** em
+[Faturação](#/plans-billing): 5000 e-mails por US$5. Os e-mails do pacote só são usados quando os
+1000 do mês acabam, e não expiram. O ecrã mostra quantos restam.
 
 ## O que ainda não existe
 

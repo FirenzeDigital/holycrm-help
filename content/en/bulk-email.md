@@ -49,10 +49,10 @@ a HolyCRM login: they see it in the app's bell, and on their phone if they turne
 notifications on. People without a login only get the email. **Send test notification to
 me** shows you how it looks first.
 
-### Sending to your webhook
+### Sending to your webhooks
 
-If an Administrator has connected a [webhook](#/integrations), **Send as** also offers
-**Webhook only**, and the other options get an **Also send to my webhook** checkbox. The
+If an Administrator has connected [webhooks](#/integrations) that receive announcements, **Send as** also offers
+**Webhook only**, and the other options get an **Also send to my webhooks** checkbox. The
 announcement — subject, message and the list of people it's for, with their names, emails and
 phones — goes to your own automation (for example a Zapier, Make or n8n flow), which can pass it
 on through WhatsApp, Telegram, SMS or anything else. Sending to the webhook doesn't count
@@ -94,6 +94,10 @@ limit, so for short announcements they're a good alternative.
 
 To send without this limit, an Administrator can connect your church's own email account
 under [Integrations](#/integrations).
+
+**Need more emails?** An Administrator can buy an **email pack** in [Billing](#/plans-billing):
+5,000 emails for US$5. Pack emails are used only after the month's 1,000 run out, and they never
+expire. The screen shows how many you have left.
 
 ## What's not built yet
 

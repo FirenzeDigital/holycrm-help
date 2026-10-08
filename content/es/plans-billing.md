@@ -56,6 +56,15 @@ a la misma.
 Pagar durante la prueba no te hace perder días: tu tiempo pago empieza cuando termina la
 prueba.
 
+## Paquetes de correos
+
+El plan pago incluye 1.000 correos de Comunicados por mes. Si tu iglesia necesita más, un
+Administrador puede comprar **paquetes de correos** en **Facturación**: 5.000 correos por US$5,
+que se pagan igual que el plan. Los correos del paquete se usan recién cuando se terminan los
+1.000 del mes, y no vencen; Facturación y Comunicados muestran cuántos quedan. Un paquete no cambia
+ni extiende tu plan. Las iglesias que conectan su propio servidor de correo en
+[Integraciones](#/integrations) no tienen ningún límite de correos de HolyCRM.
+
 ## Renovar
 
 Los pagos no se renuevan solos — nunca se cobra nada sin vos. Les enviamos un correo a los

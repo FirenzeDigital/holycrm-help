@@ -55,6 +55,15 @@ back to the same one.
 Paying during your trial doesn't cost you any trial days: your paid time starts when the
 trial ends.
 
+## Email packs
+
+The paid plan includes 1,000 Announcements emails a month. If your church needs more, an
+Administrator can buy **email packs** in **Billing**: 5,000 emails for US$5, paid the same way as
+the plan. Pack emails are used only after the month's 1,000 run out, and they never expire; Billing
+and Announcements show how many are left. A pack doesn't change or extend your plan. Churches that
+connect their own email server in [Integrations](#/integrations) have no HolyCRM email limit at
+all.
+
 ## Renewing
 
 Payments don't renew automatically — nothing is ever charged without you. We email your

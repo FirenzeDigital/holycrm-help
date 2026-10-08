@@ -51,10 +51,10 @@ de miembro está vinculada a un usuario de HolyCRM: la ven en la campanita de la
 celular si activaron las notificaciones. Quien no tiene usuario solo recibe el correo.
 **Enviarme una notificación de prueba** te muestra cómo se ve antes.
 
-### Enviar a tu webhook
+### Enviar a tus webhooks
 
-Si un Administrador conectó un [webhook](#/integrations), **Enviar como** también ofrece **Solo
-webhook**, y las demás opciones muestran la casilla **También enviar a mi webhook**. El
+Si un Administrador conectó [webhooks](#/integrations) que reciben comunicados, **Enviar como** también ofrece **Solo
+webhook**, y las demás opciones muestran la casilla **También enviar a mis webhooks**. El
 comunicado (asunto, mensaje y la lista de personas a las que va dirigido, con nombre, correo y
 teléfono) llega a tu propia automatización (por ejemplo un flujo de Zapier, Make o n8n), que
 puede reenviarlo por WhatsApp, Telegram, SMS o lo que necesites. Enviar al webhook no cuenta para
@@ -98,6 +98,10 @@ cuentan para este límite, así que para anuncios cortos son una buena alternati
 
 Para enviar sin este límite, un Administrador puede conectar la cuenta de correo de tu
 iglesia en [Integraciones](#/integrations).
+
+**¿Necesitás más correos?** Un Administrador puede comprar un **paquete de correos** en
+[Facturación](#/plans-billing): 5.000 correos por US$5. Los correos del paquete se usan recién
+cuando se terminan los 1.000 del mes, y no vencen. La pantalla muestra cuántos te quedan.
 
 ## Lo que todavía no existe
 
