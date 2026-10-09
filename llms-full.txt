@@ -985,7 +985,7 @@ address before sending it to your real audience — a good habit before any real
 
 ### Sending as an app notification
 
-**Send as** chooses **Email**, **App notification**, or both. An app notification is a short
+**Send as** has three boxes you can combine: **Email**, **App notification** and **Webhooks**. An app notification is a short
 message: the **Subject** is its title and **Notification text** (up to 200 characters) is
 the message; merge variables work in both. It reaches people whose member record is linked to
 a HolyCRM login: they see it in the app's bell, and on their phone if they turned
@@ -994,8 +994,9 @@ me** shows you how it looks first.
 
 ### Sending to your webhooks
 
-If an Administrator has connected [webhooks](https://docs.holycrm.app/content/en/integrations.md) that receive announcements, **Send as** also offers
-**Webhook only**, and the other options get an **Also send to my webhooks** checkbox. The
+If an Administrator has turned on [webhooks](https://docs.holycrm.app/content/en/integrations.md) that receive announcements, tick
+**Webhooks** under **Send as** (alone or with email and app notification); otherwise the box is
+greyed out. The
 announcement — subject, message and the list of people it's for, with their names, emails and
 phones — goes to your own automation (for example a Zapier, Make or n8n flow), which can pass it
 on through WhatsApp, Telegram, SMS or anything else. Sending to the webhook doesn't count

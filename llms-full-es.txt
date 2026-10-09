@@ -1037,7 +1037,7 @@ real.
 
 ### Enviar como notificación en la app
 
-**Enviar como** elige **Correo**, **Notificación en la app** o ambos. Una notificación es un
+**Enviar como** tiene tres casillas que podés combinar: **Correo**, **Notificación en la app** y **Webhooks**. Una notificación es un
 mensaje corto: el **Asunto** es el título y el **Texto de la notificación** (hasta 200
 caracteres) es el mensaje; las variables funcionan en los dos. Llega a las personas cuya ficha
 de miembro está vinculada a un usuario de HolyCRM: la ven en la campanita de la app, y en su
@@ -1046,8 +1046,9 @@ celular si activaron las notificaciones. Quien no tiene usuario solo recibe el c
 
 ### Enviar a tus webhooks
 
-Si un Administrador conectó [webhooks](https://docs.holycrm.app/content/es/integrations.md) que reciben comunicados, **Enviar como** también ofrece **Solo
-webhook**, y las demás opciones muestran la casilla **También enviar a mis webhooks**. El
+Si un Administrador activó [webhooks](https://docs.holycrm.app/content/es/integrations.md) que reciben comunicados, marcá **Webhooks**
+en **Enviar como** (sola o junto con correo y notificación); si no, la casilla aparece
+deshabilitada. El
 comunicado (asunto, mensaje y la lista de personas a las que va dirigido, con nombre, correo y
 teléfono) llega a tu propia automatización (por ejemplo un flujo de Zapier, Make o n8n), que
 puede reenviarlo por WhatsApp, Telegram, SMS o lo que necesites. Enviar al webhook no cuenta para

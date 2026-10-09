@@ -43,7 +43,7 @@ redigiu, antes de o enviar ao seu público real — um bom hábito antes de qual
 
 ### Enviar como notificação na app
 
-**Enviar como** escolhe **E-mail**, **Notificação na app** ou ambos. A notificação é uma
+**Enviar como** tem três caixas que pode combinar: **E-mail**, **Notificação na app** e **Webhooks**. A notificação é uma
 mensagem curta: o **Assunto** é o título e o **Texto da notificação** (até 200 caracteres) é
 a mensagem; as variáveis funcionam em ambos. Chega às pessoas cuja ficha de membro está
 ligada a um início de sessão do HolyCRM: veem-na no sino da app, e no telemóvel se ativaram as
@@ -52,8 +52,9 @@ notificação de teste** mostra como fica antes.
 
 ### Enviar para os seus webhooks
 
-Se um Administrador ligou [webhooks](#/integrations) que recebem comunicados, **Enviar como** também oferece **Só
-webhook**, e as outras opções mostram a caixa **Enviar também para os meus webhooks**. O comunicado
+Se um Administrador ativou [webhooks](#/integrations) que recebem comunicados, marque **Webhooks**
+em **Enviar como** (sozinha ou com e-mail e notificação); caso contrário, a caixa aparece
+desativada. O comunicado
 (assunto, mensagem e a lista de pessoas a quem se destina, com nome, e-mail e telefone) vai para
 a sua própria automação (por exemplo um fluxo do Zapier, Make ou n8n), que o pode reencaminhar
 por WhatsApp, Telegram, SMS ou o que precisar. Enviar para o webhook não conta para o limite
