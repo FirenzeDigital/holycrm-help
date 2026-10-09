@@ -2371,7 +2371,8 @@ O plano pago custa **USD 30 por mês** ou **USD 300 por ano** (pague 10 meses, l
 1. Abra **Faturamento** e escolha **Mensal** ou **Anual**.
 2. Clique em **Pagar por transferência**. Você vai para uma página segura da GalioPay, onde
    pode pagar de qualquer conta bancária ou carteira da Argentina. O valor aparece em pesos,
-   convertido pela cotação oficial do dia.
+   convertido pela cotação oficial do dia. É um pagamento em pesos, não uma compra em dólares
+   no cartão: não se somam os impostos nem as percepções do dólar cartão.
 3. Ao terminar, você volta para o HolyCRM. A página confirma o pagamento assim que o banco
    informar — geralmente em menos de um minuto. Se demorar mais, não precisa pagar de novo:
    a página se atualiza sozinha quando a confirmação chegar.

@@ -44,7 +44,8 @@ The paid plan is **USD 30 a month** or **USD 300 a year** (pay 10 months, get 12
 1. Open **Billing** and choose **Monthly** or **Yearly**.
 2. Click **Pay by bank transfer**. You'll go to a secure GalioPay page where you can pay
    from any Argentine bank account or wallet. The amount is shown in pesos, converted with
-   the day's official exchange rate.
+   the day's official exchange rate. It's a payment in pesos, not a dollar purchase by card,
+   so none of the card-dollar taxes or perceptions are added.
 3. When you're done, you're taken back to HolyCRM. The page confirms your payment as soon as
    the bank reports it — usually within a minute. If it takes longer, you don't need to pay
    again: the page updates on its own once it arrives.
