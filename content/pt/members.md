@@ -41,7 +41,7 @@ sessão), o campo de e-mail fica bloqueado no formulário de Membros, com uma no
 para o ecrã de Utilizadores. Isto é intencional: o e-mail de acesso e o e-mail da ficha de
 membro são mantidos sincronizados automaticamente, e editá-lo em dois sítios diferentes faria
 com que uma edição anulasse silenciosamente a outra. Altere a partir de
-**Configurações administrativas → Utilizadores** — ver
+**Definições → Utilizadores** — ver
 [Utilizadores, funções e permissões](#/users-roles).
 
 ## Convidar um membro a entrar

@@ -3,7 +3,7 @@
 ## Tags
 
 A simple, flexible label you attach to members — "Worship Team," "First Responders,"
-"Youth Leader," anything your church finds useful. Create tags once under **Admin Settings →
+"Youth Leader," anything your church finds useful. Create tags once under **Settings →
 Tags**, then pick them from a chip picker on any member's record. There's no limit to how
 you use them beyond members, and no colors or scoping — a tag is just a tag, shared across
 your whole church.
@@ -15,7 +15,7 @@ a "Leader," another a "Coach," another a "Guide." **Tag Roles** let you map *you
 own tag onto a fixed set of built-in functions, so pickers throughout the app can filter to
 "whoever does this job" using your own vocabulary.
 
-Under **Admin Settings → Tag roles**, map a tag to each function you use:
+Under **Settings → Tag roles**, map a tag to each function you use:
 
 | Function | Where it's used |
 |---|---|

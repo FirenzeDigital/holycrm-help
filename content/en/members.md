@@ -37,7 +37,7 @@ If a member also has a HolyCRM login (they're a Volunteer, Coordinator or Admini
 their email field is locked on the Members form with a note pointing you to the Users
 screen instead. This is intentional: their login email and their member-record email are
 kept in sync automatically, and editing it in two places would cause one edit to silently
-undo the other. Change it from **Admin Settings → Users** instead — see
+undo the other. Change it from **Settings → Users** instead — see
 [Users, Roles & Permissions](#/users-roles).
 
 ## Inviting a member to sign in

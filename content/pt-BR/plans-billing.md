@@ -36,8 +36,8 @@ quanto, enquanto isso valer.
 
 ## Fazer upgrade
 
-Os administradores da igreja encontram **Faturamento** no menu, em Configurações
-administrativas. Lá você vê o plano atual, quando termina o teste ou o período pago, e o
+Os administradores da igreja encontram **Faturamento** no menu, em
+**Configurações**. Lá você vê o plano atual, quando termina o teste ou o período pago, e o
 histórico de pagamentos. Na última semana do teste também aparece um aviso no topo do app
 com um atalho para essa página.
 

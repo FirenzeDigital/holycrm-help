@@ -36,7 +36,7 @@ cuánto, mientras siga aplicando.
 ## Pasar al plan pago
 
 Los administradores de la iglesia encuentran **Facturación** en el menú, dentro de
-Configuración de administración. Ahí ves tu plan actual, cuándo termina tu prueba o el
+**Configuración**. Ahí ves tu plan actual, cuándo termina tu prueba o el
 período pago, y tu historial de pagos. Durante la última semana de la prueba también aparece
 un aviso arriba de la app con un acceso directo.
 

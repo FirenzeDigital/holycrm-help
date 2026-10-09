@@ -7,7 +7,7 @@ tu sitio web.
 
 ## Activarla
 
-Activá **Página pública de enlaces** en **Configuración de administración → Configuración
+Activá **Página pública de enlaces** en **Configuración → Configuración
 de la iglesia** — con eso alcanza, tu página ya tiene una dirección web. ¿Querés que sea tu
 propio dominio en vez de uno de HolyCRM? Mirá [Dominio personalizado](#/church-website) —
 la misma configuración que usa el Sitio de la iglesia también cubre esta página. El logo y

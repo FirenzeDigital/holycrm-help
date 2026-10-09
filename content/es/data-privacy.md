@@ -1,6 +1,6 @@
 # Datos y privacidad
 
-En **Configuración de administración → Datos y privacidad**, un Administrador puede confirmar las
+En **Configuración → Datos y privacidad**, un Administrador puede confirmar las
 responsabilidades de datos de tu iglesia, descargar una copia completa de los datos de tu
 iglesia, solicitar su eliminación y revisar un registro de quién modificó recientemente los
 registros de Miembros y Ofrendas. Esta pantalla existe porque los registros de tu iglesia —

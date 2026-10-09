@@ -40,7 +40,7 @@ sistema), o campo de e-mail dele fica bloqueado no formulário de Membros, com u
 apontando para a tela de Usuários. Isso é intencional: o e-mail de login e o e-mail do
 cadastro de membro são mantidos sincronizados automaticamente, e editar em dois lugares faria
 uma edição desfazer silenciosamente a outra. Altere pela tela
-**Configurações administrativas → Usuários** — veja
+**Configurações → Usuários** — veja
 [Usuários, funções e permissões](#/users-roles).
 
 ## Convidando um membro para entrar

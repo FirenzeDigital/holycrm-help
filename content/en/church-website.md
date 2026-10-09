@@ -7,7 +7,7 @@ already keep in HolyCRM.
 
 ## Turning it on
 
-Go to **Admin Settings → Church Website** and choose a look under **Website**: **Modern**,
+Go to **Outreach → Church Website** and choose a look under **Website**: **Modern**,
 **Classic**, **Minimal** or **Premium**. Picking one turns the site on at a web address
 that's ready immediately — no address to set up first. Leaving it blank keeps the site off.
 

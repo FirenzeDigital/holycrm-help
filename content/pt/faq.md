@@ -24,7 +24,7 @@ verifica se já registou essa pessoa manualmente antes.
 Esse membro também tem um acesso ao HolyCRM (é Voluntário, Coordenador ou Administrador). O e-mail de
 acesso dele e o e-mail da ficha de membro são mantidos sincronizados automaticamente, pelo que
 editá-lo a partir do formulário de Membros faria com que essa edição fosse substituída.
-Altere a partir de **Configurações administrativas → Utilizadores** — ver
+Altere a partir de **Definições → Utilizadores** — ver
 [Utilizadores, funções e permissões](#/users-roles).
 </details>
 

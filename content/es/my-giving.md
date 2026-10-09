@@ -14,7 +14,7 @@ individual — fecha, una breve descripción, y monto.
 Esto significa una de dos cosas: todavía no se registró ninguna ofrenda a tu nombre para
 el año elegido, o tu acceso no está vinculado a ninguna ficha de miembro. Si te parece que
 está mal, consultá con el Administrador o Coordinador de tu iglesia — pueden vincular tu acceso a tu
-ficha desde **Configuración de administración → Usuarios**.
+ficha desde **Configuración → Usuarios**.
 
 ## De dónde vienen tu nombre y tus datos de contacto
 

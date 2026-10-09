@@ -42,7 +42,7 @@ sesión), su campo de correo queda bloqueado en el formulario de Miembros, con u
 lleva a la pantalla de Usuarios. Esto es intencional: su correo de acceso y el correo de su
 ficha de miembro se mantienen sincronizados automáticamente, y editarlo en dos lugares
 distintos haría que una edición deshaga silenciosamente a la otra. Cambialo desde
-**Configuración de administración → Usuarios** — ver
+**Configuración → Usuarios** — ver
 [Usuarios, roles y permisos](#/users-roles).
 
 ## Invitar a un miembro a ingresar

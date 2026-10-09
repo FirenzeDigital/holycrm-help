@@ -4,7 +4,7 @@
 
 Uma etiqueta simples que você atribui aos membros — "Equipe de Louvor", "Primeiros Socorros",
 "Líder de Jovens", o que for útil para sua igreja. Crie tags uma vez em
-**Configurações administrativas → Tags**, depois escolha-as em um seletor tipo chip no
+**Configurações → Tags**, depois escolha-as em um seletor tipo chip no
 cadastro de qualquer membro. Não há limite para como você as usa além de membros, nem cores
 ou escopos — uma tag é só uma tag, compartilhada em toda a sua igreja.
 
@@ -16,7 +16,7 @@ mapear a tag da *sua* igreja para um conjunto fixo de funções incorporadas, pa
 seletores em todo o app consigam filtrar por "quem faz esse trabalho" usando seu próprio
 vocabulário.
 
-Em **Configurações administrativas → Funções de tag**, associe uma tag a cada função que você
+Em **Configurações → Funções de tag**, associe uma tag a cada função que você
 usa:
 
 | Função | Onde é usada |

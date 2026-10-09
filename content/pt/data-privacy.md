@@ -1,6 +1,6 @@
 # Dados e privacidade
 
-Em **Configurações administrativas → Dados e privacidade**, um Administrador pode confirmar as
+Em **Definições → Dados e privacidade**, um Administrador pode confirmar as
 responsabilidades de dados da sua igreja, descarregar uma cópia completa dos dados da sua
 igreja, solicitar a eliminação e rever um registo de quem alterou recentemente os registos
 de Membros e Ofertas. Este ecrã existe porque os registos da sua igreja — quem são os

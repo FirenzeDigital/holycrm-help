@@ -1,6 +1,6 @@
 # Data & Privacy
 
-Under **Admin Settings → Data & Privacy**, an Administrator can confirm your church's data
+Under **Settings → Data & Privacy**, an Administrator can confirm your church's data
 responsibilities, download a full copy of your church's data, request deletion, and review
 a log of who's changed Member and Giving records recently. This screen exists because your
 church's records — who your members are, what they give, sometimes information about

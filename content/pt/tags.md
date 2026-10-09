@@ -4,7 +4,7 @@
 
 Uma simples etiqueta que atribui aos membros — "Equipa de Louvor", "Primeiros Socorros",
 "Líder de Jovens", o que for útil para a sua igreja. Crie etiquetas uma vez em
-**Configurações administrativas → Etiquetas**, e depois escolha-as num seletor tipo chip na
+**Definições → Etiquetas**, e depois escolha-as num seletor tipo chip na
 ficha de qualquer membro. Não há limite para como as usa além dos membros, nem cores nem
 âmbitos — uma etiqueta é apenas uma etiqueta, partilhada em toda a sua igreja.
 
@@ -16,7 +16,7 @@ associar a etiqueta da *sua* igreja a um conjunto fixo de funções incorporadas
 seletores em toda a aplicação consigam filtrar por "quem faz este trabalho" usando o seu
 próprio vocabulário.
 
-Em **Configurações administrativas → Funções de etiqueta**, associe uma etiqueta a cada
+Em **Definições → Funções de etiqueta**, associe uma etiqueta a cada
 função que usa:
 
 | Função | Onde é usada |

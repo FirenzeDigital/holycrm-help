@@ -1,6 +1,6 @@
 # Integraciones
 
-En **Administración → Integraciones**, un Administrador puede conectar
+En **Configuración → Integraciones**, un Administrador puede conectar
 servicios que tu iglesia ya usa. Hoy eso es **tu propio servidor de correo**: Comunicados
 puede enviar desde la cuenta de correo de tu iglesia en lugar de la de HolyCRM.
 
@@ -34,7 +34,7 @@ Si no estás seguro, pedile los "datos SMTP" a quien se ocupa del correo de tu i
 
 ## Cómo configurarlo
 
-1. Andá a **Administración → Integraciones**.
+1. Andá a **Configuración → Integraciones**.
 2. Elegí tu **Proveedor**. Eso completa el servidor y el puerto, y muestra un consejo para
    ese proveedor.
 3. Escribí el **Usuario** y la **Contraseña**, la **Dirección del remitente** desde la que

@@ -6,7 +6,7 @@ un usuario es alguien de tu equipo/voluntariado que necesita acceso a HolyCRM.
 
 ## Invitar a alguien
 
-**Configuración de administración → Usuarios → Invitar usuario**. Buscá y elegí primero a un
+**Configuración → Usuarios → Invitar usuario**. Buscá y elegí primero a un
 Miembro existente (si ya está en tu directorio) — esto vincula su acceso a su ficha existente
 en lugar de crear una persona duplicada. Si todavía no es miembro, podés invitarlo solo con
 nombre y correo.
@@ -64,7 +64,7 @@ vínculo muestra *Sin miembro vinculado*.
 ## Permisos personalizados
 
 Cada rol viene con el acceso recomendado por HolyCRM. Un Administrador puede cambiarlo para tu
-iglesia en **Administración → Permisos Personalizados**:
+iglesia en **Configuración → Permisos Personalizados**:
 
 1. Elegí el rol arriba (Coordinador, Servidor o Miembro). Un número al lado del rol indica
    cuántas pantallas personalizaste para él.

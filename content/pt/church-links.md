@@ -7,7 +7,7 @@ só leva ao seu site.
 
 ## A ativar
 
-Ative **Página pública de links** em **Configurações administrativas → Configurações da
+Ative **Página pública de links** em **Definições → Configurações da
 igreja** — pronto, a sua página já tem um endereço na web. Quer usar o seu próprio domínio
 em vez de um domínio da HolyCRM? Veja [Domínio personalizado](#/church-website) — a mesma
 configuração usada no Site da igreja também serve para esta página. O logótipo e a cor de

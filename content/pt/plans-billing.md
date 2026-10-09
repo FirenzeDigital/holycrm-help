@@ -37,8 +37,8 @@ por quanto, enquanto isso se mantiver.
 
 ## Mudar para o plano pago
 
-Os administradores da igreja encontram **Faturação** no menu, em Configurações
-administrativas. Aí vê o plano atual, quando termina o período de teste ou o período pago, e
+Os administradores da igreja encontram **Faturação** no menu, em
+**Definições**. Aí vê o plano atual, quando termina o período de teste ou o período pago, e
 o histórico de pagamentos. Na última semana do teste aparece também um aviso no topo da
 aplicação com um atalho para essa página.
 

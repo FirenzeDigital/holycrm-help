@@ -35,7 +35,7 @@ how much, for as long as it applies.
 
 ## Upgrading
 
-Church admins will find **Billing** under Admin Settings in the menu. It shows your current
+Church admins will find **Billing** under **Settings** in the menu. It shows your current
 plan, when your trial or paid period ends, and your payment history. A reminder banner also
 appears at the top of the app during the last week of your trial, with a shortcut to it.
 

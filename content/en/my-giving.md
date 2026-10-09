@@ -14,7 +14,7 @@ Pick a **year**, and you'll see a total for that year plus a list of each indivi
 This means one of two things: no gifts have been recorded against your member record yet
 for the selected year, or your login isn't linked to a member record at all. If you think
 that's wrong, ask your church's Administrator or Coordinator — they can link your login to your
-member record from **Admin Settings → Users**.
+member record from **Settings → Users**.
 
 ## Where your name and contact info come from
 

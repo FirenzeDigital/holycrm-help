@@ -24,7 +24,7 @@ verifica si ya cargaste a esa persona a mano antes.
 Ese miembro también tiene un acceso a HolyCRM (es Servidor, Coordinador o Administrador). Su correo de
 acceso y el correo de su ficha de miembro se mantienen sincronizados automáticamente, así que
 editarlo desde el formulario de Miembros haría que se sobrescriba solo. Cambialo desde
-**Configuración de administración → Usuarios** — ver
+**Configuración → Usuarios** — ver
 [Usuarios, roles y permisos](#/users-roles).
 </details>
 

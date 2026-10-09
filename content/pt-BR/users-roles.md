@@ -6,7 +6,7 @@ alguém da sua equipe/voluntariado que precisa de acesso ao HolyCRM.
 
 ## Convidando alguém
 
-**Configurações administrativas → Usuários → Convidar usuário**. Busque e escolha primeiro um
+**Configurações → Usuários → Convidar usuário**. Busque e escolha primeiro um
 Membro existente (se ele já estiver no seu diretório) — isso vincula o login dele ao cadastro
 existente, em vez de criar uma pessoa duplicada. Se ele ainda não for membro, você pode
 convidá-lo só com nome e e-mail.
@@ -63,7 +63,7 @@ vínculo aparece como *Sem membro vinculado*.
 ## Permissões personalizadas
 
 Cada função vem com o acesso recomendado pelo HolyCRM. Um Administrador pode alterá-lo para
-sua igreja em **Configurações de administração → Acesso personalizado do usuário**:
+sua igreja em **Configurações → Acesso personalizado do usuário**:
 
 1. Escolha a função no topo (Coordenador, Voluntário ou Membro). Um número ao lado da função
    mostra quantas telas você personalizou para ela.

@@ -26,17 +26,21 @@ invite — ver [Usuarios, roles y permisos](#/users-roles).
 
 El menú de la izquierda está agrupado por tema:
 
-- **Resumen** — el Panel principal (una foto del momento de tu iglesia) y el Calendario.
-- **Personas** — Miembros, Importar datos, Grupos pequeños, Visitantes.
-- **Ministerios y turnos** — Ministerios, Miembros de ministerio y la programación de
-  voluntarios ("turnos").
-- **Eventos** — eventos puntuales y quiénes están inscritos.
-- **Asistencia** — asistencia general, Check-in y Check-in de niños.
-- **Comunicaciones** — Comunicados (por correo, notificación de la app o webhook) y plantillas reutilizables de correo.
-- **Finanzas** — Ofrendas, transacciones, categorías y el Panel de finanzas.
-- **Configuración de administración** — Configuración de la iglesia, Sedes, Usuarios,
-  Etiquetas, Datos y privacidad.
-- **Cuenta** — tu propio Perfil.
+- **Resumen** — el Panel principal, una foto del momento de tu iglesia.
+- **Mi espacio** — tus propias pantallas: Mis turnos, Mis equipos, Mi disponibilidad, Mis
+  ofrendas y tu Perfil. Los voluntarios y miembros lo ven justo después del Panel; el equipo, más abajo.
+- **Personas y cuidado** — Miembros, Visitantes, Recibir a un visitante, Grupos pequeños y
+  Pedidos de oración.
+- **Cultos y servicio** — Calendario, Eventos e inscripciones, Asistencia, Check-in, Check-in de
+  niños, Ministerios y la programación de voluntarios ("turnos").
+- **Alcance** — Comunicados (por correo, notificación de la app o webhook), Plantillas de correo,
+  el Sitio web de la iglesia, Enlaces de la iglesia y Formas de dar (tu página pública de
+  ofrendas).
+- **Ofrendas e informes** — Ofrendas y diezmos, transacciones, categorías, el Dashboard de
+  Finanzas e Informes.
+- **Configuración** — una sola página con Configuración de Iglesia, Sedes, Etiquetas, Campos
+  personalizados, Importar datos, Usuarios, Permisos personalizados, Integraciones, Facturación y
+  Datos y privacidad.
 
 **Es posible que no veas todos los ítems.** Lo que ves depende de tu rol (Administrador, Coordinador,
 Servidor o Miembro) y de cualquier permiso personalizado que tu iglesia te haya asignado —

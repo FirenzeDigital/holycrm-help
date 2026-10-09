@@ -4,7 +4,7 @@
 
 Una simple etiqueta que le asignás a los miembros — "Equipo de Alabanza", "Primeros
 Auxilios", "Líder de Jóvenes", lo que le sea útil a tu iglesia. Creá etiquetas una vez en
-**Configuración de administración → Etiquetas**, y después elegilas desde un selector tipo
+**Configuración → Etiquetas**, y después elegilas desde un selector tipo
 chip en la ficha de cualquier miembro. No hay límite en cómo las usás más allá de los
 miembros, ni colores ni alcances — una etiqueta es solo una etiqueta, compartida en toda tu
 iglesia.
@@ -17,7 +17,7 @@ etiqueta propia de *tu* iglesia a un conjunto fijo de funciones incorporadas, pa
 selectores en toda la app puedan filtrar por "quién hace este trabajo" usando tu propio
 vocabulario.
 
-En **Configuración de administración → Roles de etiqueta**, mapeá una etiqueta a cada función
+En **Configuración → Roles de etiqueta**, mapeá una etiqueta a cada función
 que uses:
 
 | Función | Dónde se usa |

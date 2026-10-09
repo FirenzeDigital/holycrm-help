@@ -26,16 +26,21 @@ convidar — veja [Usuários, funções e permissões](#/users-roles).
 
 O menu à esquerda está agrupado por tema:
 
-- **Visão geral** — o Painel (uma foto do momento da sua igreja) e o Calendário.
-- **Pessoas** — Membros, Importar dados, Pequenos Grupos, Visitantes.
-- **Ministérios e escalas** — Ministérios, Membros de ministério e a escala de voluntários.
-- **Eventos** — eventos pontuais e quem está inscrito.
-- **Presença** — presença geral, Check-in e Check-in infantil.
-- **Comunicações** — Comunicados (por e-mail, notificação do app ou webhook) e modelos reutilizáveis de e-mail.
-- **Finanças** — Ofertas, transações, categorias e o Painel financeiro.
-- **Configurações administrativas** — Configurações da igreja, Locais, Usuários, Tags, Dados
-  e privacidade.
-- **Conta** — seu próprio Perfil.
+- **Visão geral** — o Painel, uma foto do momento da sua igreja.
+- **Meu espaço** — as suas próprias telas: Minhas escalas, Minhas equipes, Minha
+  disponibilidade, Minhas ofertas e o seu Perfil. Voluntários e membros veem isso logo depois do
+  Painel; a equipe, mais abaixo.
+- **Pessoas e cuidado** — Membros, Visitantes, Receber um visitante, Pequenos grupos e Pedidos de
+  oração.
+- **Cultos e serviço** — Agenda, Eventos e inscrições, Presença, Check-in, Check-in das crianças,
+  Ministérios e a escala de voluntários.
+- **Alcance** — Comunicados (por e-mail, notificação do app ou webhook), Modelos de E-mail, o Site
+  da igreja, Links da igreja e Formas de contribuir (a sua página pública de ofertas).
+- **Ofertas e relatórios** — Ofertas e dízimos, transações, categorias, o Painel financeiro e
+  Relatórios.
+- **Configurações** — uma única página com Configurações da igreja, Unidades, Etiquetas, Campos
+  personalizados, Importar dados, Usuários, Acesso personalizado do usuário, Integrações,
+  Faturamento e Dados e Privacidade.
 
 **Você pode não ver todos os itens.** O que aparece depende da sua função (Administrador, Coordenador,
 Voluntário ou Membro) e de qualquer permissão personalizada que sua igreja tenha configurado

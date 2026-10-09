@@ -7,7 +7,7 @@ só leva ao seu site.
 
 ## Ativando
 
-Marque **Página pública de links** em **Configurações administrativas → Configurações da
+Marque **Página pública de links** em **Configurações → Configurações da
 igreja** — pronto, sua página já tem um endereço na web. Quer usar seu próprio domínio em
 vez de um domínio da HolyCRM? Veja [Domínio personalizado](#/church-website) — a mesma
 configuração usada no Site da igreja também vale para esta página. O logo e a cor da marca

@@ -24,7 +24,7 @@ verifica se você já cadastrou essa pessoa manualmente antes.
 Esse membro também tem um login no HolyCRM (é Voluntário, Coordenador ou Administrador). O e-mail de login
 dele e o e-mail do cadastro de membro são mantidos sincronizados automaticamente, então
 editar pelo formulário de Membros faria essa edição ser sobrescrita. Altere pela tela
-**Configurações administrativas → Usuários** — veja
+**Configurações → Usuários** — veja
 [Usuários, funções e permissões](#/users-roles).
 </details>
 

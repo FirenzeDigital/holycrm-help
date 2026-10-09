@@ -45,15 +45,17 @@ If you don't have a login yet, ask an admin or manager at your church to invite 
 
 The left-hand menu is grouped by topic:
 
-- **Overview** — the Dashboard (a snapshot of your church's activity) and the Calendar.
-- **People** — Members, Import Data, Small Groups, Visitors.
-- **Ministries & Rotas** — Ministries, Ministry Members, and volunteer scheduling ("rotas").
-- **Events** — one-time events and who's registered for them.
-- **Attendance** — general attendance, Check-in, and Kids Check-in.
-- **Communications** — Announcements (by email, app notification or webhook) and reusable Email Templates.
-- **Finance** — Giving, transactions, categories and the Finance Dashboard.
-- **Admin Settings** — Church Settings, Locations, Users, Tags, Data & Privacy.
-- **Account** — your own Profile.
+- **Overview** — the Dashboard, a snapshot of your church's activity.
+- **My space** — your own screens: My serving, My teams, My availability, My Giving and your
+  Profile. Volunteers and members see it right after the Dashboard; staff, near the bottom.
+- **People & care** — Members, Visitors, Welcome a visitor, Small groups and Prayer Requests.
+- **Sundays & serving** — Calendar, Events and registrations, Attendance, Check-in, Kids
+  Check-in, Ministries and volunteer schedules ("rotas").
+- **Outreach** — Announcements (by email, app notification or webhook), Email Templates, your
+  Church Website, Church Links and Giving Methods (your public giving page).
+- **Giving & reports** — Giving, transactions, categories, the Finance Dashboard and Reports.
+- **Settings** — one page with Church Settings, Locations, Tags, Custom Fields, Import Data,
+  Users, Custom User Access, Integrations, Billing and Data & Privacy.
 
 **You may not see every item.** What's visible depends on your role (Administrator, Coordinator,
 Volunteer or Member) and on any custom permission your church has set for you — see
@@ -200,8 +202,254 @@ card — members who will cross that age within 90 days. See
 
 ---
 
+Source: https://docs.holycrm.app/content/en/members.md
+Section: People & care
+
+# Members
+
+Members is your church's directory — every person in your congregation, with their contact
+details, status, and the tags/relationships that connect them to the rest of the app.
+
+## Adding a member
+
+Use **+ Member**, fill in the fields you know (only name is required), and save. You can
+always come back and fill in more later.
+
+Useful fields:
+
+- **Status** — active, inactive, etc. Most reports and pickers only count *active* members.
+- **Serves on rotas** — a checkbox marking someone as available to serve. This matters for rota
+  scheduling — see [Ministries & Rotas](https://docs.holycrm.app/content/en/ministries.md).
+- **Tags** — a flexible label picker (see [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md)) for grouping people
+  any way your church finds useful, beyond ministries and groups.
+- **Birth Date** — used for birthday reminders and to automatically work out whether someone
+  is a minor.
+- **Growth stage** — where someone is on their journey with your church: New, Attending,
+  Connected, Serving, or Leading. See [Growth Ladder](https://docs.holycrm.app/content/en/growth-ladder.md).
+
+## Minors and guardians
+
+If a member's birth date puts them below your church's configured "minor age cutoff"
+(Church Settings → Minor age cutoff, default 18), a **Guardians** field appears on their
+record — pick their parent(s)/guardian(s) from the rest of your members. This is what makes
+**Kids Check-in** able to look someone up by their parent's name — see
+[Attendance & Check-in](https://docs.holycrm.app/content/en/attendance.md).
+
+If a member has no birth date on file, "minor" becomes a plain checkbox you can set by hand
+instead of it being calculated automatically.
+
+## Email is locked for members with a login
+
+If a member also has a HolyCRM login (they're a Volunteer, Coordinator or Administrator who signed in),
+their email field is locked on the Members form with a note pointing you to the Users
+screen instead. This is intentional: their login email and their member-record email are
+kept in sync automatically, and editing it in two places would cause one edit to silently
+undo the other. Change it from **Settings → Users** instead — see
+[Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md).
+
+## Inviting a member to sign in
+
+To give a member their own login (to see My serving, My giving…), click **Invite as user** on
+their row. The Users invite form opens with that member already picked and their email filled
+in — choose the role and send. The button doesn't show for members who already have a login.
+
+## Bringing in members you already have
+
+Don't retype your whole directory by hand — see [Import Data](https://docs.holycrm.app/content/en/data-import.md) to bring in a
+spreadsheet.
+
+## Searching and filtering
+
+The Members list supports search and column filters (status, tags, etc.) so you can quickly
+narrow down to, say, "active volunteers tagged Worship Team."
+
+The list shows the essentials: name, phone, email, growth stage, tags and status. Use the **columns button** (top right of the list) to show more, such as birth date, notes or guardians; your choice is remembered on that device.
+
+---
+
+Source: https://docs.holycrm.app/content/en/growth-ladder.md
+Section: People & care
+
+# Growth Ladder
+
+A simple way to see where each person actually is on their journey with your church, not
+just whether they're an active member or not. Every active member carries a **Growth
+stage**: New, Attending, Connected, Serving, or Leading.
+
+## Setting a member's stage
+
+Open a member's record and set **Growth stage** from the dropdown — see
+[Members](https://docs.holycrm.app/content/en/members.md). There's no automatic promotion between stages; someone's stage only
+changes when a staff member or leader updates it, based on what you're actually seeing in
+their life at church — they joined a small group, they started serving on a rota, they
+took on leading a ministry.
+
+## Why it matters
+
+A plain headcount tells you *how many* people you have. Growth stage tells you *who's
+ready for a next step* — someone who's been "Attending" for months without connecting to a
+group is a very different follow-up than a brand-new visitor, even though a simple
+active/inactive status would show them exactly the same way.
+
+## Seeing it on the Dashboard
+
+The [Dashboard](https://docs.holycrm.app/content/en/dashboard.md)'s **Growth Ladder** card shows a count of active members at
+each stage, so you can see at a glance whether people are actually moving forward or
+piling up at "New" — a sign your follow-up, or your on-ramp into groups and serving, needs
+attention.
+
+## What's not built yet
+
+Automatic stage suggestions (for example, promoting someone to "Serving" the moment
+they're assigned a rota) and stage-change history — today the field just holds whatever
+it's currently set to, with no record of when or why it last changed.
+
+---
+
+Source: https://docs.holycrm.app/content/en/visitors.md
+Section: People & care
+
+# Visitors
+
+Track first-time guests from their first visit through follow-up and, hopefully,
+membership.
+
+## The funnel
+
+Every visitor has a **stage**: New → Contacted → Revisited → Integrating → Converted (or
+Inactive, if follow-up stalls). The Visitors list shows a funnel view — how many people are
+at each stage, and your overall conversion percentage — so you can see at a glance where
+guests are getting stuck.
+
+## Adding a visitor
+
+Only a first name is required, so you can log someone quickly at the door and fill in the
+rest later: last name, phone, WhatsApp, email, how they found you (social media, invited,
+event, walk-in, online, other), address, and notes.
+
+**Assigned to** — who's doing follow-up with this person. If your church has set up the
+`visitor_followup` tag role (see [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md)), only members carrying that tag
+are offered; otherwise every active member is.
+
+## Welcome team: "Welcome a visitor"
+
+People on your welcome team don't need access to the whole Visitors list. Give them the
+**Welcome a visitor** screen instead (it's included for the Volunteer role by default): a
+short form with name, phone, WhatsApp, email, how they heard about you and notes. The
+visitor goes straight into Visitors as **New**, with today as their first visit, and your
+follow-up team picks it up from there.
+
+Below the form, **Visitors you added** lists only the people that person added, so they can
+fix a typo. They can't see anyone else's visitors or delete any. In the visitor's detail,
+coordinators see **Captured by** with the name of whoever added them.
+
+## Logging follow-up
+
+Open a visitor's detail page and log each contact — a call, message, WhatsApp, visit,
+email, or other — with a short note. Every contact is kept as a dated timeline so you can
+see the full history of outreach to that person.
+
+## Converting a visitor to a member
+
+Once someone is ready to join, use **Convert to member** on their detail page. This creates
+a real [Member](https://docs.holycrm.app/content/en/members.md) record from their visitor info and marks the visitor's stage as
+Converted. The button disappears once used, since a visitor can only convert once.
+
+## What's not built yet
+
+Automatic follow-up reminders, a "due for follow-up" queue, bulk-assigning visitors to a
+follow-up person, and importing visitors directly from a connect-card form.
+
+---
+
+Source: https://docs.holycrm.app/content/en/groups.md
+Section: People & care
+
+# Small Groups
+
+Small Groups (also called cells) get their own purpose-built screen: a card-grid list, a
+detail page with a leader/schedule sidebar, a members panel, a meeting log, and group
+multiplication.
+
+## Creating a group
+
+**New group** — name, status, type, Leader, Supervisor, meeting day/time, and either a
+**Host** (a member whose home hosts the meeting) or a plain address.
+
+- Picking a **Host** automatically fills the group's address from that member's own home
+  address, so you don't have to retype it — you can still override it by typing your own
+  address instead.
+- The **Leader** and **Supervisor** pickers, if your church has set them up under
+  [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md), only show members carrying the matching tag (e.g. only members
+  tagged "Small Group Leader" appear as leader candidates). If your church hasn't set that
+  up, everyone is offered.
+
+## The detail page
+
+- **Sidebar** — leader, supervisor, schedule, address, host, notes, and a **Multiplication**
+  card. Use **Multiply this group** when a cell grows and splits into two — it opens the
+  create form pre-seeded with a name like "Youth Group II" and links the new group back to
+  its parent, so you can trace a cell's lineage over time.
+- **Members panel** — add someone with a role (leader, co-leader, member) or remove them.
+  Removing deletes the membership record outright, not just marks it inactive.
+- **Meetings panel** — log a meeting with date, attendee count, first-timer count, offering,
+  and topic. This is a headcount log, not a per-person attendance list — if you need to know
+  *which* people showed up to a specific group meeting, that's a separate concept: see
+  [Attendance & Check-in](https://docs.holycrm.app/content/en/attendance.md).
+
+## What it doesn't do yet
+
+Editing a logged meeting (delete and re-add it instead), a visual lineage tree for
+multiplied groups, or per-member attendance within a group meeting (only headcounts are
+logged).
+
+---
+
+Source: https://docs.holycrm.app/content/en/prayer-requests.md
+Section: People & care
+
+# Prayer Requests
+
+Let anyone — members, visitors, people who follow your church online — send you a prayer
+request from their phone, and keep track of them in one place so none gets forgotten.
+
+## Turning it on
+
+In [Church Settings](https://docs.holycrm.app/content/en/church-settings.md), tick **Public prayer request form** and save. Your
+church now has a simple public page where people write their request. Once it's on:
+
+- a **🙏 Prayer request** button appears on your [Church Links](https://docs.holycrm.app/content/en/church-links.md) page and on
+  your [Church Website](https://docs.holycrm.app/content/en/church-website.md);
+- the **Prayer Requests** screen shows the page's link, a **Copy link** button and a QR code
+  you can download — put it on the screen during the service, in the bulletin or in your
+  WhatsApp groups.
+
+The form asks for the request and, optionally, a name, phone and email. People can also tick
+**Only for the pastors** if they don't want it shared with the prayer team.
+
+## Following up
+
+Every request arrives in **Prayer Requests** as **New**. From there you can:
+
+- change its **Status** to **Praying**, **Answered** (celebrate it!) or **Archived**;
+- **assign** it to someone who will pray or follow up;
+- add **internal notes** that only your team sees;
+- filter by status, or show only the requests marked **Pastors only**.
+
+You can also add requests yourself — for example one someone shared with you after the
+service — with **Add prayer request**.
+
+## Who can see them
+
+By default, only Administrators and Coordinators can see and manage prayer requests, because people often
+share personal things. If you have a prayer team, you can give them access in
+[Users & Roles](https://docs.holycrm.app/content/en/users-roles.md) with custom permissions. Requests marked **Pastors only** are
+flagged so your team knows not to share them.
+
+---
+
 Source: https://docs.holycrm.app/content/en/calendar.md
-Section: Overview
+Section: Sundays & serving
 
 # Calendar
 
@@ -262,7 +510,7 @@ See [Calendar Sync](https://docs.holycrm.app/content/en/calendar-sync.md).
 ---
 
 Source: https://docs.holycrm.app/content/en/calendar-sync.md
-Section: Overview
+Section: Sundays & serving
 
 # Calendar Sync
 
@@ -302,378 +550,135 @@ somewhere it shouldn't have been.
 
 ---
 
-Source: https://docs.holycrm.app/content/en/reports.md
-Section: Overview
+Source: https://docs.holycrm.app/content/en/events.md
+Section: Sundays & serving
 
-# Reports
+# Events & Registrations
 
-Reports answers the question every pastor actually asks — **is your church connecting
-with people?** — instead of a pile of generic charts. Visible to Administrator and Coordinator roles
-only, since it includes giving figures.
+**Events** are one-time happenings — a conference, a special service, an outreach day — as
+opposed to a recurring Ministry Activity.
 
-## Quick answers, always for this month
+## Creating an event
 
-Five numbers at the top, each answering one specific question:
+Fill in the details, schedule (date/time, with a location so the correct timezone is used)
+and notes. Events appear on the [Calendar](https://docs.holycrm.app/content/en/calendar.md) and can have
+[Rotas](https://docs.holycrm.app/content/en/rotas.md) attached (a Role Requirement can point at an event instead of a ministry
+activity).
 
-- **First-time visitors this month** — with a comparison to last month.
-- **Received follow-up** — what share of this month's first-time visitors have actually
-  been contacted (a call, message, WhatsApp, visit — anything logged in [Visitors](https://docs.holycrm.app/content/en/visitors.md)).
-- **Now attending regularly** — of everyone who started as a visitor and later became a
-  member, how many are actually showing up: at least two "present" check-ins in the last
-  60 days. This is different from conversion below — a name can convert to membership
-  without actually attending; this counts who's really there.
-- **Volunteers serving 3+ times/month** — how many people are carrying more than their
-  fair share on the rotas this month.
-- **Visitor → member conversion** — of visitors who first came 30 days ago or longer
-  (giving them enough time to decide), what share have become members.
+## Event Registrations
 
-## Trends, with a period to choose
+Pre-register people for an event ahead of time: pick the event, search for a member (this
+only works for people already in your [Members](https://docs.holycrm.app/content/en/members.md) directory — there's no free-text
+guest registration yet), and add them. You can cancel a registration later, which keeps the
+record but stops showing them as registered.
 
-Below the quick answers, three cards you can switch between **6 / 12 / 24 months**:
-
-- **Average attendance** — not a raw count of check-ins, but people per gathering:
-  events, ministry activities and small-group meetings are each counted as one session,
-  and the number is the average present per session, by month.
-- **Growing groups** — which of your small groups have real attendance growth, comparing
-  their own recent meetings to their earlier ones (a group that meets twice a month gets
-  a fair comparison, not a rigid calendar split). Shows nothing until a group has at least
-  a couple of logged meetings.
-- **Giving** — net giving (income minus expenses), by month, converted into your church's
-  default currency the same way the [Finance Dashboard](https://docs.holycrm.app/content/en/finance.md) does.
-
-The comparison badge under Average attendance and Giving always measures the period
-you're viewing against the same length of time right before it — on 12 months, that's
-this year's total against the year before, not a single earlier month.
-
-## Why a card might look empty
-
-Reports needs real history to answer a question — a church just getting started, or one
-that hasn't used a particular feature yet (recording attendance, logging visitor
-follow-ups, taking rotas), will see that card empty or show "—" until there's enough
-data. This isn't an error; it fills in as you use the app.
+**The payoff is at check-in**: when you use [Check-in](https://docs.holycrm.app/content/en/attendance.md) for an event, everyone
+who's pre-registered and not yet checked in appears in a **Pre-registered** list above the
+regular search box — one tap to check them in. Walk-ins who never pre-registered still work
+exactly the same via the search box; pre-registration is a shortcut, not a requirement.
 
 ## What's not built yet
 
-History beyond 24 months for the trend cards, exporting or printing a report, and any
-automated "send me this monthly" email.
+Public self-serve signup (registering yourself online without staff entering it), free-text
+guest registration for someone not yet in your directory, capacity limits or waitlists, and
+automatic confirmation emails to registrants.
 
 ---
 
-Source: https://docs.holycrm.app/content/en/members.md
-Section: People
+Source: https://docs.holycrm.app/content/en/attendance.md
+Section: Sundays & serving
 
-# Members
+# Attendance & Check-in
 
-Members is your church's directory — every person in your congregation, with their contact
-details, status, and the tags/relationships that connect them to the rest of the app.
+Three related screens cover attendance, depending on what you're tracking:
 
-## Adding a member
+| Screen | Use it for |
+|---|---|
+| **Attendance** | Recording who attended an event, ministry activity, or small group meeting — the general-purpose roster tool. |
+| **Check-in** | A fast front-desk flow for services/events open to anyone — search, check in, print a tag. |
+| **Kids Check-in** | The same front-desk flow, but restricted to minors, with a matching guardian tag. |
 
-Use **+ Member**, fill in the fields you know (only name is required), and save. You can
-always come back and fill in more later.
+All three ultimately write to the same underlying attendance records, so a session started
+in one shows up correctly in the others' history too.
 
-Useful fields:
+## Attendance
 
-- **Status** — active, inactive, etc. Most reports and pickers only count *active* members.
-- **Serves on rotas** — a checkbox marking someone as available to serve. This matters for rota
-  scheduling — see [Ministries & Rotas](https://docs.holycrm.app/content/en/ministries.md).
-- **Tags** — a flexible label picker (see [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md)) for grouping people
-  any way your church finds useful, beyond ministries and groups.
-- **Birth Date** — used for birthday reminders and to automatically work out whether someone
-  is a minor.
-- **Growth stage** — where someone is on their journey with your church: New, Attending,
-  Connected, Serving, or Leading. See [Growth Ladder](https://docs.holycrm.app/content/en/growth-ladder.md).
+**+ Take attendance** → choose what you're taking attendance for:
 
-## Minors and guardians
+- **Service/Event** — pick from events in the last/next 90 days.
+- **Ministry activity** — pick the activity and a date (a weekly activity is one series, so
+  you pick which week).
+- **Small group meeting** — pick the group and a date; a meeting record is created
+  automatically if one doesn't exist yet for that date.
 
-If a member's birth date puts them below your church's configured "minor age cutoff"
-(Church Settings → Minor age cutoff, default 18), a **Guardians** field appears on their
-record — pick their parent(s)/guardian(s) from the rest of your members. This is what makes
-**Kids Check-in** able to look someone up by their parent's name — see
-[Attendance & Check-in](https://docs.holycrm.app/content/en/attendance.md).
+The roster pre-fills from the relevant membership list (a group's members, or a ministry's
+members from [Ministry Members](https://docs.holycrm.app/content/en/ministries.md)) — events have no membership concept, so
+their roster starts empty. A **search box** lets you add anyone by name regardless, useful
+for a substitute or a first-time attendee. Mark each person Present, Absent, Late or
+Excused (or **Mark all present**), then **Save attendance** — nothing is written until you
+save.
 
-If a member has no birth date on file, "minor" becomes a plain checkbox you can set by hand
-instead of it being calculated automatically.
+The sessions list shows your recent sessions with a present/total count; click one to
+reopen and edit it.
 
-## Email is locked for members with a login
+## Check-in
 
-If a member also has a HolyCRM login (they're a Volunteer, Coordinator or Administrator who signed in),
-their email field is locked on the Members form with a note pointing you to the Users
-screen instead. This is intentional: their login email and their member-record email are
-kept in sync automatically, and editing it in two places would cause one edit to silently
-undo the other. Change it from **Admin Settings → Users** instead — see
-[Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md).
+A faster flow for a service, conference, or any event **not** restricted to minors. Pick a
+type (Service/Event or Ministry activity) and a date, then search and tap to check someone
+in — this prints a tag with a short pickup code. If the occurrence is an event with people
+pre-registered (see [Events & Registrations](https://docs.holycrm.app/content/en/events.md)), they show up in a
+**Pre-registered** shortcut list above the search box.
 
-## Inviting a member to sign in
+## Kids Check-in
 
-To give a member their own login (to see My serving, My giving…), click **Invite as user** on
-their row. The Users invite form opens with that member already picked and their email filled
-in — choose the role and send. The button doesn't show for members who already have a login.
+The same flow, but only ever surfaces **minors** as checkable — an adult who isn't a minor
+and isn't listed as anyone's guardian never appears in search results at all. Searching by
+a parent's name finds their children (via the **Guardians** field set on the child's own
+Member record — see [Members](https://docs.holycrm.app/content/en/members.md)); searching by a child's own name finds them
+directly.
 
-## Bringing in members you already have
+Checking a child in prints **two matching tags** — one for the child, one for the guardian
+— each showing the same pickup code large enough to read across a table. At pickup, a
+volunteer compares the guardian's tag stub against the child's, and taps **Check out**.
 
-Don't retype your whole directory by hand — see [Import Data](https://docs.holycrm.app/content/en/data-import.md) to bring in a
-spreadsheet.
+If the selected ministry session has an **age band** set (see
+[Ministries & Ministry Members](https://docs.holycrm.app/content/en/ministries.md)), only children within that age range are
+offered, even if they're a minor by the church-wide definition.
 
-## Searching and filtering
+**There's no scanner or label printer integration** — a "tag" is a piece of paper from your
+regular printer, and the security model is a human visually comparing two printed codes.
+That matches how most churches already run paper tag stubs; this just keeps the record
+digital.
 
-The Members list supports search and column filters (status, tags, etc.) so you can quickly
-narrow down to, say, "active volunteers tagged Worship Team."
+### Paging a guardian
 
-The list shows the essentials: name, phone, email, growth stage, tags and status. Use the **columns button** (top right of the list) to show more, such as birth date, notes or guardians; your choice is remembered on that device.
+In **Check out**, each child with a guardian on file has **Page guardian**. It sends the
+guardian a notification on their phone asking them to come, showing the session and their
+tag's code (never the child's name). The row shows when they were last paged.
 
----
+After paging, the guardian's phone number appears with **Call them** and **WhatsApp** (a
+ready-to-send message from your own WhatsApp, with the session and code). If the app couldn't
+reach their phone, the screen says so: call or message them instead. If it did, those buttons
+are there in case they don't answer.
 
-Source: https://docs.holycrm.app/content/en/growth-ladder.md
-Section: People
+## Setting up who counts as a minor
 
-# Growth Ladder
-
-A simple way to see where each person actually is on their journey with your church, not
-just whether they're an active member or not. Every active member carries a **Growth
-stage**: New, Attending, Connected, Serving, or Leading.
-
-## Setting a member's stage
-
-Open a member's record and set **Growth stage** from the dropdown — see
-[Members](https://docs.holycrm.app/content/en/members.md). There's no automatic promotion between stages; someone's stage only
-changes when a staff member or leader updates it, based on what you're actually seeing in
-their life at church — they joined a small group, they started serving on a rota, they
-took on leading a ministry.
-
-## Why it matters
-
-A plain headcount tells you *how many* people you have. Growth stage tells you *who's
-ready for a next step* — someone who's been "Attending" for months without connecting to a
-group is a very different follow-up than a brand-new visitor, even though a simple
-active/inactive status would show them exactly the same way.
-
-## Seeing it on the Dashboard
-
-The [Dashboard](https://docs.holycrm.app/content/en/dashboard.md)'s **Growth Ladder** card shows a count of active members at
-each stage, so you can see at a glance whether people are actually moving forward or
-piling up at "New" — a sign your follow-up, or your on-ramp into groups and serving, needs
-attention.
+See [Members](https://docs.holycrm.app/content/en/members.md) — a member is a minor once their birth date is below your church's
+configured cutoff (Church Settings → Minor age cutoff), or via a manual checkbox if they
+have no birth date on file. Guardians can only be set on someone once they're marked a
+minor.
 
 ## What's not built yet
 
-Automatic stage suggestions (for example, promoting someone to "Serving" the moment
-they're assigned a rota) and stage-change history — today the field just holds whatever
-it's currently set to, with no record of when or why it last changed.
-
----
-
-Source: https://docs.holycrm.app/content/en/data-import.md
-Section: People
-
-# Import Data
-
-If your church already has a member list in a spreadsheet, Import Data lets you bring it in
-instead of retyping everyone by hand. It currently imports **Members only**.
-
-## The four steps
-
-### 1. Upload
-
-Export your spreadsheet as a **CSV file** (from Excel, Google Sheets, or almost any other
-church system) and upload it here. Files over **500 rows** are rejected up front — split a
-larger file and import it in batches.
-
-### 2. Map your columns
-
-For every column in your file, choose which HolyCRM field it should fill (first name, last
-name, email, phone, birthdate, status, tags, and more). HolyCRM guesses sensible matches
-automatically from your column headers (including some common Spanish/Portuguese headers
-like "Apellido" or "Nome"), but always double-check the guesses before continuing.
-
-A sample of each column's actual values is shown next to it, since a header alone
-("Status", "Estado") doesn't always tell you what's really in the cells.
-
-**First name** and **last name** are the only required mappings — everything else is
-optional.
-
-### 3. Preview
-
-See exactly what will be created — name, email, and a status per row:
-
-- **Ready** — will import cleanly.
-- **Ready with a warning** — something minor was skipped (e.g. an unreadable date), the row
-  still imports.
-- **Error** — missing first or last name; this row will be skipped entirely.
-
-### 4. Import
-
-Rows are created a few at a time with a live progress count. When it's done you'll see a
-created/skipped summary with the reason for every skip.
-
-## Good to know before you import
-
-- **No duplicate checking.** Every import creates brand-new member records — there's no
-  matching against people already in your directory. If you're not sure whether someone's
-  already in HolyCRM, check first; importing them again creates a second record.
-- **Tags are created automatically** if a tag name in your file doesn't already exist in
-  your church.
-- **Locations are matched by name only, never created automatically.** If a location name
-  in your file doesn't match one you've already set up, that field is left blank for that
-  row (with a warning) rather than creating a half-configured location record.
-- **Dates**: HolyCRM does its best to read birthdates in either day-first or month-first
-  format, but this is a best-effort guess — it's worth spot-checking a few birthdates after
-  a real import.
-- Minor status (`is_minor`) is worked out automatically from the imported birthdate using
-  your church's configured age cutoff — see [Members](https://docs.holycrm.app/content/en/members.md).
-
-## What it can't do (yet)
-
-Importing anything other than Members (Visitors, Giving history, etc.), Excel `.xlsx` files
-directly (export to CSV first), or matching/updating existing records instead of always
-creating new ones.
-
----
-
-Source: https://docs.holycrm.app/content/en/groups.md
-Section: People
-
-# Small Groups
-
-Small Groups (also called cells) get their own purpose-built screen: a card-grid list, a
-detail page with a leader/schedule sidebar, a members panel, a meeting log, and group
-multiplication.
-
-## Creating a group
-
-**New group** — name, status, type, Leader, Supervisor, meeting day/time, and either a
-**Host** (a member whose home hosts the meeting) or a plain address.
-
-- Picking a **Host** automatically fills the group's address from that member's own home
-  address, so you don't have to retype it — you can still override it by typing your own
-  address instead.
-- The **Leader** and **Supervisor** pickers, if your church has set them up under
-  [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md), only show members carrying the matching tag (e.g. only members
-  tagged "Small Group Leader" appear as leader candidates). If your church hasn't set that
-  up, everyone is offered.
-
-## The detail page
-
-- **Sidebar** — leader, supervisor, schedule, address, host, notes, and a **Multiplication**
-  card. Use **Multiply this group** when a cell grows and splits into two — it opens the
-  create form pre-seeded with a name like "Youth Group II" and links the new group back to
-  its parent, so you can trace a cell's lineage over time.
-- **Members panel** — add someone with a role (leader, co-leader, member) or remove them.
-  Removing deletes the membership record outright, not just marks it inactive.
-- **Meetings panel** — log a meeting with date, attendee count, first-timer count, offering,
-  and topic. This is a headcount log, not a per-person attendance list — if you need to know
-  *which* people showed up to a specific group meeting, that's a separate concept: see
-  [Attendance & Check-in](https://docs.holycrm.app/content/en/attendance.md).
-
-## What it doesn't do yet
-
-Editing a logged meeting (delete and re-add it instead), a visual lineage tree for
-multiplied groups, or per-member attendance within a group meeting (only headcounts are
-logged).
-
----
-
-Source: https://docs.holycrm.app/content/en/visitors.md
-Section: People
-
-# Visitors
-
-Track first-time guests from their first visit through follow-up and, hopefully,
-membership.
-
-## The funnel
-
-Every visitor has a **stage**: New → Contacted → Revisited → Integrating → Converted (or
-Inactive, if follow-up stalls). The Visitors list shows a funnel view — how many people are
-at each stage, and your overall conversion percentage — so you can see at a glance where
-guests are getting stuck.
-
-## Adding a visitor
-
-Only a first name is required, so you can log someone quickly at the door and fill in the
-rest later: last name, phone, WhatsApp, email, how they found you (social media, invited,
-event, walk-in, online, other), address, and notes.
-
-**Assigned to** — who's doing follow-up with this person. If your church has set up the
-`visitor_followup` tag role (see [Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md)), only members carrying that tag
-are offered; otherwise every active member is.
-
-## Welcome team: "Welcome a visitor"
-
-People on your welcome team don't need access to the whole Visitors list. Give them the
-**Welcome a visitor** screen instead (it's included for the Volunteer role by default): a
-short form with name, phone, WhatsApp, email, how they heard about you and notes. The
-visitor goes straight into Visitors as **New**, with today as their first visit, and your
-follow-up team picks it up from there.
-
-Below the form, **Visitors you added** lists only the people that person added, so they can
-fix a typo. They can't see anyone else's visitors or delete any. In the visitor's detail,
-coordinators see **Captured by** with the name of whoever added them.
-
-## Logging follow-up
-
-Open a visitor's detail page and log each contact — a call, message, WhatsApp, visit,
-email, or other — with a short note. Every contact is kept as a dated timeline so you can
-see the full history of outreach to that person.
-
-## Converting a visitor to a member
-
-Once someone is ready to join, use **Convert to member** on their detail page. This creates
-a real [Member](https://docs.holycrm.app/content/en/members.md) record from their visitor info and marks the visitor's stage as
-Converted. The button disappears once used, since a visitor can only convert once.
-
-## What's not built yet
-
-Automatic follow-up reminders, a "due for follow-up" queue, bulk-assigning visitors to a
-follow-up person, and importing visitors directly from a connect-card form.
-
----
-
-Source: https://docs.holycrm.app/content/en/prayer-requests.md
-Section: People
-
-# Prayer Requests
-
-Let anyone — members, visitors, people who follow your church online — send you a prayer
-request from their phone, and keep track of them in one place so none gets forgotten.
-
-## Turning it on
-
-In [Church Settings](https://docs.holycrm.app/content/en/church-settings.md), tick **Public prayer request form** and save. Your
-church now has a simple public page where people write their request. Once it's on:
-
-- a **🙏 Prayer request** button appears on your [Church Links](https://docs.holycrm.app/content/en/church-links.md) page and on
-  your [Church Website](https://docs.holycrm.app/content/en/church-website.md);
-- the **Prayer Requests** screen shows the page's link, a **Copy link** button and a QR code
-  you can download — put it on the screen during the service, in the bulletin or in your
-  WhatsApp groups.
-
-The form asks for the request and, optionally, a name, phone and email. People can also tick
-**Only for the pastors** if they don't want it shared with the prayer team.
-
-## Following up
-
-Every request arrives in **Prayer Requests** as **New**. From there you can:
-
-- change its **Status** to **Praying**, **Answered** (celebrate it!) or **Archived**;
-- **assign** it to someone who will pray or follow up;
-- add **internal notes** that only your team sees;
-- filter by status, or show only the requests marked **Pastors only**.
-
-You can also add requests yourself — for example one someone shared with you after the
-service — with **Add prayer request**.
-
-## Who can see them
-
-By default, only Administrators and Coordinators can see and manage prayer requests, because people often
-share personal things. If you have a prayer team, you can give them access in
-[Users & Roles](https://docs.holycrm.app/content/en/users-roles.md) with custom permissions. Requests marked **Pastors only** are
-flagged so your team knows not to share them.
+Editing or removing a guardian link from the check-in screen itself (do that from the
+child's own Member record instead), running multiple simultaneous check-in sessions on one
+screen, hardware scanner/printer integration, and attendance trend reports beyond the
+simple sessions list.
 
 ---
 
 Source: https://docs.holycrm.app/content/en/ministries.md
-Section: Ministries & Rotas
+Section: Sundays & serving
 
 # Ministries & Ministry Members
 
@@ -718,7 +723,7 @@ members who were removed, and bulk-adding a whole tagged group at once.
 ---
 
 Source: https://docs.holycrm.app/content/en/rotas.md
-Section: Ministries & Rotas
+Section: Sundays & serving
 
 # Rotas (Service Scheduling)
 
@@ -811,135 +816,8 @@ internal architecture notes hasn't been built).
 
 ---
 
-Source: https://docs.holycrm.app/content/en/events.md
-Section: Events
-
-# Events & Registrations
-
-**Events** are one-time happenings — a conference, a special service, an outreach day — as
-opposed to a recurring Ministry Activity.
-
-## Creating an event
-
-Fill in the details, schedule (date/time, with a location so the correct timezone is used)
-and notes. Events appear on the [Calendar](https://docs.holycrm.app/content/en/calendar.md) and can have
-[Rotas](https://docs.holycrm.app/content/en/rotas.md) attached (a Role Requirement can point at an event instead of a ministry
-activity).
-
-## Event Registrations
-
-Pre-register people for an event ahead of time: pick the event, search for a member (this
-only works for people already in your [Members](https://docs.holycrm.app/content/en/members.md) directory — there's no free-text
-guest registration yet), and add them. You can cancel a registration later, which keeps the
-record but stops showing them as registered.
-
-**The payoff is at check-in**: when you use [Check-in](https://docs.holycrm.app/content/en/attendance.md) for an event, everyone
-who's pre-registered and not yet checked in appears in a **Pre-registered** list above the
-regular search box — one tap to check them in. Walk-ins who never pre-registered still work
-exactly the same via the search box; pre-registration is a shortcut, not a requirement.
-
-## What's not built yet
-
-Public self-serve signup (registering yourself online without staff entering it), free-text
-guest registration for someone not yet in your directory, capacity limits or waitlists, and
-automatic confirmation emails to registrants.
-
----
-
-Source: https://docs.holycrm.app/content/en/attendance.md
-Section: Attendance
-
-# Attendance & Check-in
-
-Three related screens cover attendance, depending on what you're tracking:
-
-| Screen | Use it for |
-|---|---|
-| **Attendance** | Recording who attended an event, ministry activity, or small group meeting — the general-purpose roster tool. |
-| **Check-in** | A fast front-desk flow for services/events open to anyone — search, check in, print a tag. |
-| **Kids Check-in** | The same front-desk flow, but restricted to minors, with a matching guardian tag. |
-
-All three ultimately write to the same underlying attendance records, so a session started
-in one shows up correctly in the others' history too.
-
-## Attendance
-
-**+ Take attendance** → choose what you're taking attendance for:
-
-- **Service/Event** — pick from events in the last/next 90 days.
-- **Ministry activity** — pick the activity and a date (a weekly activity is one series, so
-  you pick which week).
-- **Small group meeting** — pick the group and a date; a meeting record is created
-  automatically if one doesn't exist yet for that date.
-
-The roster pre-fills from the relevant membership list (a group's members, or a ministry's
-members from [Ministry Members](https://docs.holycrm.app/content/en/ministries.md)) — events have no membership concept, so
-their roster starts empty. A **search box** lets you add anyone by name regardless, useful
-for a substitute or a first-time attendee. Mark each person Present, Absent, Late or
-Excused (or **Mark all present**), then **Save attendance** — nothing is written until you
-save.
-
-The sessions list shows your recent sessions with a present/total count; click one to
-reopen and edit it.
-
-## Check-in
-
-A faster flow for a service, conference, or any event **not** restricted to minors. Pick a
-type (Service/Event or Ministry activity) and a date, then search and tap to check someone
-in — this prints a tag with a short pickup code. If the occurrence is an event with people
-pre-registered (see [Events & Registrations](https://docs.holycrm.app/content/en/events.md)), they show up in a
-**Pre-registered** shortcut list above the search box.
-
-## Kids Check-in
-
-The same flow, but only ever surfaces **minors** as checkable — an adult who isn't a minor
-and isn't listed as anyone's guardian never appears in search results at all. Searching by
-a parent's name finds their children (via the **Guardians** field set on the child's own
-Member record — see [Members](https://docs.holycrm.app/content/en/members.md)); searching by a child's own name finds them
-directly.
-
-Checking a child in prints **two matching tags** — one for the child, one for the guardian
-— each showing the same pickup code large enough to read across a table. At pickup, a
-volunteer compares the guardian's tag stub against the child's, and taps **Check out**.
-
-If the selected ministry session has an **age band** set (see
-[Ministries & Ministry Members](https://docs.holycrm.app/content/en/ministries.md)), only children within that age range are
-offered, even if they're a minor by the church-wide definition.
-
-**There's no scanner or label printer integration** — a "tag" is a piece of paper from your
-regular printer, and the security model is a human visually comparing two printed codes.
-That matches how most churches already run paper tag stubs; this just keeps the record
-digital.
-
-### Paging a guardian
-
-In **Check out**, each child with a guardian on file has **Page guardian**. It sends the
-guardian a notification on their phone asking them to come, showing the session and their
-tag's code (never the child's name). The row shows when they were last paged.
-
-After paging, the guardian's phone number appears with **Call them** and **WhatsApp** (a
-ready-to-send message from your own WhatsApp, with the session and code). If the app couldn't
-reach their phone, the screen says so: call or message them instead. If it did, those buttons
-are there in case they don't answer.
-
-## Setting up who counts as a minor
-
-See [Members](https://docs.holycrm.app/content/en/members.md) — a member is a minor once their birth date is below your church's
-configured cutoff (Church Settings → Minor age cutoff), or via a manual checkbox if they
-have no birth date on file. Guardians can only be set on someone once they're marked a
-minor.
-
-## What's not built yet
-
-Editing or removing a guardian link from the check-in screen itself (do that from the
-child's own Member record instead), running multiple simultaneous check-in sessions on one
-screen, hardware scanner/printer integration, and attendance trend reports beyond the
-simple sessions list.
-
----
-
 Source: https://docs.holycrm.app/content/en/bulk-email.md
-Section: Communications
+Section: Outreach
 
 # Announcements & Email Templates
 
@@ -1050,96 +928,8 @@ tracking, and nested columns-within-columns.
 
 ---
 
-Source: https://docs.holycrm.app/content/en/church-links.md
-Section: Communications
-
-# Church Links
-
-A single branded page — a "link in bio" — for your church's Instagram, TikTok or Facebook
-profile: one URL with every link people actually need (service times, giving, socials,
-your address) instead of one link that only goes to your website.
-
-## Turning it on
-
-Check **Public Links Page** on in **Admin Settings → Church Settings** — that's it, your
-page has a web address the moment you do. Want it at your own domain instead of a HolyCRM
-one? See [Custom domain](https://docs.holycrm.app/content/en/church-website.md) — the same setup used for the Church Website
-also covers this page. The page's logo and brand color live on that Church Settings
-record too; what actually shows on the page is managed here, in **Church Links**.
-
-## Managing links
-
-**+ Add link** for each item you want on the page: a title, a URL, and an optional icon
-(pick one from the picker, or type any emoji). Two extra settings worth knowing:
-
-- **Order** — lower numbers show first.
-- **Featured** — shows this one link as a larger card above the regular list. Meant for
-  one timely thing at a time — "This Sunday's service," a holiday event, a fundraiser —
-  not a permanent state for every link.
-- **Hidden** — takes a link off the public page without deleting it, so you can turn it
-  back on later exactly as it was.
-
-## What visitors see
-
-Besides your links, the public page also shows:
-
-- **Next service** — worked out automatically from your upcoming [Events](https://docs.holycrm.app/content/en/events.md) and
-  recurring [Ministry Activities](https://docs.holycrm.app/content/en/ministries.md), so you don't have to keep a "next Sunday"
-  link up to date by hand.
-- **"New here?"** — a short form; whoever fills it in becomes a new [Visitor](https://docs.holycrm.app/content/en/visitors.md)
-  in your church's follow-up list, tagged with an online source, instead of just being a
-  click you'll never follow up on.
-- A **Share** button and a QR code for print materials — a bulletin, a welcome card, a
-  sign in the lobby.
-
-## When your link is shared
-
-When someone shares your Church Links address on WhatsApp, Instagram, Facebook or in a
-text message, the preview shows your church's name, a short description and a picture.
-You set the description and picture once, under **Search & sharing** on the
-[Church Website](https://docs.holycrm.app/content/en/church-website.md) screen — they're used for both your website and your
-Church Links page. If you leave them blank, a general description and your logo are used.
-
-**Tip — preview it yourself.** Paste your website or Church Links address into Facebook's
-[Sharing Debugger](https://developers.facebook.com/tools/debug) (you'll need to sign in with a Facebook account) and click
-**Debug**. It shows the title, description and picture that Facebook, Instagram and
-WhatsApp read from your page. After changing your description or share image, wait about a
-minute and click **Scrape Again** so Facebook picks up the new version.
-
-Apps keep old previews for a while, so a change can take some time to show on a link
-that was already shared.
-
-## Choosing a look
-
-Below the page URL banner, pick a style under **Links page style** — each one is designed
-just for this page, not a shrunk-down version of the [Church Website](https://docs.holycrm.app/content/en/church-website.md)
-looks:
-
-- **Modern** — soft drifting color behind everything, a glowing ring around your logo,
-  and a light sweep across your featured link.
-- **Classic** — a warm, framed look with a small decorative mark, more keepsake card
-  than app.
-- **Minimal** — quiet and uncluttered, with your links numbered like a museum label
-  instead of icons.
-- **Premium** — frosted-glass cards over a gently shifting two-color glow, with a soft
-  shimmering pulse around your logo.
-
-Tap one and it's saved right away — no separate save button, and switching any time keeps
-every link exactly as it was.
-
-The page also follows your visitor's light/dark preference automatically, with a small
-toggle in the corner if they'd rather choose for themselves.
-
-## Seeing how it's doing
-
-The banner at the top of this screen shows your page's URL, a view count, and a QR code
-(with a bigger version to download for printing). Each link's own **Clicks** column in the
-table below tells you which links people actually use.
-
----
-
 Source: https://docs.holycrm.app/content/en/church-website.md
-Section: Communications
+Section: Outreach
 
 # Church Website
 
@@ -1150,7 +940,7 @@ already keep in HolyCRM.
 
 ## Turning it on
 
-Go to **Admin Settings → Church Website** and choose a look under **Website**: **Modern**,
+Go to **Outreach → Church Website** and choose a look under **Website**: **Modern**,
 **Classic**, **Minimal** or **Premium**. Picking one turns the site on at a web address
 that's ready immediately — no address to set up first. Leaving it blank keeps the site off.
 
@@ -1241,8 +1031,96 @@ directly — no holycrm.app address needed.
 
 ---
 
+Source: https://docs.holycrm.app/content/en/church-links.md
+Section: Outreach
+
+# Church Links
+
+A single branded page — a "link in bio" — for your church's Instagram, TikTok or Facebook
+profile: one URL with every link people actually need (service times, giving, socials,
+your address) instead of one link that only goes to your website.
+
+## Turning it on
+
+Check **Public Links Page** on in **Settings → Church Settings** — that's it, your
+page has a web address the moment you do. Want it at your own domain instead of a HolyCRM
+one? See [Custom domain](https://docs.holycrm.app/content/en/church-website.md) — the same setup used for the Church Website
+also covers this page. The page's logo and brand color live on that Church Settings
+record too; what actually shows on the page is managed here, in **Church Links**.
+
+## Managing links
+
+**+ Add link** for each item you want on the page: a title, a URL, and an optional icon
+(pick one from the picker, or type any emoji). Two extra settings worth knowing:
+
+- **Order** — lower numbers show first.
+- **Featured** — shows this one link as a larger card above the regular list. Meant for
+  one timely thing at a time — "This Sunday's service," a holiday event, a fundraiser —
+  not a permanent state for every link.
+- **Hidden** — takes a link off the public page without deleting it, so you can turn it
+  back on later exactly as it was.
+
+## What visitors see
+
+Besides your links, the public page also shows:
+
+- **Next service** — worked out automatically from your upcoming [Events](https://docs.holycrm.app/content/en/events.md) and
+  recurring [Ministry Activities](https://docs.holycrm.app/content/en/ministries.md), so you don't have to keep a "next Sunday"
+  link up to date by hand.
+- **"New here?"** — a short form; whoever fills it in becomes a new [Visitor](https://docs.holycrm.app/content/en/visitors.md)
+  in your church's follow-up list, tagged with an online source, instead of just being a
+  click you'll never follow up on.
+- A **Share** button and a QR code for print materials — a bulletin, a welcome card, a
+  sign in the lobby.
+
+## When your link is shared
+
+When someone shares your Church Links address on WhatsApp, Instagram, Facebook or in a
+text message, the preview shows your church's name, a short description and a picture.
+You set the description and picture once, under **Search & sharing** on the
+[Church Website](https://docs.holycrm.app/content/en/church-website.md) screen — they're used for both your website and your
+Church Links page. If you leave them blank, a general description and your logo are used.
+
+**Tip — preview it yourself.** Paste your website or Church Links address into Facebook's
+[Sharing Debugger](https://developers.facebook.com/tools/debug) (you'll need to sign in with a Facebook account) and click
+**Debug**. It shows the title, description and picture that Facebook, Instagram and
+WhatsApp read from your page. After changing your description or share image, wait about a
+minute and click **Scrape Again** so Facebook picks up the new version.
+
+Apps keep old previews for a while, so a change can take some time to show on a link
+that was already shared.
+
+## Choosing a look
+
+Below the page URL banner, pick a style under **Links page style** — each one is designed
+just for this page, not a shrunk-down version of the [Church Website](https://docs.holycrm.app/content/en/church-website.md)
+looks:
+
+- **Modern** — soft drifting color behind everything, a glowing ring around your logo,
+  and a light sweep across your featured link.
+- **Classic** — a warm, framed look with a small decorative mark, more keepsake card
+  than app.
+- **Minimal** — quiet and uncluttered, with your links numbered like a museum label
+  instead of icons.
+- **Premium** — frosted-glass cards over a gently shifting two-color glow, with a soft
+  shimmering pulse around your logo.
+
+Tap one and it's saved right away — no separate save button, and switching any time keeps
+every link exactly as it was.
+
+The page also follows your visitor's light/dark preference automatically, with a small
+toggle in the corner if they'd rather choose for themselves.
+
+## Seeing how it's doing
+
+The banner at the top of this screen shows your page's URL, a view count, and a QR code
+(with a bigger version to download for printing). Each link's own **Clicks** column in the
+table below tells you which links people actually use.
+
+---
+
 Source: https://docs.holycrm.app/content/en/getting-found.md
-Section: Communications
+Section: Outreach
 
 # Getting Found on Google
 
@@ -1376,8 +1254,55 @@ Business Profile and Search Console too.
 
 ---
 
+Source: https://docs.holycrm.app/content/en/online-giving.md
+Section: Outreach
+
+# Online Giving Page
+
+Give your congregation one simple page with every way they can give their tithes and
+offerings — bank transfer details, PIX, alias, mobile wallets or a payment link — with a
+**Copy** button next to each detail so nobody has to type an account number by hand.
+
+HolyCRM doesn't handle the money: people give from their own bank or wallet app, straight
+into your church's account. There are no extra fees from HolyCRM.
+
+## Turning it on
+
+1. Open **Giving Methods** (under Finance) and click **Add giving method**.
+2. Pick the **Type** — the form then shows only the fields that type needs:
+   - **PIX (Brazil)** — your PIX key, the account holder and the city. The page shows a PIX
+     **QR code** and a **copia e cola** button, ready for any Brazilian bank app.
+   - **Bank transfer — alias / CBU / CVU (Argentina)** — alias, CBU or CVU, holder, CUIT and bank.
+   - **SPEI — CLABE (Mexico)** and **Bank transfer — CCI (Peru)**.
+   - **Mobile wallet or instant-payment key** — Yape, Plin, Nequi, Daviplata, Bre-B, Pago
+     Móvil, MB WAY, Bizum… with the number or key.
+   - **Bank account (other countries)** — Chile, Colombia, Uruguay and anywhere else: bank,
+     account type, account number, holder and tax ID.
+   - **UK bank account — sort code** and **IBAN — SEPA (Europe)**.
+   - **Online payment link** — Mercado Pago, PayPal, Stripe or any payment page.
+   - **Other / instructions** — free text, for anything else.
+3. Optionally add a **Title** (for example *Tithes and offerings* or *Missions fund*),
+   **Instructions** (*"add the word OFRENDA as the reference"*), the **Currency** and an
+   **Order**.
+4. In [Church Settings](https://docs.holycrm.app/content/en/church-settings.md), tick **Public giving page** and save.
+
+You can add as many methods as you want — for example one for tithes and another for a
+building fund. **Hidden** removes a method from the page without deleting it.
+
+## Sharing it
+
+Once it's on, a **🎁 Give** button appears on your [Church Links](https://docs.holycrm.app/content/en/church-links.md) page and
+your [Church Website](https://docs.holycrm.app/content/en/church-website.md). The **Giving Methods** screen shows the page's link
+and a QR code you can download: show it on screen at offering time, print it in the bulletin
+or post it in your WhatsApp groups.
+
+Gifts made this way still need to be recorded in [Giving & Finance](https://docs.holycrm.app/content/en/finance.md) by your
+treasurer, as with cash or any other transfer.
+
+---
+
 Source: https://docs.holycrm.app/content/en/finance.md
-Section: Finance
+Section: Giving & reports
 
 # Giving & Finance
 
@@ -1435,55 +1360,326 @@ statement directly to a giver, and PDF export beyond your browser's own print-to
 
 ---
 
-Source: https://docs.holycrm.app/content/en/online-giving.md
-Section: Finance
+Source: https://docs.holycrm.app/content/en/reports.md
+Section: Giving & reports
 
-# Online Giving Page
+# Reports
 
-Give your congregation one simple page with every way they can give their tithes and
-offerings — bank transfer details, PIX, alias, mobile wallets or a payment link — with a
-**Copy** button next to each detail so nobody has to type an account number by hand.
+Reports answers the question every pastor actually asks — **is your church connecting
+with people?** — instead of a pile of generic charts. Visible to Administrator and Coordinator roles
+only, since it includes giving figures.
 
-HolyCRM doesn't handle the money: people give from their own bank or wallet app, straight
-into your church's account. There are no extra fees from HolyCRM.
+## Quick answers, always for this month
 
-## Turning it on
+Five numbers at the top, each answering one specific question:
 
-1. Open **Giving Methods** (under Finance) and click **Add giving method**.
-2. Pick the **Type** — the form then shows only the fields that type needs:
-   - **PIX (Brazil)** — your PIX key, the account holder and the city. The page shows a PIX
-     **QR code** and a **copia e cola** button, ready for any Brazilian bank app.
-   - **Bank transfer — alias / CBU / CVU (Argentina)** — alias, CBU or CVU, holder, CUIT and bank.
-   - **SPEI — CLABE (Mexico)** and **Bank transfer — CCI (Peru)**.
-   - **Mobile wallet or instant-payment key** — Yape, Plin, Nequi, Daviplata, Bre-B, Pago
-     Móvil, MB WAY, Bizum… with the number or key.
-   - **Bank account (other countries)** — Chile, Colombia, Uruguay and anywhere else: bank,
-     account type, account number, holder and tax ID.
-   - **UK bank account — sort code** and **IBAN — SEPA (Europe)**.
-   - **Online payment link** — Mercado Pago, PayPal, Stripe or any payment page.
-   - **Other / instructions** — free text, for anything else.
-3. Optionally add a **Title** (for example *Tithes and offerings* or *Missions fund*),
-   **Instructions** (*"add the word OFRENDA as the reference"*), the **Currency** and an
-   **Order**.
-4. In [Church Settings](https://docs.holycrm.app/content/en/church-settings.md), tick **Public giving page** and save.
+- **First-time visitors this month** — with a comparison to last month.
+- **Received follow-up** — what share of this month's first-time visitors have actually
+  been contacted (a call, message, WhatsApp, visit — anything logged in [Visitors](https://docs.holycrm.app/content/en/visitors.md)).
+- **Now attending regularly** — of everyone who started as a visitor and later became a
+  member, how many are actually showing up: at least two "present" check-ins in the last
+  60 days. This is different from conversion below — a name can convert to membership
+  without actually attending; this counts who's really there.
+- **Volunteers serving 3+ times/month** — how many people are carrying more than their
+  fair share on the rotas this month.
+- **Visitor → member conversion** — of visitors who first came 30 days ago or longer
+  (giving them enough time to decide), what share have become members.
 
-You can add as many methods as you want — for example one for tithes and another for a
-building fund. **Hidden** removes a method from the page without deleting it.
+## Trends, with a period to choose
 
-## Sharing it
+Below the quick answers, three cards you can switch between **6 / 12 / 24 months**:
 
-Once it's on, a **🎁 Give** button appears on your [Church Links](https://docs.holycrm.app/content/en/church-links.md) page and
-your [Church Website](https://docs.holycrm.app/content/en/church-website.md). The **Giving Methods** screen shows the page's link
-and a QR code you can download: show it on screen at offering time, print it in the bulletin
-or post it in your WhatsApp groups.
+- **Average attendance** — not a raw count of check-ins, but people per gathering:
+  events, ministry activities and small-group meetings are each counted as one session,
+  and the number is the average present per session, by month.
+- **Growing groups** — which of your small groups have real attendance growth, comparing
+  their own recent meetings to their earlier ones (a group that meets twice a month gets
+  a fair comparison, not a rigid calendar split). Shows nothing until a group has at least
+  a couple of logged meetings.
+- **Giving** — net giving (income minus expenses), by month, converted into your church's
+  default currency the same way the [Finance Dashboard](https://docs.holycrm.app/content/en/finance.md) does.
 
-Gifts made this way still need to be recorded in [Giving & Finance](https://docs.holycrm.app/content/en/finance.md) by your
-treasurer, as with cash or any other transfer.
+The comparison badge under Average attendance and Giving always measures the period
+you're viewing against the same length of time right before it — on 12 months, that's
+this year's total against the year before, not a single earlier month.
+
+## Why a card might look empty
+
+Reports needs real history to answer a question — a church just getting started, or one
+that hasn't used a particular feature yet (recording attendance, logging visitor
+follow-ups, taking rotas), will see that card empty or show "—" until there's enough
+data. This isn't an error; it fills in as you use the app.
+
+## What's not built yet
+
+History beyond 24 months for the trend cards, exporting or printing a report, and any
+automated "send me this monthly" email.
+
+---
+
+Source: https://docs.holycrm.app/content/en/profile.md
+Section: My space
+
+# My Profile
+
+Your own account settings — visible and editable by anyone with a login, regardless of
+role or which church(es) you belong to.
+
+- **Name and avatar** — how you appear throughout the app. If a "My church info" card
+  (below) is showing, your name is edited there instead — see why below.
+- **Change password** — enter your current password and a new one.
+- **Change email** — this uses a verified flow for security: a confirmation link is sent to
+  the **new** address, and the change only takes effect once you click it and confirm with
+  your password. This protects you from someone silently redirecting your login email if
+  your session were ever compromised.
+
+Profile doesn't control your role or which churches you can access — that's managed by an
+Administrator or Coordinator at each church; see [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md).
+
+If you belong to more than one church, use the church switcher elsewhere in the app to move
+between them — your Profile itself is shared across all of them, since it's tied to your
+one login, not to any single church.
+
+## My church info
+
+If your login is linked to a record in the congregation (common for the **Member** role,
+but not exclusive to it), a second card appears with your contact details as a member:
+phone, address, birth date, sex, and your name. Editing your name here — rather than
+above — keeps it in sync with how staff see you everywhere else in the app, from
+directories to giving statements.
+
+This card simply doesn't appear if your login isn't linked to a member record — that's
+normal for most staff logins, not an error. See [My Giving](https://docs.holycrm.app/content/en/my-giving.md) for your own
+giving history, and [My Availability](https://docs.holycrm.app/content/en/my-availability.md) to let your church know when
+you're usually free to serve — both shown the same way, linked to this same record.
+
+## Notifications
+
+The **Notifications** card turns notifications on for the device you're using, sends a test,
+and lets you choose what to be notified about. See [Notifications](https://docs.holycrm.app/content/en/notifications.md).
+
+---
+
+Source: https://docs.holycrm.app/content/en/notifications.md
+Section: My space
+
+# Notifications
+
+HolyCRM can let you know when something needs you, like being asked to serve, even when the
+app is closed.
+
+## The bell
+
+The **bell** at the top of the app shows your notifications for the church you're in. A number
+on it means there are ones you haven't read. Tap one to open what it's about; **Mark all as
+read** clears the number. Notifications are kept for 90 days.
+
+## Turning notifications on for your phone or computer
+
+Notifications are turned on **per device**: your phone and your computer are separate.
+
+1. Open the bell and tap **Turn on notifications**, or go to **My Profile → Notifications**.
+2. Your browser asks for permission: choose **Allow**.
+3. Tap **Send a test** in My Profile to check it works. The test should arrive within a few
+   seconds.
+
+**iPhone and iPad:** notifications only work once HolyCRM is installed on your Home Screen
+(iOS 16.4 or later). Install it first (see [Getting Started](https://docs.holycrm.app/content/en/getting-started.md)), open it from
+its icon, then turn notifications on from there.
+
+**Android and computers:** they work in Chrome, Edge, Firefox and Samsung Internet, whether or
+not you installed the app. They don't work in private or incognito windows.
+
+## What you'll be notified about
+
+- **When you're asked to serve** on a rota. On Android and computers the notification has
+  **I can serve** / **I can't** buttons; "I can't" lets you add a note. Or tap it to answer.
+- **A reminder** the day before if you haven't answered yet.
+- **The day before you serve**, once you've confirmed.
+- **Event reminders:** the day before an event you're registered for, with the time.
+- **Small group:** on the day your group meets, a few hours before.
+- **Announcements** your church sends as an app notification.
+- **A thank-you** when a gift of yours is recorded (never the amount).
+- **Kids check-in:** if the kids' team needs you, a page asking you to come, with your tag's
+  code. This one can't be switched off.
+- **If you lead rotas:** when a volunteer says they can't serve, so you can find a replacement,
+  and two days before a service if any role still has open places ("Sunday service needs 2
+  more people").
+- **If you see Visitors:** when a new visitor arrives (from the app or your "New here?" form),
+  and when a visitor is assigned to you for follow-up.
+- **If you see Prayer Requests:** when a new request arrives, and when one is assigned to you.
+  The notification never shows the request itself or who sent it.
+- **Administrators:** when someone they invited joins the team, plan and trial reminders, and
+  when a payment is received.
+
+When several of the same kind arrive close together (say, a list of visitors imported at
+once), you get one notification that counts them, like "12 new visitors", not twelve.
+
+Under **My Profile → Notifications → What to notify me about** you can switch each kind off
+for the church you're in. If you belong to more than one church, each one has its own switches.
+
+Notifications only say *what* happened. Details stay inside the app, behind your login,
+because notifications can appear on a locked screen.
+
+## Devices and signing out
+
+**My Profile → Notifications** lists the devices where notifications are on. **Remove** stops
+them on a device you no longer use. Signing out also turns them off on that device, so on a
+shared computer the next person isn't sent yours.
+
+## The "Tap to copy the URL for this app" notice on Android
+
+While HolyCRM is open, Android may show a quiet notice from Chrome saying **"Tap to copy the
+URL for this app"**, with **Share** and **Open in Chrome**. Chrome adds it to every app
+installed from the browser; it isn't a HolyCRM notification. To hide it, long-press it and
+turn that kind of Chrome notification off. That hides it for **every** app you installed
+from Chrome, and HolyCRM's own notifications keep working.
+
+## Not getting notifications?
+
+- **"Notifications are blocked"**: you chose *Block* when the browser asked. Allow
+  notifications for HolyCRM in the browser's site settings, then come back.
+- Check the device isn't in *Do not disturb* or battery saver mode, which can hold them back.
+- You'll still find everything in the bell, and you'll still get the usual emails.
+
+---
+
+Source: https://docs.holycrm.app/content/en/my-teams.md
+Section: My space
+
+# My Teams (for leaders)
+
+If you lead a small group or a ministry, **My teams** shows the teams you lead and lets you
+look after them, without needing access to the whole church directory.
+
+**One rule:** your role says *what kind* of things you can do in HolyCRM; leading a team adds
+*that team*.
+
+## Who sees My teams
+
+My teams appears in the menu (and as a tile on the Dashboard) for anyone who is:
+
+- the **leader** or **co-leader** of a small group, or its **supervisor**;
+- the **leader** or **co-leader** of a ministry, or set as the ministry's leader.
+
+Your login must be linked to your member record (an Administrator does that under **Users →
+Link member**). Being a leader is set where it always is: in the small group's people or in
+**Ministry members**, by the church office.
+
+## What you can do
+
+- **See your team's people** with their phone, email and address. For ministries, you also see
+  when each person is available to serve.
+- **Add someone** to your team: type at least two letters of their name and pick them.
+- **Remove someone** from your team. Leaders and co-leaders can only be changed by the church
+  office.
+- **Report a small-group meeting**: date, topic, visitors and offering, then tick who came. This
+  records attendance for everyone in the group.
+
+## What leading never opens
+
+Leading a team only adds that team. It doesn't show you other teams, the full member directory,
+finance, prayer requests or settings. Coordinators and Administrators keep their usual screens.
+
+On the **Users** screen, Administrators and Coordinators see "Also leads: …" next to each person,
+so it's always clear why someone has access to a team.
+
+---
+
+Source: https://docs.holycrm.app/content/en/my-serving.md
+Section: My space
+
+# My serving
+
+**My serving** (under your account) lists the dates you're serving in the next 8 weeks — the
+service or activity, your role and the time.
+
+For each date, tap **✅ I'll be there** or **❌ I can't make it** (you can add a short reason).
+Your coordinator sees your answer straight away on the Rotas board, and if you can't make it
+they get an email so they can find someone else. Changed your mind? Tap **Change**.
+
+If you get an email or WhatsApp message asking you to confirm, it's the same answer — you can
+reply from either place.
+
+If the page says no member record is linked to your account, ask your church admin to link
+your login to your member profile.
+
+Want to be suggested for the times that suit you? Fill in [My availability](https://docs.holycrm.app/content/en/my-availability.md).
+
+---
+
+Source: https://docs.holycrm.app/content/en/my-availability.md
+Section: My space
+
+# My Availability
+
+Let your church know when you're usually free to serve, so schedulers see it when filling
+a [Rota](https://docs.holycrm.app/content/en/rotas.md) — instead of asking around or guessing.
+
+## Weekly pattern
+
+For each day of the week, **Add a time** to mark a recurring window you're usually
+available (for example, Sunday mornings, or Wednesday evenings). Add as many time slots
+per day as you need, or leave a day empty if you're never available then.
+
+## Specific dates
+
+Your weekly pattern won't always be right — **Add a date** to override it for one day:
+
+- Mark a date **Available** with its own time window to add extra availability outside
+  your usual pattern — you're in town for a one-off event, say.
+- Mark a date **Unavailable**, with or without a time, to block it even though your weekly
+  pattern would normally say you're free — a trip, an exam, a day you already know you
+  can't make it.
+
+A specific date always overrides the weekly pattern for that day.
+
+## How this is used
+
+When a Coordinator or Administrator fills a rota role requirement, HolyCRM checks who's published
+availability that covers that slot and suggests them first — see
+[Ministries & Rotas](https://docs.holycrm.app/content/en/ministries.md). If no one has published availability for a given time,
+you'll see a note saying so instead of a wrong suggestion.
+
+## If you don't see this screen
+
+My Availability only appears if your login is linked to a member record in the
+congregation — see [My Profile](https://docs.holycrm.app/content/en/profile.md) under "My church info." Ask your church's Administrator
+or Coordinator if you think that's missing.
+
+---
+
+Source: https://docs.holycrm.app/content/en/my-giving.md
+Section: My space
+
+# My Giving
+
+Your own giving history — visible to anyone whose login is linked to their own member
+record in the congregation, whatever their role (Member, Volunteer, Coordinator or Administrator). This is different from the [Giving](https://docs.holycrm.app/content/en/finance.md) screen
+staff use, which shows everyone's giving; My Giving only ever shows **yours**.
+
+## What you'll see
+
+Pick a **year**, and you'll see a total for that year plus a list of each individual gift
+— date, a short description, and amount.
+
+## If it says you have no giving history linked
+
+This means one of two things: no gifts have been recorded against your member record yet
+for the selected year, or your login isn't linked to a member record at all. If you think
+that's wrong, ask your church's Administrator or Coordinator — they can link your login to your
+member record from **Settings → Users**.
+
+## Where your name and contact info come from
+
+My Giving always matches whoever your login is linked to. If your name looks wrong here,
+fix it on [My Profile](https://docs.holycrm.app/content/en/profile.md) under "My church info" — that's also where you can
+update your phone, address and other contact details.
 
 ---
 
 Source: https://docs.holycrm.app/content/en/church-settings.md
-Section: Admin Settings
+Section: Settings
 
 # Church Settings & Locations
 
@@ -1538,7 +1734,7 @@ church has more than one location with an address set.
 ---
 
 Source: https://docs.holycrm.app/content/en/users-roles.md
-Section: Admin Settings
+Section: Settings
 
 # Users, Roles & Permissions
 
@@ -1548,7 +1744,7 @@ of your staff/volunteer team who needs access to HolyCRM itself.
 
 ## Inviting someone
 
-**Admin Settings → Users → Invite user**. Search for and pick an existing Member first (if
+**Settings → Users → Invite user**. Search for and pick an existing Member first (if
 they're already in your directory) — this links their login to their existing record instead
 of creating a duplicate person. If they're not a member yet, you can invite them with just a
 name and email instead.
@@ -1605,7 +1801,7 @@ My giving and My availability all come from it. In the Users list, people withou
 ## Custom permissions
 
 Each role comes with HolyCRM's recommended access. An Administrator can change it for your
-church under **Admin Settings → Custom User Access**:
+church under **Settings → Custom User Access**:
 
 1. Pick the role at the top (Coordinator, Volunteer or Member). A number next to a role shows
    how many screens you've customized for it.
@@ -1632,14 +1828,14 @@ access. See [My Profile](https://docs.holycrm.app/content/en/profile.md).
 ---
 
 Source: https://docs.holycrm.app/content/en/tags.md
-Section: Admin Settings
+Section: Settings
 
 # Tags & Tag Roles
 
 ## Tags
 
 A simple, flexible label you attach to members — "Worship Team," "First Responders,"
-"Youth Leader," anything your church finds useful. Create tags once under **Admin Settings →
+"Youth Leader," anything your church finds useful. Create tags once under **Settings →
 Tags**, then pick them from a chip picker on any member's record. There's no limit to how
 you use them beyond members, and no colors or scoping — a tag is just a tag, shared across
 your whole church.
@@ -1651,7 +1847,7 @@ a "Leader," another a "Coach," another a "Guide." **Tag Roles** let you map *you
 own tag onto a fixed set of built-in functions, so pickers throughout the app can filter to
 "whoever does this job" using your own vocabulary.
 
-Under **Admin Settings → Tag roles**, map a tag to each function you use:
+Under **Settings → Tag roles**, map a tag to each function you use:
 
 | Function | Where it's used |
 |---|---|
@@ -1670,12 +1866,79 @@ untagging a group of members at once.
 
 ---
 
+Source: https://docs.holycrm.app/content/en/data-import.md
+Section: Settings
+
+# Import Data
+
+If your church already has a member list in a spreadsheet, Import Data lets you bring it in
+instead of retyping everyone by hand. It currently imports **Members only**.
+
+## The four steps
+
+### 1. Upload
+
+Export your spreadsheet as a **CSV file** (from Excel, Google Sheets, or almost any other
+church system) and upload it here. Files over **500 rows** are rejected up front — split a
+larger file and import it in batches.
+
+### 2. Map your columns
+
+For every column in your file, choose which HolyCRM field it should fill (first name, last
+name, email, phone, birthdate, status, tags, and more). HolyCRM guesses sensible matches
+automatically from your column headers (including some common Spanish/Portuguese headers
+like "Apellido" or "Nome"), but always double-check the guesses before continuing.
+
+A sample of each column's actual values is shown next to it, since a header alone
+("Status", "Estado") doesn't always tell you what's really in the cells.
+
+**First name** and **last name** are the only required mappings — everything else is
+optional.
+
+### 3. Preview
+
+See exactly what will be created — name, email, and a status per row:
+
+- **Ready** — will import cleanly.
+- **Ready with a warning** — something minor was skipped (e.g. an unreadable date), the row
+  still imports.
+- **Error** — missing first or last name; this row will be skipped entirely.
+
+### 4. Import
+
+Rows are created a few at a time with a live progress count. When it's done you'll see a
+created/skipped summary with the reason for every skip.
+
+## Good to know before you import
+
+- **No duplicate checking.** Every import creates brand-new member records — there's no
+  matching against people already in your directory. If you're not sure whether someone's
+  already in HolyCRM, check first; importing them again creates a second record.
+- **Tags are created automatically** if a tag name in your file doesn't already exist in
+  your church.
+- **Locations are matched by name only, never created automatically.** If a location name
+  in your file doesn't match one you've already set up, that field is left blank for that
+  row (with a warning) rather than creating a half-configured location record.
+- **Dates**: HolyCRM does its best to read birthdates in either day-first or month-first
+  format, but this is a best-effort guess — it's worth spot-checking a few birthdates after
+  a real import.
+- Minor status (`is_minor`) is worked out automatically from the imported birthdate using
+  your church's configured age cutoff — see [Members](https://docs.holycrm.app/content/en/members.md).
+
+## What it can't do (yet)
+
+Importing anything other than Members (Visitors, Giving history, etc.), Excel `.xlsx` files
+directly (export to CSV first), or matching/updating existing records instead of always
+creating new ones.
+
+---
+
 Source: https://docs.holycrm.app/content/en/integrations.md
-Section: Admin Settings
+Section: Settings
 
 # Integrations
 
-Under **Admin Settings → Integrations**, an Administrator can connect services your church
+Under **Settings → Integrations**, an Administrator can connect services your church
 already uses. Today that's **your own email server**: Announcements can send its emails through your
 church's own email account instead of HolyCRM's.
 
@@ -1707,7 +1970,7 @@ If you're not sure, ask whoever looks after your church's email for the "SMTP se
 
 ## Setting it up
 
-1. Go to **Admin Settings → Integrations**.
+1. Go to **Settings → Integrations**.
 2. Choose your **Provider**. This fills in the server and port for you, and shows a tip for
    that provider.
 3. Enter the **Username** and **Password**, the **From address** your emails should come
@@ -1815,11 +2078,11 @@ Only Administrators can see and change Integrations, and it's part of the paid p
 ---
 
 Source: https://docs.holycrm.app/content/en/data-privacy.md
-Section: Admin Settings
+Section: Settings
 
 # Data & Privacy
 
-Under **Admin Settings → Data & Privacy**, an Administrator can confirm your church's data
+Under **Settings → Data & Privacy**, an Administrator can confirm your church's data
 responsibilities, download a full copy of your church's data, request deletion, and review
 a log of who's changed Member and Giving records recently. This screen exists because your
 church's records — who your members are, what they give, sometimes information about
@@ -1884,7 +2147,7 @@ Volunteers, or Members.
 ---
 
 Source: https://docs.holycrm.app/content/en/security.md
-Section: Admin Settings
+Section: Settings
 
 # Security & Data Protection
 
@@ -1961,7 +2224,7 @@ If you think you've found a security weakness, or you suspect your church's data
 ---
 
 Source: https://docs.holycrm.app/content/en/plans-billing.md
-Section: Admin Settings
+Section: Settings
 
 # Plans & Billing
 
@@ -2000,7 +2263,7 @@ how much, for as long as it applies.
 
 ## Upgrading
 
-Church admins will find **Billing** under Admin Settings in the menu. It shows your current
+Church admins will find **Billing** under **Settings** in the menu. It shows your current
 plan, when your trial or paid period ends, and your payment history. A reminder banner also
 appears at the top of the app during the last week of your trial, with a shortcut to it.
 
@@ -2046,267 +2309,6 @@ Need an invoice for a payment, or want to pay from outside Argentina? Write to
 
 ---
 
-Source: https://docs.holycrm.app/content/en/profile.md
-Section: Account
-
-# My Profile
-
-Your own account settings — visible and editable by anyone with a login, regardless of
-role or which church(es) you belong to.
-
-- **Name and avatar** — how you appear throughout the app. If a "My church info" card
-  (below) is showing, your name is edited there instead — see why below.
-- **Change password** — enter your current password and a new one.
-- **Change email** — this uses a verified flow for security: a confirmation link is sent to
-  the **new** address, and the change only takes effect once you click it and confirm with
-  your password. This protects you from someone silently redirecting your login email if
-  your session were ever compromised.
-
-Profile doesn't control your role or which churches you can access — that's managed by an
-Administrator or Coordinator at each church; see [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md).
-
-If you belong to more than one church, use the church switcher elsewhere in the app to move
-between them — your Profile itself is shared across all of them, since it's tied to your
-one login, not to any single church.
-
-## My church info
-
-If your login is linked to a record in the congregation (common for the **Member** role,
-but not exclusive to it), a second card appears with your contact details as a member:
-phone, address, birth date, sex, and your name. Editing your name here — rather than
-above — keeps it in sync with how staff see you everywhere else in the app, from
-directories to giving statements.
-
-This card simply doesn't appear if your login isn't linked to a member record — that's
-normal for most staff logins, not an error. See [My Giving](https://docs.holycrm.app/content/en/my-giving.md) for your own
-giving history, and [My Availability](https://docs.holycrm.app/content/en/my-availability.md) to let your church know when
-you're usually free to serve — both shown the same way, linked to this same record.
-
-## Notifications
-
-The **Notifications** card turns notifications on for the device you're using, sends a test,
-and lets you choose what to be notified about. See [Notifications](https://docs.holycrm.app/content/en/notifications.md).
-
----
-
-Source: https://docs.holycrm.app/content/en/notifications.md
-Section: Account
-
-# Notifications
-
-HolyCRM can let you know when something needs you, like being asked to serve, even when the
-app is closed.
-
-## The bell
-
-The **bell** at the top of the app shows your notifications for the church you're in. A number
-on it means there are ones you haven't read. Tap one to open what it's about; **Mark all as
-read** clears the number. Notifications are kept for 90 days.
-
-## Turning notifications on for your phone or computer
-
-Notifications are turned on **per device**: your phone and your computer are separate.
-
-1. Open the bell and tap **Turn on notifications**, or go to **My Profile → Notifications**.
-2. Your browser asks for permission: choose **Allow**.
-3. Tap **Send a test** in My Profile to check it works. The test should arrive within a few
-   seconds.
-
-**iPhone and iPad:** notifications only work once HolyCRM is installed on your Home Screen
-(iOS 16.4 or later). Install it first (see [Getting Started](https://docs.holycrm.app/content/en/getting-started.md)), open it from
-its icon, then turn notifications on from there.
-
-**Android and computers:** they work in Chrome, Edge, Firefox and Samsung Internet, whether or
-not you installed the app. They don't work in private or incognito windows.
-
-## What you'll be notified about
-
-- **When you're asked to serve** on a rota. On Android and computers the notification has
-  **I can serve** / **I can't** buttons; "I can't" lets you add a note. Or tap it to answer.
-- **A reminder** the day before if you haven't answered yet.
-- **The day before you serve**, once you've confirmed.
-- **Event reminders:** the day before an event you're registered for, with the time.
-- **Small group:** on the day your group meets, a few hours before.
-- **Announcements** your church sends as an app notification.
-- **A thank-you** when a gift of yours is recorded (never the amount).
-- **Kids check-in:** if the kids' team needs you, a page asking you to come, with your tag's
-  code. This one can't be switched off.
-- **If you lead rotas:** when a volunteer says they can't serve, so you can find a replacement,
-  and two days before a service if any role still has open places ("Sunday service needs 2
-  more people").
-- **If you see Visitors:** when a new visitor arrives (from the app or your "New here?" form),
-  and when a visitor is assigned to you for follow-up.
-- **If you see Prayer Requests:** when a new request arrives, and when one is assigned to you.
-  The notification never shows the request itself or who sent it.
-- **Administrators:** when someone they invited joins the team, plan and trial reminders, and
-  when a payment is received.
-
-When several of the same kind arrive close together (say, a list of visitors imported at
-once), you get one notification that counts them, like "12 new visitors", not twelve.
-
-Under **My Profile → Notifications → What to notify me about** you can switch each kind off
-for the church you're in. If you belong to more than one church, each one has its own switches.
-
-Notifications only say *what* happened. Details stay inside the app, behind your login,
-because notifications can appear on a locked screen.
-
-## Devices and signing out
-
-**My Profile → Notifications** lists the devices where notifications are on. **Remove** stops
-them on a device you no longer use. Signing out also turns them off on that device, so on a
-shared computer the next person isn't sent yours.
-
-## The "Tap to copy the URL for this app" notice on Android
-
-While HolyCRM is open, Android may show a quiet notice from Chrome saying **"Tap to copy the
-URL for this app"**, with **Share** and **Open in Chrome**. Chrome adds it to every app
-installed from the browser; it isn't a HolyCRM notification. To hide it, long-press it and
-turn that kind of Chrome notification off. That hides it for **every** app you installed
-from Chrome, and HolyCRM's own notifications keep working.
-
-## Not getting notifications?
-
-- **"Notifications are blocked"**: you chose *Block* when the browser asked. Allow
-  notifications for HolyCRM in the browser's site settings, then come back.
-- Check the device isn't in *Do not disturb* or battery saver mode, which can hold them back.
-- You'll still find everything in the bell, and you'll still get the usual emails.
-
----
-
-Source: https://docs.holycrm.app/content/en/my-teams.md
-Section: Account
-
-# My Teams (for leaders)
-
-If you lead a small group or a ministry, **My teams** shows the teams you lead and lets you
-look after them, without needing access to the whole church directory.
-
-**One rule:** your role says *what kind* of things you can do in HolyCRM; leading a team adds
-*that team*.
-
-## Who sees My teams
-
-My teams appears in the menu (and as a tile on the Dashboard) for anyone who is:
-
-- the **leader** or **co-leader** of a small group, or its **supervisor**;
-- the **leader** or **co-leader** of a ministry, or set as the ministry's leader.
-
-Your login must be linked to your member record (an Administrator does that under **Users →
-Link member**). Being a leader is set where it always is: in the small group's people or in
-**Ministry members**, by the church office.
-
-## What you can do
-
-- **See your team's people** with their phone, email and address. For ministries, you also see
-  when each person is available to serve.
-- **Add someone** to your team: type at least two letters of their name and pick them.
-- **Remove someone** from your team. Leaders and co-leaders can only be changed by the church
-  office.
-- **Report a small-group meeting**: date, topic, visitors and offering, then tick who came. This
-  records attendance for everyone in the group.
-
-## What leading never opens
-
-Leading a team only adds that team. It doesn't show you other teams, the full member directory,
-finance, prayer requests or settings. Coordinators and Administrators keep their usual screens.
-
-On the **Users** screen, Administrators and Coordinators see "Also leads: …" next to each person,
-so it's always clear why someone has access to a team.
-
----
-
-Source: https://docs.holycrm.app/content/en/my-serving.md
-Section: Account
-
-# My serving
-
-**My serving** (under your account) lists the dates you're serving in the next 8 weeks — the
-service or activity, your role and the time.
-
-For each date, tap **✅ I'll be there** or **❌ I can't make it** (you can add a short reason).
-Your coordinator sees your answer straight away on the Rotas board, and if you can't make it
-they get an email so they can find someone else. Changed your mind? Tap **Change**.
-
-If you get an email or WhatsApp message asking you to confirm, it's the same answer — you can
-reply from either place.
-
-If the page says no member record is linked to your account, ask your church admin to link
-your login to your member profile.
-
-Want to be suggested for the times that suit you? Fill in [My availability](https://docs.holycrm.app/content/en/my-availability.md).
-
----
-
-Source: https://docs.holycrm.app/content/en/my-availability.md
-Section: Account
-
-# My Availability
-
-Let your church know when you're usually free to serve, so schedulers see it when filling
-a [Rota](https://docs.holycrm.app/content/en/rotas.md) — instead of asking around or guessing.
-
-## Weekly pattern
-
-For each day of the week, **Add a time** to mark a recurring window you're usually
-available (for example, Sunday mornings, or Wednesday evenings). Add as many time slots
-per day as you need, or leave a day empty if you're never available then.
-
-## Specific dates
-
-Your weekly pattern won't always be right — **Add a date** to override it for one day:
-
-- Mark a date **Available** with its own time window to add extra availability outside
-  your usual pattern — you're in town for a one-off event, say.
-- Mark a date **Unavailable**, with or without a time, to block it even though your weekly
-  pattern would normally say you're free — a trip, an exam, a day you already know you
-  can't make it.
-
-A specific date always overrides the weekly pattern for that day.
-
-## How this is used
-
-When a Coordinator or Administrator fills a rota role requirement, HolyCRM checks who's published
-availability that covers that slot and suggests them first — see
-[Ministries & Rotas](https://docs.holycrm.app/content/en/ministries.md). If no one has published availability for a given time,
-you'll see a note saying so instead of a wrong suggestion.
-
-## If you don't see this screen
-
-My Availability only appears if your login is linked to a member record in the
-congregation — see [My Profile](https://docs.holycrm.app/content/en/profile.md) under "My church info." Ask your church's Administrator
-or Coordinator if you think that's missing.
-
----
-
-Source: https://docs.holycrm.app/content/en/my-giving.md
-Section: Account
-
-# My Giving
-
-Your own giving history — visible to anyone whose login is linked to their own member
-record in the congregation, whatever their role (Member, Volunteer, Coordinator or Administrator). This is different from the [Giving](https://docs.holycrm.app/content/en/finance.md) screen
-staff use, which shows everyone's giving; My Giving only ever shows **yours**.
-
-## What you'll see
-
-Pick a **year**, and you'll see a total for that year plus a list of each individual gift
-— date, a short description, and amount.
-
-## If it says you have no giving history linked
-
-This means one of two things: no gifts have been recorded against your member record yet
-for the selected year, or your login isn't linked to a member record at all. If you think
-that's wrong, ask your church's Administrator or Coordinator — they can link your login to your
-member record from **Admin Settings → Users**.
-
-## Where your name and contact info come from
-
-My Giving always matches whoever your login is linked to. If your name looks wrong here,
-fix it on [My Profile](https://docs.holycrm.app/content/en/profile.md) under "My church info" — that's also where you can
-update your phone, address and other contact details.
-
----
-
 Source: https://docs.holycrm.app/content/en/faq.md
 Section: Support
 
@@ -2335,7 +2337,7 @@ already entered by hand.
 
 That member also has a HolyCRM login (they're a Volunteer, Coordinator or Administrator). Their login
 email and member-record email are kept in sync automatically, so editing it from the Members
-form would just get overwritten. Change it from **Admin Settings → Users** instead — see
+form would just get overwritten. Change it from **Settings → Users** instead — see
 [Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md).
 </details>
 

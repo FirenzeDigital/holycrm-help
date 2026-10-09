@@ -23,7 +23,7 @@ already entered by hand.
 
 That member also has a HolyCRM login (they're a Volunteer, Coordinator or Administrator). Their login
 email and member-record email are kept in sync automatically, so editing it from the Members
-form would just get overwritten. Change it from **Admin Settings → Users** instead — see
+form would just get overwritten. Change it from **Settings → Users** instead — see
 [Users, Roles & Permissions](#/users-roles).
 </details>
 

@@ -15,7 +15,7 @@ individual — data, uma breve descrição, e valor.
 Isso significa uma de duas coisas: ainda não foi registrada nenhuma oferta em seu nome
 para o ano escolhido, ou seu login não está vinculado a nenhum cadastro de membro. Se você
 acha que isso está errado, fale com o Administrador ou Coordenador da sua igreja — eles podem vincular
-seu login ao seu cadastro em **Configurações administrativas → Usuários**.
+seu login ao seu cadastro em **Configurações → Usuários**.
 
 ## De onde vêm seu nome e seus dados de contato
 

@@ -6,7 +6,7 @@ of your staff/volunteer team who needs access to HolyCRM itself.
 
 ## Inviting someone
 
-**Admin Settings → Users → Invite user**. Search for and pick an existing Member first (if
+**Settings → Users → Invite user**. Search for and pick an existing Member first (if
 they're already in your directory) — this links their login to their existing record instead
 of creating a duplicate person. If they're not a member yet, you can invite them with just a
 name and email instead.
@@ -63,7 +63,7 @@ My giving and My availability all come from it. In the Users list, people withou
 ## Custom permissions
 
 Each role comes with HolyCRM's recommended access. An Administrator can change it for your
-church under **Admin Settings → Custom User Access**:
+church under **Settings → Custom User Access**:
 
 1. Pick the role at the top (Coordinator, Volunteer or Member). A number next to a role shows
    how many screens you've customized for it.

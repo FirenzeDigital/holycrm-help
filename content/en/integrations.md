@@ -1,6 +1,6 @@
 # Integrations
 
-Under **Admin Settings → Integrations**, an Administrator can connect services your church
+Under **Settings → Integrations**, an Administrator can connect services your church
 already uses. Today that's **your own email server**: Announcements can send its emails through your
 church's own email account instead of HolyCRM's.
 
@@ -32,7 +32,7 @@ If you're not sure, ask whoever looks after your church's email for the "SMTP se
 
 ## Setting it up
 
-1. Go to **Admin Settings → Integrations**.
+1. Go to **Settings → Integrations**.
 2. Choose your **Provider**. This fills in the server and port for you, and shows a tip for
    that provider.
 3. Enter the **Username** and **Password**, the **From address** your emails should come

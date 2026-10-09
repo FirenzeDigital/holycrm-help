@@ -25,15 +25,17 @@ If you don't have a login yet, ask an admin or manager at your church to invite 
 
 The left-hand menu is grouped by topic:
 
-- **Overview** — the Dashboard (a snapshot of your church's activity) and the Calendar.
-- **People** — Members, Import Data, Small Groups, Visitors.
-- **Ministries & Rotas** — Ministries, Ministry Members, and volunteer scheduling ("rotas").
-- **Events** — one-time events and who's registered for them.
-- **Attendance** — general attendance, Check-in, and Kids Check-in.
-- **Communications** — Announcements (by email, app notification or webhook) and reusable Email Templates.
-- **Finance** — Giving, transactions, categories and the Finance Dashboard.
-- **Admin Settings** — Church Settings, Locations, Users, Tags, Data & Privacy.
-- **Account** — your own Profile.
+- **Overview** — the Dashboard, a snapshot of your church's activity.
+- **My space** — your own screens: My serving, My teams, My availability, My Giving and your
+  Profile. Volunteers and members see it right after the Dashboard; staff, near the bottom.
+- **People & care** — Members, Visitors, Welcome a visitor, Small groups and Prayer Requests.
+- **Sundays & serving** — Calendar, Events and registrations, Attendance, Check-in, Kids
+  Check-in, Ministries and volunteer schedules ("rotas").
+- **Outreach** — Announcements (by email, app notification or webhook), Email Templates, your
+  Church Website, Church Links and Giving Methods (your public giving page).
+- **Giving & reports** — Giving, transactions, categories, the Finance Dashboard and Reports.
+- **Settings** — one page with Church Settings, Locations, Tags, Custom Fields, Import Data,
+  Users, Custom User Access, Integrations, Billing and Data & Privacy.
 
 **You may not see every item.** What's visible depends on your role (Administrator, Coordinator,
 Volunteer or Member) and on any custom permission your church has set for you — see

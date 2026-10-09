@@ -7,7 +7,7 @@ automáticamente a partir de los datos que ya cargás en HolyCRM.
 
 ## Activarlo
 
-Andá a **Configuración de administración → Sitio web de la iglesia** y elegí un estilo en
+Andá a **Alcance → Sitio web de la iglesia** y elegí un estilo en
 **Sitio web**: **Modern**, **Classic**, **Minimal** o **Premium**. Al elegir uno se activa
 el sitio en una dirección web que queda lista al instante — no hay que configurar ninguna
 dirección antes. Dejarlo en blanco mantiene el sitio apagado.

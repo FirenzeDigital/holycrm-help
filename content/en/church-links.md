@@ -6,7 +6,7 @@ your address) instead of one link that only goes to your website.
 
 ## Turning it on
 
-Check **Public Links Page** on in **Admin Settings → Church Settings** — that's it, your
+Check **Public Links Page** on in **Settings → Church Settings** — that's it, your
 page has a web address the moment you do. Want it at your own domain instead of a HolyCRM
 one? See [Custom domain](#/church-website) — the same setup used for the Church Website
 also covers this page. The page's logo and brand color live on that Church Settings

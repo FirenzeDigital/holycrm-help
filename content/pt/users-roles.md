@@ -6,7 +6,7 @@ sessão; um utilizador é alguém da sua equipa/voluntariado que precisa de aces
 
 ## Convidar alguém
 
-**Configurações administrativas → Utilizadores → Convidar utilizador**. Procure e escolha
+**Definições → Utilizadores → Convidar utilizador**. Procure e escolha
 primeiro um Membro existente (se já estiver no seu diretório) — isto associa o acesso dele à
 ficha existente em vez de criar uma pessoa duplicada. Se ainda não for membro, pode convidá-lo
 apenas com nome e e-mail.
@@ -63,7 +63,7 @@ tem associação aparece como *Sem membro associado*.
 ## Permissões personalizadas
 
 Cada função vem com o acesso recomendado pelo HolyCRM. Um Administrador pode alterá-lo para a
-sua igreja em **Configurações de administração → Acesso personalizado do usuário**:
+sua igreja em **Definições → Acesso personalizado do usuário**:
 
 1. Escolha a função no topo (Coordenador, Voluntário ou Membro). Um número ao lado da função
    mostra quantos ecrãs personalizou para ela.

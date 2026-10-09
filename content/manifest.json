@@ -25,87 +25,67 @@
         "pt-BR": "Visão geral",
         "pt": "Visão geral"
       },
-      "pages": ["dashboard", "calendar", "calendar-sync", "reports"]
+      "pages": ["dashboard"]
     },
     {
       "id": "people",
       "label": {
-        "en": "People",
-        "es": "Personas",
-        "pt-BR": "Pessoas",
-        "pt": "Pessoas"
+        "en": "People & care",
+        "es": "Personas y cuidado",
+        "pt-BR": "Pessoas e cuidado",
+        "pt": "Pessoas e cuidado"
       },
-      "pages": ["members", "growth-ladder", "data-import", "groups", "visitors", "prayer-requests"]
+      "pages": ["members", "growth-ladder", "visitors", "groups", "prayer-requests"]
     },
     {
-      "id": "ministries_rotas",
+      "id": "sundays",
       "label": {
-        "en": "Ministries & Rotas",
-        "es": "Ministerios y turnos",
-        "pt-BR": "Ministérios e escalas",
-        "pt": "Ministérios e escalas"
+        "en": "Sundays & serving",
+        "es": "Cultos y servicio",
+        "pt-BR": "Cultos e serviço",
+        "pt": "Cultos e serviço"
       },
-      "pages": ["ministries", "rotas"]
+      "pages": ["calendar", "calendar-sync", "events", "attendance", "ministries", "rotas"]
     },
     {
-      "id": "events",
+      "id": "outreach",
       "label": {
-        "en": "Events",
-        "es": "Eventos",
-        "pt-BR": "Eventos",
-        "pt": "Eventos"
+        "en": "Outreach",
+        "es": "Alcance",
+        "pt-BR": "Alcance",
+        "pt": "Alcance"
       },
-      "pages": ["events"]
-    },
-    {
-      "id": "attendance",
-      "label": {
-        "en": "Attendance",
-        "es": "Asistencia",
-        "pt-BR": "Presença",
-        "pt": "Presença"
-      },
-      "pages": ["attendance"]
-    },
-    {
-      "id": "communications",
-      "label": {
-        "en": "Communications",
-        "es": "Comunicaciones",
-        "pt-BR": "Comunicações",
-        "pt": "Comunicações"
-      },
-      "pages": ["bulk-email", "church-links", "church-website", "getting-found"]
+      "pages": ["bulk-email", "church-website", "church-links", "getting-found", "online-giving"]
     },
     {
       "id": "finance",
       "label": {
-        "en": "Finance",
-        "es": "Finanzas",
-        "pt-BR": "Finanças",
-        "pt": "Finanças"
+        "en": "Giving & reports",
+        "es": "Ofrendas e informes",
+        "pt-BR": "Ofertas e relatórios",
+        "pt": "Ofertas e relatórios"
       },
-      "pages": ["finance", "online-giving"]
-    },
-    {
-      "id": "admin",
-      "label": {
-        "en": "Admin Settings",
-        "es": "Configuración de administración",
-        "pt-BR": "Configurações administrativas",
-        "pt": "Configurações administrativas"
-      },
-      "pages": ["church-settings", "users-roles", "tags", "integrations", "data-privacy", "security", "plans-billing"]
+      "pages": ["finance", "reports"]
     },
     {
       "id": "account",
       "label": {
-        "en": "Account",
-        "es": "Cuenta",
-        "pt-BR": "Conta",
-        "pt": "Conta"
+        "en": "My space",
+        "es": "Mi espacio",
+        "pt-BR": "Meu espaço",
+        "pt": "O meu espaço"
       },
       "pages": ["profile", "notifications", "my-teams", "my-serving", "my-availability", "my-giving"]
+    },
+    {
+      "id": "admin",
+      "label": {
+        "en": "Settings",
+        "es": "Configuración",
+        "pt-BR": "Configurações",
+        "pt": "Definições"
+      },
+      "pages": ["church-settings", "users-roles", "tags", "data-import", "integrations", "data-privacy", "security", "plans-billing"]
     },
     {
       "id": "support",
@@ -129,11 +109,21 @@
       "file": "getting-started.md"
     },
     "dashboard": {
-      "title": { "en": "Dashboard", "es": "Panel principal", "pt-BR": "Painel", "pt": "Painel" },
+      "title": {
+        "en": "Dashboard",
+        "es": "Panel principal",
+        "pt-BR": "Painel",
+        "pt": "Painel"
+      },
       "file": "dashboard.md"
     },
     "calendar": {
-      "title": { "en": "Calendar", "es": "Calendario", "pt-BR": "Calendário", "pt": "Calendário" },
+      "title": {
+        "en": "Calendar",
+        "es": "Calendario",
+        "pt-BR": "Calendário",
+        "pt": "Calendário"
+      },
       "file": "calendar.md"
     },
     "calendar-sync": {
@@ -146,11 +136,21 @@
       "file": "calendar-sync.md"
     },
     "reports": {
-      "title": { "en": "Reports", "es": "Informes", "pt-BR": "Relatórios", "pt": "Relatórios" },
+      "title": {
+        "en": "Reports",
+        "es": "Informes",
+        "pt-BR": "Relatórios",
+        "pt": "Relatórios"
+      },
       "file": "reports.md"
     },
     "members": {
-      "title": { "en": "Members", "es": "Miembros", "pt-BR": "Membros", "pt": "Membros" },
+      "title": {
+        "en": "Members",
+        "es": "Miembros",
+        "pt-BR": "Membros",
+        "pt": "Membros"
+      },
       "file": "members.md"
     },
     "growth-ladder": {
@@ -181,7 +181,12 @@
       "file": "groups.md"
     },
     "visitors": {
-      "title": { "en": "Visitors", "es": "Visitantes", "pt-BR": "Visitantes", "pt": "Visitantes" },
+      "title": {
+        "en": "Visitors",
+        "es": "Visitantes",
+        "pt-BR": "Visitantes",
+        "pt": "Visitantes"
+      },
       "file": "visitors.md"
     },
     "ministries": {
@@ -320,11 +325,21 @@
       "file": "plans-billing.md"
     },
     "profile": {
-      "title": { "en": "My Profile", "es": "Mi perfil", "pt-BR": "Meu perfil", "pt": "O meu perfil" },
+      "title": {
+        "en": "My Profile",
+        "es": "Mi perfil",
+        "pt-BR": "Meu perfil",
+        "pt": "O meu perfil"
+      },
       "file": "profile.md"
     },
     "notifications": {
-      "title": { "en": "Notifications", "es": "Notificaciones", "pt-BR": "Notificações", "pt": "Notificações" },
+      "title": {
+        "en": "Notifications",
+        "es": "Notificaciones",
+        "pt-BR": "Notificações",
+        "pt": "Notificações"
+      },
       "file": "notifications.md"
     },
     "my-availability": {
@@ -337,11 +352,21 @@
       "file": "my-availability.md"
     },
     "my-teams": {
-      "title": { "en": "My Teams (for leaders)", "es": "Mis equipos (para líderes)", "pt-BR": "Minhas equipes (para líderes)", "pt": "As minhas equipas (para líderes)" },
+      "title": {
+        "en": "My Teams (for leaders)",
+        "es": "Mis equipos (para líderes)",
+        "pt-BR": "Minhas equipes (para líderes)",
+        "pt": "As minhas equipas (para líderes)"
+      },
       "file": "my-teams.md"
     },
     "my-giving": {
-      "title": { "en": "My Giving", "es": "Mis ofrendas", "pt-BR": "Minhas ofertas", "pt": "As minhas ofertas" },
+      "title": {
+        "en": "My Giving",
+        "es": "Mis ofrendas",
+        "pt-BR": "Minhas ofertas",
+        "pt": "As minhas ofertas"
+      },
       "file": "my-giving.md"
     },
     "getting-found": {

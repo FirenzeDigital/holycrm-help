@@ -15,7 +15,7 @@ individual — data, uma breve descrição, e valor.
 Isto significa uma de duas coisas: ainda não foi registada nenhuma oferta em seu nome para
 o ano escolhido, ou o seu acesso não está associado a nenhuma ficha de membro. Se lhe
 parecer que está errado, fale com o Administrador ou Coordenador da sua igreja — podem associar o seu
-acesso à sua ficha em **Configurações administrativas → Utilizadores**.
+acesso à sua ficha em **Definições → Utilizadores**.
 
 ## De onde vêm o seu nome e os seus dados de contacto
 
