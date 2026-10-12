@@ -3,7 +3,7 @@
 // is a separate, fully self-contained static folder: no backend, no build
 // step, openable straight off disk (file://) or from any raw static host.
 // Content lives as data, not files to fetch: assets/content-data.js (generated
-// from help/content/**/*.md by help/generate-content-data.js) sets
+// from content/**/*.md by generate-content-data.js) sets
 // window.HELP_CONTENT_DATA = { manifest, files } before this script runs.
 // Browsers block fetch() of local files under file://, so content is never
 // fetched at runtime — only read from that inline object.
