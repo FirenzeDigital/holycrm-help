@@ -8,6 +8,17 @@ Esta Central de Ajuda busca responder dois tipos de perguntas: *"como eu faço X
 está começando, e *"por que funciona assim"* quando algo não se comporta como esperado. Use a
 busca acima, ou navegue por tópico no menu lateral.
 
+## Criando a sua igreja
+
+1. Abra a página de cadastro (**Comece com a sua igreja** em holycrm.app) e preencha o nome da
+   igreja, o seu e-mail e o fuso horário (já vem o do seu dispositivo), e aceite os termos. O
+   app completo é grátis por 30 dias, sem cartão.
+2. Se o seu e-mail é do Google (Gmail ou Google Workspace), clique em **Continuar com o
+   Google** e pronto. Se não, abra o e-mail que enviamos, escolha uma senha e o app abre na
+   hora. Não chegou? Clique em **Não recebeu o e-mail? Enviar de novo** (e confira o spam).
+3. No Painel, o cartão **Primeiros passos** tem um botão **Configure sua igreja** e uma
+   pequena lista de tarefas — veja "Uma primeira semana típica" abaixo.
+
 ## Fazendo login
 
 1. Acesse a tela de login da sua igreja e informe seu **e-mail e senha**. Se você usa o
@@ -20,7 +31,8 @@ busca acima, ou navegue por tópico no menu lateral.
    usar essa tela para descobrir quem tem uma conta.
 
 Se você ainda não tem um login, peça a um administrador ou gestor da sua igreja para te
-convidar — veja [Usuários, funções e permissões](#/users-roles).
+convidar — veja [Usuários, funções e permissões](#/users-roles). O link do e-mail de
+convite permite escolher uma senha e leva você direto para o app.
 
 ## Como se localizar no app
 
@@ -68,9 +80,11 @@ pouco desta tabela.
 
 ## Uma primeira semana típica
 
-1. **Configurações da igreja** — defina o nome da sua igreja, fuso horário, moeda padrão e,
-   opcionalmente, um logo. Veja
-   [Configurações da igreja e locais](#/church-settings).
+1. **Configure sua igreja** — o botão do cartão **Primeiros passos** no Painel guia você pelo
+   logo, fuso horário, idioma dos e-mails, moeda, sua unidade principal, as primeiras pessoas
+   e a sua equipe. Pule qualquer etapa e faça depois. Tudo também está em
+   [Configurações da igreja e locais](#/church-settings). A lista abaixo do botão mostra o
+   que falta, como adicionar o seu próprio nome.
 2. **Traga suas pessoas** — adicione [Membros](#/members) um a um, ou use
    [Importar dados](#/data-import) para trazer uma planilha que você já tenha.
 3. **Configure Locais** se sua igreja se reúne em mais de um lugar — necessário para fusos

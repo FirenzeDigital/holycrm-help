@@ -28,6 +28,17 @@ Esta Central de Ajuda busca responder dois tipos de perguntas: *"como eu faço X
 está começando, e *"por que funciona assim"* quando algo não se comporta como esperado. Use a
 busca acima, ou navegue por tópico no menu lateral.
 
+## Criando a sua igreja
+
+1. Abra a página de cadastro (**Comece com a sua igreja** em holycrm.app) e preencha o nome da
+   igreja, o seu e-mail e o fuso horário (já vem o do seu dispositivo), e aceite os termos. O
+   app completo é grátis por 30 dias, sem cartão.
+2. Se o seu e-mail é do Google (Gmail ou Google Workspace), clique em **Continuar com o
+   Google** e pronto. Se não, abra o e-mail que enviamos, escolha uma senha e o app abre na
+   hora. Não chegou? Clique em **Não recebeu o e-mail? Enviar de novo** (e confira o spam).
+3. No Painel, o cartão **Primeiros passos** tem um botão **Configure sua igreja** e uma
+   pequena lista de tarefas — veja "Uma primeira semana típica" abaixo.
+
 ## Fazendo login
 
 1. Acesse a tela de login da sua igreja e informe seu **e-mail e senha**. Se você usa o
@@ -40,7 +51,8 @@ busca acima, ou navegue por tópico no menu lateral.
    usar essa tela para descobrir quem tem uma conta.
 
 Se você ainda não tem um login, peça a um administrador ou gestor da sua igreja para te
-convidar — veja [Usuários, funções e permissões](https://docs.holycrm.app/content/pt-BR/users-roles.md).
+convidar — veja [Usuários, funções e permissões](https://docs.holycrm.app/content/pt-BR/users-roles.md). O link do e-mail de
+convite permite escolher uma senha e leva você direto para o app.
 
 ## Como se localizar no app
 
@@ -88,9 +100,11 @@ pouco desta tabela.
 
 ## Uma primeira semana típica
 
-1. **Configurações da igreja** — defina o nome da sua igreja, fuso horário, moeda padrão e,
-   opcionalmente, um logo. Veja
-   [Configurações da igreja e locais](https://docs.holycrm.app/content/pt-BR/church-settings.md).
+1. **Configure sua igreja** — o botão do cartão **Primeiros passos** no Painel guia você pelo
+   logo, fuso horário, idioma dos e-mails, moeda, sua unidade principal, as primeiras pessoas
+   e a sua equipe. Pule qualquer etapa e faça depois. Tudo também está em
+   [Configurações da igreja e locais](https://docs.holycrm.app/content/pt-BR/church-settings.md). A lista abaixo do botão mostra o
+   que falta, como adicionar o seu próprio nome.
 2. **Traga suas pessoas** — adicione [Membros](https://docs.holycrm.app/content/pt-BR/members.md) um a um, ou use
    [Importar dados](https://docs.holycrm.app/content/pt-BR/data-import.md) para trazer uma planilha que você já tenha.
 3. **Configure Locais** se sua igreja se reúne em mais de um lugar — necessário para fusos
@@ -273,7 +287,8 @@ usuário.
 ## Trazendo membros que você já tem
 
 Não digite todo o seu diretório de novo à mão — veja [Importar dados](https://docs.holycrm.app/content/pt-BR/data-import.md) para
-trazer uma planilha.
+trazer uma planilha. Alguém foi cadastrado duas vezes?
+[Encontrar duplicados](https://docs.holycrm.app/content/pt-BR/find-duplicates.md) mescla os dois cadastros em um.
 
 ## Pesquisando e filtrando
 
@@ -1958,68 +1973,162 @@ Section: Configurações
 # Importar dados
 
 Se sua igreja já tem uma lista de membros em uma planilha, o Importar dados permite trazê-la
-em vez de digitar tudo à mão. Por enquanto, importa **somente Membros**.
+em vez de digitar tudo de novo. Ele importa **Membros**.
+
+## Antes de começar
+
+- **Use o seu arquivo do jeito que está.** Funcionam arquivos do Excel (`.xlsx`, `.xls`),
+  LibreOffice (`.ods`) e CSV. As colunas podem ter qualquer nome e estar em qualquer ordem, e
+  pode haver colunas a mais: na próxima etapa você escolhe o que cada uma preenche.
+- **Começando do zero?** Clique em **Baixar modelo** (Excel ou CSV). Ele tem as colunas
+  certas, uma linha de exemplo e, na versão do Excel, uma aba de *Instruções* que diz o que
+  escrever em cada coluna. Preencha e importe aqui.
+- **Primeiro os campos personalizados.** Se o seu arquivo tem informações para as quais o
+  HolyCRM não tem um campo (data de batismo, turma de membresia…), crie um campo
+  personalizado em **Configurações → Campos personalizados** (app completo) antes de
+  importar. Assim ele aparece na lista de colunas e no modelo. A tela de Importar dados
+  mostra os campos personalizados que você já tem.
 
 ## As quatro etapas
 
 ### 1. Enviar arquivo
 
-Exporte sua planilha como **arquivo CSV** (do Excel, Google Sheets, ou quase qualquer outro
-sistema de igreja) e envie aqui. Arquivos com mais de **500 linhas** são recusados de cara —
-divida um arquivo maior e importe em lotes.
+Envie o arquivo. Se um Excel tiver várias abas com dados, escolha a que tem as suas pessoas.
+A primeira linha deve ser a dos cabeçalhos. Arquivos com mais de **500 linhas** são
+recusados: divida um arquivo maior e importe em partes.
 
-### 2. Associar suas colunas
+### 2. Associar colunas
 
-Para cada coluna do seu arquivo, escolha a qual campo do HolyCRM ela corresponde (primeiro
-nome, sobrenome, e-mail, telefone, data de nascimento, status, tags, e mais). O HolyCRM
-tenta adivinhar associações razoáveis a partir dos cabeçalhos das suas colunas (incluindo
-alguns cabeçalhos comuns em português, como "Sobrenome"), mas sempre confira essas sugestões
-antes de continuar.
+Para cada coluna do seu arquivo, escolha qual campo do HolyCRM ela preenche — nome,
+sobrenome, e-mail, telefone, data de nascimento, situação, etiquetas, unidade, seus campos
+personalizados e mais — ou **Não importar**. O HolyCRM sugere as associações a partir dos
+cabeçalhos, em português, espanhol ou inglês ("Sobrenome", "Apellido", "Celular"…), e um
+modelo preenchido se associa sozinho. Ao lado de cada coluna aparecem alguns dos seus
+valores, para você conferir o que há de fato nas células.
 
-Uma amostra dos valores reais de cada coluna é exibida ao lado, já que um cabeçalho sozinho
-("Status", "Estado") nem sempre diz o que realmente está nas células.
+**Nome** e **Sobrenome** são os únicos campos obrigatórios.
 
-**Primeiro nome** e **Sobrenome** são as únicas associações obrigatórias — tudo o mais é
-opcional.
+### 3. Prévia
 
-### 3. Pré-visualização
-
-Veja exatamente o que será criado — nome, e-mail, e um status por linha:
-
-- **Pronto** — vai importar sem problemas.
-- **Pronto com aviso** — algo secundário foi ignorado (por exemplo, uma data ilegível), a
-  linha ainda assim é importada.
-- **Erro** — falta o primeiro nome ou o sobrenome; essa linha será totalmente ignorada.
+Veja cada linha exatamente como será salva, com todas as colunas que você associou. Cada
+linha mostra se está **Pronta**, pronta com um **aviso** (algo pequeno ficou em branco, como
+uma data ilegível; a linha é importada mesmo assim) ou tem um **erro** (falta o nome ou o
+sobrenome; a linha é ignorada). Com **Mostrar** você vê só as linhas com avisos, com erros
+ou as pessoas que já estão no HolyCRM.
 
 ### 4. Importar
 
-As linhas são criadas aos poucos, com uma contagem de progresso ao vivo. Ao terminar, você vai
-ver um resumo de criados/ignorados com o motivo de cada linha ignorada.
+As linhas são salvas aos poucos, com uma contagem ao vivo. No fim você vê quantas pessoas
+foram criadas, atualizadas e ignoradas, e o motivo do que tiver falhado.
 
-## Bom saber antes de importar
+## Pessoas que já estão no HolyCRM
 
-- **Não há detecção de duplicados.** Toda importação cria registros de membro totalmente
-  novos — não há comparação com pessoas que já estejam no seu diretório. Se não tiver
-  certeza se alguém já está no HolyCRM, verifique antes; importá-lo de novo cria um segundo
-  registro.
-- **Tags são criadas automaticamente** se o nome de uma tag no seu arquivo ainda não existir
-  na sua igreja.
-- **Locais são associados só pelo nome, nunca criados automaticamente.** Se o nome de um
-  local no seu arquivo não corresponder a um que você já tenha configurado, esse campo fica
-  em branco para aquela linha (com um aviso) em vez de criar um registro de local mal
-  configurado.
-- **Datas**: o HolyCRM tenta ler as datas de nascimento tanto no formato dia-primeiro quanto
-  mês-primeiro, mas é uma estimativa de melhor esforço — vale a pena conferir algumas datas de
-  nascimento depois de uma importação real.
-- O status de menor de idade (`is_minor`) é calculado automaticamente a partir da data de
-  nascimento importada, usando a idade limite configurada pela sua igreja — veja
-  [Membros](https://docs.holycrm.app/content/pt-BR/members.md).
+A prévia compara cada linha com o seu cadastro:
+
+- **Mesma pessoa** — o mesmo e-mail, o mesmo telefone (mesmo escrito de outro jeito:
+  `+55 11 91234-5678` e `11 91234 5678` coincidem) ou o mesmo nome e sobrenome (acentos e
+  maiúsculas não importam).
+- **Possível correspondência** — um nome parecido: um erro de digitação
+  ("Jonatan" / "Jonathan"), um apelido ("Zé" / "José", "Chico" / "Francisco"), um nome curto
+  ("Bia" / "Beatriz", "Joãozinho" / "João") ou um de dois sobrenomes
+  ("Maria Silva" / "Maria Silva Santos").
+
+Para as linhas da **mesma pessoa**, você escolhe uma vez o que acontece com todas:
+
+- **Ignorar** (o padrão) — os cadastros existentes ficam como estão.
+- **Atualizar as pessoas existentes** — preenche as colunas do seu arquivo. Células vazias
+  nunca apagam nada, as etiquetas são somadas às que a pessoa já tem e **o nome nunca muda**.
+- **Importar mesmo assim como pessoas novas.**
+
+As **possíveis correspondências** são importadas como pessoas novas, a menos que você
+escolha outra opção, porque um nome parecido pode ser outra pessoa. Além disso, cada linha
+com correspondência tem a sua própria opção na tabela — **Ignorar**, **Atualizar esta
+pessoa** ou **Importar como nova** —, para você decidir uma a uma.
+
+Se a mesma pessoa aparece duas vezes no seu arquivo, a segunda linha mostra um aviso
+("Parece a linha 4"). As duas são importadas, então apague uma do arquivo se for o caso.
+Para arrumar pessoas que já foram cadastradas duas vezes, use
+[Encontrar duplicados](https://docs.holycrm.app/content/pt-BR/find-duplicates.md); a tela final tem um botão para abri-lo.
+
+## Bom saber
+
+- **As etiquetas são criadas automaticamente** se o nome de uma etiqueta do arquivo ainda
+  não existe.
+- **As unidades são buscadas pelo nome e nunca criadas.** Se uma unidade do arquivo não
+  coincide com uma que você configurou, essa célula fica em branco, com um aviso.
+- **Datas:** uma célula de data do Excel é lida exatamente. Datas digitadas como texto são
+  lidas como dia-mês ou mês-dia da melhor forma possível, então confira algumas datas de
+  nascimento depois de importar. Um CSV guarda datas e números longos como a planilha os
+  *exibia* (`3/7/85`, `5,49E+12`), então, quando puder, envie o próprio Excel.
+- **Os campos personalizados** são lidos pelo seu tipo: um número, uma data, sim/não ou uma
+  das opções de um campo de lista. Um valor que não se encaixa fica em branco, com um aviso.
+- A condição de menor de idade é calculada com a data de nascimento e a idade-limite da sua
+  igreja — veja [Membros](https://docs.holycrm.app/content/pt-BR/members.md).
 
 ## O que ainda não faz
 
-Importar qualquer coisa além de Membros (Visitantes, histórico de ofertas, etc.), arquivos
-Excel `.xlsx` diretamente (exporte para CSV primeiro), ou combinar/atualizar registros
-existentes em vez de sempre criar novos.
+Importar algo que não sejam Membros (visitantes, histórico de ofertas…) ou mais de 500
+linhas de uma vez.
+
+---
+
+Source: https://docs.holycrm.app/content/pt-BR/find-duplicates.md
+Section: Configurações
+
+# Encontrar duplicados
+
+Às vezes a mesma pessoa acaba cadastrada duas vezes: foi importada de duas listas,
+cadastrada uma vez como "Zé" e outra como "José", ou registrada na entrada e de novo na
+secretaria. **Encontrar duplicados** (em **Configurações**) mostra essas pessoas lado a lado
+para você mesclá-las em um só cadastro.
+
+Administradores e Coordenadores podem usar: quem pode editar e excluir membros.
+
+## O que encontra
+
+- **Mesmo e-mail**, **mesmo telefone** (mesmo escrito de outro jeito) ou **mesmo nome** —
+  quase com certeza é a mesma pessoa.
+- **Nome parecido** — um erro de digitação ("Jonatan" / "Jonathan"), um apelido ("Zé" /
+  "José", "Chico" / "Francisco"), um nome curto ("Bia" / "Beatriz", "Joãozinho" / "João") ou
+  um de dois sobrenomes ("Maria Silva" / "Maria Silva Santos"). Esses vêm marcados com
+  **Confira antes de mesclar**: dois irmãos ou mãe e filha podem ter nomes muito parecidos.
+
+## Mesclar dois cadastros
+
+1. Compare os dois cartões: nome, e-mail, telefone, data de nascimento, situação, quando cada
+   um foi cadastrado e se algum tem acesso ao HolyCRM.
+2. Escolha **Manter esta** no cadastro que quer manter. O HolyCRM escolhe o que tem acesso
+   ou, se não houver, o mais antigo, mas você pode mudar.
+3. Clique em **Mesclar** e confirme.
+
+Ao mesclar:
+
+- **Tudo o que está ligado ao outro cadastro passa para o que você mantém:** presenças e
+  check-ins, células e ministérios, datas de serviço e confirmações, ofertas, inscrições em
+  eventos, responsáveis e filhos, atribuições de visitantes e de pedidos de oração, e o
+  acesso.
+- **Os campos vazios são preenchidos** com o outro cadastro (um e-mail, um telefone, uma data
+  de nascimento…). Etiquetas e responsáveis são somados, as observações são juntadas e os
+  campos personalizados são combinados. Quando os dois têm um valor, fica o do cadastro que
+  você mantém.
+- Se as duas pessoas estavam no mesmo grupo, evento ou culto, ficam lá **uma vez só**.
+- O outro cadastro é excluído. **Não pode ser desfeito**, então confira o par antes.
+
+**As duas têm acesso?** Não dá para mesclar até remover um. Vá em
+[Usuários](https://docs.holycrm.app/content/pt-BR/users-roles.md), remova o acesso que sobra e depois mescle.
+
+## Não é a mesma pessoa
+
+Se o par são duas pessoas diferentes, clique em **Não é a mesma pessoa** e ele some da
+lista. Isso fica salvo só naquele dispositivo e navegador: outro administrador, ou você em
+outro computador, pode ver o par de novo.
+
+## Dicas
+
+- Depois de [importar](https://docs.holycrm.app/content/pt-BR/data-import.md), a tela final tem um botão **Encontrar duplicados**.
+- A lista mostra 25 pares por vez; **Mostrar mais** carrega os próximos.
+- Importar de novo não cria duplicados de quem já está cadastrado: a prévia da importação
+  identifica essas pessoas e deixa você ignorá-las ou atualizá-las.
 
 ---
 

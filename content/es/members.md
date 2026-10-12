@@ -54,7 +54,8 @@ email completo — elegí el rol y enviá. El botón no aparece en miembros que 
 ## Traer los miembros que ya tenés
 
 No vuelvas a tipear todo tu directorio a mano — ver [Importar datos](#/data-import) para
-traer una planilla.
+traer una planilla. ¿Alguien quedó cargado dos veces? [Buscar duplicados](#/find-duplicates)
+une los dos registros en uno.
 
 ## Buscar y filtrar
 

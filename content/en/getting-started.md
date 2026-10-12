@@ -7,6 +7,18 @@ This Help Center is meant to answer two kinds of questions: *"how do I do X"* wh
 just getting started, and *"why does it work this way"* when something doesn't behave the
 way you expected. Use the search box above, or browse by topic in the sidebar.
 
+## Starting your church
+
+1. Open the signup page (**Start your church** on holycrm.app) and fill in your church's name,
+   your email and your timezone (already set to your device's), then accept the terms. The
+   full app is free for 30 days, no card.
+2. If your email is a Google one (Gmail or Google Workspace), click **Continue with Google**
+   and you're in. Otherwise, open the email we sent you, choose a password, and the app opens
+   straight away. No email? Click **Didn't get the email? Send it again** (check your spam
+   folder too).
+3. On the Dashboard, the **Getting started** card has a **Set up your church** button and a
+   short checklist — see "A typical first week" below.
+
 ## Logging in
 
 1. Go to your church's HolyCRM login page and enter your **email and password**. If you use
@@ -19,7 +31,8 @@ way you expected. Use the search box above, or browse by topic in the sidebar.
    that screen to check who has an account.
 
 If you don't have a login yet, ask an admin or manager at your church to invite you — see
-[Users, Roles & Permissions](#/users-roles).
+[Users, Roles & Permissions](#/users-roles). The invitation email's link lets you choose a
+password and takes you straight into the app.
 
 ## Finding your way around
 
@@ -62,8 +75,11 @@ the table above.
 
 ## A typical first week
 
-1. **Church Settings** — set your church's name, timezone, default currency and (optionally)
-   a logo. See [Church Settings & Locations](#/church-settings).
+1. **Set up your church** — the button on the Dashboard's **Getting started** card walks you
+   through your logo, timezone, email language, currency, your main location, your first
+   people and your team. Skip any step and do it later. Everything is also in
+   [Church Settings & Locations](#/church-settings). The checklist under the button shows
+   what's left, such as adding your own name.
 2. **Bring in your people** — either add [Members](#/members) one at a time, or use
    [Import Data](#/data-import) to bring in a spreadsheet you already have.
 3. **Set up Locations** if your church meets in more than one place — needed for accurate

@@ -8,6 +8,18 @@ Este Centro de ayuda busca responder dos tipos de preguntas: *"¿cómo hago X?"*
 empiezas, y *"¿por qué funciona así?"* cuando algo no se comporta como esperabas. Usá el
 buscador de arriba, o navegá por tema en el menú lateral.
 
+## Crear tu iglesia
+
+1. Abrí la página de registro (**Empezá con tu iglesia** en holycrm.app) y completá el nombre de tu
+   iglesia, tu correo y la zona horaria (ya viene elegida la de tu dispositivo), y aceptá los
+   términos. La app completa es gratis por 30 días, sin tarjeta.
+2. Si tu correo es de Google (Gmail o Google Workspace), tocá **Continuar con Google** y ya
+   entrás. Si no, abrí el correo que te mandamos, elegí una contraseña y la app se abre en el
+   momento. ¿No te llegó? Tocá **¿No te llegó el correo? Enviarlo de nuevo** (y revisá
+   también el spam).
+3. En el Panel principal, la tarjeta **Primeros pasos** tiene un botón **Configurá tu
+   iglesia** y una lista corta de tareas — ver "Una primera semana típica" más abajo.
+
 ## Iniciar sesión
 
 1. Entrá a la página de acceso de tu iglesia e ingresá tu **correo y contraseña**. Si usás
@@ -20,7 +32,8 @@ buscador de arriba, o navegá por tema en el menú lateral.
    nadie pueda usar esa pantalla para averiguar quién tiene una cuenta.
 
 Si todavía no tenés un acceso, pedile a un administrador o gestor de tu iglesia que te
-invite — ver [Usuarios, roles y permisos](#/users-roles).
+invite — ver [Usuarios, roles y permisos](#/users-roles). El enlace del correo de
+invitación te deja elegir una contraseña y te lleva directo a la app.
 
 ## Cómo moverte por la app
 
@@ -68,9 +81,11 @@ levemente de esta tabla.
 
 ## Una primera semana típica
 
-1. **Configuración de la iglesia** — definí el nombre de tu iglesia, la zona horaria, la
-   moneda por defecto y, si querés, un logo. Ver
-   [Configuración de la iglesia y sedes](#/church-settings).
+1. **Configurá tu iglesia** — el botón de la tarjeta **Primeros pasos** del Panel principal te
+   guía con el logo, la zona horaria, el idioma de los correos, la moneda, tu sede principal,
+   tus primeras personas y tu equipo. Podés saltear cualquier paso y hacerlo después. Todo
+   está también en [Configuración de la iglesia y sedes](#/church-settings). La lista debajo
+   del botón muestra lo que falta, como agregar tu propio nombre.
 2. **Sumá a tu gente** — agregá [Miembros](#/members) uno por uno, o usá
    [Importar datos](#/data-import) para traer una planilla que ya tengas.
 3. **Configurá Sedes** si tu iglesia se reúne en más de un lugar — necesario para que las

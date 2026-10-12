@@ -49,7 +49,8 @@ in — choose the role and send. The button doesn't show for members who already
 ## Bringing in members you already have
 
 Don't retype your whole directory by hand — see [Import Data](#/data-import) to bring in a
-spreadsheet.
+spreadsheet. Someone ended up in the directory twice? [Find Duplicates](#/find-duplicates)
+merges the two records into one.
 
 ## Searching and filtering
 

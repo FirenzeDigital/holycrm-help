@@ -1,61 +1,97 @@
 # Import Data
 
 If your church already has a member list in a spreadsheet, Import Data lets you bring it in
-instead of retyping everyone by hand. It currently imports **Members only**.
+instead of retyping everyone by hand. It imports **Members**.
+
+## Before you start
+
+- **Use your file as it is.** Excel (`.xlsx`, `.xls`), LibreOffice (`.ods`) and CSV files
+  all work. The columns can have any names and be in any order, and extra columns are fine:
+  you choose what each one fills in the next step.
+- **Starting from scratch?** Click **Download template** (Excel or CSV). It has the right
+  columns, an example row and, in the Excel version, an *Instructions* sheet saying what to
+  write in each column. Fill it in and import it here.
+- **Custom fields first.** If your file has information HolyCRM has no field for (a baptism
+  date, a membership class…), create a custom field for it in **Settings → Custom Fields**
+  (full app) before importing. It then appears in the column list and in the template. The
+  Import Data screen lists the custom fields you already have.
 
 ## The four steps
 
 ### 1. Upload
 
-Export your spreadsheet as a **CSV file** (from Excel, Google Sheets, or almost any other
-church system) and upload it here. Files over **500 rows** are rejected up front — split a
-larger file and import it in batches.
+Upload the file. If an Excel file has several sheets with data, pick the one with your
+people. The first row should be the column headers. Files over **500 rows** are rejected:
+split a larger file and import it in batches.
 
-### 2. Map your columns
+### 2. Match your columns
 
-For every column in your file, choose which HolyCRM field it should fill (first name, last
-name, email, phone, birthdate, status, tags, and more). HolyCRM guesses sensible matches
-automatically from your column headers (including some common Spanish/Portuguese headers
-like "Apellido" or "Nome"), but always double-check the guesses before continuing.
+For every column in your file, choose which HolyCRM field it fills — first name, last name,
+email, phone, birth date, status, tags, location, your custom fields and more — or
+**Don't import**. HolyCRM guesses the matches from your headers, in English, Spanish or
+Portuguese ("Apellido", "Nome", "Celular"…), and a filled-in template matches itself. A
+sample of each column's values is shown next to it, so you can check what's really in the
+cells.
 
-A sample of each column's actual values is shown next to it, since a header alone
-("Status", "Estado") doesn't always tell you what's really in the cells.
-
-**First name** and **last name** are the only required mappings — everything else is
-optional.
+**First name** and **last name** are the only required fields.
 
 ### 3. Preview
 
-See exactly what will be created — name, email, and a status per row:
-
-- **Ready** — will import cleanly.
-- **Ready with a warning** — something minor was skipped (e.g. an unreadable date), the row
-  still imports.
-- **Error** — missing first or last name; this row will be skipped entirely.
+See every row exactly as it will be saved, with all the columns you matched. Each row shows
+whether it's **Ready**, ready with a **warning** (something small was left blank, like an
+unreadable date; the row still imports), or has an **error** (no first or last name; the row
+is skipped). Use **Show** to see only the rows with warnings, with errors, or people who are
+already in HolyCRM.
 
 ### 4. Import
 
-Rows are created a few at a time with a live progress count. When it's done you'll see a
-created/skipped summary with the reason for every skip.
+Rows are saved a few at a time with a live count. At the end you see how many people were
+created, updated and skipped, and the reason for anything that failed.
 
-## Good to know before you import
+## People who are already in HolyCRM
 
-- **No duplicate checking.** Every import creates brand-new member records — there's no
-  matching against people already in your directory. If you're not sure whether someone's
-  already in HolyCRM, check first; importing them again creates a second record.
-- **Tags are created automatically** if a tag name in your file doesn't already exist in
-  your church.
-- **Locations are matched by name only, never created automatically.** If a location name
-  in your file doesn't match one you've already set up, that field is left blank for that
-  row (with a warning) rather than creating a half-configured location record.
-- **Dates**: HolyCRM does its best to read birthdates in either day-first or month-first
-  format, but this is a best-effort guess — it's worth spot-checking a few birthdates after
-  a real import.
-- Minor status (`is_minor`) is worked out automatically from the imported birthdate using
-  your church's configured age cutoff — see [Members](#/members).
+The preview checks every row against your directory:
+
+- **Same person** — the same email, the same phone number (even written differently:
+  `+54 9 11 5555-1234` and `11 5555 1234` match), or the same first and last name (accents
+  and capitals don't matter).
+- **Possible match** — a similar name: a typo ("Jonatan" / "Jonathan"), a nickname
+  ("Pepe" / "José", "Bill" / "William"), a short name ("Ale" / "Alejandra",
+  "Juanito" / "Juan"), or one surname of two ("María López" / "María López García").
+
+For the **same person** rows, choose once what happens to all of them:
+
+- **Skip them** (the default) — the existing records stay as they are.
+- **Update the existing people** — fills in the columns from your file. Blank cells never
+  erase anything, tags are added to the ones the person already has, and the person's
+  **name is never changed**.
+- **Import them as new people anyway.**
+
+**Possible matches** are imported as new people unless you choose otherwise, because a
+similar name can be a different person. Every matched row also has its own choice in the
+table — **Skip**, **Update this person** or **Import as new** — so you can decide one by
+one.
+
+If the same person appears twice in your file, the second row shows a warning
+("Looks like row 4"). Both rows are imported, so delete one from your file if needed. To
+clean up people who were already entered twice, use [Find Duplicates](#/find-duplicates);
+the summary screen has a button to open it.
+
+## Good to know
+
+- **Tags are created automatically** if a tag name in your file doesn't exist yet.
+- **Locations are matched by name, never created.** If a location in your file doesn't
+  match one you've set up, that cell is left blank, with a warning.
+- **Dates:** a date cell from Excel is read exactly. Dates typed as text are read as
+  day-first or month-first on a best-effort basis, so spot-check a few birthdates after
+  importing. A CSV file keeps dates and long numbers the way the spreadsheet *displayed*
+  them (`3/7/85`, `5.49E+12`), so upload the Excel file itself when you can.
+- **Custom fields** are read by their type: a number, a date, yes/no, or one of the choices
+  of a list field. A value that doesn't fit is left blank, with a warning.
+- Minor status is worked out from the birth date with your church's age cutoff — see
+  [Members](#/members).
 
 ## What it can't do (yet)
 
-Importing anything other than Members (Visitors, Giving history, etc.), Excel `.xlsx` files
-directly (export to CSV first), or matching/updating existing records instead of always
-creating new ones.
+Import anything other than Members (visitors, giving history…), or more than 500 rows at
+once.

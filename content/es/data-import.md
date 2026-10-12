@@ -1,65 +1,99 @@
 # Importar datos
 
 Si tu iglesia ya tiene una lista de miembros en una planilla, Importar datos te permite
-traerla en lugar de tipearla a mano. Por ahora importa **solo Miembros**.
+traerla en lugar de tipearla a mano. Importa **Miembros**.
+
+## Antes de empezar
+
+- **Usá tu archivo tal como está.** Funcionan archivos de Excel (`.xlsx`, `.xls`),
+  LibreOffice (`.ods`) y CSV. Las columnas pueden tener cualquier nombre y estar en cualquier
+  orden, y puede haber columnas de más: en el paso siguiente elegís qué completa cada una.
+- **¿Empezás de cero?** Tocá **Descargar plantilla** (Excel o CSV). Tiene las columnas
+  correctas, una fila de ejemplo y, en la versión de Excel, una hoja de *Instrucciones* que
+  dice qué escribir en cada columna. Completala e importala acá.
+- **Primero los campos personalizados.** Si tu archivo tiene información para la que HolyCRM
+  no tiene un campo (fecha de bautismo, clase de membresía…), creá un campo personalizado en
+  **Configuración → Campos personalizados** (app completa) antes de importar. Así aparece en
+  la lista de columnas y en la plantilla. La pantalla de Importar datos muestra los campos
+  personalizados que ya tenés.
 
 ## Los cuatro pasos
 
 ### 1. Subir archivo
 
-Exportá tu planilla como **archivo CSV** (desde Excel, Google Sheets, o casi cualquier otro
-sistema de iglesia) y subila acá. Los archivos con más de **500 filas** se rechazan de
-entrada — dividí un archivo más grande e importalo en tandas.
+Subí el archivo. Si un Excel tiene varias hojas con datos, elegí la que tiene a tu gente. La
+primera fila tiene que ser la de los encabezados. Los archivos con más de **500 filas** se
+rechazan: dividí un archivo más grande e importalo en tandas.
 
-### 2. Asignar columnas
+### 2. Relacionar columnas
 
-Para cada columna de tu archivo, elegí a qué campo de HolyCRM corresponde (nombre, apellido,
-correo, teléfono, fecha de nacimiento, estado, etiquetas, y más). HolyCRM adivina
-coincidencias razonables a partir de los encabezados de tus columnas (incluyendo algunos
-encabezados comunes en español como "Apellido"), pero siempre revisá esas sugerencias antes
-de continuar.
+Para cada columna de tu archivo, elegí qué campo de HolyCRM completa —nombre, apellido,
+correo, teléfono, fecha de nacimiento, estado, etiquetas, sede, tus campos personalizados y
+más— o **No importar**. HolyCRM adivina las relaciones a partir de los encabezados, en
+español, inglés o portugués ("Apellido", "Nome", "Celular"…), y una plantilla completa se
+relaciona sola. Al lado de cada columna se muestran algunos de sus valores, para que veas qué
+hay realmente en las celdas.
 
-Se muestra una muestra de los valores reales de cada columna, ya que un encabezado por sí
-solo ("Estado", "Status") no siempre dice qué hay realmente en las celdas.
-
-**Nombre** y **Apellido** son las únicas asignaciones obligatorias — todo lo demás es
-opcional.
+**Nombre** y **Apellido** son los únicos campos obligatorios.
 
 ### 3. Vista previa
 
-Vé exactamente qué se va a crear — nombre, correo, y un estado por fila:
-
-- **Listo** — se importará sin problemas.
-- **Listo con advertencia** — algo menor se omitió (por ejemplo, una fecha ilegible), la fila
-  igual se importa.
-- **Error** — falta el nombre o el apellido; esta fila se omitirá por completo.
+Mirá cada fila tal como se va a guardar, con todas las columnas que relacionaste. Cada fila
+indica si está **Lista**, lista con un **aviso** (algo menor quedó vacío, como una fecha
+ilegible; la fila igual se importa) o tiene un **error** (falta el nombre o el apellido; la
+fila se omite). Con **Mostrar** ves solo las filas con avisos, con errores o las personas que
+ya están en HolyCRM.
 
 ### 4. Importar
 
-Las filas se crean de a pocas por vez con un contador de progreso en vivo. Al terminar vas a
-ver un resumen de creados/omitidos con el motivo de cada omisión.
+Las filas se guardan de a pocas, con un contador en vivo. Al final ves cuántas personas se
+crearon, se actualizaron y se omitieron, y el motivo de lo que haya fallado.
 
-## Cosas a tener en cuenta antes de importar
+## Personas que ya están en HolyCRM
 
-- **No hay detección de duplicados.** Cada importación crea registros de miembro
-  completamente nuevos — no se compara contra personas que ya estén en tu directorio. Si no
-  estás seguro de si alguien ya está en HolyCRM, revisá primero; importarlo de nuevo crea un
-  segundo registro.
-- **Las etiquetas se crean automáticamente** si el nombre de una etiqueta en tu archivo
-  todavía no existe en tu iglesia.
-- **Las sedes se buscan solo por nombre, nunca se crean automáticamente.** Si el nombre de
-  una sede en tu archivo no coincide con una que ya hayas configurado, ese campo queda en
-  blanco para esa fila (con una advertencia) en lugar de crear un registro de sede a medio
-  configurar.
-- **Fechas**: HolyCRM intenta leer las fechas de nacimiento tanto en formato día-primero como
-  mes-primero, pero es una estimación de mejor esfuerzo — vale la pena revisar algunas fechas
-  de nacimiento después de una importación real.
-- El estado de menor de edad (`is_minor`) se calcula automáticamente a partir de la fecha de
-  nacimiento importada usando la edad límite configurada por tu iglesia — ver
-  [Miembros](#/members).
+La vista previa compara cada fila con tu directorio:
+
+- **Misma persona**: el mismo correo, el mismo teléfono (aunque esté escrito distinto:
+  `+54 9 11 5555-1234` y `11 5555 1234` coinciden) o el mismo nombre y apellido (sin importar
+  tildes ni mayúsculas).
+- **Posible coincidencia**: un nombre parecido. Un error de tipeo ("Jonatan" / "Jonathan"),
+  un apodo ("Pepe" / "José", "Paco" / "Francisco"), un nombre corto ("Ale" / "Alejandra",
+  "Juanito" / "Juan") o uno de dos apellidos ("María López" / "María López García").
+
+Para las filas de la **misma persona**, elegís una vez qué pasa con todas:
+
+- **Omitirlas** (lo predeterminado): los registros existentes quedan como están.
+- **Actualizar a las personas existentes**: completa las columnas de tu archivo. Las celdas
+  vacías nunca borran nada, las etiquetas se suman a las que la persona ya tiene y **el
+  nombre nunca cambia**.
+- **Importarlas igual como personas nuevas.**
+
+Las **posibles coincidencias** se importan como personas nuevas salvo que elijas otra cosa,
+porque un nombre parecido puede ser otra persona. Además, cada fila con coincidencia tiene su
+propia opción en la tabla —**Omitir**, **Actualizar a esta persona** o **Importar como
+nueva**—, así podés decidir de a una.
+
+Si la misma persona aparece dos veces en tu archivo, la segunda fila muestra un aviso
+("Parece la fila 4"). Las dos se importan, así que borrá una del archivo si hace falta. Para
+ordenar a las personas que ya quedaron cargadas dos veces, usá
+[Buscar duplicados](#/find-duplicates); la pantalla final tiene un botón para abrirlo.
+
+## Bueno saber
+
+- **Las etiquetas se crean solas** si el nombre de una etiqueta de tu archivo todavía no
+  existe.
+- **Las sedes se buscan por nombre y nunca se crean.** Si una sede de tu archivo no coincide
+  con una que configuraste, esa celda queda vacía, con un aviso.
+- **Fechas:** una celda de fecha de Excel se lee exacta. Las fechas escritas como texto se
+  leen como día-mes o mes-día lo mejor posible, así que conviene revisar algunas fechas de
+  nacimiento después de importar. Un CSV guarda las fechas y los números largos como los
+  *mostraba* la planilla (`3/7/85`, `5.49E+12`), así que, si podés, subí el Excel.
+- **Los campos personalizados** se leen según su tipo: un número, una fecha, sí/no o una de
+  las opciones de un campo de lista. Un valor que no corresponde queda vacío, con un aviso.
+- El estado de menor de edad se calcula con la fecha de nacimiento y la edad límite de tu
+  iglesia — ver [Miembros](#/members).
 
 ## Lo que todavía no hace
 
-Importar algo que no sean Miembros (Visitantes, historial de ofrendas, etc.), archivos Excel
-`.xlsx` directamente (exportá a CSV primero), o hacer coincidir/actualizar registros
-existentes en lugar de crear siempre nuevos.
+Importar algo que no sean Miembros (visitas, historial de ofrendas…) o más de 500 filas a la
+vez.

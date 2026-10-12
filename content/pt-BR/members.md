@@ -53,7 +53,8 @@ usuário.
 ## Trazendo membros que você já tem
 
 Não digite todo o seu diretório de novo à mão — veja [Importar dados](#/data-import) para
-trazer uma planilha.
+trazer uma planilha. Alguém foi cadastrado duas vezes?
+[Encontrar duplicados](#/find-duplicates) mescla os dois cadastros em um.
 
 ## Pesquisando e filtrando
 

@@ -85,7 +85,7 @@
         "pt-BR": "Configurações",
         "pt": "Definições"
       },
-      "pages": ["church-settings", "users-roles", "tags", "data-import", "integrations", "data-privacy", "security", "plans-billing"]
+      "pages": ["church-settings", "users-roles", "tags", "data-import", "find-duplicates", "integrations", "data-privacy", "security", "plans-billing"]
     },
     {
       "id": "support",
@@ -170,6 +170,15 @@
         "pt": "Importar dados"
       },
       "file": "data-import.md"
+    },
+    "find-duplicates": {
+      "title": {
+        "en": "Find Duplicates",
+        "es": "Buscar duplicados",
+        "pt-BR": "Encontrar duplicados",
+        "pt": "Procurar duplicados"
+      },
+      "file": "find-duplicates.md"
     },
     "groups": {
       "title": {

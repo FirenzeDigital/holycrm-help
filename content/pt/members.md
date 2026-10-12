@@ -54,7 +54,8 @@ membros que já têm utilizador.
 ## Trazer membros que já tem
 
 Não volte a escrever todo o seu diretório à mão — ver [Importar dados](#/data-import) para
-trazer uma folha de cálculo.
+trazer uma folha de cálculo. Alguém ficou registado duas vezes?
+[Procurar duplicados](#/find-duplicates) junta os dois registos num só.
 
 ## Pesquisar e filtrar
 
