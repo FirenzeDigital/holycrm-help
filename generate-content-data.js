@@ -60,7 +60,7 @@ console.log(`Wrote ${path.relative(process.cwd(), OUT_FILE)} (${Object.keys(file
  * In-page "#/page-id" links are rewritten to absolute raw .md URLs.
  */
 const SITE_URL = "https://docs.holycrm.app";
-const APP_URL = "https://www.holycrm.app";
+const APP_URL = "https://holycrm.app";
 const defaultLocale = manifest.defaultLocale || "en";
 
 function pageSource(pageId, locale) {

@@ -27,7 +27,7 @@ Os registos da sua igreja ficam num espaço privado que só os utilizadores da s
 - **Ligações cifradas:** a aplicação, as páginas públicas e o servidor só comunicam por HTTPS.
 - **As palavras-passe** são guardadas com hash (de sentido único), por isso ninguém, nem nós, as consegue ler. Também pode iniciar sessão com o Google em vez de usar uma palavra-passe.
 - **As cópias de segurança** são cifradas, mantidas durante 30 dias e guardadas na União Europeia.
-- **Onde estão os dados:** os nossos servidores principais e a base de dados estão no Reino Unido. A lista completa de fornecedores, e o que cada um faz, está na [Política de Privacidade](https://www.holycrm.app/privacy.html).
+- **Onde estão os dados:** os nossos servidores principais e a base de dados estão no Reino Unido. A lista completa de fornecedores, e o que cada um faz, está na [Política de Privacidade](https://holycrm.app/privacy.html).
 - Nunca recebemos nem guardamos dados de cartões ou credenciais bancárias dos pagamentos de subscrição; é o fornecedor de pagamentos que trata disso.
 
 ## Proteção contra abusos
@@ -45,7 +45,7 @@ Os registos da sua igreja ficam num espaço privado que só os utilizadores da s
 
 - Não os vendemos, não os usamos para publicidade e não os partilhamos com outras igrejas.
 - Não usamos os dados da sua igreja para treinar modelos de IA.
-- A sua igreja é a dona (o "responsável pelo tratamento") dos registos que introduz; o HolyCRM trata-os apenas para prestar o serviço. A [Política de Privacidade](https://www.holycrm.app/privacy.html) abrange o RGPD da UE, o RGPD do Reino Unido, a LGPD do Brasil e a lei de proteção de dados da Argentina.
+- A sua igreja é a dona (o "responsável pelo tratamento") dos registos que introduz; o HolyCRM trata-os apenas para prestar o serviço. A [Política de Privacidade](https://holycrm.app/privacy.html) abrange o RGPD da UE, o RGPD do Reino Unido, a LGPD do Brasil e a lei de proteção de dados da Argentina.
 
 ## Limites, com honestidade
 

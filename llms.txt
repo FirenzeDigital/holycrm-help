@@ -5,7 +5,7 @@
 > events and calendar, attendance, giving/finance, bulk email, a church website and
 > link page. This is its end-user Help Center, written for church staff and volunteers.
 
-- Product website: https://www.holycrm.app/. Each church is its own private workspace; what a user can
+- Product website: https://holycrm.app/. Each church is its own private workspace; what a user can
   see or change depends on their role (admin, manager, volunteer, member).
 - Security and data protection (tenant isolation, roles enforced on the server, encryption,
   backups, hosting, honest limits): https://docs.holycrm.app/content/en/security.md. Read it before

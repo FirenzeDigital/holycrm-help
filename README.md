@@ -1,6 +1,6 @@
 # HolyCRM.app — Help Center
 
-The end-user help site for [HolyCRM.app](https://www.holycrm.app), served at
+The end-user help site for [HolyCRM.app](https://holycrm.app), served at
 `https://docs.holycrm.app`: Markdown pages for church staff and volunteers using the app.
 A standalone static site with no build framework. The app's header links here
 (`CONFIG.HELP_URL` in the app repo, with `?lang=`), and the marketing site links to guides

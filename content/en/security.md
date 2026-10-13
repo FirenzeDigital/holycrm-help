@@ -27,7 +27,7 @@ Your church's records are kept in a private workspace that only your own church'
 - **Encrypted connections:** the app, the public pages and the server only talk over HTTPS.
 - **Passwords** are stored hashed (one-way), so nobody, including us, can read them. You can also sign in with Google instead of a password.
 - **Backups** are encrypted, kept for 30 days and stored in the European Union.
-- **Where the data lives:** our main servers and database are in the United Kingdom. The full list of providers, and what each one does, is in the [Privacy Policy](https://www.holycrm.app/privacy.html).
+- **Where the data lives:** our main servers and database are in the United Kingdom. The full list of providers, and what each one does, is in the [Privacy Policy](https://holycrm.app/privacy.html).
 - We never receive or store card or bank credentials for subscription payments; the payment provider handles them.
 
 ## Protecting against abuse
@@ -45,7 +45,7 @@ Your church's records are kept in a private workspace that only your own church'
 
 - We don't sell it, use it for advertising, or share it with other churches.
 - We don't use your church's data to train AI models.
-- Your church is the owner (the "data controller") of the records it enters; HolyCRM processes them only to provide the service. The [Privacy Policy](https://www.holycrm.app/privacy.html) covers GDPR, UK GDPR, Brazil's LGPD and Argentina's data protection law.
+- Your church is the owner (the "data controller") of the records it enters; HolyCRM processes them only to provide the service. The [Privacy Policy](https://holycrm.app/privacy.html) covers GDPR, UK GDPR, Brazil's LGPD and Argentina's data protection law.
 
 ## Honest limits
 

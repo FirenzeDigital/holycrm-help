@@ -27,7 +27,7 @@ Los registros de tu iglesia se guardan en un espacio privado que solo pueden abr
 - **Conexiones cifradas:** la app, las páginas públicas y el servidor solo se comunican por HTTPS.
 - **Las contraseñas** se guardan con un hash (de una sola vía), así que nadie, ni siquiera nosotros, puede leerlas. También puedes iniciar sesión con Google en lugar de una contraseña.
 - **Las copias de seguridad** están cifradas, se conservan 30 días y se guardan en la Unión Europea.
-- **Dónde están los datos:** nuestros servidores principales y la base de datos están en el Reino Unido. La lista completa de proveedores, y lo que hace cada uno, está en la [Política de privacidad](https://www.holycrm.app/privacy.html).
+- **Dónde están los datos:** nuestros servidores principales y la base de datos están en el Reino Unido. La lista completa de proveedores, y lo que hace cada uno, está en la [Política de privacidad](https://holycrm.app/privacy.html).
 - Nunca recibimos ni guardamos datos de tarjetas o credenciales bancarias de los pagos de suscripción; los maneja el proveedor de pagos.
 
 ## Protección contra abusos
@@ -45,7 +45,7 @@ Los registros de tu iglesia se guardan en un espacio privado que solo pueden abr
 
 - No los vendemos, no los usamos para publicidad y no los compartimos con otras iglesias.
 - No usamos los datos de tu iglesia para entrenar modelos de IA.
-- Tu iglesia es la dueña (el "responsable del tratamiento") de los registros que carga; HolyCRM los trata solo para prestar el servicio. La [Política de privacidad](https://www.holycrm.app/privacy.html) cubre el RGPD de la UE, el RGPD del Reino Unido, la LGPD de Brasil y la ley de protección de datos de Argentina.
+- Tu iglesia es la dueña (el "responsable del tratamiento") de los registros que carga; HolyCRM los trata solo para prestar el servicio. La [Política de privacidad](https://holycrm.app/privacy.html) cubre el RGPD de la UE, el RGPD del Reino Unido, la LGPD de Brasil y la ley de protección de datos de Argentina.
 
 ## Límites, con honestidad
 
