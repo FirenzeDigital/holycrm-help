@@ -68,6 +68,20 @@ não expiram; Faturação e Comunicados mostram quantos restam. Um pacote não m
 seu plano. As igrejas que ligam o próprio servidor de e-mail em [Integrações](#/integrations) não
 têm qualquer limite de e-mails do HolyCRM.
 
+## Convidar outra igreja
+
+Conhece um pastor cuja igreja poderia usar o HolyCRM? Em **Faturação**, em **Convide uma igreja**,
+encontra a ligação e o código de convite da sua igreja. Copie-a ou partilhe-a diretamente no WhatsApp.
+
+- A igreja convidada recebe um **período experimental gratuito de 60 dias** em vez de 30.
+- Quando essa igreja faz o primeiro pagamento, **a sua igreja recebe um mês grátis**, somado ao fim
+  do período experimental ou pago atual. Os seus administradores recebem uma notificação.
+- Pode ganhar até **12 meses grátis** em qualquer período de 12 meses. A Faturação mostra as
+  igrejas que se registaram com a sua ligação e quantos meses ganhou.
+
+Se alguém lhe deu um **código promocional**, escreva-o no campo de código ao registar-se. Pode dar
+à sua igreja um período experimental mais longo; quando termina, funciona como qualquer outro.
+
 ## Renovar
 
 Os pagamentos não são renovados automaticamente — nunca é cobrado nada sem a sua

@@ -66,6 +66,22 @@ que se pagan igual que el plan. Los correos del paquete se usan recién cuando s
 ni extiende tu plan. Las iglesias que conectan su propio servidor de correo en
 [Integraciones](#/integrations) no tienen ningún límite de correos de HolyCRM.
 
+## Invitar a otra iglesia
+
+¿Conocés a un pastor cuya iglesia podría usar HolyCRM? En **Facturación**, en **Invitá a una
+iglesia**, vas a encontrar el link y el código de invitación de tu iglesia. Copialo o compartilo
+directo por WhatsApp.
+
+- La iglesia que invitás recibe una **prueba gratuita de 60 días** en vez de 30.
+- Cuando esa iglesia hace su primer pago, **tu iglesia recibe un mes gratis**, que se suma al
+  final de tu prueba o período pago actual. Tus administradores reciben una notificación.
+- Podés ganar hasta **12 meses gratis** en cualquier período de 12 meses. Facturación muestra las
+  iglesias que se registraron con tu link y cuántos meses ganaste.
+
+Si alguien te dio un **código promocional**, escribilo en el campo de código al registrarte. Puede
+darle a tu iglesia una prueba gratuita más larga; cuando termina, funciona como cualquier otra
+prueba.
+
 ## Renovar
 
 Los pagos no se renuevan solos — nunca se cobra nada sin vos. Les enviamos un correo a los

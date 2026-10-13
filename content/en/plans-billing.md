@@ -65,6 +65,20 @@ and Announcements show how many are left. A pack doesn't change or extend your p
 connect their own email server in [Integrations](#/integrations) have no HolyCRM email limit at
 all.
 
+## Invite another church
+
+Know a pastor whose church could use HolyCRM? In **Billing**, under **Invite a church**, you'll
+find your church's invite link and code. Copy it or share it straight to WhatsApp.
+
+- The church you invite gets a **60-day free trial** instead of 30.
+- When that church makes its first payment, **your church gets a free month**, added to the
+  end of your current trial or paid period. Your admins get a notification when it happens.
+- You can earn up to **12 free months** in any 12 months. Billing shows the churches that
+  signed up with your link and how many months you've earned.
+
+If someone gave you a **promo code**, type it in the code box when you sign up. It may give your
+church a longer free trial; when the trial ends, it works like any other trial.
+
 ## Renewing
 
 Payments don't renew automatically — nothing is ever charged without you. We email your
