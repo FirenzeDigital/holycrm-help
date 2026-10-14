@@ -82,6 +82,20 @@ delivered (for example, the address doesn't exist), it's counted as **Failed** a
 reason is shown under that send; the others still go out. A test email arrives the same way,
 usually within a minute.
 
+## Unsubscribing
+
+Every email ends with a short note saying why the person gets it, your church's address (the
+one in your website settings, if you filled it in) and an **Unsubscribe** link. Email
+services such as Gmail also show their own "Unsubscribe" button. You can't remove the link:
+it's what keeps your emails out of spam folders, and in many countries the law requires it.
+
+When someone unsubscribes, their member record shows **Unsubscribed from announcement
+emails** and later emails skip them. They're counted as **Unsubscribed** in the result and in
+Recent sends, and they don't count toward your monthly limit. They still get app
+notifications and emails they ask for themselves, such as service confirmations. If they want
+the emails again, they can use the same link, or you can untick the box on their record when
+they ask you to.
+
 ## Limits
 
 A single send is capped at **500 recipients**. This keeps sending reliable; if your audience

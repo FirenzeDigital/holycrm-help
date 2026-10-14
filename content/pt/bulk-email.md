@@ -84,6 +84,21 @@ puder ser entregue (por exemplo, o endereço não existe), conta como **Falharam
 aparece por baixo desse envio; os restantes são enviados normalmente. Um e-mail de teste chega
 da mesma forma, normalmente dentro de um minuto.
 
+## Cancelar inscrição
+
+Todo e-mail termina com uma nota curta dizendo por que a pessoa o recebe, o endereço da sua
+igreja (o das configurações do site, se você preencheu) e um link para **cancelar a
+inscrição**. Serviços como o Gmail também mostram o próprio botão "Cancelar inscrição". O link
+não pode ser removido: é o que evita que seus e-mails caiam no spam, e em muitos países a lei
+exige.
+
+Quando alguém cancela a inscrição, o cadastro do membro mostra **Cancelou os comunicados por
+e-mail** e os próximos e-mails não são enviados a ele. Ele aparece como **Inscrição
+cancelada** no resultado e em Envios recentes, e não conta no seu limite mensal. Ele continua
+recebendo as notificações do app e os e-mails que ele mesmo pede, como as confirmações de
+escala. Se quiser voltar a receber, pode usar o mesmo link, ou você pode desmarcar a opção no
+cadastro dele quando ele pedir.
+
 ## Limites
 
 Um único envio tem um limite de **500 destinatários**. Isto mantém o envio fiável; se o seu

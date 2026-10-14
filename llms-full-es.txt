@@ -965,6 +965,21 @@ no se puede entregar (por ejemplo, la dirección no existe), se cuenta como **Fa
 motivo aparece debajo de ese envío; los demás se envían igual. Un correo de prueba llega de la
 misma forma, normalmente en un minuto.
 
+## Darse de baja
+
+Cada correo termina con una nota corta que dice por qué la persona lo recibe, la dirección de
+tu iglesia (la de la configuración del sitio web, si la completaste) y un enlace para **darse
+de baja**. Servicios como Gmail también muestran su propio botón de "Anular suscripción". El
+enlace no se puede quitar: es lo que evita que tus correos terminen en spam, y en muchos
+países lo exige la ley.
+
+Cuando alguien se da de baja, su ficha de miembro muestra **Dado de baja de los comunicados
+por correo** y los correos siguientes no se le envían. Se cuenta como **Dados de baja** en el
+resultado y en Envíos recientes, y no suma a tu límite mensual. Igual recibe las
+notificaciones de la app y los correos que pide él mismo, como las confirmaciones de servicio.
+Si quiere volver a recibirlos, puede usar el mismo enlace, o podés desmarcar la casilla en su
+ficha cuando te lo pida.
+
 ## Límites
 
 Un envío individual tiene un tope de **500 destinatarios**. Esto mantiene el envío confiable;
