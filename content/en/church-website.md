@@ -137,3 +137,27 @@ on a website yet.
 
 Once connected, visiting your own domain shows your website (or Church Links page)
 directly — no holycrm.app address needed.
+
+### Custom code
+
+Once your own domain is connected, a church **admin** can add code from other tools at
+the bottom of the Church Website screen, under **Custom code**. For example:
+
+- **Analytics**: Google Analytics, Microsoft Clarity, Plausible, a Meta Pixel.
+- **A chat widget**: Tawk.to, Crisp, a WhatsApp button.
+- **Verification files**: the small file a service asks you to upload, such as
+  `BingSiteAuth.xml` for Bing Webmaster Tools or `google….html` for Google Search
+  Console. Add the file's name and paste its contents.
+
+Paste each tool's code where its setup guide says: most say "in the `<head>`". Chat
+widgets usually go before `</body>`. Changes show on your website within a minute.
+
+Good to know:
+
+- It only runs on your own domain. It doesn't run on the holycrm.app address or in the
+  preview, so check it on your domain after saving.
+- It isn't added to the giving and prayer request pages.
+- Only admins see this section; coordinators can edit the rest of the website.
+- Only paste code from services you trust: it can change your website and see what
+  visitors type into it.
+- You don't need to upload `robots.txt` or `sitemap.xml`; they are made for you.

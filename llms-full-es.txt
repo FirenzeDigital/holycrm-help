@@ -1179,6 +1179,33 @@ todavía no activaste un sitio web.
 Una vez conectado, visitar tu propio dominio muestra tu sitio web (o tu página de
 Enlaces de la iglesia) directamente — sin necesidad de la dirección holycrm.app.
 
+### Código personalizado
+
+Con tu propio dominio conectado, un **administrador** de la iglesia puede agregar código
+de otras herramientas al final de la pantalla Sitio web de la iglesia, en **Código
+personalizado**. Por ejemplo:
+
+- **Analíticas**: Google Analytics, Microsoft Clarity, Plausible, un Meta Pixel.
+- **Un chat**: Tawk.to, Crisp, un botón de WhatsApp.
+- **Archivos de verificación**: el archivo chico que un servicio te pide subir, como
+  `BingSiteAuth.xml` para Bing Webmaster Tools o `google….html` para Google Search
+  Console. Agregá el nombre del archivo y pegá su contenido.
+
+Pegá el código de cada herramienta donde lo indique su guía: la mayoría dice "en el
+`<head>`". Los chats suelen ir antes de `</body>`. Los cambios se ven en tu sitio en
+menos de un minuto.
+
+Para tener en cuenta:
+
+- Solo se ejecuta en tu propio dominio. No se ejecuta en la dirección holycrm.app ni en
+  la vista previa, así que revisalo en tu dominio después de guardar.
+- No se agrega a las páginas de ofrendas ni de pedidos de oración.
+- Solo los administradores ven esta sección; los coordinadores pueden editar el resto
+  del sitio.
+- Pegá solo código de servicios en los que confiás: puede cambiar tu sitio web y ver lo
+  que los visitantes escriben en él.
+- No hace falta subir `robots.txt` ni `sitemap.xml`; se crean solos.
+
 ---
 
 Source: https://docs.holycrm.app/content/es/church-links.md
