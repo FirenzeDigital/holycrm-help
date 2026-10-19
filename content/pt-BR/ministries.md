@@ -25,6 +25,10 @@ domingo, semanal às 10h"). Uma única linha de atividade cobre toda a série re
 existe uma linha separada por semana. As atividades são o que
 [Presença](#/attendance), [Escalas](#/rotas) e o [Calendário](#/calendar) agendam.
 
+Uma atividade semanal marcada com **Mostrar no site** aparece em Horários no seu
+[Site da igreja](#/church-website) (título, dia, horário e nome do local), e a mais próxima
+aparece no topo como "Próximo". Deixe desmarcada para reuniões internas.
+
 ## Membros de ministério
 
 Escolha um ministério no menu suspenso, e gerencie quem faz parte dele — adicione um membro

@@ -17,6 +17,13 @@ miembros, un registro de reuniones y multiplicación de grupos.
   etiqueta correspondiente (por ejemplo, solo aparecen como candidatos a líder los miembros
   etiquetados "Líder de célula"). Si tu iglesia no configuró eso, se ofrecen todos.
 
+**En tu sitio web.** Marcá **Mostrar en el buscador de grupos de nuestro sitio web** y
+escribí una **Descripción pública** corta (para quién es, más o menos dónde se reúne) para
+que el grupo aparezca en tu [Sitio web de la iglesia](#/church-website). Quien visita ve el
+nombre, el día, la hora y esa descripción —nunca el anfitrión, la dirección ni las notas— y
+puede tocar **Me interesa**, que lo suma como nuevo [Visitante](#/visitors) con el grupo
+anotado.
+
 ## La página de detalle
 
 - **Barra lateral** — líder, supervisor, horario, dirección, anfitrión, notas, y una tarjeta

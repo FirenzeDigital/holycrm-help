@@ -17,6 +17,12 @@ multiplication.
   tagged "Small Group Leader" appear as leader candidates). If your church hasn't set that
   up, everyone is offered.
 
+**On your website.** Tick **Show in the group finder on our website** and write a short
+**Public description** (who it's for, roughly where it meets) to list the group on your
+[Church Website](#/church-website). Visitors see the name, day, time and that description —
+never the host, address or notes — and can tap **I'm interested**, which brings them in as a
+new [Visitor](#/visitors) with the group noted.
+
 ## The detail page
 
 - **Sidebar** — leader, supervisor, schedule, address, host, notes, and a **Multiplication**

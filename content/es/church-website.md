@@ -30,11 +30,24 @@ personalidad de tu iglesia, y cambialo cuando quieras sin perder contenido.
 
 - **Nosotros** — el párrafo de **Texto "Nosotros" del sitio**, más tu **Foto de portada
   del sitio** y el logo.
-- **Próximo culto y próximos eventos** — calculado automáticamente a partir de tus
-  [Eventos](#/events) y las [Actividades de ministerio](#/ministries) recurrentes, igual
-  que en Enlaces de la iglesia.
+- **Horarios y "Próximo"** — cada [Actividad de ministerio](#/ministries) semanal que
+  marques con **Mostrar en el sitio web** aparece con su día, hora y lugar, y la más
+  próxima se muestra arriba como "Próximo", según el horario de tu iglesia. Si no marcaste
+  ninguna, "Próximo" usa tu próximo [Evento](#/events) o actividad semanal.
+- **Próximos eventos** — tus próximos [Eventos](#/events), con fecha, hora y lugar.
 - **Ministerios** — los ministerios activos con su rango de edad, para que quien visite la
   página vea qué hay disponible para su familia antes de venir.
+- **Grupos pequeños** — cada grupo que marques con **Mostrar en el buscador de grupos de
+  nuestro sitio web** (en [Grupos pequeños](#/groups)), con su día, hora y descripción
+  pública. Quien visita toca **Me interesa**, completa el formulario corto y llega a tu
+  lista de [Visitantes](#/visitors) con el grupo anotado. Nunca se muestran el anfitrión,
+  la dirección ni las notas del grupo.
+- **Liderazgo** — los pastores y líderes que agregues en la tarjeta **Liderazgo**, cada uno
+  con foto, rol y unas palabras. Solo se muestra lo que escribas ahí, nada de las fichas de
+  miembros.
+- **Lo que creemos**, **Qué esperar** (las preguntas de quien viene por primera vez:
+  estacionamiento, niños, cuánto dura el culto) y **Fotos** (hasta 12): se completan en la
+  pantalla del sitio web.
 - **Visitanos** — tu **Dirección del sitio**, **Teléfono del sitio** y **Email del sitio**,
   con un enlace de Cómo llegar. Si tu iglesia tiene más de una [Sede](#/church-settings)
   con su dirección cargada, cada sede se muestra como su propia tarjeta en vez de un solo
@@ -45,6 +58,24 @@ personalidad de tu iglesia, y cambialo cuando quieras sin perder contenido.
 - **Conectate con nosotros** — el mismo formulario breve que Enlaces de la iglesia; quien
   lo completa se convierte en un nuevo [Visitante](#/visitors) en tu lista de seguimiento.
 - Tus redes sociales, reutilizadas de [Enlaces de la iglesia](#/church-links).
+
+## Hacelo tuyo
+
+En **Hacelo tuyo** podés darle a tu sitio un aspecto que no tiene ninguna otra iglesia,
+sobre el estilo que hayas elegido:
+
+- **Tipografía**: seis combinaciones de letras; cada opción muestra cómo se ven.
+- **Frase destacada**: una línea corta debajo del nombre de tu iglesia en la portada.
+- **Logo**: redondo (recortado en círculo), con su forma original, o **Logotipo con
+  nombre** si tu logo ya incluye el nombre de la iglesia, para que no aparezca dos veces.
+- **Esquinas**: botones y tarjetas rectos, redondeados o tipo píldora.
+- **Fondo**: papel crema cálido, o un toque suave del color de tu iglesia. Los dos tienen su
+  versión para modo oscuro.
+- **Botón principal de la portada**: Planeá tu visita, Mirá el último mensaje, Ofrendar o
+  Conectate.
+- **Secciones**: cambiá el orden, renombrá un título (el menú también usa tu nombre) u
+  ocultá una. Una sección sin nada para mostrar no aparece sola. **Conectate con
+  nosotros** queda siempre, porque es donde los visitantes dejan sus datos.
 
 ## Buscadores y vista previa
 

@@ -28,11 +28,23 @@ switch any time without losing content.
 
 - **About** — the paragraph from **Website About Text**, plus your **Website Cover Photo**
   and logo.
-- **Next service and upcoming events** — worked out automatically from your
-  [Events](#/events) and recurring [Ministry Activities](#/ministries), the same as on
-  Church Links.
+- **Service times and "Next"** — every weekly [Ministry Activity](#/ministries) you mark
+  **Show on the website** is listed with its day, time and place, and the soonest one shows
+  at the top as "Next", counted in your church's own time zone. If you haven't marked any,
+  "Next" falls back to your next [Event](#/events) or weekly activity.
+- **Upcoming events** — your next [Events](#/events), with date, time and place.
 - **Ministries** — active ministries with their age range, so visitors can see what's
   available for their family before they even show up.
+- **Small groups** — every group you mark **Show in the group finder on our website**
+  (in [Small Groups](#/groups)), with its day, time and public description. Visitors tap
+  **I'm interested**, fill in the short form, and arrive in your [Visitors](#/visitors) list
+  with the group noted. The host, the address and the group's notes are never shown.
+- **Leadership** — the pastors and leaders you add in the **Leadership** card, each with a
+  photo, role and a few words. Only what you type there is shown, nothing from member
+  records.
+- **What we believe**, **What to expect** (questions first-time visitors ask: parking,
+  kids, how long the service lasts) and **Photos** (up to 12) — filled in on the Church
+  Website screen.
 - **Visit us** — your **Website Address**, **Website Phone** and **Website Email**, with a
   Get Directions link. If your church has more than one [Location](#/church-settings) with
   its own address filled in, every location shows as its own card instead of a single
@@ -43,6 +55,23 @@ switch any time without losing content.
 - **Connect with us** — the same short form as Church Links; whoever fills it in becomes a
   new [Visitor](#/visitors) in your follow-up list.
 - Your social links, reused from [Church Links](#/church-links).
+
+## Make it yours
+
+Under **Make it yours** you can give your website a look no other church has, on top of
+whichever style you picked:
+
+- **Font** — six font pairings; each tile shows its letters so you can compare.
+- **Tagline** — a short line under your church's name on the cover.
+- **Logo** — round (cropped to a circle), its original shape, or **Wordmark** for a logo
+  that already includes your church's name, so the name isn't written twice.
+- **Corners** — square, rounded or pill-shaped buttons and cards.
+- **Background** — warm cream paper, or a light tint of your church colour. Both have a
+  matching dark mode.
+- **Main button on the cover** — Plan a visit, Watch the latest message, Give or Connect.
+- **Sections** — change their order, rename a heading (the menu uses your name too), or
+  hide one. A section with nothing to show is left out on its own. **Connect with us**
+  always stays, since it's where visitors leave their details.
 
 ## Search & sharing
 

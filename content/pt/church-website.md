@@ -30,11 +30,24 @@ personalidade da sua igreja, e mude quando quiser sem perder conteúdo.
 
 - **Sobre** — o parágrafo de **Texto "Sobre" do site**, mais a sua **Foto de capa do
   site** e o logótipo.
-- **Próximo culto e próximos eventos** — calculado automaticamente a partir dos seus
-  [Eventos](#/events) e das [Atividades de ministério](#/ministries) recorrentes, tal
-  como em Links da igreja.
+- **Horários e "Próximo"** — cada [Atividade de ministério](#/ministries) semanal
+  marcada com **Mostrar no site** aparece com dia, hora e local, e a mais próxima aparece
+  no topo como "Próximo", no fuso horário da sua igreja. Se nenhuma estiver marcada,
+  "Próximo" usa o seu próximo [Evento](#/events) ou atividade semanal.
+- **Próximos eventos** — os seus próximos [Eventos](#/events), com data, hora e local.
 - **Ministérios** — os ministérios ativos com a respetiva faixa etária, para quem visita
   a página ver o que está disponível para a sua família antes mesmo de aparecer.
+- **Pequenos grupos** — cada grupo marcado com **Mostrar no localizador de grupos do nosso
+  site** (em [Pequenos grupos](#/groups)), com dia, hora e descrição pública. Quem visita
+  toca em **Tenho interesse**, preenche o formulário curto e chega à sua lista de
+  [Visitantes](#/visitors) com o grupo anotado. O anfitrião, a morada e as notas do grupo
+  nunca aparecem.
+- **Liderança** — os pastores e líderes que adicionar no cartão **Liderança**, cada um com
+  fotografia, função e algumas palavras. Só aparece o que escrever aí, nada das fichas de
+  membros.
+- **Aquilo em que cremos**, **O que esperar** (as perguntas de quem vem pela primeira vez:
+  estacionamento, crianças, quanto tempo dura o culto) e **Fotografias** (até 12) —
+  preenchidos no ecrã do site.
 - **Venha visitar-nos** — a sua **Morada do site**, **Telefone do site** e **Email do
   site**, com uma ligação de Como chegar. Se a sua igreja tiver mais do que um
   [Local](#/church-settings) com morada preenchida, cada local aparece como o seu
@@ -46,6 +59,24 @@ personalidade da sua igreja, e mude quando quiser sem perder conteúdo.
 - **Fale connosco** — o mesmo formulário curto de Links da igreja; quem o preenche passa
   a ser um novo [Visitante](#/visitors) na sua lista de acompanhamento.
 - As suas redes sociais, reaproveitadas de [Links da igreja](#/church-links).
+
+## Dê-lhe a cara da sua igreja
+
+Em **Dê-lhe a cara da sua igreja** pode dar ao seu site um aspeto que nenhuma outra igreja
+tem, sobre o estilo que escolheu:
+
+- **Tipo de letra** — seis combinações; cada opção mostra como ficam as letras.
+- **Frase de destaque** — uma linha curta por baixo do nome da sua igreja na capa.
+- **Logótipo** — redondo (recortado em círculo), na forma original, ou **Logótipo com nome**
+  se o seu logótipo já inclui o nome da igreja, para o nome não aparecer duas vezes.
+- **Cantos** — botões e cartões retos, arredondados ou em forma de pílula.
+- **Fundo** — papel creme quente, ou um toque suave da cor da sua igreja. Ambos têm versão
+  para o modo escuro.
+- **Botão principal da capa** — Planeie a sua visita, Veja a última mensagem, Contribuir ou
+  Contacte-nos.
+- **Secções** — mude a ordem, mude o nome de um título (o menu também usa o seu nome) ou
+  oculte uma. Uma secção sem nada para mostrar fica de fora automaticamente. **Fale
+  connosco** fica sempre, porque é onde os visitantes deixam os seus dados.
 
 ## Motores de pesquisa e pré-visualização
 

@@ -17,6 +17,12 @@ de reuniões e multiplicação de grupos.
   só aparecem como candidatos a líder os membros com a tag "Líder de Célula"). Se sua igreja
   não configurou isso, todos são oferecidos.
 
+**No seu site.** Marque **Mostrar no buscador de grupos do nosso site** e escreva uma
+**Descrição pública** curta (para quem é, mais ou menos onde se reúne) para o grupo
+aparecer no [Site da igreja](#/church-website). Quem visita vê o nome, o dia, o horário e
+essa descrição —nunca o anfitrião, o endereço ou as anotações— e pode tocar em **Tenho
+interesse**, que o traz como novo [Visitante](#/visitors) com o grupo anotado.
+
 ## A página de detalhes
 
 - **Barra lateral** — líder, supervisor, horário, endereço, anfitrião, notas, e um cartão de

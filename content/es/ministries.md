@@ -25,6 +25,10 @@ semanal a las 10am"). Una sola fila de actividad cubre toda la serie recurrente 
 fila separada por semana. Las actividades son contra lo que programan
 [Asistencia](#/attendance), [Turnos](#/rotas) y el [Calendario](#/calendar).
 
+Una actividad semanal marcada con **Mostrar en el sitio web** aparece en Horarios de tu
+[Sitio web de la iglesia](#/church-website) (título, día, hora y nombre del lugar), y la
+más próxima se muestra arriba como "Próximo". Dejala sin marcar para reuniones internas.
+
 ## Miembros de ministerio
 
 Elegí un ministerio del desplegable y gestioná quién forma parte de él — agregá a un miembro

@@ -23,6 +23,10 @@ at 10am"). One activity row covers the whole recurring series — there isn't a 
 per week. Activities are what [Attendance](#/attendance), [Rotas](#/rotas) and the
 [Calendar](#/calendar) all schedule against.
 
+A weekly activity marked **Show on the website** appears under Service times on your
+[Church Website](#/church-website) (title, day, time and the location's name), and the
+soonest one is shown at the top as "Next". Leave it unticked for internal meetings.
+
 ## Ministry Members
 
 Pick a ministry from the dropdown, and manage who's on it — add a member with a role
