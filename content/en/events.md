@@ -22,8 +22,12 @@ who's pre-registered and not yet checked in appears in a **Pre-registered** list
 regular search box — one tap to check them in. Walk-ins who never pre-registered still work
 exactly the same via the search box; pre-registration is a shortcut, not a requirement.
 
+**From your website.** Turn on **Sign-ups on the website** in an event and visitors can
+register themselves with their name and an email or phone. They appear in this list as
+guests, with their contact details, and in Check-in's pre-registered list so your team can
+welcome them (as guests aren't in your directory, they're greeted rather than checked in).
+
 ## What's not built yet
 
-Public self-serve signup (registering yourself online without staff entering it), free-text
-guest registration for someone not yet in your directory, capacity limits or waitlists, and
-automatic confirmation emails to registrants.
+Adding a non-member guest by hand, capacity limits or waitlists, and automatic
+confirmation emails to registrants.

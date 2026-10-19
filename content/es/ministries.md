@@ -18,6 +18,10 @@ correctamente bajo un "Ministerio de Jóvenes" con rango 13–17. Dejá ambos ca
 para un ministerio sin restricción de edad (lo predeterminado). Ver
 [Asistencia y check-in](#/attendance) para ver cómo se aplica esto en el momento del check-in.
 
+**En tu sitio web.** La **Descripción en el sitio web** y la **Foto en el sitio web** de
+un ministerio convierten su entrada en tu [Sitio web de la iglesia](#/church-website) en una
+tarjeta. Las notas internas nunca se muestran.
+
 ## Actividades de ministerio
 
 Las reuniones/cultos recurrentes o puntuales de un ministerio (por ejemplo, "Culto dominical,

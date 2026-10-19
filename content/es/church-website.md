@@ -34,7 +34,15 @@ personalidad de tu iglesia, y cambialo cuando quieras sin perder contenido.
   marques con **Mostrar en el sitio web** aparece con su día, hora y lugar, y la más
   próxima se muestra arriba como "Próximo", según el horario de tu iglesia. Si no marcaste
   ninguna, "Próximo" usa tu próximo [Evento](#/events) o actividad semanal.
-- **Próximos eventos** — tus próximos [Eventos](#/events), con fecha, hora y lugar.
+- **Próximos eventos** — tus próximos [Eventos](#/events), con fecha, hora y lugar. Con una
+  **Descripción en el sitio web** y una **Foto en el sitio web** el evento tiene una tarjeta
+  más completa, y con **Inscripciones en el sitio web** aparece un botón **Inscribirme**:
+  la persona deja su nombre y un email o teléfono, y aparece como invitado en
+  [Registros de eventos](#/events).
+- **Tarjetas de ministerios** — cuando algún ministerio tiene **Descripción en el sitio web**
+  o foto, los ministerios se muestran como tarjetas en vez de una lista simple.
+- **En este momento** — mientras uno de tus horarios está en curso, la portada muestra "En
+  este momento" en lugar de "Próximo", con un enlace para mirar si tenés un video.
 - **Ministerios** — los ministerios activos con su rango de edad, para que quien visite la
   página vea qué hay disponible para su familia antes de venir.
 - **Grupos pequeños** — cada grupo que marques con **Mostrar en el buscador de grupos de
@@ -64,6 +72,13 @@ personalidad de tu iglesia, y cambialo cuando quieras sin perder contenido.
 En **Hacelo tuyo** podés darle a tu sitio un aspecto que no tiene ninguna otra iglesia,
 sobre el estilo que hayas elegido:
 
+- **Empezá con un estilo**: un toque elige una plantilla, tipografía, esquinas y fondo que
+  combinan; **Sorprendeme** prueba una mezcla al azar. Nada cambia para los visitantes hasta
+  que tocás Guardar.
+- **Color de la iglesia**: elegí cualquier color, o tocá uno de los colores de tu logo. Vas
+  a ver un aviso si el color es demasiado claro para el texto blanco de los botones.
+- **Vista previa**: tu sitio real, en celular o computadora, se actualiza mientras hacés
+  cambios.
 - **Tipografía**: seis combinaciones de letras; cada opción muestra cómo se ven.
 - **Frase destacada**: una línea corta debajo del nombre de tu iglesia en la portada.
 - **Logo**: redondo (recortado en círculo), con su forma original, o **Logotipo con

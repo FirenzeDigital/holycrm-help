@@ -23,9 +23,13 @@ evento, todos os pré-inscritos que ainda não fizeram check-in aparecem numa li
 chega sem se ter pré-inscrito continua a funcionar da mesma forma através da pesquisa; a
 pré-inscrição é um atalho, não um requisito.
 
+**Pelo seu site.** Ative **Inscrições no site** num evento e os visitantes podem
+inscrever-se sozinhos com o nome e um email ou telefone. Aparecem nesta lista como
+convidados, com os dados de contacto, e na lista de pré-inscritos do Check-in para a sua
+equipa os receber (como não estão no seu diretório, são recebidos em vez de terem a
+presença registada).
+
 ## O que ainda não existe
 
-Inscrição pública por autosserviço (a própria pessoa inscrever-se online sem a equipa a
-registar), inscrição de convidado em texto livre para alguém que ainda não está no seu
-diretório, limites de lotação ou listas de espera, e e-mails automáticos de confirmação para
-os inscritos.
+Registar à mão um convidado que não é membro, limites de lotação ou listas de espera, e
+e-mails automáticos de confirmação para os inscritos.

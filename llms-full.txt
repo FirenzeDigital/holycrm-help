@@ -600,11 +600,15 @@ who's pre-registered and not yet checked in appears in a **Pre-registered** list
 regular search box — one tap to check them in. Walk-ins who never pre-registered still work
 exactly the same via the search box; pre-registration is a shortcut, not a requirement.
 
+**From your website.** Turn on **Sign-ups on the website** in an event and visitors can
+register themselves with their name and an email or phone. They appear in this list as
+guests, with their contact details, and in Check-in's pre-registered list so your team can
+welcome them (as guests aren't in your directory, they're greeted rather than checked in).
+
 ## What's not built yet
 
-Public self-serve signup (registering yourself online without staff entering it), free-text
-guest registration for someone not yet in your directory, capacity limits or waitlists, and
-automatic confirmation emails to registrants.
+Adding a non-member guest by hand, capacity limits or waitlists, and automatic
+confirmation emails to registrants.
 
 ---
 
@@ -720,6 +724,10 @@ sessions — for example, a "Kids Ministry" banded 0–12 won't offer a 15-year-
 they're still a minor; that teenager would show up correctly under a "Youth Ministry"
 banded 13–17. Leave both blank for a ministry with no age restriction (the default). See
 [Attendance & Check-in](https://docs.holycrm.app/content/en/attendance.md) for how this plays out at check-in time.
+
+**On your website.** A ministry's **Description on the website** and **Photo on the
+website** turn its entry on your [Church Website](https://docs.holycrm.app/content/en/church-website.md) into a card. Your
+internal notes are never shown.
 
 ## Ministry Activities
 
@@ -1006,7 +1014,14 @@ switch any time without losing content.
   **Show on the website** is listed with its day, time and place, and the soonest one shows
   at the top as "Next", counted in your church's own time zone. If you haven't marked any,
   "Next" falls back to your next [Event](https://docs.holycrm.app/content/en/events.md) or weekly activity.
-- **Upcoming events** — your next [Events](https://docs.holycrm.app/content/en/events.md), with date, time and place.
+- **Upcoming events** — your next [Events](https://docs.holycrm.app/content/en/events.md), with date, time and place. Give an
+  event a **Description on the website** and a **Photo on the website** for a fuller card,
+  and turn on **Sign-ups on the website** to add a **Register** button: people leave their
+  name and an email or phone, and appear in [Event Registrations](https://docs.holycrm.app/content/en/events.md) as guests.
+- **Ministry cards** — once any ministry has a **Description on the website** or a photo,
+  ministries show as cards instead of a simple list.
+- **Happening now** — while one of your service times is in progress, the cover shows
+  "Happening now" instead of "Next", with a link to watch when you have a video.
 - **Ministries** — active ministries with their age range, so visitors can see what's
   available for their family before they even show up.
 - **Small groups** — every group you mark **Show in the group finder on our website**
@@ -1035,6 +1050,12 @@ switch any time without losing content.
 Under **Make it yours** you can give your website a look no other church has, on top of
 whichever style you picked:
 
+- **Start from a style** — one tap sets a template, font, corners and background that go
+  well together; **Shuffle** tries a random mix. Nothing changes for visitors until you
+  press Save.
+- **Church colour** — pick any colour, or tap one of the colours taken from your logo. You'll
+  see a warning if the colour is too light for white button text.
+- **Preview** — your real website, on a phone or a computer, updates as you change things.
 - **Font** — six font pairings; each tile shows its letters so you can compare.
 - **Tagline** — a short line under your church's name on the cover.
 - **Logo** — round (cropped to a circle), its original shape, or **Wordmark** for a logo

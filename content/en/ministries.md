@@ -16,6 +16,10 @@ they're still a minor; that teenager would show up correctly under a "Youth Mini
 banded 13–17. Leave both blank for a ministry with no age restriction (the default). See
 [Attendance & Check-in](#/attendance) for how this plays out at check-in time.
 
+**On your website.** A ministry's **Description on the website** and **Photo on the
+website** turn its entry on your [Church Website](#/church-website) into a card. Your
+internal notes are never shown.
+
 ## Ministry Activities
 
 A ministry's recurring or one-time meetings/services (e.g. "Sunday Worship Service, weekly

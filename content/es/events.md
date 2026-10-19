@@ -23,9 +23,13 @@ evento, todos los preinscritos que todavía no hicieron check-in aparecen en una
 preinscribirse siguen funcionando igual mediante el buscador; la preinscripción es un atajo,
 no un requisito.
 
+**Desde tu sitio web.** Activá **Inscripciones en el sitio web** en un evento y los
+visitantes pueden inscribirse solos con su nombre y un email o teléfono. Aparecen en esta
+lista como invitados, con sus datos de contacto, y en la lista de preinscriptos de Check-in
+para que tu equipo los reciba (como no están en tu directorio, se los recibe en lugar de
+registrar su asistencia).
+
 ## Lo que todavía no existe
 
-Inscripción pública de autoservicio (registrarse uno mismo en línea sin que el personal lo
-cargue), inscripción de invitados por texto libre para alguien que aún no está en tu
-directorio, límites de cupo o listas de espera, y correos de confirmación automáticos a los
-inscritos.
+Cargar a mano un invitado que no es miembro, límites de cupo o listas de espera, y correos
+de confirmación automáticos a los inscritos.

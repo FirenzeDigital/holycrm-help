@@ -632,12 +632,16 @@ evento, todos los preinscritos que todavía no hicieron check-in aparecen en una
 preinscribirse siguen funcionando igual mediante el buscador; la preinscripción es un atajo,
 no un requisito.
 
+**Desde tu sitio web.** Activá **Inscripciones en el sitio web** en un evento y los
+visitantes pueden inscribirse solos con su nombre y un email o teléfono. Aparecen en esta
+lista como invitados, con sus datos de contacto, y en la lista de preinscriptos de Check-in
+para que tu equipo los reciba (como no están en tu directorio, se los recibe en lugar de
+registrar su asistencia).
+
 ## Lo que todavía no existe
 
-Inscripción pública de autoservicio (registrarse uno mismo en línea sin que el personal lo
-cargue), inscripción de invitados por texto libre para alguien que aún no está en tu
-directorio, límites de cupo o listas de espera, y correos de confirmación automáticos a los
-inscritos.
+Cargar a mano un invitado que no es miembro, límites de cupo o listas de espera, y correos
+de confirmación automáticos a los inscritos.
 
 ---
 
@@ -757,6 +761,10 @@ a un adolescente de 15 años, aunque siga siendo menor de edad; ese adolescente 
 correctamente bajo un "Ministerio de Jóvenes" con rango 13–17. Dejá ambos campos en blanco
 para un ministerio sin restricción de edad (lo predeterminado). Ver
 [Asistencia y check-in](https://docs.holycrm.app/content/es/attendance.md) para ver cómo se aplica esto en el momento del check-in.
+
+**En tu sitio web.** La **Descripción en el sitio web** y la **Foto en el sitio web** de
+un ministerio convierten su entrada en tu [Sitio web de la iglesia](https://docs.holycrm.app/content/es/church-website.md) en una
+tarjeta. Las notas internas nunca se muestran.
 
 ## Actividades de ministerio
 
@@ -1055,7 +1063,15 @@ personalidad de tu iglesia, y cambialo cuando quieras sin perder contenido.
   marques con **Mostrar en el sitio web** aparece con su día, hora y lugar, y la más
   próxima se muestra arriba como "Próximo", según el horario de tu iglesia. Si no marcaste
   ninguna, "Próximo" usa tu próximo [Evento](https://docs.holycrm.app/content/es/events.md) o actividad semanal.
-- **Próximos eventos** — tus próximos [Eventos](https://docs.holycrm.app/content/es/events.md), con fecha, hora y lugar.
+- **Próximos eventos** — tus próximos [Eventos](https://docs.holycrm.app/content/es/events.md), con fecha, hora y lugar. Con una
+  **Descripción en el sitio web** y una **Foto en el sitio web** el evento tiene una tarjeta
+  más completa, y con **Inscripciones en el sitio web** aparece un botón **Inscribirme**:
+  la persona deja su nombre y un email o teléfono, y aparece como invitado en
+  [Registros de eventos](https://docs.holycrm.app/content/es/events.md).
+- **Tarjetas de ministerios** — cuando algún ministerio tiene **Descripción en el sitio web**
+  o foto, los ministerios se muestran como tarjetas en vez de una lista simple.
+- **En este momento** — mientras uno de tus horarios está en curso, la portada muestra "En
+  este momento" en lugar de "Próximo", con un enlace para mirar si tenés un video.
 - **Ministerios** — los ministerios activos con su rango de edad, para que quien visite la
   página vea qué hay disponible para su familia antes de venir.
 - **Grupos pequeños** — cada grupo que marques con **Mostrar en el buscador de grupos de
@@ -1085,6 +1101,13 @@ personalidad de tu iglesia, y cambialo cuando quieras sin perder contenido.
 En **Hacelo tuyo** podés darle a tu sitio un aspecto que no tiene ninguna otra iglesia,
 sobre el estilo que hayas elegido:
 
+- **Empezá con un estilo**: un toque elige una plantilla, tipografía, esquinas y fondo que
+  combinan; **Sorprendeme** prueba una mezcla al azar. Nada cambia para los visitantes hasta
+  que tocás Guardar.
+- **Color de la iglesia**: elegí cualquier color, o tocá uno de los colores de tu logo. Vas
+  a ver un aviso si el color es demasiado claro para el texto blanco de los botones.
+- **Vista previa**: tu sitio real, en celular o computadora, se actualiza mientras hacés
+  cambios.
 - **Tipografía**: seis combinaciones de letras; cada opción muestra cómo se ven.
 - **Frase destacada**: una línea corta debajo del nombre de tu iglesia en la portada.
 - **Logo**: redondo (recortado en círculo), con su forma original, o **Logotipo con

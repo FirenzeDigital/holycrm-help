@@ -32,7 +32,14 @@ switch any time without losing content.
   **Show on the website** is listed with its day, time and place, and the soonest one shows
   at the top as "Next", counted in your church's own time zone. If you haven't marked any,
   "Next" falls back to your next [Event](#/events) or weekly activity.
-- **Upcoming events** — your next [Events](#/events), with date, time and place.
+- **Upcoming events** — your next [Events](#/events), with date, time and place. Give an
+  event a **Description on the website** and a **Photo on the website** for a fuller card,
+  and turn on **Sign-ups on the website** to add a **Register** button: people leave their
+  name and an email or phone, and appear in [Event Registrations](#/events) as guests.
+- **Ministry cards** — once any ministry has a **Description on the website** or a photo,
+  ministries show as cards instead of a simple list.
+- **Happening now** — while one of your service times is in progress, the cover shows
+  "Happening now" instead of "Next", with a link to watch when you have a video.
 - **Ministries** — active ministries with their age range, so visitors can see what's
   available for their family before they even show up.
 - **Small groups** — every group you mark **Show in the group finder on our website**
@@ -61,6 +68,12 @@ switch any time without losing content.
 Under **Make it yours** you can give your website a look no other church has, on top of
 whichever style you picked:
 
+- **Start from a style** — one tap sets a template, font, corners and background that go
+  well together; **Shuffle** tries a random mix. Nothing changes for visitors until you
+  press Save.
+- **Church colour** — pick any colour, or tap one of the colours taken from your logo. You'll
+  see a warning if the colour is too light for white button text.
+- **Preview** — your real website, on a phone or a computer, updates as you change things.
 - **Font** — six font pairings; each tile shows its letters so you can compare.
 - **Tagline** — a short line under your church's name on the cover.
 - **Logo** — round (cropped to a circle), its original shape, or **Wordmark** for a logo

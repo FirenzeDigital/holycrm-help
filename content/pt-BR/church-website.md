@@ -35,6 +35,14 @@ personalidade da sua igreja, e troque quando quiser sem perder conteúdo.
   topo como "Próximo", no fuso horário da sua igreja. Se nenhuma estiver marcada,
   "Próximo" usa o seu próximo [Evento](#/events) ou atividade semanal.
 - **Próximos eventos** — os seus próximos [Eventos](#/events), com data, horário e local.
+  Com uma **Descrição no site** e uma **Foto no site** o evento ganha um cartão mais
+  completo, e com **Inscrições no site** aparece um botão **Inscrever-me**: a pessoa deixa o
+  nome e um email ou telefone, e aparece como convidado em
+  [Inscrições em eventos](#/events).
+- **Cartões de ministérios** — quando algum ministério tem **Descrição no site** ou foto, os
+  ministérios aparecem como cartões em vez de uma lista simples.
+- **Acontecendo agora** — enquanto um dos seus horários está acontecendo, a capa mostra
+  "Acontecendo agora" no lugar de "Próximo", com um link para assistir se houver vídeo.
 - **Ministérios** — os ministérios ativos com a faixa etária, para quem visita a página
   ver o que está disponível para a família antes mesmo de aparecer.
 - **Pequenos grupos** — cada grupo marcado com **Mostrar no buscador de grupos do nosso
@@ -65,6 +73,13 @@ personalidade da sua igreja, e troque quando quiser sem perder conteúdo.
 Em **Deixe com a cara da sua igreja** você dá ao seu site um visual que nenhuma outra
 igreja tem, sobre o estilo que escolheu:
 
+- **Comece com um estilo** — um toque escolhe modelo, fonte, cantos e fundo que combinam;
+  **Surpreenda-me** testa uma mistura aleatória. Nada muda para os visitantes até você tocar
+  em Salvar.
+- **Cor da igreja** — escolha qualquer cor, ou toque em uma das cores tiradas do seu logo.
+  Aparece um aviso se a cor for clara demais para o texto branco dos botões.
+- **Pré-visualização** — o seu site de verdade, no celular ou no computador, se atualiza
+  enquanto você faz mudanças.
 - **Fonte** — seis combinações de fontes; cada opção mostra como elas ficam.
 - **Frase de destaque** — uma linha curta abaixo do nome da sua igreja na capa.
 - **Logo** — redondo (recortado em círculo), no formato original, ou **Logotipo com nome**

@@ -34,7 +34,15 @@ personalidade da sua igreja, e mude quando quiser sem perder conteúdo.
   marcada com **Mostrar no site** aparece com dia, hora e local, e a mais próxima aparece
   no topo como "Próximo", no fuso horário da sua igreja. Se nenhuma estiver marcada,
   "Próximo" usa o seu próximo [Evento](#/events) ou atividade semanal.
-- **Próximos eventos** — os seus próximos [Eventos](#/events), com data, hora e local.
+- **Próximos eventos** — os seus próximos [Eventos](#/events), com data, hora e local. Com
+  uma **Descrição no site** e uma **Fotografia no site** o evento ganha um cartão mais
+  completo, e com **Inscrições no site** aparece um botão **Inscrever-me**: a pessoa deixa o
+  nome e um email ou telefone, e aparece como convidado em
+  [Inscrições em eventos](#/events).
+- **Cartões de ministérios** — quando algum ministério tem **Descrição no site** ou
+  fotografia, os ministérios aparecem como cartões em vez de uma lista simples.
+- **Acontecendo agora** — enquanto um dos seus horários está a decorrer, a capa mostra
+  "Acontecendo agora" em vez de "Próximo", com uma ligação para ver se houver vídeo.
 - **Ministérios** — os ministérios ativos com a respetiva faixa etária, para quem visita
   a página ver o que está disponível para a sua família antes mesmo de aparecer.
 - **Pequenos grupos** — cada grupo marcado com **Mostrar no localizador de grupos do nosso
@@ -65,6 +73,13 @@ personalidade da sua igreja, e mude quando quiser sem perder conteúdo.
 Em **Dê-lhe a cara da sua igreja** pode dar ao seu site um aspeto que nenhuma outra igreja
 tem, sobre o estilo que escolheu:
 
+- **Comece com um estilo** — um toque escolhe modelo, tipo de letra, cantos e fundo que
+  combinam; **Surpreenda-me** experimenta uma mistura aleatória. Nada muda para os visitantes
+  até carregar em Guardar.
+- **Cor da igreja** — escolha qualquer cor, ou toque numa das cores tiradas do seu
+  logótipo. Aparece um aviso se a cor for clara demais para o texto branco dos botões.
+- **Pré-visualização** — o seu site real, no telemóvel ou no computador, atualiza-se
+  enquanto faz alterações.
 - **Tipo de letra** — seis combinações; cada opção mostra como ficam as letras.
 - **Frase de destaque** — uma linha curta por baixo do nome da sua igreja na capa.
 - **Logótipo** — redondo (recortado em círculo), na forma original, ou **Logótipo com nome**

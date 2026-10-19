@@ -18,6 +18,10 @@ apareceria corretamente num "Ministério de Jovens" com faixa 13–17. Deixe amb
 branco para um ministério sem restrição de idade (a predefinição). Ver
 [Presenças e check-in](#/attendance) para ver como isto se aplica no momento do check-in.
 
+**No seu site.** A **Descrição no site** e a **Fotografia no site** de um ministério
+transformam a entrada dele no [Site da igreja](#/church-website) num cartão. As notas
+internas nunca aparecem.
+
 ## Atividades de ministério
 
 Os encontros/cultos recorrentes ou pontuais de um ministério (por exemplo, "Culto de domingo,
