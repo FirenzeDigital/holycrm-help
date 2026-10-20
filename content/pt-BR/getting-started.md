@@ -16,8 +16,9 @@ busca acima, ou navegue por tópico no menu lateral.
 2. Se o seu e-mail é do Google (Gmail ou Google Workspace), clique em **Continuar com o
    Google** e pronto. Se não, abra o e-mail que enviamos, escolha uma senha e o app abre na
    hora. Não chegou? Clique em **Não recebeu o e-mail? Enviar de novo** (e confira o spam).
-3. No Painel, o cartão **Primeiros passos** tem um botão **Configure sua igreja** e uma
-   pequena lista de tarefas — veja "Uma primeira semana típica" abaixo.
+3. O guia **Configure sua igreja** abre sozinho na primeira vez, para acompanhar você no
+   básico. Você pode fechá-lo e voltar quando quiser pelo botão **Configure sua igreja** do
+   cartão **Primeiros passos** no Painel — veja "Uma primeira semana típica" abaixo.
 
 ## Fazendo login
 

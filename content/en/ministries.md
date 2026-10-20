@@ -34,8 +34,11 @@ soonest one is shown at the top as "Next". Leave it unticked for internal meetin
 ## Ministry Members
 
 Pick a ministry from the dropdown, and manage who's on it — add a member with a role
-(leader, co-leader, volunteer), or remove them. Removing takes them off the roster
-immediately; it doesn't just mark them inactive.
+(leader, co-leader, volunteer), change someone's role from the dropdown next to their name,
+or remove them. Removing takes them off the roster immediately.
+
+**Add several at once** adds everyone **with a tag**, or everyone **in a small group**, with
+the role you choose. Only active members who aren't on the team yet are added.
 
 This roster is what powers **Attendance**'s auto-prefilled roster for a ministry
 activity — add someone here first, and they'll already be listed when you go to take
@@ -43,5 +46,4 @@ attendance for that ministry's next gathering.
 
 ## What's not built yet
 
-Changing a member's role after adding them (remove and re-add instead), viewing/managing
-members who were removed, and bulk-adding a whole tagged group at once.
+Viewing members who were removed.

@@ -18,11 +18,13 @@ Administradores e Coordenadores podem usar: quem pode editar e excluir membros.
 
 ## Mesclar dois cadastros
 
-1. Compare os dois cartões: nome, e-mail, telefone, data de nascimento, situação, quando cada
+1. Compare os dois cartões: nome, e-mail, telefone, data de nascimento, endereço, sexo, situação, quando cada
    um foi cadastrado e se algum tem acesso ao HolyCRM.
 2. Escolha **Manter esta** no cadastro que quer manter. O HolyCRM escolhe o que tem acesso
    ou, se não houver, o mais antigo, mas você pode mudar.
-3. Clique em **Mesclar** e confirme.
+3. Onde os dois cadastros têm um valor **diferente** (dois telefones, duas grafias de um
+   nome…), cada lado mostra **Usar este**: escolha o valor que deve ficar.
+4. Clique em **Mesclar** e confirme.
 
 Ao mesclar:
 
@@ -35,7 +37,18 @@ Ao mesclar:
   campos personalizados são combinados. Quando os dois têm um valor, fica o do cadastro que
   você mantém.
 - Se as duas pessoas estavam no mesmo grupo, evento ou culto, ficam lá **uma vez só**.
-- O outro cadastro é excluído. **Não pode ser desfeito**, então confira o par antes.
+- O outro cadastro é excluído. Onde os dois tinham um valor, fica o que você escolheu com
+  **Usar este**.
+
+**Alguém cadastrado três vezes?** Depois da primeira mesclagem, a lista mostra o cadastro que
+ficou junto com a terceira cópia: mescle de novo.
+
+## Desfazendo uma mesclagem
+
+**Uniões recentes**, no topo da página, lista as mesclagens dos últimos 30 dias. **Desfazer**
+traz de volta a pessoa removida como estava, com tudo o que estava vinculado a ela, e devolve os
+dados da pessoa mantida — exceto o que alguém mudou desde então, que fica. Depois de 30 dias,
+uma mesclagem não pode mais ser desfeita.
 
 **As duas têm acesso?** Não dá para mesclar até remover um. Vá em
 [Usuários](#/users-roles), remova o acesso que sobra e depois mescle.

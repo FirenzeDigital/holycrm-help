@@ -69,6 +69,12 @@ de rearmarlo desde cero. Las plantillas muestran las variables combinadas como m
 literales `{{placeholder}}` en la vista previa, ya que todavía no hay un destinatario
 específico.
 
+**Duplicar** hace una copia de una plantilla para empezar una nueva a partir de ella.
+
+**Imágenes**, debajo de la lista de plantillas, muestra todas las imágenes que subiste en
+correos y plantillas. Podés eliminar las que no necesites; una imagen eliminada también
+desaparece de los correos ya enviados.
+
 ## Marca / identidad visual
 
 - **El logo de tu iglesia**, si lo subiste en [Configuración de la iglesia](#/church-settings),
@@ -76,6 +82,9 @@ específico.
   del editor.
 - Todo correo enviado a través de HolyCRM incluye una pequeña línea "Sent with HolyCRM" — no
   es algo que puedas quitar, y se mantiene deliberadamente discreta.
+
+- **El color de tu iglesia** (el color de marca en Configuración de la iglesia) se ve como una
+  barra fina arriba de cada correo, y en la vista previa.
 
 ## Después de enviar
 
@@ -85,6 +94,17 @@ entregaron del total, y **Enviando…** mientras algunos todavía están en cami
 no se puede entregar (por ejemplo, la dirección no existe), se cuenta como **Fallidos** y el
 motivo aparece debajo de ese envío; los demás se envían igual. Un correo de prueba llega de la
 misma forma, normalmente en un minuto.
+
+**Abiertos.** Si un Administrador activó **Contar quién abre los emails de Comunicados** en
+[Configuración de la iglesia](#/church-settings), Envíos recientes también muestra cuántos
+correos se abrieron. Es un número aproximado: algunas apps de correo abren todas las imágenes
+solas y otras nunca.
+
+**Rebotados.** Cuando una dirección resulta no existir, o alguien marca tu correo como spam, el
+envío lo muestra como **Rebotado**. Una dirección que rebotó se saltea en los envíos siguientes
+hasta que se cambie el correo de esa persona en Miembros; quien lo marcó como spam queda dado de
+baja. (Esto funciona para los correos que envía HolyCRM; si tu iglesia envía con su propia
+cuenta de correo, los rebotes llegan a esa cuenta.)
 
 ## Darse de baja
 
@@ -121,5 +141,5 @@ cuando se terminan los 1.000 del mes, y no vencen. La pantalla muestra cuántos 
 
 ## Lo que todavía no existe
 
-Programar un envío para más adelante (los envíos salen de inmediato), SMS como canal,
-seguimiento de aperturas/clics, y columnas anidadas dentro de columnas.
+Programar un envío para más tarde (los envíos salen en el momento), SMS como canal, seguimiento
+de clics, y columnas dentro de columnas.

@@ -33,9 +33,19 @@ A maioria de quem serve nas escalas só precisa da função **Membro**: estar nu
 
 Liderar um pequeno grupo ou ministério acrescenta acesso **a essa equipa** — veja [As minhas equipas](#/my-teams).
 
-A pessoa convidada recebe um e-mail com um link para definir a palavra-passe. Até o fazer, o
-seu estado aparece como **Convidado**; assim que define a palavra-passe — ou entra com
-**Continuar com o Google** usando esse mesmo e-mail — passa a **Ativo** automaticamente.
+A pessoa convidada recebe um e-mail com um link para definir a palavra-passe. **O link é
+válido durante 7 dias.** Até o usar, o seu estado aparece como **Convidado**, com a data até à
+qual o link é válido; assim que define a palavra-passe — ou entra com **Continuar com o Google**
+usando esse mesmo e-mail — passa a **Ativo** automaticamente. Se o link expirar, o estado mostra
+**Convite expirado**: clique em **Reenviar convite** para enviar um novo.
+
+## Convidar várias pessoas de uma vez
+
+**Convidar vários** permite colar uma lista, uma pessoa por linha: e-mail, nome, apelido
+(copiar de uma folha de cálculo também funciona), ou escolher um ficheiro CSV. Escolha uma
+função para todos e clique em **Enviar convites**. Quem já é membro com esse e-mail fica
+associado ao seu registo automaticamente. Vê o resultado de cada pessoa; as que não puderam ser
+convidadas ficam na caixa para as corrigir e tentar outra vez. Até 100 pessoas de cada vez.
 
 ## Gerir utilizadores existentes
 
@@ -47,6 +57,13 @@ Algumas regras de segurança incorporadas: só pode atribuir ou gerir funções 
 (um Coordenador não pode mexer num Administrador nem noutro Coordenador), não pode editar a sua própria linha
 neste ecrã, e uma igreja mantém sempre pelo menos um Administrador — o último não pode ser removido
 nem despromovido.
+
+O filtro **Estado** por cima da lista mostra só utilizadores Ativos, **Convites pendentes**
+(todos os que ainda não aceitaram), convites expirados ou utilizadores suspensos.
+
+**Histórico** mostra as últimas 100 alterações nos acessos da sua igreja — quem foi convidado ou
+adicionado, alterações de função e de estado, alterações de e-mail e remoções — com quando e
+quem o fez.
 
 ## Associar um utilizador a um membro
 

@@ -32,6 +32,14 @@ até você salvar.
 A lista de sessões mostra suas sessões recentes com uma contagem de presentes/total; clique
 em uma para reabrir e editar.
 
+Cada pessoa também tem **Nota**, para um comentário curto como "viajando" ou "primeira vez
+trazendo um amigo"; ela é salva com a presença.
+
+**Tendências**, acima da lista, mostra a média de presentes por sessão em cada um dos últimos
+6 meses (passe o mouse sobre uma barra para ver quantas sessões houve e a média de eventos,
+atividades de ministério e pequenos grupos). Abaixo, o HolyCRM lista as pessoas que vieram 3
+vezes ou mais e **não nas últimas 4 semanas** — uma lista pronta para uma ligação pastoral.
+
 ## Check-in
 
 Um fluxo mais rápido para um culto, conferência, ou qualquer evento **não** restrito a
@@ -85,7 +93,6 @@ como menor de idade.
 
 ## O que ainda não existe
 
-Editar ou remover um vínculo de responsável pela própria tela de check-in (faça isso pelo
-cadastro de Membro da criança), rodar várias sessões de check-in simultâneas em uma mesma
-tela, integração com hardware de leitor/impressora, e relatórios de tendência de presença além
-da simples lista de sessões.
+Editar ou remover o vínculo com um responsável pela tela de check-in (faça isso no cadastro da
+criança), rodar várias sessões de check-in ao mesmo tempo na mesma tela, e integração com
+leitores ou impressoras de etiquetas.

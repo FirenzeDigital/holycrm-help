@@ -33,9 +33,19 @@ La mayoría de quienes sirven en turnos solo necesitan el rol **Miembro**: estar
 
 Liderar un grupo pequeño o un ministerio suma acceso a **ese equipo** — ver [Mis equipos](#/my-teams).
 
-La persona invitada recibe un correo con un enlace para configurar su contraseña. Hasta que lo
-haga, su estado figura como **Invitado**; una vez que configura su contraseña — o entra con
-**Continuar con Google** usando ese mismo correo — pasa a **Activo** automáticamente.
+La persona invitada recibe un correo con un enlace para configurar su contraseña. **El enlace
+funciona durante 7 días.** Hasta que lo use, su estado figura como **Invitado**, con la fecha
+hasta la que vale el enlace; una vez que configura su contraseña — o entra con **Continuar con
+Google** usando ese mismo correo — pasa a **Activo** automáticamente. Si el enlace vence, el
+estado muestra **Invitación vencida**: tocá **Reenviar invitación** para mandar uno nuevo.
+
+## Invitar a varias personas a la vez
+
+**Invitar a varios** te deja pegar una lista, una persona por línea: correo, nombre, apellido
+(también sirve copiar desde una planilla), o elegir un archivo CSV. Elegí un rol para todos y
+tocá **Enviar invitaciones**. Si alguien ya es miembro con ese correo, se vincula a su ficha
+automáticamente. Ves el resultado de cada persona; las que no se pudieron invitar quedan en el
+cuadro para que las corrijas y vuelvas a intentar. Hasta 100 personas por vez.
 
 ## Gestionar usuarios existentes
 
@@ -48,6 +58,12 @@ Algunas reglas de seguridad incorporadas: solo podés asignar o gestionar roles 
 del tuyo (un Coordinador no puede tocar a un Administrador ni a otro Coordinador), no podés editar tu propia
 fila desde esta pantalla, y una iglesia siempre conserva al menos un Administrador — al último no se
 lo puede quitar ni degradar.
+
+El filtro **Estado** arriba de la lista muestra solo usuarios Activos, **Invitaciones
+pendientes** (todos los que todavía no aceptaron), invitaciones vencidas o usuarios suspendidos.
+
+**Historial** muestra los últimos 100 cambios en los accesos de tu iglesia — a quién se invitó o
+agregó, cambios de rol y de estado, cambios de correo y bajas — con cuándo y quién lo hizo.
 
 ## Vincular un usuario con un miembro
 

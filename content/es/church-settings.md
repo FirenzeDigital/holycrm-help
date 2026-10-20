@@ -26,6 +26,12 @@ predeterminada, edad límite para menores, y el logo de tu iglesia.
 
 Solo los Administradores y Coordinadores pueden cambiar esta configuración.
 
+- **Contar quién abre los emails de Comunicados** — agrega una imagen invisible muy chica a
+  cada correo de [Comunicados](#/bulk-email) para que Envíos recientes muestre cuántos se
+  abrieron. Apagado por defecto; el número es aproximado.
+- **Color de marca** — también se ve como una barra fina arriba de tus correos de
+  Comunicados.
+
 ## Compartí la app
 
 La tarjeta **Compartí la app**, arriba en Configuración de la iglesia, tiene un enlace y un código

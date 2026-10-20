@@ -17,8 +17,9 @@ buscador de arriba, o navegá por tema en el menú lateral.
    entrás. Si no, abrí el correo que te mandamos, elegí una contraseña y la app se abre en el
    momento. ¿No te llegó? Tocá **¿No te llegó el correo? Enviarlo de nuevo** (y revisá
    también el spam).
-3. En el Panel principal, la tarjeta **Primeros pasos** tiene un botón **Configurá tu
-   iglesia** y una lista corta de tareas — ver "Una primera semana típica" más abajo.
+3. La guía **Configurá tu iglesia** se abre sola la primera vez, para acompañarte en lo básico.
+   Podés cerrarla y volver cuando quieras desde el botón **Configurá tu iglesia** de la tarjeta
+   **Primeros pasos** del Panel principal — ver "Una primera semana típica" más abajo.
 
 ## Iniciar sesión
 

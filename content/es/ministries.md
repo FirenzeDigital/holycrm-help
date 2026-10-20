@@ -43,8 +43,11 @@ Esta lista es lo que alimenta el pre-llenado automático de **Asistencia** para 
 de ministerio — agregá a alguien acá primero, y ya va a aparecer listado cuando vayas a tomar
 asistencia en la próxima reunión de ese ministerio.
 
+Podés cambiar el rol de alguien desde el desplegable al lado de su nombre.
+**Agregar varios a la vez** suma a todos los que tienen **una etiqueta**, o a todos los de
+**un grupo pequeño**, con el rol que elijas. Solo se agregan miembros activos que todavía no
+están en el equipo.
+
 ## Lo que todavía no hace
 
-Cambiar el rol de un miembro después de agregado (quitalo y volvé a agregarlo con otro rol),
-ver/gestionar miembros que fueron quitados, y agregar en bloque a todo un grupo etiquetado de
-una vez.
+Ver a los miembros que se quitaron.

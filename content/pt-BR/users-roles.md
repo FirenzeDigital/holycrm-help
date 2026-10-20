@@ -33,9 +33,19 @@ A maioria de quem serve nas escalas só precisa da função **Membro**: estar nu
 
 Liderar um pequeno grupo ou ministério acrescenta acesso **àquela equipe** — veja [Minhas equipes](#/my-teams).
 
-A pessoa convidada recebe um e-mail com um link para definir a senha. Até ela fazer isso, o
-status aparece como **Convidado**; assim que ela define a senha — ou entra com **Continuar
-com o Google** usando esse mesmo e-mail — passa a **Ativo** automaticamente.
+A pessoa convidada recebe um e-mail com um link para definir a senha. **O link vale por
+7 dias.** Até ela usá-lo, o status aparece como **Convidado**, com a data até quando o link
+vale; assim que ela define a senha — ou entra com **Continuar com o Google** usando esse mesmo
+e-mail — passa a **Ativo** automaticamente. Se o link expirar, o status mostra **Convite
+expirado**: clique em **Reenviar convite** para mandar um novo.
+
+## Convidando várias pessoas de uma vez
+
+**Convidar vários** permite colar uma lista, uma pessoa por linha: e-mail, nome, sobrenome
+(copiar de uma planilha também funciona), ou escolher um arquivo CSV. Escolha uma função para
+todos e clique em **Enviar convites**. Quem já é membro com esse e-mail é vinculado ao seu
+cadastro automaticamente. Você vê o resultado de cada pessoa; as que não puderam ser convidadas
+ficam na caixa para você corrigir e tentar de novo. Até 100 pessoas por vez.
 
 ## Gerenciando usuários existentes
 
@@ -47,6 +57,13 @@ Algumas regras de segurança embutidas: você só pode atribuir ou gerenciar fun
 sua (um Coordenador não pode mexer em um Administrador nem em outro Coordenador), você não pode editar sua
 própria linha nesta tela, e uma igreja sempre mantém pelo menos um Administrador — o último não pode
 ser removido nem rebaixado.
+
+O filtro **Status** acima da lista mostra só usuários Ativos, **Convites pendentes** (todos
+que ainda não aceitaram), convites expirados ou usuários suspensos.
+
+**Histórico** mostra as últimas 100 mudanças nos acessos da sua igreja — quem foi convidado ou
+adicionado, mudanças de função e de status, mudanças de e-mail e remoções — com quando e quem
+fez.
 
 ## Vinculando um usuário a um membro
 

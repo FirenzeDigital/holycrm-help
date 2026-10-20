@@ -18,6 +18,10 @@ minor age cutoff, and your church logo.
   a prayer request. See [Prayer Requests](#/prayer-requests).
 - **Public giving page** — turns on a public page with your church's ways to give (bank
   details, PIX, alias, payment links). See [Online Giving Page](#/online-giving).
+- **Count who opens Announcements emails** — adds a tiny invisible image to each
+  [announcement](#/bulk-email) email so Recent sends can show how many were opened. Off by
+  default; the number is approximate.
+- **Theme colour** — also shown as a thin bar on top of your announcement emails.
 - **Phone country code** — your country's dialling code, numbers only (54 Argentina, 55
   Brazil, 52 Mexico, 44 UK…). HolyCRM adds it to phone numbers saved without one when it
   opens a WhatsApp chat, for example when [asking volunteers to confirm](#/rotas).

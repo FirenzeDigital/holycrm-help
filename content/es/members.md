@@ -23,6 +23,20 @@ Campos útiles:
   Nuevo, Asistiendo, Conectado, Sirviendo o Liderando. Ver
   [Escalera de crecimiento](#/growth-ladder).
 
+## Campos personalizados
+
+La información para la que HolyCRM no tiene un campo — una fecha de bautismo, una clase de
+membresía, un talle de remera — se puede agregar como **campo personalizado** en
+**Configuración → Campos personalizados**: texto, número, fecha, una lista de opciones o sí/no.
+Aparecen en la ficha de cada miembro. Opciones de cada campo:
+
+- **Obligatorio** — la ficha no se guarda sin una respuesta.
+- **Mínimo / Máximo** — para números, los valores permitidos.
+- **Mostrar en la lista de Miembros** — lo agrega como columna en la lista (cada persona igual
+  puede ocultarla con el botón de columnas). Los campos de lista y de sí/no también sirven como
+  filtros.
+- **Oculto** — lo saca de la ficha sin borrar las respuestas ya guardadas.
+
 ## Menores y tutores
 
 Si la fecha de nacimiento de un miembro lo ubica por debajo de la "edad límite para menores"
@@ -63,3 +77,6 @@ La lista de Miembros tiene búsqueda y filtros por columna (estado, etiquetas, e
 puedas acotar rápido a, por ejemplo, "voluntarios activos etiquetados Equipo de Alabanza."
 
 La lista muestra lo esencial: nombre, teléfono, correo, etapa de crecimiento, etiquetas y estado. Usá el **botón de columnas** (arriba a la derecha de la lista) para ver más, como fecha de nacimiento, notas o adultos responsables; tu elección queda guardada en ese dispositivo.
+
+**Etiquetar…**, al lado del buscador, agrega o quita una etiqueta a todos los que la lista
+está mostrando — ver [Etiquetas y roles de etiqueta](#/tags).

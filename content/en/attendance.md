@@ -28,8 +28,16 @@ for a substitute or a first-time attendee. Mark each person Present, Absent, Lat
 Excused (or **Mark all present**), then **Save attendance** — nothing is written until you
 save.
 
+Each person also has **Note**, for a short comment such as "traveling" or "first time bringing
+a friend"; it's saved with their attendance.
+
 The sessions list shows your recent sessions with a present/total count; click one to
 reopen and edit it.
+
+**Trends**, above the list, shows the average number present per session for each of the last
+6 months (hover a bar for how many sessions and the average for events, ministry activities
+and small groups). Under it, HolyCRM lists the people who came 3 or more times and **not in the
+last 4 weeks** — a ready list for a pastoral call.
 
 ## Check-in
 
@@ -82,5 +90,4 @@ minor.
 
 Editing or removing a guardian link from the check-in screen itself (do that from the
 child's own Member record instead), running multiple simultaneous check-in sessions on one
-screen, hardware scanner/printer integration, and attendance trend reports beyond the
-simple sessions list.
+screen, and hardware scanner/printer integration.

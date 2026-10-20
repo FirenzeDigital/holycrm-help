@@ -36,8 +36,9 @@ busca acima, ou navegue por tópico no menu lateral.
 2. Se o seu e-mail é do Google (Gmail ou Google Workspace), clique em **Continuar com o
    Google** e pronto. Se não, abra o e-mail que enviamos, escolha uma senha e o app abre na
    hora. Não chegou? Clique em **Não recebeu o e-mail? Enviar de novo** (e confira o spam).
-3. No Painel, o cartão **Primeiros passos** tem um botão **Configure sua igreja** e uma
-   pequena lista de tarefas — veja "Uma primeira semana típica" abaixo.
+3. O guia **Configure sua igreja** abre sozinho na primeira vez, para acompanhar você no
+   básico. Você pode fechá-lo e voltar quando quiser pelo botão **Configure sua igreja** do
+   cartão **Primeiros passos** no Painel — veja "Uma primeira semana típica" abaixo.
 
 ## Fazendo login
 
@@ -256,6 +257,19 @@ Campos úteis:
   Frequentando, Conectado, Servindo ou Liderando. Veja
   [Escada de crescimento](https://docs.holycrm.app/content/pt-BR/growth-ladder.md).
 
+## Campos personalizados
+
+Informações para as quais o HolyCRM não tem um campo — uma data de batismo, uma turma de
+membresia, um tamanho de camiseta — podem ser adicionadas como **campo personalizado** em
+**Configurações → Campos personalizados**: texto, número, data, uma lista de opções ou sim/não.
+Eles aparecem no cadastro de cada membro. Opções de cada campo:
+
+- **Obrigatório** — o cadastro não é salvo sem uma resposta.
+- **Mínimo / Máximo** — para números, os valores permitidos.
+- **Mostrar na lista de Membros** — adiciona como coluna na lista (cada pessoa ainda pode
+  ocultá-la pelo botão de colunas). Campos de lista e de sim/não também servem como filtros.
+- **Oculto** — tira do cadastro sem apagar as respostas já salvas.
+
 ## Menores e responsáveis
 
 Se a data de nascimento de um membro o coloca abaixo da "idade limite para menores"
@@ -296,6 +310,9 @@ A lista de Membros tem busca e filtros por coluna (status, tags, etc.) para voc�
 rapidamente chegar a, por exemplo, "voluntários ativos com a tag Equipe de Louvor."
 
 A lista mostra o essencial: nome, telefone, e-mail, etapa de crescimento, tags e status. Use o **botão de colunas** (no canto superior direito da lista) para ver mais, como data de nascimento, observações ou responsáveis; sua escolha fica salva naquele dispositivo.
+
+**Etiquetar…**, ao lado da busca, adiciona ou remove uma tag de todos que a lista está
+mostrando — veja [Tags e funções de tag](https://docs.holycrm.app/content/pt-BR/tags.md).
 
 ---
 
@@ -434,16 +451,27 @@ interesse**, que o traz como novo [Visitante](https://docs.holycrm.app/content/p
   longo do tempo.
 - **Painel de membros** — adicione alguém com uma função (líder, colíder, membro) ou remova.
   Remover apaga a participação por completo, não só marca como inativa.
-- **Painel de reuniões** — registre uma reunião com data, número de presentes, número de
-  visitantes/novos, oferta e tema. É um registro de quantidades, não uma lista de presença
-  pessoa por pessoa — se você precisa saber *quem* esteve em uma reunião de grupo específica,
-  isso é outro conceito: veja [Presença e check-in](https://docs.holycrm.app/content/pt-BR/attendance.md).
+- **Reuniões**: além dos números e do tema, cada reunião tem **Observações** (pedidos de
+  oração, acompanhamentos, como foi). **Quem veio** mostra os membros do grupo com uma caixa
+  cada: marque quem estava (ou **Marcar todos como presentes**) e o HolyCRM salva a presença de cada
+  pessoa, que também aparece em [Presença](https://docs.holycrm.app/content/pt-BR/attendance.md). Se deixar **Presentes** em branco,
+  ele é preenchido com o número que você marcou. O registro mostra as observações e quem estava
+  em cada reunião.
+- **Editar** em uma reunião registrada a carrega de volta no formulário, inclusive quem veio,
+  para você corrigir e **Salvar**.
+
+## Tags e árvore genealógica
+
+- Os grupos podem ter [tags](https://docs.holycrm.app/content/pt-BR/tags.md), escolhidas no formulário do grupo como em um membro. A
+  lista tem um filtro **Tags**, e **Etiquetar…** marca todos os grupos que a lista mostra.
+- **Árvore genealógica** (ao lado de **Cartões**, acima da lista) mostra cada grupo embaixo do
+  grupo do qual se multiplicou, para ver de relance toda a linhagem de uma célula. Clique em
+  qualquer grupo para abri-lo.
 
 ## O que ainda não faz
 
-Editar uma reunião já registrada (exclua e cadastre de novo), uma árvore visual de linhagem
-para grupos multiplicados, ou presença por pessoa dentro de uma reunião de grupo (só se
-registram quantidades totais).
+Fazer com que a função de "líder" de um membro no painel de membros do grupo vire
+automaticamente o Líder principal do grupo (escolha o Líder no formulário do grupo).
 
 ---
 
@@ -678,6 +706,14 @@ até você salvar.
 A lista de sessões mostra suas sessões recentes com uma contagem de presentes/total; clique
 em uma para reabrir e editar.
 
+Cada pessoa também tem **Nota**, para um comentário curto como "viajando" ou "primeira vez
+trazendo um amigo"; ela é salva com a presença.
+
+**Tendências**, acima da lista, mostra a média de presentes por sessão em cada um dos últimos
+6 meses (passe o mouse sobre uma barra para ver quantas sessões houve e a média de eventos,
+atividades de ministério e pequenos grupos). Abaixo, o HolyCRM lista as pessoas que vieram 3
+vezes ou mais e **não nas últimas 4 semanas** — uma lista pronta para uma ligação pastoral.
+
 ## Check-in
 
 Um fluxo mais rápido para um culto, conferência, ou qualquer evento **não** restrito a
@@ -731,10 +767,9 @@ como menor de idade.
 
 ## O que ainda não existe
 
-Editar ou remover um vínculo de responsável pela própria tela de check-in (faça isso pelo
-cadastro de Membro da criança), rodar várias sessões de check-in simultâneas em uma mesma
-tela, integração com hardware de leitor/impressora, e relatórios de tendência de presença além
-da simples lista de sessões.
+Editar ou remover o vínculo com um responsável pela tela de check-in (faça isso no cadastro da
+criança), rodar várias sessões de check-in ao mesmo tempo na mesma tela, e integração com
+leitores ou impressoras de etiquetas.
 
 ---
 
@@ -786,11 +821,13 @@ Essa lista é o que alimenta o preenchimento automático de **Presença** para u
 ministério — adicione alguém aqui primeiro, e ele já vai aparecer listado quando você for
 registrar presença no próximo encontro daquele ministério.
 
+Você pode mudar a função de alguém no menu ao lado do nome. **Adicionar vários de uma vez**
+inclui todos que têm **uma tag**, ou todos de **um pequeno grupo**, com a função que você
+escolher. Só são adicionados membros ativos que ainda não estão na equipe.
+
 ## O que ainda não faz
 
-Alterar a função de um membro depois de adicionado (remova e adicione novamente com outra
-função), ver/gerenciar membros que foram removidos, e adicionar em massa um grupo inteiro
-marcado com uma tag de uma vez.
+Ver os membros que foram removidos.
 
 ---
 
@@ -962,6 +999,12 @@ mensal — como Modelo, e depois carregue-o em um novo comunicado mais tarde, em
 recriá-lo do zero. Os modelos mostram as variáveis de mesclagem como marcadores literais
 `{{placeholder}}` na pré-visualização, já que ainda não há um destinatário específico.
 
+**Duplicar** faz uma cópia de um modelo para começar um novo a partir dele.
+
+**Imagens**, abaixo da lista de modelos, mostra todas as imagens que você enviou em e-mails e
+modelos. Você pode excluir as que não precisa; uma imagem excluída também some dos e-mails já
+enviados.
+
 ## Identidade visual
 
 - **O logo da sua igreja**, se você fez upload em
@@ -969,6 +1012,9 @@ recriá-lo do zero. Os modelos mostram as variáveis de mesclagem como marcadore
   clique pelo botão **Logo da igreja** do editor.
 - Todo e-mail enviado pelo HolyCRM inclui uma pequena linha "Sent with HolyCRM" — isso não é
   algo que você pode remover, e é mantido deliberadamente discreto.
+
+- **A cor da sua igreja** (a cor da marca nas Configurações da igreja) aparece como uma barra
+  fina no topo de cada e-mail, e na pré-visualização.
 
 ## Depois de enviar
 
@@ -978,6 +1024,17 @@ do total, e **Enviando…** enquanto alguns ainda estão a caminho. Se um e-mail
 entregue (por exemplo, o endereço não existe), ele conta como **Falharam** e o motivo aparece
 abaixo desse envio; os outros são enviados normalmente. Um e-mail de teste chega do mesmo
 jeito, normalmente em um minuto.
+
+**Abertos.** Se um Administrador ligou **Contar quem abre os e-mails de Comunicados** nas
+[Configurações da igreja](https://docs.holycrm.app/content/pt-BR/church-settings.md), Envios recentes também mostra quantos e-mails
+foram abertos. É um número aproximado: alguns apps de e-mail abrem todas as imagens sozinhos e
+outros nunca.
+
+**Devolvidos.** Quando um endereço não existe, ou alguém marca seu e-mail como spam, o envio
+mostra isso como **Devolvido**. Um endereço devolvido é pulado nos próximos envios até o e-mail
+da pessoa ser alterado em Membros; quem marcou como spam tem a inscrição cancelada. (Isso
+funciona para os e-mails enviados pelo HolyCRM; se sua igreja envia pela própria conta de
+e-mail, as devoluções chegam a essa conta.)
 
 ## Cancelar inscrição
 
@@ -1014,8 +1071,8 @@ os 1.000 do mês acabam, e não expiram. A tela mostra quantos restam.
 
 ## O que ainda não existe
 
-Agendar um envio para mais tarde (os envios saem imediatamente), SMS como canal, rastreamento
-de aberturas/cliques, e colunas aninhadas dentro de colunas.
+Agendar um envio para depois (os envios saem na hora), SMS como canal, rastreamento de
+cliques, e colunas dentro de colunas.
 
 ---
 
@@ -1595,10 +1652,20 @@ acompanhamentos de visitantes, fazer escalas), vai ver esse cartão vazio ou com
 haver dados suficientes. Isso não é um erro; ele vai se preenchendo conforme você usa o
 app.
 
+## Exportar, imprimir ou enviar por e-mail
+
+Os botões no topo de Relatórios compartilham o que você vê:
+
+- **Exportar** baixa um arquivo de planilha (CSV) com os cinco números, os valores mês a mês de
+  cada gráfico e os grupos que crescem.
+- **Imprimir** imprime a página (escolha "Salvar como PDF" na janela de impressão para um PDF).
+- **E-mail** abre o seu próprio app de e-mail com o relatório já escrito, para você escolher
+  quem recebe.
+
 ## O que ainda não existe
 
-Histórico além de 24 meses nos cartões de tendência, exportar ou imprimir um relatório, e
-qualquer envio automático mensal por e-mail.
+Histórico de mais de 24 meses nos cartões de tendências, e qualquer e-mail automático do tipo
+"me mande isto todo mês".
 
 ---
 
@@ -1908,6 +1975,11 @@ para menores, e o logo da sua igreja.
 
 Só Administradores e Coordenadores podem alterar essas configurações.
 
+- **Contar quem abre os e-mails de Comunicados** — adiciona uma imagem invisível bem pequena a
+  cada e-mail de [Comunicados](https://docs.holycrm.app/content/pt-BR/bulk-email.md) para que Envios recentes mostre quantos foram
+  abertos. Desligado por padrão; o número é aproximado.
+- **Cor da marca** — também aparece como uma barra fina no topo dos seus e-mails de Comunicados.
+
 ## Compartilhe o app
 
 O cartão **Compartilhe o app**, no topo das Configurações da igreja, tem um link e um código QR
@@ -1973,9 +2045,19 @@ A maioria de quem serve nas escalas só precisa da função **Membro**: estar nu
 
 Liderar um pequeno grupo ou ministério acrescenta acesso **àquela equipe** — veja [Minhas equipes](https://docs.holycrm.app/content/pt-BR/my-teams.md).
 
-A pessoa convidada recebe um e-mail com um link para definir a senha. Até ela fazer isso, o
-status aparece como **Convidado**; assim que ela define a senha — ou entra com **Continuar
-com o Google** usando esse mesmo e-mail — passa a **Ativo** automaticamente.
+A pessoa convidada recebe um e-mail com um link para definir a senha. **O link vale por
+7 dias.** Até ela usá-lo, o status aparece como **Convidado**, com a data até quando o link
+vale; assim que ela define a senha — ou entra com **Continuar com o Google** usando esse mesmo
+e-mail — passa a **Ativo** automaticamente. Se o link expirar, o status mostra **Convite
+expirado**: clique em **Reenviar convite** para mandar um novo.
+
+## Convidando várias pessoas de uma vez
+
+**Convidar vários** permite colar uma lista, uma pessoa por linha: e-mail, nome, sobrenome
+(copiar de uma planilha também funciona), ou escolher um arquivo CSV. Escolha uma função para
+todos e clique em **Enviar convites**. Quem já é membro com esse e-mail é vinculado ao seu
+cadastro automaticamente. Você vê o resultado de cada pessoa; as que não puderam ser convidadas
+ficam na caixa para você corrigir e tentar de novo. Até 100 pessoas por vez.
 
 ## Gerenciando usuários existentes
 
@@ -1987,6 +2069,13 @@ Algumas regras de segurança embutidas: você só pode atribuir ou gerenciar fun
 sua (um Coordenador não pode mexer em um Administrador nem em outro Coordenador), você não pode editar sua
 própria linha nesta tela, e uma igreja sempre mantém pelo menos um Administrador — o último não pode
 ser removido nem rebaixado.
+
+O filtro **Status** acima da lista mostra só usuários Ativos, **Convites pendentes** (todos
+que ainda não aceitaram), convites expirados ou usuários suspensos.
+
+**Histórico** mostra as últimas 100 mudanças nos acessos da sua igreja — quem foi convidado ou
+adicionado, mudanças de função e de status, mudanças de e-mail e remoções — com quando e quem
+fez.
 
 ## Vinculando um usuário a um membro
 
@@ -2038,7 +2127,7 @@ Section: Configurações
 
 ## Tags
 
-Uma etiqueta simples que você atribui aos membros — "Equipe de Louvor", "Primeiros Socorros",
+Uma etiqueta simples que você atribui aos membros e aos pequenos grupos — "Equipe de Louvor", "Primeiros Socorros",
 "Líder de Jovens", o que for útil para sua igreja. Crie tags uma vez em
 **Configurações → Tags**, depois escolha-as em um seletor tipo chip no
 cadastro de qualquer membro. Não há limite para como você as usa além de membros, nem cores
@@ -2066,10 +2155,33 @@ Se uma função não estiver associada a uma tag, o seletor dela simplesmente mo
 membros ativos em vez de filtrar — configurar isso é totalmente opcional, e nada quebra se
 você pular essa etapa.
 
+## Criando uma tag na hora
+
+Todo seletor de tags termina com **＋ Nova etiqueta**: digite o nome e aperte Enter. A tag é
+criada e já fica selecionada, sem precisar ir antes às Configurações.
+
+## Marcando muitas pessoas de uma vez
+
+Na lista de [Membros](https://docs.holycrm.app/content/pt-BR/members.md) (e em [Pequenos grupos](https://docs.holycrm.app/content/pt-BR/groups.md)), **Etiquetar…** adiciona ou
+remove uma tag de **todos que a lista está mostrando agora**. Busque ou filtre antes — por
+exemplo, pela tag de um ministério ou pelo status —, depois escolha a tag, **Adicionar esta
+etiqueta** ou **Remover esta etiqueta**, e **Aplicar**. As outras tags de cada pessoa não são
+mexidas.
+
+## Unindo duas tags
+
+Duas tags que significam o mesmo ("Jovens" e "Juventude")? Em **Configurações → Tags**, clique
+em **Unir com…** na que vai sair e escolha a que fica. Todos que tinham a primeira passam a ter
+a segunda, as Funções de tag que a usavam passam para a outra, e a primeira é excluída. Não
+pode ser desfeito.
+
+## Tags nos grupos
+
+Os pequenos grupos também podem ter tags, e a lista de grupos pode ser filtrada por tag.
+
 ## O que ainda não existe
 
-Associar uma função a mais de uma tag, mesclar duas tags em uma, e marcar/desmarcar tags em
-massa para um grupo de membros de uma vez.
+Mapear uma função para mais de uma tag.
 
 ---
 
@@ -2078,8 +2190,10 @@ Section: Configurações
 
 # Importar dados
 
-Se sua igreja já tem uma lista de membros em uma planilha, o Importar dados permite trazê-la
-em vez de digitar tudo de novo. Ele importa **Membros**.
+Se sua igreja já tem seus registros em uma planilha, o Importar dados permite trazê-los em
+vez de digitar tudo de novo. Primeiro escolha **o que você vai importar**: **Membros**,
+**Visitantes**, **Histórico de ofertas** ou **Grupos**. Cada um tem seu modelo e suas colunas;
+as etapas são as mesmas para os quatro (veja "Visitantes, ofertas e grupos" mais abaixo).
 
 ## Antes de começar
 
@@ -2171,10 +2285,26 @@ Para arrumar pessoas que já foram cadastradas duas vezes, use
 - A condição de menor de idade é calculada com a data de nascimento e a idade-limite da sua
   igreja — veja [Membros](https://docs.holycrm.app/content/pt-BR/members.md).
 
+## Visitantes, ofertas e grupos
+
+- **Visitantes** — nome (obrigatório), sobrenome, e-mail, telefone, WhatsApp, endereço,
+  primeira visita, como nos conheceu, etapa e observações. Visitantes que já estão no HolyCRM
+  são identificados como os membros.
+- **Histórico de ofertas** — uma oferta por linha: data e valor são obrigatórios. O **doador**
+  é buscado entre seus membros pelo e-mail ou por nome e sobrenome; se ninguém corresponder (ou
+  duas pessoas tiverem esse nome), a oferta é registrada sem doador e não aparece no extrato de
+  ninguém. Os valores podem ser escritos `1500.00` ou `1.500,00`. Moeda em branco é a da sua
+  igreja; outra moeda precisa de uma coluna de **taxa de câmbio**. Uma **categoria** que não
+  existe é criada; em branco usa sua primeira categoria de receita. Ofertas que já estão no
+  HolyCRM (mesma data, valor, doador e referência) são sinalizadas, então importar o mesmo
+  arquivo duas vezes não as conta duas vezes.
+- **Grupos** — nome (obrigatório), tipo, líder (buscado como o doador), dia e horário da
+  reunião, onde se reúnem, anfitrião, descrição e status. Um grupo com o mesmo nome de um que
+  você já tem pode ser ignorado ou atualizado.
+
 ## O que ainda não faz
 
-Importar algo que não sejam Membros (visitantes, histórico de ofertas…) ou mais de 500
-linhas de uma vez.
+Importar mais de 500 linhas de uma vez, os membros de cada grupo, ou despesas.
 
 ---
 
@@ -2201,11 +2331,13 @@ Administradores e Coordenadores podem usar: quem pode editar e excluir membros.
 
 ## Mesclar dois cadastros
 
-1. Compare os dois cartões: nome, e-mail, telefone, data de nascimento, situação, quando cada
+1. Compare os dois cartões: nome, e-mail, telefone, data de nascimento, endereço, sexo, situação, quando cada
    um foi cadastrado e se algum tem acesso ao HolyCRM.
 2. Escolha **Manter esta** no cadastro que quer manter. O HolyCRM escolhe o que tem acesso
    ou, se não houver, o mais antigo, mas você pode mudar.
-3. Clique em **Mesclar** e confirme.
+3. Onde os dois cadastros têm um valor **diferente** (dois telefones, duas grafias de um
+   nome…), cada lado mostra **Usar este**: escolha o valor que deve ficar.
+4. Clique em **Mesclar** e confirme.
 
 Ao mesclar:
 
@@ -2218,7 +2350,18 @@ Ao mesclar:
   campos personalizados são combinados. Quando os dois têm um valor, fica o do cadastro que
   você mantém.
 - Se as duas pessoas estavam no mesmo grupo, evento ou culto, ficam lá **uma vez só**.
-- O outro cadastro é excluído. **Não pode ser desfeito**, então confira o par antes.
+- O outro cadastro é excluído. Onde os dois tinham um valor, fica o que você escolheu com
+  **Usar este**.
+
+**Alguém cadastrado três vezes?** Depois da primeira mesclagem, a lista mostra o cadastro que
+ficou junto com a terceira cópia: mescle de novo.
+
+## Desfazendo uma mesclagem
+
+**Uniões recentes**, no topo da página, lista as mesclagens dos últimos 30 dias. **Desfazer**
+traz de volta a pessoa removida como estava, com tudo o que estava vinculado a ela, e devolve os
+dados da pessoa mantida — exceto o que alguém mudou desde então, que fica. Depois de 30 dias,
+uma mesclagem não pode mais ser desfeita.
 
 **As duas têm acesso?** Não dá para mesclar até remover um. Vá em
 [Usuários](https://docs.holycrm.app/content/pt-BR/users-roles.md), remova o acesso que sobra e depois mescle.

@@ -36,8 +36,9 @@ way you expected. Use the search box above, or browse by topic in the sidebar.
    and you're in. Otherwise, open the email we sent you, choose a password, and the app opens
    straight away. No email? Click **Didn't get the email? Send it again** (check your spam
    folder too).
-3. On the Dashboard, the **Getting started** card has a **Set up your church** button and a
-   short checklist — see "A typical first week" below.
+3. The **Set up your church** guide opens by itself the first time, to walk you through the
+   basics. You can close it and come back any time from the **Set up your church** button on
+   the Dashboard's **Getting started** card — see "A typical first week" below.
 
 ## Logging in
 
@@ -243,6 +244,18 @@ Useful fields:
 - **Growth stage** — where someone is on their journey with your church: New, Attending,
   Connected, Serving, or Leading. See [Growth Ladder](https://docs.holycrm.app/content/en/growth-ladder.md).
 
+## Custom fields
+
+Information HolyCRM has no field for — a baptism date, a membership class, a T-shirt size — can
+be added as a **custom field** in **Settings → Custom Fields**: text, number, date, a list of
+choices, or yes/no. They appear on every member's form. Options per field:
+
+- **Required** — the form won't save without an answer.
+- **Minimum / Maximum** — for numbers, the values allowed.
+- **Show in the Members list** — adds it as a column in the list (each person can still hide it
+  with the columns button). List and yes/no fields can also be used as list filters.
+- **Hidden** — takes it off the form without deleting the answers already saved.
+
 ## Minors and guardians
 
 If a member's birth date puts them below your church's configured "minor age cutoff"
@@ -279,6 +292,9 @@ merges the two records into one.
 
 The Members list supports search and column filters (status, tags, etc.) so you can quickly
 narrow down to, say, "active volunteers tagged Worship Team."
+
+**Tag…**, next to the search box, adds or removes a tag on everyone the list is showing — see
+[Tags & Tag Roles](https://docs.holycrm.app/content/en/tags.md).
 
 The list shows the essentials: name, phone, email, growth stage, tags and status. Use the **columns button** (top right of the list) to show more, such as birth date, notes or guardians; your choice is remembered on that device.
 
@@ -416,15 +432,26 @@ new [Visitor](https://docs.holycrm.app/content/en/visitors.md) with the group no
 - **Members panel** — add someone with a role (leader, co-leader, member) or remove them.
   Removing deletes the membership record outright, not just marks it inactive.
 - **Meetings panel** — log a meeting with date, attendee count, first-timer count, offering,
-  and topic. This is a headcount log, not a per-person attendance list — if you need to know
-  *which* people showed up to a specific group meeting, that's a separate concept: see
-  [Attendance & Check-in](https://docs.holycrm.app/content/en/attendance.md).
+  topic and **notes** (prayer requests, follow-ups, how it went). **Who came** lists the group's
+  members with a checkbox each: tick who was there (or **Mark all present**) and HolyCRM saves
+  each person's attendance, which also shows in [Attendance](https://docs.holycrm.app/content/en/attendance.md). Leave **Attendees**
+  blank and it's filled in with the number you ticked. The log shows each meeting's notes and
+  who was present.
+- **Edit** on a logged meeting loads it back into the form, including who came, so you can
+  correct it and **Save**.
+
+## Tags and the family tree
+
+- Groups can have [tags](https://docs.holycrm.app/content/en/tags.md), picked in the group's form like on a member. The list has a
+  **Tags** filter, and **Tag…** tags every group the list shows.
+- **Family tree** (next to **Cards** above the list) shows each group under the group it
+  multiplied from, so you can see a cell's whole lineage at a glance. Click any group to open
+  it.
 
 ## What it doesn't do yet
 
-Editing a logged meeting (delete and re-add it instead), a visual lineage tree for
-multiplied groups, or per-member attendance within a group meeting (only headcounts are
-logged).
+Making a member's "leader" role in the group's members panel the group's main Leader
+automatically (set the Leader in the group's form).
 
 ---
 
@@ -645,8 +672,16 @@ for a substitute or a first-time attendee. Mark each person Present, Absent, Lat
 Excused (or **Mark all present**), then **Save attendance** — nothing is written until you
 save.
 
+Each person also has **Note**, for a short comment such as "traveling" or "first time bringing
+a friend"; it's saved with their attendance.
+
 The sessions list shows your recent sessions with a present/total count; click one to
 reopen and edit it.
+
+**Trends**, above the list, shows the average number present per session for each of the last
+6 months (hover a bar for how many sessions and the average for events, ministry activities
+and small groups). Under it, HolyCRM lists the people who came 3 or more times and **not in the
+last 4 weeks** — a ready list for a pastoral call.
 
 ## Check-in
 
@@ -699,8 +734,7 @@ minor.
 
 Editing or removing a guardian link from the check-in screen itself (do that from the
 child's own Member record instead), running multiple simultaneous check-in sessions on one
-screen, hardware scanner/printer integration, and attendance trend reports beyond the
-simple sessions list.
+screen, and hardware scanner/printer integration.
 
 ---
 
@@ -743,8 +777,11 @@ soonest one is shown at the top as "Next". Leave it unticked for internal meetin
 ## Ministry Members
 
 Pick a ministry from the dropdown, and manage who's on it — add a member with a role
-(leader, co-leader, volunteer), or remove them. Removing takes them off the roster
-immediately; it doesn't just mark them inactive.
+(leader, co-leader, volunteer), change someone's role from the dropdown next to their name,
+or remove them. Removing takes them off the roster immediately.
+
+**Add several at once** adds everyone **with a tag**, or everyone **in a small group**, with
+the role you choose. Only active members who aren't on the team yet are added.
 
 This roster is what powers **Attendance**'s auto-prefilled roster for a ministry
 activity — add someone here first, and they'll already be listed when you go to take
@@ -752,8 +789,7 @@ attendance for that ministry's next gathering.
 
 ## What's not built yet
 
-Changing a member's role after adding them (remove and re-add instead), viewing/managing
-members who were removed, and bulk-adding a whole tagged group at once.
+Viewing members who were removed.
 
 ---
 
@@ -920,12 +956,18 @@ toward the monthly email limit. **Recent sends** shows whether the webhook recei
 Save a design you'll reuse — a welcome email, a monthly newsletter layout — as a Template,
 then load it into a new announcement later instead of rebuilding it from scratch. Templates
 show merge variables as literal `{{placeholders}}` in the preview, since there's no specific
-recipient yet.
+recipient yet. **Duplicate** makes a copy of a template to start a new one from it.
+
+**Images**, under the templates list, shows every image you've uploaded into emails and
+templates. You can delete the ones you don't need; an image you delete also disappears from
+emails already sent.
 
 ## Branding
 
 - **Your church's logo**, if you've uploaded one in [Church Settings](https://docs.holycrm.app/content/en/church-settings.md),
   can be inserted into any email with one click via the composer's **Church logo** button.
+- **Your church's colour** (the theme colour in Church Settings) shows as a thin bar on top of
+  every email, and in the preview.
 - Every email sent through HolyCRM includes a small "Sent with HolyCRM" line — this isn't
   something you can remove, and it's kept deliberately understated.
 
@@ -937,6 +979,16 @@ out of the total, and **Sending…** while some are still on their way. If an em
 delivered (for example, the address doesn't exist), it's counted as **Failed** and the
 reason is shown under that send; the others still go out. A test email arrives the same way,
 usually within a minute.
+
+**Opened.** If an Administrator turned on **Count who opens Announcements emails** in
+[Church Settings](https://docs.holycrm.app/content/en/church-settings.md), Recent sends also shows how many emails were opened. It's
+an approximate number: some email apps open every image automatically, others never do.
+
+**Bounced.** When an address turns out not to exist, or someone marks your email as spam, the
+send shows it as **Bounced**. An address that bounced is skipped in later sends until the
+person's email is changed in Members; someone who marked it as spam is unsubscribed. (This works
+for emails sent by HolyCRM; if your church sends through its own email account, its bounces go
+to that account.)
 
 ## Unsubscribing
 
@@ -972,8 +1024,8 @@ expire. The screen shows how many you have left.
 
 ## What's not built yet
 
-Scheduling a send for later (sends go out immediately), SMS as a channel, open/click
-tracking, and nested columns-within-columns.
+Scheduling a send for later (sends go out immediately), SMS as a channel, click tracking, and
+nested columns-within-columns.
 
 ---
 
@@ -1525,10 +1577,19 @@ that hasn't used a particular feature yet (recording attendance, logging visitor
 follow-ups, taking rotas), will see that card empty or show "—" until there's enough
 data. This isn't an error; it fills in as you use the app.
 
+## Export, print or email
+
+The buttons at the top of Reports share what you see:
+
+- **Export** downloads a spreadsheet file (CSV) with the five numbers, the month-by-month
+  values of each chart and the growing groups.
+- **Print** prints the page (choose "Save as PDF" in the print window for a PDF).
+- **Email** opens your own email app with the report written out, so you choose who gets it.
+
 ## What's not built yet
 
-History beyond 24 months for the trend cards, exporting or printing a report, and any
-automated "send me this monthly" email.
+History beyond 24 months for the trend cards, and any automated "send me this monthly"
+email.
 
 ---
 
@@ -1816,6 +1877,10 @@ minor age cutoff, and your church logo.
   a prayer request. See [Prayer Requests](https://docs.holycrm.app/content/en/prayer-requests.md).
 - **Public giving page** — turns on a public page with your church's ways to give (bank
   details, PIX, alias, payment links). See [Online Giving Page](https://docs.holycrm.app/content/en/online-giving.md).
+- **Count who opens Announcements emails** — adds a tiny invisible image to each
+  [announcement](https://docs.holycrm.app/content/en/bulk-email.md) email so Recent sends can show how many were opened. Off by
+  default; the number is approximate.
+- **Theme colour** — also shown as a thin bar on top of your announcement emails.
 - **Phone country code** — your country's dialling code, numbers only (54 Argentina, 55
   Brazil, 52 Mexico, 44 UK…). HolyCRM adds it to phone numbers saved without one when it
   opens a WhatsApp chat, for example when [asking volunteers to confirm](https://docs.holycrm.app/content/en/rotas.md).
@@ -1885,9 +1950,19 @@ Most people who serve on rotas only need the **Member** role: being on a rota de
 
 Leading a small group or ministry adds access to **that team** — see [My Teams](https://docs.holycrm.app/content/en/my-teams.md).
 
-An invited person receives an email with a link to set their password. Until they do, their
-status shows as **Invited**; once they set a password — or sign in with **Continue with
-Google** using that same email — they become **Active** automatically.
+An invited person receives an email with a link to set their password. **The link works for
+7 days.** Until they use it, their status shows as **Invited** with the date the link is valid
+until; once they set a password — or sign in with **Continue with Google** using that same
+email — they become **Active** automatically. If the link runs out, the status shows **Invite
+expired**: click **Resend invite** to send a new one.
+
+## Inviting several people at once
+
+**Invite several** lets you paste a list, one person per line: email, first name, last name
+(copied from a spreadsheet works too), or choose a CSV file. Pick one role for everyone and
+click **Send invites**. Anyone who is already a member with that email is linked to their
+member record automatically. You see the result for each person; the ones that couldn't be
+invited stay in the box so you can fix them and try again. Up to 100 people at a time.
 
 ## Managing existing users
 
@@ -1895,6 +1970,12 @@ From the Users list you can **change someone's role**, **suspend** them (they lo
 without deleting their account or history), **reactivate** them, **remove them from the
 church** entirely, **resend an invite** that hasn't been accepted yet, or **edit their login
 email**.
+
+The **Status** filter above the list shows only Active users, **Pending invites** (everyone who
+hasn't accepted yet), expired invites or suspended users.
+
+**History** shows the last 100 changes to your church's logins — who was invited or added,
+role and status changes, email changes and removals — with when and who did it.
 
 A few built-in safety rules: you can only assign or manage roles *below* your own (a
 Coordinator can't touch an Administrator or another Coordinator's access), you can't edit your own row from
@@ -1949,7 +2030,7 @@ Section: Settings
 
 ## Tags
 
-A simple, flexible label you attach to members — "Worship Team," "First Responders,"
+A simple, flexible label you attach to members and small groups — "Worship Team," "First Responders,"
 "Youth Leader," anything your church finds useful. Create tags once under **Settings →
 Tags**, then pick them from a chip picker on any member's record. There's no limit to how
 you use them beyond members, and no colors or scoping — a tag is just a tag, shared across
@@ -1974,10 +2055,32 @@ Under **Settings → Tag roles**, map a tag to each function you use:
 If a function isn't mapped to a tag, its picker simply shows every active member instead of
 filtering — mapping these is entirely optional, and nothing breaks if you skip it.
 
+## Creating a tag on the spot
+
+Every tag picker ends with **＋ New tag**: type the name and press Enter. The tag is created
+and selected right away, no need to go to Settings first.
+
+## Tagging many people at once
+
+On the [Members](https://docs.holycrm.app/content/en/members.md) list (and on [Small Groups](https://docs.holycrm.app/content/en/groups.md)), **Tag…** adds or removes one
+tag on **everyone the list is showing right now**. Search or filter first — for example, filter
+by a ministry's tag or by status — then choose the tag, **Add this tag** or **Remove this tag**,
+and **Apply**. People's other tags are never touched.
+
+## Merging two tags
+
+Two tags that mean the same thing ("Youth" and "Young people")? In **Settings → Tags**, click
+**Merge into…** on the one to remove and pick the one to keep. Everyone with the first tag gets
+the second, Tag Roles that used it switch over, and the first tag is deleted. This can't be
+undone.
+
+## Tags on groups
+
+Small groups can carry tags too, and the groups list can be filtered by tag.
+
 ## What's not built yet
 
-Mapping a function to more than one tag, merging two tags into one, and bulk tagging or
-untagging a group of members at once.
+Mapping a function to more than one tag.
 
 ---
 
@@ -1986,8 +2089,10 @@ Section: Settings
 
 # Import Data
 
-If your church already has a member list in a spreadsheet, Import Data lets you bring it in
-instead of retyping everyone by hand. It imports **Members**.
+If your church already has its records in a spreadsheet, Import Data lets you bring them in
+instead of retyping everything by hand. First choose **what you're importing**: **Members**,
+**Visitors**, **Giving history** or **Groups**. Each has its own template and its own columns;
+the steps below are the same for all four (see "Visitors, giving and groups" further down).
 
 ## Before you start
 
@@ -2077,10 +2182,26 @@ the summary screen has a button to open it.
 - Minor status is worked out from the birth date with your church's age cutoff — see
   [Members](https://docs.holycrm.app/content/en/members.md).
 
+## Visitors, giving and groups
+
+- **Visitors** — first name (required), last name, email, phone, WhatsApp, address, first
+  visit, how they found us, stage and notes. Visitors already in HolyCRM are spotted the same
+  way as members.
+- **Giving history** — one gift per row: date and amount are required. The **giver** is matched
+  with your members by email or by first and last name; if nobody matches (or two people have
+  that name), the gift is recorded without a giver and won't show in a person's giving
+  statement. Amounts can be written `1500.00` or `1.500,00`. A blank currency means your
+  church's; another currency needs an **exchange rate** column. A **category** that doesn't
+  exist yet is created; blank uses your first income category. Gifts that are already in
+  HolyCRM (same date, amount, giver and reference) are flagged, so importing the same file
+  twice doesn't count them twice.
+- **Groups** — name (required), type, leader (matched like a giver), meeting day and time,
+  where they meet, host, description and status. A group with the same name as one you have
+  can be skipped or updated.
+
 ## What it can't do (yet)
 
-Import anything other than Members (visitors, giving history…), or more than 500 rows at
-once.
+Import more than 500 rows at once, the members of each group, or expenses.
 
 ---
 
@@ -2107,11 +2228,13 @@ Administrators and Coordinators can use it — anyone who can edit and delete me
 
 ## Merging two records
 
-1. Compare the two cards: name, email, phone, birth date, status, when each was added and
-   whether either has a HolyCRM login.
+1. Compare the two cards: name, email, phone, birth date, address, sex, status, when each was
+   added and whether either has a HolyCRM login.
 2. Choose **Keep this one** on the record to keep. HolyCRM picks the one with a login, or
    else the older one, but you can change it.
-3. Click **Merge** and confirm.
+3. Where both records have a **different** value (two phone numbers, two spellings of a
+   name…), each side shows **Use this**: pick the value that should stay.
+4. Click **Merge** and confirm.
 
 When you merge:
 
@@ -2120,9 +2243,20 @@ When you merge:
   registrations, guardians and children, visitor and prayer assignments, and their login.
 - **Blank fields are filled in** from the other record (an email, a phone, a birth date…).
   Tags and guardians are combined, notes are joined, and custom fields are merged. Where
-  both records have a value, the one you keep wins.
+  both records have a value, the one you picked with **Use this** stays (the kept record's,
+  unless you chose the other).
 - If both people were in the same group, event or service, they end up there **once**.
-- The other record is deleted. **This can't be undone**, so check the pair first.
+- The other record is deleted.
+
+**Someone entered three times?** After the first merge, the list shows the kept record paired
+with the third copy: merge again.
+
+## Undoing a merge
+
+**Recent merges**, at the top of the page, lists the merges of the last 30 days. **Undo** brings
+the removed person back as they were, with everything that was linked to them, and puts back the
+kept person's details — except anything someone changed since, which stays. After 30 days a
+merge can no longer be undone.
 
 **Both have a login?** Merge isn't possible until one of them is removed. Go to
 [Users](https://docs.holycrm.app/content/en/users-roles.md), remove the login you don't need, then come back and merge.

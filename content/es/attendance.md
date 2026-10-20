@@ -31,6 +31,15 @@ presentes**), y luego **Guardar asistencia** — no se guarda nada hasta que gua
 La lista de sesiones muestra tus sesiones recientes con un conteo de presentes/total; hacé
 clic en una para reabrirla y editarla.
 
+Cada persona tiene además **Nota**, para un comentario corto como "de viaje" o "primera vez
+que trae a un amigo"; se guarda con su asistencia.
+
+**Tendencias**, arriba de la lista, muestra el promedio de presentes por sesión en cada uno de
+los últimos 6 meses (pasá el mouse por una barra para ver cuántas sesiones hubo y el promedio de
+eventos, actividades de ministerio y grupos pequeños). Debajo, HolyCRM lista a las personas que
+vinieron 3 veces o más y **no en las últimas 4 semanas**: una lista lista para una llamada
+pastoral.
+
 ## Check-in
 
 Un flujo más rápido para un culto, conferencia, o cualquier evento **no** restringido a
@@ -82,7 +91,6 @@ solo se pueden configurar una vez que alguien está marcado como menor.
 
 ## Lo que todavía no existe
 
-Editar o quitar un vínculo de tutor desde la propia pantalla de check-in (hacelo desde la
-ficha de Miembro del niño), correr varias sesiones de check-in simultáneas en una misma
-pantalla, integración con hardware de escáner/impresora, y reportes de tendencias de
-asistencia más allá de la simple lista de sesiones.
+Editar o quitar el vínculo con un tutor desde la pantalla de check-in (hacelo desde la ficha
+del niño), correr varias sesiones de check-in a la vez en una misma pantalla, e integración
+con lectores o impresoras de etiquetas.

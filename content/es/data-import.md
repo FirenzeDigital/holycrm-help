@@ -1,7 +1,10 @@
 # Importar datos
 
-Si tu iglesia ya tiene una lista de miembros en una planilla, Importar datos te permite
-traerla en lugar de tipearla a mano. Importa **Miembros**.
+Si tu iglesia ya tiene sus registros en una planilla, Importar datos te permite traerlos en
+lugar de tipearlos a mano. Primero elegí **qué querés importar**: **Miembros**,
+**Visitantes**, **Historial de ofrendas** o **Grupos**. Cada uno tiene su plantilla y sus
+columnas; los pasos son los mismos para los cuatro (ver "Visitantes, ofrendas y grupos" más
+abajo).
 
 ## Antes de empezar
 
@@ -93,7 +96,23 @@ ordenar a las personas que ya quedaron cargadas dos veces, usá
 - El estado de menor de edad se calcula con la fecha de nacimiento y la edad límite de tu
   iglesia — ver [Miembros](#/members).
 
+## Visitantes, ofrendas y grupos
+
+- **Visitantes** — nombre (obligatorio), apellido, correo, teléfono, WhatsApp, dirección,
+  primera visita, cómo nos conoció, etapa y notas. Los visitantes que ya están en HolyCRM se
+  detectan igual que los miembros.
+- **Historial de ofrendas** — una ofrenda por fila: fecha y monto son obligatorios. El
+  **dador** se busca entre tus miembros por correo o por nombre y apellido; si no coincide
+  nadie (o dos personas tienen ese nombre), la ofrenda se registra sin dador y no aparece en
+  el resumen de ofrendas de nadie. Los montos pueden escribirse `1500.00` o `1.500,00`. Una
+  moneda vacía es la de tu iglesia; otra moneda necesita una columna de **tipo de cambio**.
+  Una **categoría** que no existe se crea; vacía usa tu primera categoría de ingreso. Las
+  ofrendas que ya están en HolyCRM (misma fecha, monto, dador y referencia) se marcan, así
+  importar dos veces el mismo archivo no las cuenta dos veces.
+- **Grupos** — nombre (obligatorio), tipo, líder (se busca igual que el dador), día y hora de
+  reunión, dónde se reúnen, anfitrión, descripción y estado. Un grupo con el mismo nombre que
+  uno que ya tenés se puede omitir o actualizar.
+
 ## Lo que todavía no hace
 
-Importar algo que no sean Miembros (visitas, historial de ofrendas…) o más de 500 filas a la
-vez.
+Importar más de 500 filas a la vez, los miembros de cada grupo, o egresos.

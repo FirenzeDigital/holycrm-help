@@ -43,8 +43,10 @@ Esta lista é o que alimenta o preenchimento automático de **Presenças** para 
 ministério — adicione alguém aqui primeiro, e já vai aparecer listado quando for registar
 presenças no próximo encontro desse ministério.
 
+Pode mudar a função de alguém no menu ao lado do nome. **Adicionar vários de uma vez** junta
+todos os que têm **uma etiqueta**, ou todos os de **um pequeno grupo**, com a função que
+escolher. Só são adicionados membros ativos que ainda não estão na equipa.
+
 ## O que ainda não faz
 
-Alterar a função de um membro depois de adicionado (remova e volte a adicionar com outra
-função), ver/gerir membros que foram removidos, e adicionar em massa todo um grupo com uma
-determinada etiqueta de uma só vez.
+Ver os membros que foram removidos.

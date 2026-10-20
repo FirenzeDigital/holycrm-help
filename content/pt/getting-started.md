@@ -17,8 +17,9 @@ pesquisa acima, ou navegue por tema no menu lateral.
    Google** e já está. Caso contrário, abra o e-mail que enviámos, escolha uma palavra-passe
    e a aplicação abre de imediato. Não chegou? Clique em **Não recebeu o e-mail? Enviar
    novamente** (e veja também o spam).
-3. No Painel, o cartão **Primeiros passos** tem um botão **Configure a sua igreja** e uma
-   pequena lista de tarefas — ver "Uma primeira semana típica" mais abaixo.
+3. O guia **Configure a sua igreja** abre sozinho da primeira vez, para o acompanhar no
+   básico. Pode fechá-lo e voltar quando quiser pelo botão **Configure a sua igreja** do cartão
+   **Primeiros passos** no Painel — ver "Uma primeira semana típica" mais abaixo.
 
 ## Iniciar sessão
 

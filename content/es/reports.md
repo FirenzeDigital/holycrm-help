@@ -51,7 +51,18 @@ empezando, o que todavía no usó alguna función (registrar asistencia, cargar
 seguimientos de visitas, tomar rotaciones), va a ver esa tarjeta vacía o con "—" hasta que
 haya suficientes datos. Esto no es un error; se va completando a medida que usás la app.
 
+## Exportar, imprimir o mandar por correo
+
+Los botones de arriba de Informes comparten lo que ves:
+
+- **Exportar** descarga un archivo de planilla (CSV) con los cinco números, los valores mes a
+  mes de cada gráfico y los grupos que crecen.
+- **Imprimir** imprime la página (elegí "Guardar como PDF" en la ventana de impresión si
+  querés un PDF).
+- **Correo** abre tu propia app de correo con el informe ya escrito, así elegís a quién
+  mandarlo.
+
 ## Lo que todavía no existe
 
-Historial más allá de 24 meses en las tarjetas de tendencia, exportar o imprimir un
-informe, y cualquier envío automático mensual por correo.
+Historial de más de 24 meses en las tarjetas de tendencias, y cualquier correo automático
+del tipo "mandame esto todos los meses".

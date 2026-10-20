@@ -45,7 +45,16 @@ that hasn't used a particular feature yet (recording attendance, logging visitor
 follow-ups, taking rotas), will see that card empty or show "—" until there's enough
 data. This isn't an error; it fills in as you use the app.
 
+## Export, print or email
+
+The buttons at the top of Reports share what you see:
+
+- **Export** downloads a spreadsheet file (CSV) with the five numbers, the month-by-month
+  values of each chart and the growing groups.
+- **Print** prints the page (choose "Save as PDF" in the print window for a PDF).
+- **Email** opens your own email app with the report written out, so you choose who gets it.
+
 ## What's not built yet
 
-History beyond 24 months for the trend cards, exporting or printing a report, and any
-automated "send me this monthly" email.
+History beyond 24 months for the trend cards, and any automated "send me this monthly"
+email.

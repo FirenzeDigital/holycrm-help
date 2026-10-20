@@ -49,7 +49,17 @@ acompanhamentos de visitantes, fazer escalas), vai ver esse cartão vazio ou com
 haver dados suficientes. Isso não é um erro; ele vai se preenchendo conforme você usa o
 app.
 
+## Exportar, imprimir ou enviar por e-mail
+
+Os botões no topo de Relatórios compartilham o que você vê:
+
+- **Exportar** baixa um arquivo de planilha (CSV) com os cinco números, os valores mês a mês de
+  cada gráfico e os grupos que crescem.
+- **Imprimir** imprime a página (escolha "Salvar como PDF" na janela de impressão para um PDF).
+- **E-mail** abre o seu próprio app de e-mail com o relatório já escrito, para você escolher
+  quem recebe.
+
 ## O que ainda não existe
 
-Histórico além de 24 meses nos cartões de tendência, exportar ou imprimir um relatório, e
-qualquer envio automático mensal por e-mail.
+Histórico de mais de 24 meses nos cartões de tendências, e qualquer e-mail automático do tipo
+"me mande isto todo mês".

@@ -18,11 +18,13 @@ Podem usá-lo Administradores e Coordenadores: quem pode editar e apagar membros
 
 ## Juntar dois registos
 
-1. Compare os dois cartões: nome, e-mail, telefone, data de nascimento, estado, quando cada
+1. Compare os dois cartões: nome, e-mail, telefone, data de nascimento, morada, sexo, estado, quando cada
    um foi registado e se algum tem acesso ao HolyCRM.
 2. Escolha **Manter esta** no registo que quer manter. O HolyCRM escolhe o que tem acesso
    ou, se nenhum tiver, o mais antigo, mas pode mudar.
-3. Clique em **Juntar** e confirme.
+3. Onde os dois registos têm um valor **diferente** (dois telefones, duas grafias de um
+   nome…), cada lado mostra **Usar este**: escolha o valor que deve ficar.
+4. Clique em **Juntar** e confirme.
 
 Ao juntar:
 
@@ -34,7 +36,18 @@ Ao juntar:
   de nascimento…). Etiquetas e responsáveis juntam-se, as observações são unidas e os campos
   personalizados combinam-se. Quando os dois têm um valor, fica o do registo que mantém.
 - Se as duas pessoas estavam no mesmo grupo, evento ou culto, ficam lá **uma só vez**.
-- O outro registo é apagado. **Não pode ser desfeito**, por isso verifique o par antes.
+- O outro registo é apagado. Onde os dois tinham um valor, fica o que escolheu com
+  **Usar este**.
+
+**Alguém registado três vezes?** Depois da primeira junção, a lista mostra o registo que ficou
+junto com a terceira cópia: junte outra vez.
+
+## Anular uma junção
+
+**Uniões recentes**, no topo da página, lista as junções dos últimos 30 dias. **Anular** traz
+de volta a pessoa removida como estava, com tudo o que lhe estava associado, e repõe os dados da
+pessoa que ficou — exceto o que alguém alterou entretanto, que se mantém. Passados 30 dias, uma
+junção já não pode ser anulada.
 
 **As duas têm acesso?** Não é possível juntar até remover um. Vá a
 [Utilizadores](#/users-roles), remova o acesso que sobra e depois junte.

@@ -32,9 +32,19 @@ Most people who serve on rotas only need the **Member** role: being on a rota de
 
 Leading a small group or ministry adds access to **that team** — see [My Teams](#/my-teams).
 
-An invited person receives an email with a link to set their password. Until they do, their
-status shows as **Invited**; once they set a password — or sign in with **Continue with
-Google** using that same email — they become **Active** automatically.
+An invited person receives an email with a link to set their password. **The link works for
+7 days.** Until they use it, their status shows as **Invited** with the date the link is valid
+until; once they set a password — or sign in with **Continue with Google** using that same
+email — they become **Active** automatically. If the link runs out, the status shows **Invite
+expired**: click **Resend invite** to send a new one.
+
+## Inviting several people at once
+
+**Invite several** lets you paste a list, one person per line: email, first name, last name
+(copied from a spreadsheet works too), or choose a CSV file. Pick one role for everyone and
+click **Send invites**. Anyone who is already a member with that email is linked to their
+member record automatically. You see the result for each person; the ones that couldn't be
+invited stay in the box so you can fix them and try again. Up to 100 people at a time.
 
 ## Managing existing users
 
@@ -42,6 +52,12 @@ From the Users list you can **change someone's role**, **suspend** them (they lo
 without deleting their account or history), **reactivate** them, **remove them from the
 church** entirely, **resend an invite** that hasn't been accepted yet, or **edit their login
 email**.
+
+The **Status** filter above the list shows only Active users, **Pending invites** (everyone who
+hasn't accepted yet), expired invites or suspended users.
+
+**History** shows the last 100 changes to your church's logins — who was invited or added,
+role and status changes, email changes and removals — with when and who did it.
 
 A few built-in safety rules: you can only assign or manage roles *below* your own (a
 Coordinator can't touch an Administrator or another Coordinator's access), you can't edit your own row from

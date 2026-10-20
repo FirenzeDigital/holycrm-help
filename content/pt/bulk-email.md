@@ -67,6 +67,12 @@ mensal — como Modelo, e depois carregue-o num novo comunicado mais tarde em ve
 reconstruir do zero. Os modelos mostram as variáveis de combinação como marcadores literais
 `{{placeholder}}` na pré-visualização, já que ainda não há um destinatário específico.
 
+**Duplicar** faz uma cópia de um modelo para começar um novo a partir dele.
+
+**Imagens**, por baixo da lista de modelos, mostra todas as imagens que carregou em e-mails e
+modelos. Pode apagar as que não precisa; uma imagem apagada também desaparece dos e-mails já
+enviados.
+
 ## Identidade visual
 
 - **O logótipo da sua igreja**, se tiver feito o carregamento em
@@ -74,6 +80,9 @@ reconstruir do zero. Os modelos mostram as variáveis de combinação como marca
   clique através do botão **Logótipo da igreja** do editor.
 - Todo o e-mail enviado através do HolyCRM inclui uma pequena linha "Sent with HolyCRM" — não
   é algo que possa remover, e é mantida deliberadamente discreta.
+
+- **A cor da sua igreja** (a cor da marca nas Configurações da igreja) aparece como uma barra
+  fina no topo de cada e-mail, e na pré-visualização.
 
 ## Depois de enviar
 
@@ -83,6 +92,17 @@ entregues do total, e **A enviar…** enquanto alguns ainda estão a caminho. Se
 puder ser entregue (por exemplo, o endereço não existe), conta como **Falharam** e o motivo
 aparece por baixo desse envio; os restantes são enviados normalmente. Um e-mail de teste chega
 da mesma forma, normalmente dentro de um minuto.
+
+**Abertos.** Se um Administrador ativou **Contar quem abre os e-mails de Comunicados** nas
+[Configurações da igreja](#/church-settings), Envios recentes também mostra quantos e-mails
+foram abertos. É um número aproximado: algumas aplicações de e-mail abrem todas as imagens
+sozinhas e outras nunca.
+
+**Devolvidos.** Quando um endereço não existe, ou alguém marca o seu e-mail como spam, o envio
+mostra-o como **Devolvido**. Um endereço devolvido é saltado nos envios seguintes até o e-mail
+da pessoa ser alterado em Membros; quem o marcou como spam fica com a subscrição cancelada.
+(Isto funciona para os e-mails enviados pelo HolyCRM; se a sua igreja envia pela sua própria
+conta de e-mail, as devoluções chegam a essa conta.)
 
 ## Cancelar inscrição
 
@@ -119,5 +139,5 @@ Para enviar sem este limite, um Administrador pode ligar a conta de e-mail da su
 
 ## O que ainda não existe
 
-Agendar um envio para mais tarde (os envios saem de imediato), SMS como canal, monitorização
-de aberturas/cliques, e colunas aninhadas dentro de colunas.
+Agendar um envio para mais tarde (os envios saem logo), SMS como canal, contagem de cliques,
+e colunas dentro de colunas.

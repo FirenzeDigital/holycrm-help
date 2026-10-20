@@ -33,13 +33,25 @@ anotado.
   una célula a lo largo del tiempo.
 - **Panel de miembros** — agregá a alguien con un rol (líder, colíder, miembro) o quitalo.
   Quitarlo elimina la membresía por completo, no solo la marca como inactiva.
-- **Panel de reuniones** — registrá una reunión con fecha, cantidad de asistentes, cantidad
-  de personas nuevas, ofrenda y tema. Es un registro de cantidades, no una lista de
-  asistencia persona por persona — si necesitás saber *quiénes* estuvieron en una reunión de
-  grupo específica, eso es otro concepto: ver [Asistencia y check-in](#/attendance).
+- **Reuniones**: además de los números y el tema, cada reunión tiene **Notas** (pedidos de
+  oración, seguimientos, cómo estuvo). **Quiénes vinieron** muestra los miembros del grupo con
+  una casilla cada uno: marcá quién estuvo (o **Marcar todos presentes**) y HolyCRM guarda la
+  asistencia de cada persona, que también aparece en [Asistencia](#/attendance). Si dejás
+  **Asistentes** vacío, se completa con la cantidad que marcaste. El registro muestra las notas
+  y quiénes estuvieron en cada reunión.
+- **Editar** en una reunión registrada la vuelve a cargar en el formulario, incluido quiénes
+  vinieron, para que la corrijas y la **Guardes**.
+
+## Etiquetas y árbol genealógico
+
+- Los grupos pueden tener [etiquetas](#/tags), que se eligen en el formulario del grupo como en
+  un miembro. La lista tiene un filtro **Etiquetas**, y **Etiquetar…** etiqueta a todos los
+  grupos que muestra la lista.
+- **Árbol genealógico** (al lado de **Tarjetas**, arriba de la lista) muestra cada grupo debajo
+  del grupo del que se multiplicó, para ver de un vistazo todo el linaje de una célula. Tocá
+  cualquier grupo para abrirlo.
 
 ## Lo que todavía no hace
 
-Editar una reunión ya registrada (eliminala y volvé a cargarla), un árbol visual de linaje
-para los grupos multiplicados, o asistencia por persona dentro de una reunión de grupo (solo
-se registran cantidades totales).
+Que el rol de "líder" de un miembro en el panel de miembros del grupo pase a ser
+automáticamente el Líder principal del grupo (elegí el Líder en el formulario del grupo).

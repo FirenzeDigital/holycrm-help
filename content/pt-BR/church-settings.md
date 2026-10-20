@@ -26,6 +26,11 @@ para menores, e o logo da sua igreja.
 
 Só Administradores e Coordenadores podem alterar essas configurações.
 
+- **Contar quem abre os e-mails de Comunicados** — adiciona uma imagem invisível bem pequena a
+  cada e-mail de [Comunicados](#/bulk-email) para que Envios recentes mostre quantos foram
+  abertos. Desligado por padrão; o número é aproximado.
+- **Cor da marca** — também aparece como uma barra fina no topo dos seus e-mails de Comunicados.
+
 ## Compartilhe o app
 
 O cartão **Compartilhe o app**, no topo das Configurações da igreja, tem um link e um código QR

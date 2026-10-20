@@ -1,7 +1,9 @@
 # Import Data
 
-If your church already has a member list in a spreadsheet, Import Data lets you bring it in
-instead of retyping everyone by hand. It imports **Members**.
+If your church already has its records in a spreadsheet, Import Data lets you bring them in
+instead of retyping everything by hand. First choose **what you're importing**: **Members**,
+**Visitors**, **Giving history** or **Groups**. Each has its own template and its own columns;
+the steps below are the same for all four (see "Visitors, giving and groups" further down).
 
 ## Before you start
 
@@ -91,7 +93,23 @@ the summary screen has a button to open it.
 - Minor status is worked out from the birth date with your church's age cutoff — see
   [Members](#/members).
 
+## Visitors, giving and groups
+
+- **Visitors** — first name (required), last name, email, phone, WhatsApp, address, first
+  visit, how they found us, stage and notes. Visitors already in HolyCRM are spotted the same
+  way as members.
+- **Giving history** — one gift per row: date and amount are required. The **giver** is matched
+  with your members by email or by first and last name; if nobody matches (or two people have
+  that name), the gift is recorded without a giver and won't show in a person's giving
+  statement. Amounts can be written `1500.00` or `1.500,00`. A blank currency means your
+  church's; another currency needs an **exchange rate** column. A **category** that doesn't
+  exist yet is created; blank uses your first income category. Gifts that are already in
+  HolyCRM (same date, amount, giver and reference) are flagged, so importing the same file
+  twice doesn't count them twice.
+- **Groups** — name (required), type, leader (matched like a giver), meeting day and time,
+  where they meet, host, description and status. A group with the same name as one you have
+  can be skipped or updated.
+
 ## What it can't do (yet)
 
-Import anything other than Members (visitors, giving history…), or more than 500 rows at
-once.
+Import more than 500 rows at once, the members of each group, or expenses.

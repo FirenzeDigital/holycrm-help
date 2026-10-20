@@ -20,6 +20,18 @@ Useful fields:
 - **Growth stage** — where someone is on their journey with your church: New, Attending,
   Connected, Serving, or Leading. See [Growth Ladder](#/growth-ladder).
 
+## Custom fields
+
+Information HolyCRM has no field for — a baptism date, a membership class, a T-shirt size — can
+be added as a **custom field** in **Settings → Custom Fields**: text, number, date, a list of
+choices, or yes/no. They appear on every member's form. Options per field:
+
+- **Required** — the form won't save without an answer.
+- **Minimum / Maximum** — for numbers, the values allowed.
+- **Show in the Members list** — adds it as a column in the list (each person can still hide it
+  with the columns button). List and yes/no fields can also be used as list filters.
+- **Hidden** — takes it off the form without deleting the answers already saved.
+
 ## Minors and guardians
 
 If a member's birth date puts them below your church's configured "minor age cutoff"
@@ -56,5 +68,8 @@ merges the two records into one.
 
 The Members list supports search and column filters (status, tags, etc.) so you can quickly
 narrow down to, say, "active volunteers tagged Worship Team."
+
+**Tag…**, next to the search box, adds or removes a tag on everyone the list is showing — see
+[Tags & Tag Roles](#/tags).
 
 The list shows the essentials: name, phone, email, growth stage, tags and status. Use the **columns button** (top right of the list) to show more, such as birth date, notes or guardians; your choice is remembered on that device.

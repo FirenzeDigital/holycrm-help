@@ -19,11 +19,13 @@ Lo pueden usar Administradores y Coordinadores: quienes pueden editar y borrar m
 
 ## Unir dos registros
 
-1. Compará las dos tarjetas: nombre, correo, teléfono, fecha de nacimiento, estado, cuándo se
+1. Compará las dos tarjetas: nombre, correo, teléfono, fecha de nacimiento, dirección, sexo, estado, cuándo se
    cargó cada uno y si alguno tiene acceso a HolyCRM.
 2. Elegí **Conservar esta** en el registro que querés mantener. HolyCRM elige el que tiene
    acceso o, si no, el más antiguo, pero podés cambiarlo.
-3. Tocá **Unir** y confirmá.
+3. Donde los dos registros tienen un valor **distinto** (dos teléfonos, dos formas de escribir
+   un nombre…), cada lado muestra **Usar este**: elegí el valor que tiene que quedar.
+4. Tocá **Unir** y confirmá.
 
 Al unir:
 
@@ -35,7 +37,18 @@ Al unir:
   personalizados se combinan. Si los dos registros tienen un valor, queda el del que
   conservás.
 - Si las dos personas estaban en el mismo grupo, evento o culto, quedan **una sola vez**.
-- El otro registro se borra. **No se puede deshacer**, así que revisá el par antes.
+- El otro registro se borra. Donde los dos tenían un valor, queda el que elegiste con
+  **Usar este**.
+
+**¿Alguien cargado tres veces?** Después de la primera unión, la lista muestra el registro que
+quedó junto con la tercera copia: uní de nuevo.
+
+## Deshacer una unión
+
+**Uniones recientes**, arriba de la página, lista las uniones de los últimos 30 días.
+**Deshacer** trae de vuelta a la persona eliminada como estaba, con todo lo que tenía vinculado,
+y le devuelve sus datos a la persona que quedó — salvo lo que alguien haya cambiado desde
+entonces, que se mantiene. Pasados 30 días, una unión ya no se puede deshacer.
 
 **¿Las dos tienen acceso?** No se pueden unir hasta quitar uno. Andá a
 [Usuarios](#/users-roles), quitá el acceso que sobra y volvé a unir.

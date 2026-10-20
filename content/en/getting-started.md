@@ -16,8 +16,9 @@ way you expected. Use the search box above, or browse by topic in the sidebar.
    and you're in. Otherwise, open the email we sent you, choose a password, and the app opens
    straight away. No email? Click **Didn't get the email? Send it again** (check your spam
    folder too).
-3. On the Dashboard, the **Getting started** card has a **Set up your church** button and a
-   short checklist — see "A typical first week" below.
+3. The **Set up your church** guide opens by itself the first time, to walk you through the
+   basics. You can close it and come back any time from the **Set up your church** button on
+   the Dashboard's **Getting started** card — see "A typical first week" below.
 
 ## Logging in
 

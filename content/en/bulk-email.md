@@ -64,12 +64,18 @@ toward the monthly email limit. **Recent sends** shows whether the webhook recei
 Save a design you'll reuse — a welcome email, a monthly newsletter layout — as a Template,
 then load it into a new announcement later instead of rebuilding it from scratch. Templates
 show merge variables as literal `{{placeholders}}` in the preview, since there's no specific
-recipient yet.
+recipient yet. **Duplicate** makes a copy of a template to start a new one from it.
+
+**Images**, under the templates list, shows every image you've uploaded into emails and
+templates. You can delete the ones you don't need; an image you delete also disappears from
+emails already sent.
 
 ## Branding
 
 - **Your church's logo**, if you've uploaded one in [Church Settings](#/church-settings),
   can be inserted into any email with one click via the composer's **Church logo** button.
+- **Your church's colour** (the theme colour in Church Settings) shows as a thin bar on top of
+  every email, and in the preview.
 - Every email sent through HolyCRM includes a small "Sent with HolyCRM" line — this isn't
   something you can remove, and it's kept deliberately understated.
 
@@ -81,6 +87,16 @@ out of the total, and **Sending…** while some are still on their way. If an em
 delivered (for example, the address doesn't exist), it's counted as **Failed** and the
 reason is shown under that send; the others still go out. A test email arrives the same way,
 usually within a minute.
+
+**Opened.** If an Administrator turned on **Count who opens Announcements emails** in
+[Church Settings](#/church-settings), Recent sends also shows how many emails were opened. It's
+an approximate number: some email apps open every image automatically, others never do.
+
+**Bounced.** When an address turns out not to exist, or someone marks your email as spam, the
+send shows it as **Bounced**. An address that bounced is skipped in later sends until the
+person's email is changed in Members; someone who marked it as spam is unsubscribed. (This works
+for emails sent by HolyCRM; if your church sends through its own email account, its bounces go
+to that account.)
 
 ## Unsubscribing
 
@@ -116,5 +132,5 @@ expire. The screen shows how many you have left.
 
 ## What's not built yet
 
-Scheduling a send for later (sends go out immediately), SMS as a channel, open/click
-tracking, and nested columns-within-columns.
+Scheduling a send for later (sends go out immediately), SMS as a channel, click tracking, and
+nested columns-within-columns.

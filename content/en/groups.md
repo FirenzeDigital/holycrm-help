@@ -32,12 +32,23 @@ new [Visitor](#/visitors) with the group noted.
 - **Members panel** — add someone with a role (leader, co-leader, member) or remove them.
   Removing deletes the membership record outright, not just marks it inactive.
 - **Meetings panel** — log a meeting with date, attendee count, first-timer count, offering,
-  and topic. This is a headcount log, not a per-person attendance list — if you need to know
-  *which* people showed up to a specific group meeting, that's a separate concept: see
-  [Attendance & Check-in](#/attendance).
+  topic and **notes** (prayer requests, follow-ups, how it went). **Who came** lists the group's
+  members with a checkbox each: tick who was there (or **Mark all present**) and HolyCRM saves
+  each person's attendance, which also shows in [Attendance](#/attendance). Leave **Attendees**
+  blank and it's filled in with the number you ticked. The log shows each meeting's notes and
+  who was present.
+- **Edit** on a logged meeting loads it back into the form, including who came, so you can
+  correct it and **Save**.
+
+## Tags and the family tree
+
+- Groups can have [tags](#/tags), picked in the group's form like on a member. The list has a
+  **Tags** filter, and **Tag…** tags every group the list shows.
+- **Family tree** (next to **Cards** above the list) shows each group under the group it
+  multiplied from, so you can see a cell's whole lineage at a glance. Click any group to open
+  it.
 
 ## What it doesn't do yet
 
-Editing a logged meeting (delete and re-add it instead), a visual lineage tree for
-multiplied groups, or per-member attendance within a group meeting (only headcounts are
-logged).
+Making a member's "leader" role in the group's members panel the group's main Leader
+automatically (set the Leader in the group's form).

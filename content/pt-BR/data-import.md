@@ -1,7 +1,9 @@
 # Importar dados
 
-Se sua igreja já tem uma lista de membros em uma planilha, o Importar dados permite trazê-la
-em vez de digitar tudo de novo. Ele importa **Membros**.
+Se sua igreja já tem seus registros em uma planilha, o Importar dados permite trazê-los em
+vez de digitar tudo de novo. Primeiro escolha **o que você vai importar**: **Membros**,
+**Visitantes**, **Histórico de ofertas** ou **Grupos**. Cada um tem seu modelo e suas colunas;
+as etapas são as mesmas para os quatro (veja "Visitantes, ofertas e grupos" mais abaixo).
 
 ## Antes de começar
 
@@ -93,7 +95,23 @@ Para arrumar pessoas que já foram cadastradas duas vezes, use
 - A condição de menor de idade é calculada com a data de nascimento e a idade-limite da sua
   igreja — veja [Membros](#/members).
 
+## Visitantes, ofertas e grupos
+
+- **Visitantes** — nome (obrigatório), sobrenome, e-mail, telefone, WhatsApp, endereço,
+  primeira visita, como nos conheceu, etapa e observações. Visitantes que já estão no HolyCRM
+  são identificados como os membros.
+- **Histórico de ofertas** — uma oferta por linha: data e valor são obrigatórios. O **doador**
+  é buscado entre seus membros pelo e-mail ou por nome e sobrenome; se ninguém corresponder (ou
+  duas pessoas tiverem esse nome), a oferta é registrada sem doador e não aparece no extrato de
+  ninguém. Os valores podem ser escritos `1500.00` ou `1.500,00`. Moeda em branco é a da sua
+  igreja; outra moeda precisa de uma coluna de **taxa de câmbio**. Uma **categoria** que não
+  existe é criada; em branco usa sua primeira categoria de receita. Ofertas que já estão no
+  HolyCRM (mesma data, valor, doador e referência) são sinalizadas, então importar o mesmo
+  arquivo duas vezes não as conta duas vezes.
+- **Grupos** — nome (obrigatório), tipo, líder (buscado como o doador), dia e horário da
+  reunião, onde se reúnem, anfitrião, descrição e status. Um grupo com o mesmo nome de um que
+  você já tem pode ser ignorado ou atualizado.
+
 ## O que ainda não faz
 
-Importar algo que não sejam Membros (visitantes, histórico de ofertas…) ou mais de 500
-linhas de uma vez.
+Importar mais de 500 linhas de uma vez, os membros de cada grupo, ou despesas.

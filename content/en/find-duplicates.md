@@ -18,11 +18,13 @@ Administrators and Coordinators can use it — anyone who can edit and delete me
 
 ## Merging two records
 
-1. Compare the two cards: name, email, phone, birth date, status, when each was added and
-   whether either has a HolyCRM login.
+1. Compare the two cards: name, email, phone, birth date, address, sex, status, when each was
+   added and whether either has a HolyCRM login.
 2. Choose **Keep this one** on the record to keep. HolyCRM picks the one with a login, or
    else the older one, but you can change it.
-3. Click **Merge** and confirm.
+3. Where both records have a **different** value (two phone numbers, two spellings of a
+   name…), each side shows **Use this**: pick the value that should stay.
+4. Click **Merge** and confirm.
 
 When you merge:
 
@@ -31,9 +33,20 @@ When you merge:
   registrations, guardians and children, visitor and prayer assignments, and their login.
 - **Blank fields are filled in** from the other record (an email, a phone, a birth date…).
   Tags and guardians are combined, notes are joined, and custom fields are merged. Where
-  both records have a value, the one you keep wins.
+  both records have a value, the one you picked with **Use this** stays (the kept record's,
+  unless you chose the other).
 - If both people were in the same group, event or service, they end up there **once**.
-- The other record is deleted. **This can't be undone**, so check the pair first.
+- The other record is deleted.
+
+**Someone entered three times?** After the first merge, the list shows the kept record paired
+with the third copy: merge again.
+
+## Undoing a merge
+
+**Recent merges**, at the top of the page, lists the merges of the last 30 days. **Undo** brings
+the removed person back as they were, with everything that was linked to them, and puts back the
+kept person's details — except anything someone changed since, which stays. After 30 days a
+merge can no longer be undone.
 
 **Both have a login?** Merge isn't possible until one of them is removed. Go to
 [Users](#/users-roles), remove the login you don't need, then come back and merge.
