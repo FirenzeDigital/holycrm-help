@@ -126,5 +126,9 @@ quedaste con una duda que no está acá, revisá primero las
 [Preguntas frecuentes](#/faq) — están armadas con las preguntas que las iglesias hacen más
 seguido.
 
-Dentro de la app, el botón **Ayuda** en la esquina superior derecha abre este Centro de ayuda
-en la página de la pantalla donde estás, en el idioma que estás usando.
+Dentro de la app, el botón **Ayuda** en la esquina superior derecha abre el asistente de
+HolyCRM, en el idioma que estás usando. Te sugiere las secciones de la guía de la pantalla
+donde estás, y podés escribir cualquier pregunta: responde con la parte de este Centro de ayuda
+que corresponde, empezando por la guía de esa pantalla, y con un link a la guía completa. Solo
+sabe lo que está escrito acá; si no encuentra una respuesta clara, te lo dice y te muestra cómo
+hablar con una persona.

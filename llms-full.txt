@@ -138,8 +138,11 @@ This Help Center covers what each module does and why it behaves the way it does
 stuck on something not covered here, check the [FAQ](https://docs.holycrm.app/content/en/faq.md) first — it's built from the
 questions churches actually ask most often.
 
-Inside the app, the **Help** button in the top-right corner opens this Help Center on the
-page for the screen you are on, in the language you are using.
+Inside the app, the **Help** button in the top-right corner opens the HolyCRM assistant, in the
+language you are using. Its suggestions are the sections of the guide for the screen you are
+on, and you can type any question: it answers with the matching part of this Help Center,
+starting with that screen's guide, plus a link to the full guide. It only knows what's
+written here; if it can't find a clear answer, it says so and shows how to reach a person.
 
 ---
 

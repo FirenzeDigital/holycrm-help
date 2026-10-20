@@ -144,8 +144,11 @@ Esta Central de Ajuda cobre o que cada módulo faz e porque se comporta dessa fo
 com uma dúvida que não está aqui, veja primeiro as [Perguntas frequentes](https://docs.holycrm.app/content/pt/faq.md) — foram
 criadas a partir das perguntas que as igrejas mais fazem.
 
-Dentro da aplicação, o botão **Ajuda** no canto superior direito abre esta Central de Ajuda
-na página do ecrã em que está, no idioma que está a usar.
+Dentro da aplicação, o botão **Ajuda** no canto superior direito abre o assistente do HolyCRM,
+no idioma que está a usar. Sugere as secções do guia do ecrã em que está, e pode escrever
+qualquer pergunta: responde com a parte desta Central de Ajuda que corresponde, a começar pelo
+guia desse ecrã, e com um link para o guia completo. Só sabe o que está escrito aqui; se não
+encontrar uma resposta clara, diz-lho e mostra como falar com uma pessoa.
 
 ---
 
