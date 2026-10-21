@@ -136,8 +136,8 @@ En vez de una dirección holycrm.app, podés apuntar el dominio propio de tu igl
 (como www.tuiglesia.org) a tu sitio web — o a tu página de Enlaces de la iglesia, si
 todavía no activaste un sitio web.
 
-1. En la pantalla Sitio web de la iglesia, ingresá tu dominio en **Dominio
-   personalizado** — normalmente con "www." adelante. (Un dominio sin "www", como
+1. Andá a **Configuración → Dominio personalizado** (o tocá **Configurar dominio
+   personalizado** en la pantalla Sitio web de la iglesia) e ingresá tu dominio — normalmente con "www." adelante. (Un dominio sin "www", como
    tuiglesia.org, necesita soporte de DNS que la mayoría de los proveedores no ofrece
    gratis.) Guardá.
 2. Tocá **Conectar dominio**. Vas a ver un registro DNS para agregar — pasáselo a
@@ -151,7 +151,10 @@ todavía no activaste un sitio web.
    tuiglesia.org también abre www.tuiglesia.org, con conexión segura (https).
 
 Una vez conectado, visitar tu propio dominio muestra tu sitio web (o tu página de
-Enlaces de la iglesia) directamente — sin necesidad de la dirección holycrm.app.
+Enlaces de la iglesia) directamente — sin necesidad de la dirección holycrm.app. Los
+enlaces y códigos QR de las pantallas Sitio web de la iglesia, Enlaces de la iglesia, Formas de dar y Pedidos de
+oración
+también pasan a usar tu dominio.
 
 ### Código personalizado
 

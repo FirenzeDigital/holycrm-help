@@ -134,7 +134,8 @@ Em vez de um endereço holycrm.app, você pode apontar o domínio da sua própri
 (como www.suaigreja.org) para o seu site — ou para a página de Links da igreja, se
 ainda não tiver ativado um site.
 
-1. Na tela Site da igreja, digite seu domínio em **Domínio personalizado** —
+1. Vá em **Configurações → Domínio personalizado** (ou toque em **Configurar domínio
+   personalizado** na tela Site da igreja) e digite seu domínio —
    geralmente com "www." na frente. (Um domínio sem "www", como suaigreja.org,
    precisa de suporte de DNS que a maioria dos provedores não oferece de graça.)
    Salve.
@@ -149,7 +150,9 @@ ainda não tiver ativado um site.
    suaigreja.org também abre www.suaigreja.org, com conexão segura (https).
 
 Depois de conectado, visitar seu próprio domínio mostra seu site (ou sua página de
-Links da igreja) diretamente — sem precisar do endereço holycrm.app.
+Links da igreja) diretamente — sem precisar do endereço holycrm.app. Os links e QR
+codes das telas Site da igreja, Links da igreja, Formas de contribuir e Pedidos de oração também passam a usar seu
+domínio.
 
 ### Código personalizado
 

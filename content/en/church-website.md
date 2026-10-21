@@ -125,7 +125,8 @@ Instead of a holycrm.app address, you can point your church's own domain (like
 www.yourchurch.org) at your website — or your Church Links page, if you haven't turned
 on a website yet.
 
-1. On the Church Website screen, enter your domain under **Custom Domain** — usually
+1. Go to **Settings → Custom Domain** (or **Set up custom domain** on the Church Website
+   screen) and enter your domain — usually
    with a "www." in front. (A bare domain with no "www," like yourchurch.org, needs DNS
    support most domain providers don't offer for free.) Save.
 2. Click **Connect domain**. You'll see a DNS record to add — pass it along to whoever
@@ -139,7 +140,8 @@ on a website yet.
    www.yourchurch.org too, over a secure (https) connection.
 
 Once connected, visiting your own domain shows your website (or Church Links page)
-directly — no holycrm.app address needed.
+directly — no holycrm.app address needed. The links and QR codes on the Church Website,
+Church Links, Giving Methods and Prayer Requests screens switch to your domain too.
 
 ### Custom code
 
