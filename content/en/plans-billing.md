@@ -92,4 +92,5 @@ whenever you like.
 ## Invoices and other ways to pay
 
 Need an invoice for a payment, or want to pay from outside Argentina? Write to
-**support@holycrm.app** — a real person will help, usually within a day or two.
+**support@holycrm.app** or WhatsApp
+**+54 9 341 682-4689** — a real person will help, usually within a day or two.

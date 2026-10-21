@@ -96,5 +96,6 @@ quieras.
 ## Facturas y otras formas de pago
 
 ¿Necesitás factura de un pago, o querés pagar desde fuera de Argentina? Escribinos a
-**support@holycrm.app** — te va a responder una persona real, por lo general en menos de dos
+**support@holycrm.app** o por WhatsApp al
+**+54 9 341 682-4689** — te va a responder una persona real, por lo general en menos de dos
 días.

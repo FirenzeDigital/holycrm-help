@@ -94,5 +94,6 @@ quando quiser.
 ## Notas fiscais e outras formas de pagamento
 
 Precisa de nota fiscal de um pagamento, ou quer pagar de fora da Argentina? Fale com a gente
-em **support@holycrm.app** — uma pessoa de verdade vai te ajudar, geralmente em até dois
+em **support@holycrm.app** ou pelo WhatsApp
+**+54 9 341 682-4689** — uma pessoa de verdade vai te ajudar, geralmente em até dois
 dias.
