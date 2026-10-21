@@ -145,6 +145,9 @@ ainda não tiver ativado um site.
 3. Toque em **Verificar estado** até aparecer **✓ Conectado** — normalmente demora
    poucos minutos depois de o registo DNS ficar ativo, mas pode demorar algumas
    horas consoante o seu fornecedor de domínio.
+4. Se o seu domínio começa por "www.", adicione também o registo de **Fazer funcionar
+   sem "www"** (um registo ALIAS para @; alguns fornecedores chamam-lhe ANAME). Assim
+   asuaigreja.org também abre www.asuaigreja.org, com ligação segura (https).
 
 Depois de ligado, visitar o seu próprio domínio mostra o seu site (ou a sua página de
 Links da igreja) diretamente — sem precisar do endereço holycrm.app.

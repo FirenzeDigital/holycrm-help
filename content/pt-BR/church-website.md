@@ -144,6 +144,9 @@ ainda não tiver ativado um site.
 3. Toque em **Verificar status** até aparecer **✓ Conectado** — geralmente leva
    poucos minutos depois que o registro DNS entra no ar, mas pode levar algumas
    horas dependendo do seu provedor de domínio.
+4. Se o seu domínio começa com "www.", adicione também o registro de **Fazer funcionar
+   sem "www"** (um registro ALIAS para @; alguns provedores chamam de ANAME). Assim
+   suaigreja.org também abre www.suaigreja.org, com conexão segura (https).
 
 Depois de conectado, visitar seu próprio domínio mostra seu site (ou sua página de
 Links da igreja) diretamente — sem precisar do endereço holycrm.app.

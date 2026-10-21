@@ -146,6 +146,9 @@ todavía no activaste un sitio web.
 3. Tocá **Verificar estado** hasta que diga **✓ Conectado** — normalmente tarda
    unos minutos una vez que el registro DNS está activo, pero puede tardar unas
    horas según tu proveedor de dominio.
+4. Si tu dominio empieza con "www.", agregá también el registro de **Que funcione sin
+   "www"** (un registro ALIAS para @; algunos proveedores lo llaman ANAME). Así
+   tuiglesia.org también abre www.tuiglesia.org, con conexión segura (https).
 
 Una vez conectado, visitar tu propio dominio muestra tu sitio web (o tu página de
 Enlaces de la iglesia) directamente — sin necesidad de la dirección holycrm.app.
