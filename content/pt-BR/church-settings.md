@@ -55,3 +55,9 @@ diferente da que sua conta principal usa.
 Preencha o **Endereço**, o **Telefone** e o **Email** de um local e eles aparecem
 automaticamente na seção Venha nos visitar do seu [Site da igreja](#/church-website) — com
 seu próprio cartão quando sua igreja tiver mais de um local com endereço preenchido.
+
+**Os locais não limitam quem vê o quê.** As permissões são definidas por igreja e por função
+(veja [Usuários, funções e permissões](#/users-roles)), então Administradores e
+Coordenadores veem todos os locais. Para que o líder de um local veja só a sua gente, dê a ele
+um login de Voluntário ou Membro vinculado ao cadastro dele e faça dele o líder das células ou
+ministérios desse local: ele vê só as equipes que lidera, em [Minhas equipes](#/my-teams).

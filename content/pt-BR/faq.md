@@ -12,10 +12,11 @@ ou uma permissão personalizada precisa ser concedida para aquele módulo.
 <details class="help-faq-item">
 <summary>Como eu trago membros que já tenho em uma planilha?</summary>
 
-Exporte sua planilha para CSV e use [Importar dados](#/data-import) em Pessoas. Você vai
-associar suas colunas aos campos do HolyCRM e ver uma pré-visualização exata do que será
-criado antes de qualquer coisa ser salva. Note que isso sempre cria registros novos — não
-verifica se você já cadastrou essa pessoa manualmente antes.
+Use [Importar dados](#/data-import) em Pessoas com o seu arquivo do jeito que está: Excel
+(`.xlsx`, `.xls`), LibreOffice (`.ods`) ou CSV. Você escolhe o que cada coluna preenche e vê uma
+prévia exata do que será criado antes de qualquer coisa ser salva. A prévia também compara cada
+linha com o seu cadastro, então quem você já cadastrou à mão pode ser ignorado ou atualizado em
+vez de duplicado.
 </details>
 
 <details class="help-faq-item">

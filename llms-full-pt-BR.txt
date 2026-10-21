@@ -879,7 +879,7 @@ horário no calendário, independentemente do filtro de local selecionado.
 atividade daquela semana é um cartão com data e horário, e as atividades semanais aparecem na
 data real (por exemplo *sex 9 out · 20:00*), então você sempre sabe qual dia está preenchendo.
 
-- **Preencher** (ou **Editar**) abre uma janelinha no próprio quadro: busque pessoas pelo nome,
+- **Preencher** (ou **Editar**) é como você escala voluntários em uma função: abre uma janelinha no próprio quadro: busque pessoas pelo nome,
   toque para adicionar, toque no × para tirar alguém e **Salvar**. Você continua no quadro.
 - Nas atividades semanais, a pessoa entra **só naquela data**, a menos que você marque
   **Repetir todas as semanas**. Quem serve toda semana tem um 🔁 ao lado do nome.
@@ -2009,6 +2009,12 @@ Preencha o **Endereço**, o **Telefone** e o **Email** de um local e eles aparec
 automaticamente na seção Venha nos visitar do seu [Site da igreja](https://docs.holycrm.app/content/pt-BR/church-website.md) — com
 seu próprio cartão quando sua igreja tiver mais de um local com endereço preenchido.
 
+**Os locais não limitam quem vê o quê.** As permissões são definidas por igreja e por função
+(veja [Usuários, funções e permissões](https://docs.holycrm.app/content/pt-BR/users-roles.md)), então Administradores e
+Coordenadores veem todos os locais. Para que o líder de um local veja só a sua gente, dê a ele
+um login de Voluntário ou Membro vinculado ao cadastro dele e faça dele o líder das células ou
+ministérios desse local: ele vê só as equipes que lidera, em [Minhas equipes](https://docs.holycrm.app/content/pt-BR/my-teams.md).
+
 ---
 
 Source: https://docs.holycrm.app/content/pt-BR/users-roles.md
@@ -2803,10 +2809,11 @@ ou uma permissão personalizada precisa ser concedida para aquele módulo.
 <details class="help-faq-item">
 <summary>Como eu trago membros que já tenho em uma planilha?</summary>
 
-Exporte sua planilha para CSV e use [Importar dados](https://docs.holycrm.app/content/pt-BR/data-import.md) em Pessoas. Você vai
-associar suas colunas aos campos do HolyCRM e ver uma pré-visualização exata do que será
-criado antes de qualquer coisa ser salva. Note que isso sempre cria registros novos — não
-verifica se você já cadastrou essa pessoa manualmente antes.
+Use [Importar dados](https://docs.holycrm.app/content/pt-BR/data-import.md) em Pessoas com o seu arquivo do jeito que está: Excel
+(`.xlsx`, `.xls`), LibreOffice (`.ods`) ou CSV. Você escolhe o que cada coluna preenche e vê uma
+prévia exata do que será criado antes de qualquer coisa ser salva. A prévia também compara cada
+linha com o seu cadastro, então quem você já cadastrou à mão pode ser ignorado ou atualizado em
+vez de duplicado.
 </details>
 
 <details class="help-faq-item">

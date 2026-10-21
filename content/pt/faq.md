@@ -12,10 +12,11 @@ permissão personalizada precisa de ser concedida para esse módulo.
 <details class="help-faq-item">
 <summary>Como trago membros que já tenho numa folha de cálculo?</summary>
 
-Exporte a sua folha de cálculo para CSV e use [Importar dados](#/data-import) em Pessoas. Vai
-associar as suas colunas aos campos do HolyCRM e ver uma pré-visualização exata do que vai ser
-criado antes de guardar seja o que for. Note que isto cria sempre registos novos — não
-verifica se já registou essa pessoa manualmente antes.
+Use [Importar dados](#/data-import) em Pessoas com o seu ficheiro tal como está: Excel
+(`.xlsx`, `.xls`), LibreOffice (`.ods`) ou CSV. Escolhe o que cada coluna preenche e vê uma
+pré-visualização exata do que vai ser criado antes de guardar seja o que for. A
+pré-visualização também compara cada linha com a sua base, por isso quem já registou à mão pode
+ser ignorado ou atualizado em vez de duplicado.
 </details>
 
 <details class="help-faq-item">

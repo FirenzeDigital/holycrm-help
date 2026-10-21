@@ -56,3 +56,9 @@ ejemplo, un campus recibe ofrendas en una moneda distinta a la que usa tu cuenta
 Completá la **Dirección**, el **Teléfono** y el **Email** de una sede y van a aparecer
 automáticamente en la sección Visitanos de tu [Sitio web de la iglesia](#/church-website)
 — con su propia tarjeta cuando tu iglesia tenga más de una sede con dirección cargada.
+
+**Las sedes no limitan quién ve qué.** Los permisos se definen por iglesia y por rol (ver
+[Usuarios, roles y permisos](#/users-roles)), así que Administradores y Coordinadores ven
+todas las sedes. Para que el líder de una sede vea solo a su gente, dale un usuario de Servidor
+o Miembro vinculado a su ficha y hacelo líder de las células o ministerios de esa sede: ve solo
+los equipos que lidera, en [Mis equipos](#/my-teams).

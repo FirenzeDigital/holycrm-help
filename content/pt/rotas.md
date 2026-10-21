@@ -39,7 +39,7 @@ no calendário, independentemente do filtro de local selecionado.
 atividade dessa semana é um cartão com data e hora, e as atividades semanais aparecem na data
 real (por exemplo *sex 9 out · 20:00*), para saber sempre que dia está a preencher.
 
-- **Preencher** (ou **Editar**) abre uma pequena janela no próprio quadro: pesquise pessoas pelo
+- **Preencher** (ou **Editar**) é como atribui voluntários a uma função: abre uma pequena janela no próprio quadro: pesquise pessoas pelo
   nome, toque para acrescentar, toque no × para retirar alguém e **Guardar**. Continua no
   quadro.
 - Nas atividades semanais, a pessoa entra **apenas nessa data**, a não ser que marque

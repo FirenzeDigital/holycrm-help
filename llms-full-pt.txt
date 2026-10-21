@@ -876,7 +876,7 @@ no calendário, independentemente do filtro de local selecionado.
 atividade dessa semana é um cartão com data e hora, e as atividades semanais aparecem na data
 real (por exemplo *sex 9 out · 20:00*), para saber sempre que dia está a preencher.
 
-- **Preencher** (ou **Editar**) abre uma pequena janela no próprio quadro: pesquise pessoas pelo
+- **Preencher** (ou **Editar**) é como atribui voluntários a uma função: abre uma pequena janela no próprio quadro: pesquise pessoas pelo
   nome, toque para acrescentar, toque no × para retirar alguém e **Guardar**. Continua no
   quadro.
 - Nas atividades semanais, a pessoa entra **apenas nessa data**, a não ser que marque
@@ -2005,6 +2005,12 @@ automaticamente na secção Venha visitar-nos do seu [Site da igreja](https://do
 com o seu próprio cartão quando a sua igreja tiver mais do que um local com morada
 preenchida.
 
+**Os locais não limitam quem vê o quê.** As permissões são definidas por igreja e por função
+(ver [Utilizadores, funções e permissões](https://docs.holycrm.app/content/pt/users-roles.md)), por isso Administradores e
+Coordenadores veem todos os locais. Para que o líder de um local veja só a sua gente, dê-lhe
+um acesso de Voluntário ou Membro associado à sua ficha e torne-o líder das células ou
+ministérios desse local: vê apenas as equipas que lidera, em [As minhas equipas](https://docs.holycrm.app/content/pt/my-teams.md).
+
 ---
 
 Source: https://docs.holycrm.app/content/pt/users-roles.md
@@ -2804,10 +2810,11 @@ permissão personalizada precisa de ser concedida para esse módulo.
 <details class="help-faq-item">
 <summary>Como trago membros que já tenho numa folha de cálculo?</summary>
 
-Exporte a sua folha de cálculo para CSV e use [Importar dados](https://docs.holycrm.app/content/pt/data-import.md) em Pessoas. Vai
-associar as suas colunas aos campos do HolyCRM e ver uma pré-visualização exata do que vai ser
-criado antes de guardar seja o que for. Note que isto cria sempre registos novos — não
-verifica se já registou essa pessoa manualmente antes.
+Use [Importar dados](https://docs.holycrm.app/content/pt/data-import.md) em Pessoas com o seu ficheiro tal como está: Excel
+(`.xlsx`, `.xls`), LibreOffice (`.ods`) ou CSV. Escolhe o que cada coluna preenche e vê uma
+pré-visualização exata do que vai ser criado antes de guardar seja o que for. A
+pré-visualização também compara cada linha com a sua base, por isso quem já registou à mão pode
+ser ignorado ou atualizado em vez de duplicado.
 </details>
 
 <details class="help-faq-item">

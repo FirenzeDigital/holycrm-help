@@ -51,3 +51,9 @@ different currency than your main church account uses.
 Fill in a location's **Address**, **Phone** and **Email** and it appears automatically on
 your [Church Website](#/church-website)'s Visit Us section — with its own card once your
 church has more than one location with an address set.
+
+**Locations don't limit who sees what.** Permissions are set per church and role (see
+[Users, Roles & Permissions](#/users-roles)), so Administrators and Coordinators see every
+location. To keep a campus leader to their own people, give them a Volunteer or Member login
+linked to their member record and make them the leader of that campus's small groups or
+ministries: they see only the teams they lead, in [My Teams](#/my-teams).

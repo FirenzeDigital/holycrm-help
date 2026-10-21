@@ -37,7 +37,7 @@ that happens that week is a card with its date and time, and weekly activities s
 their actual date (for example *Fri 9 Oct · 20:00*), so you always know which day you're
 filling.
 
-- **Fill** (or **Edit**) opens a small window right on the board: search people by name, tap
+- **Fill** (or **Edit**) is how you assign volunteers to a role: it opens a small window right on the board: search people by name, tap
   to add them, tap × to take someone off, and **Save**. You stay on the board.
 - For weekly activities, a person is added **only for that date** unless you tick **Repeat
   every week**. People who serve every week show a 🔁 next to their name.

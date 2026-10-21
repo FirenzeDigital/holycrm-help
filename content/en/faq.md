@@ -12,10 +12,10 @@ permission needs to be granted for that module.
 <details class="help-faq-item">
 <summary>How do I bring in members I already have in a spreadsheet?</summary>
 
-Export your spreadsheet to CSV and use [Import Data](#/data-import) under People. You'll map
-your columns to HolyCRM fields and preview exactly what will be created before anything is
-saved. Note that it always creates new records — it doesn't check for people you may have
-already entered by hand.
+Use [Import Data](#/data-import) under People with your file as it is: Excel (`.xlsx`, `.xls`),
+LibreOffice (`.ods`) or CSV. You choose what each column fills in and see a preview of exactly
+what will be created before anything is saved. The preview also checks every row against your
+directory, so people you already entered by hand can be skipped or updated instead of added twice.
 </details>
 
 <details class="help-faq-item">

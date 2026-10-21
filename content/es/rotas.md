@@ -40,7 +40,7 @@ calendario, sin importar qué filtro de sede tengas seleccionado.
 actividad de esa semana es una tarjeta con su fecha y hora, y las actividades semanales aparecen
 en su fecha real (por ejemplo *vie 9 oct · 20:00*), así siempre sabés qué día estás cubriendo.
 
-- **Cubrir** (o **Editar**) abre una ventanita en el mismo tablero: buscá personas por nombre,
+- **Cubrir** (o **Editar**) es cómo asignás voluntarios a un rol: abre una ventanita en el mismo tablero: buscá personas por nombre,
   tocá para agregarlas, tocá × para sacar a alguien y **Guardar**. No salís del tablero.
 - En las actividades semanales, la persona se agrega **solo para esa fecha**, salvo que marques
   **Repetir todas las semanas**. Quien sirve todas las semanas tiene un 🔁 al lado del nombre.

@@ -885,7 +885,7 @@ calendario, sin importar qué filtro de sede tengas seleccionado.
 actividad de esa semana es una tarjeta con su fecha y hora, y las actividades semanales aparecen
 en su fecha real (por ejemplo *vie 9 oct · 20:00*), así siempre sabés qué día estás cubriendo.
 
-- **Cubrir** (o **Editar**) abre una ventanita en el mismo tablero: buscá personas por nombre,
+- **Cubrir** (o **Editar**) es cómo asignás voluntarios a un rol: abre una ventanita en el mismo tablero: buscá personas por nombre,
   tocá para agregarlas, tocá × para sacar a alguien y **Guardar**. No salís del tablero.
 - En las actividades semanales, la persona se agrega **solo para esa fecha**, salvo que marques
   **Repetir todas las semanas**. Quien sirve todas las semanas tiene un 🔁 al lado del nombre.
@@ -2029,6 +2029,12 @@ Completá la **Dirección**, el **Teléfono** y el **Email** de una sede y van a
 automáticamente en la sección Visitanos de tu [Sitio web de la iglesia](https://docs.holycrm.app/content/es/church-website.md)
 — con su propia tarjeta cuando tu iglesia tenga más de una sede con dirección cargada.
 
+**Las sedes no limitan quién ve qué.** Los permisos se definen por iglesia y por rol (ver
+[Usuarios, roles y permisos](https://docs.holycrm.app/content/es/users-roles.md)), así que Administradores y Coordinadores ven
+todas las sedes. Para que el líder de una sede vea solo a su gente, dale un usuario de Servidor
+o Miembro vinculado a su ficha y hacelo líder de las células o ministerios de esa sede: ve solo
+los equipos que lidera, en [Mis equipos](https://docs.holycrm.app/content/es/my-teams.md).
+
 ---
 
 Source: https://docs.holycrm.app/content/es/users-roles.md
@@ -2838,10 +2844,11 @@ permiso personalizado para ese módulo.
 <details class="help-faq-item">
 <summary>¿Cómo traigo miembros que ya tengo en una planilla?</summary>
 
-Exportá tu planilla a CSV y usá [Importar datos](https://docs.holycrm.app/content/es/data-import.md) dentro de Personas. Vas a
-mapear tus columnas a los campos de HolyCRM y a ver una vista previa de exactamente qué se va
-a crear antes de guardar nada. Tené en cuenta que siempre crea registros nuevos — no
-verifica si ya cargaste a esa persona a mano antes.
+Usá [Importar datos](https://docs.holycrm.app/content/es/data-import.md) dentro de Personas con tu archivo tal como está: Excel
+(`.xlsx`, `.xls`), LibreOffice (`.ods`) o CSV. Elegís qué completa cada columna y ves una vista
+previa de exactamente qué se va a crear antes de guardar nada. La vista previa además compara
+cada fila con tu directorio, así a quienes ya cargaste a mano los podés omitir o actualizar en
+vez de duplicarlos.
 </details>
 
 <details class="help-faq-item">

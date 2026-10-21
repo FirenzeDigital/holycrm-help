@@ -39,7 +39,7 @@ horário no calendário, independentemente do filtro de local selecionado.
 atividade daquela semana é um cartão com data e horário, e as atividades semanais aparecem na
 data real (por exemplo *sex 9 out · 20:00*), então você sempre sabe qual dia está preenchendo.
 
-- **Preencher** (ou **Editar**) abre uma janelinha no próprio quadro: busque pessoas pelo nome,
+- **Preencher** (ou **Editar**) é como você escala voluntários em uma função: abre uma janelinha no próprio quadro: busque pessoas pelo nome,
   toque para adicionar, toque no × para tirar alguém e **Salvar**. Você continua no quadro.
 - Nas atividades semanais, a pessoa entra **só naquela data**, a menos que você marque
   **Repetir todas as semanas**. Quem serve toda semana tem um 🔁 ao lado do nome.

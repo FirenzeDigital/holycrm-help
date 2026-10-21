@@ -838,7 +838,7 @@ that happens that week is a card with its date and time, and weekly activities s
 their actual date (for example *Fri 9 Oct · 20:00*), so you always know which day you're
 filling.
 
-- **Fill** (or **Edit**) opens a small window right on the board: search people by name, tap
+- **Fill** (or **Edit**) is how you assign volunteers to a role: it opens a small window right on the board: search people by name, tap
   to add them, tap × to take someone off, and **Save**. You stay on the board.
 - For weekly activities, a person is added **only for that date** unless you tick **Repeat
   every week**. People who serve every week show a 🔁 next to their name.
@@ -1914,6 +1914,12 @@ Fill in a location's **Address**, **Phone** and **Email** and it appears automat
 your [Church Website](https://docs.holycrm.app/content/en/church-website.md)'s Visit Us section — with its own card once your
 church has more than one location with an address set.
 
+**Locations don't limit who sees what.** Permissions are set per church and role (see
+[Users, Roles & Permissions](https://docs.holycrm.app/content/en/users-roles.md)), so Administrators and Coordinators see every
+location. To keep a campus leader to their own people, give them a Volunteer or Member login
+linked to their member record and make them the leader of that campus's small groups or
+ministries: they see only the teams they lead, in [My Teams](https://docs.holycrm.app/content/en/my-teams.md).
+
 ---
 
 Source: https://docs.holycrm.app/content/en/users-roles.md
@@ -2687,10 +2693,10 @@ permission needs to be granted for that module.
 <details class="help-faq-item">
 <summary>How do I bring in members I already have in a spreadsheet?</summary>
 
-Export your spreadsheet to CSV and use [Import Data](https://docs.holycrm.app/content/en/data-import.md) under People. You'll map
-your columns to HolyCRM fields and preview exactly what will be created before anything is
-saved. Note that it always creates new records — it doesn't check for people you may have
-already entered by hand.
+Use [Import Data](https://docs.holycrm.app/content/en/data-import.md) under People with your file as it is: Excel (`.xlsx`, `.xls`),
+LibreOffice (`.ods`) or CSV. You choose what each column fills in and see a preview of exactly
+what will be created before anything is saved. The preview also checks every row against your
+directory, so people you already entered by hand can be skipped or updated instead of added twice.
 </details>
 
 <details class="help-faq-item">
