@@ -147,7 +147,7 @@ todavía no activaste un sitio web.
    unos minutos una vez que el registro DNS está activo, pero puede tardar unas
    horas según tu proveedor de dominio.
 4. Si tu dominio empieza con "www.", agregá también el registro de **Que funcione sin
-   "www"** (un registro ALIAS para @; algunos proveedores lo llaman ANAME). Así
+   "www"** (un registro A para @). No afecta tu correo. Así
    tuiglesia.org también abre www.tuiglesia.org, con conexión segura (https).
 
 Una vez conectado, visitar tu propio dominio muestra tu sitio web (o tu página de

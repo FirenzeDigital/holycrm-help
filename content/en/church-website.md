@@ -135,7 +135,7 @@ on a website yet.
    minutes once the DNS record is live, but can take a few hours depending on your
    domain provider.
 4. For a "www." domain, also add the record under **Make it work without "www"** (an
-   ALIAS record for @; some providers call it ANAME). Then yourchurch.org opens
+   A record for @). It doesn't affect your email. Then yourchurch.org opens
    www.yourchurch.org too, over a secure (https) connection.
 
 Once connected, visiting your own domain shows your website (or Church Links page)
