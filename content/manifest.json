@@ -85,7 +85,7 @@
         "pt-BR": "Configurações",
         "pt": "Definições"
       },
-      "pages": ["church-settings", "users-roles", "tags", "data-import", "find-duplicates", "integrations", "data-privacy", "security", "plans-billing"]
+      "pages": ["church-settings", "users-roles", "tags", "data-import", "find-duplicates", "integrations", "ai-assistants", "data-privacy", "security", "plans-billing"]
     },
     {
       "id": "support",
@@ -314,6 +314,15 @@
         "pt": "Integrações"
       },
       "file": "integrations.md"
+    },
+    "ai-assistants": {
+      "title": {
+        "en": "Use HolyCRM from ChatGPT or Claude",
+        "es": "Usar HolyCRM desde ChatGPT o Claude",
+        "pt-BR": "Usar o HolyCRM no ChatGPT ou no Claude",
+        "pt": "Usar o HolyCRM no ChatGPT ou no Claude"
+      },
+      "file": "ai-assistants.md"
     },
     "data-privacy": {
       "title": {

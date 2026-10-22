@@ -36,6 +36,10 @@ This only shares the public Help Center with the assistant — never your church
 Don't paste names, phone numbers, giving records or other personal details of your members
 into an AI tool. See [Data & Privacy](#/data-privacy).
 
+To ask about your church's own data (visitors, groups, events), an Administrator can turn on
+[AI assistants](#/ai-assistants): then the assistant reads HolyCRM with your permissions
+instead of you pasting anything.
+
 ## For developers and AI tools
 
 A short index of every guide, following the [llms.txt](https://llmstxt.org) convention, is

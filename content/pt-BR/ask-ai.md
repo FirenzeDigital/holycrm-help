@@ -35,6 +35,10 @@ Isso só compartilha a Central de Ajuda pública com o assistente — nunca os d
 igreja. Não cole nomes, telefones, registros de ofertas nem outros dados pessoais dos
 membros em uma ferramenta de IA. Veja [Dados e privacidade](#/data-privacy).
 
+Para perguntar sobre os dados da sua igreja (visitantes, células, eventos), um Administrador
+pode ativar os [assistentes de IA](#/ai-assistants): assim o assistente lê o HolyCRM com as
+suas permissões, sem você precisar colar nada.
+
 ## Para desenvolvedores e ferramentas de IA
 
 Um índice curto de todos os guias, seguindo a convenção [llms.txt](https://llmstxt.org),
