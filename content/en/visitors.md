@@ -10,6 +10,20 @@ Inactive, if follow-up stalls). The Visitors list shows a funnel view — how ma
 at each stage, and your overall conversion percentage — so you can see at a glance where
 guests are getting stuck.
 
+## Board view
+
+Use **List | Board** at the top of Visitors to switch views; your choice is remembered on
+that device. The board has one column per stage with how many people are in it (the Inactive
+column starts collapsed: click it to open). Each card shows the person's name, how long ago they
+first visited, how they found you, who is following them up, the date of the last contact,
+and call and WhatsApp buttons when there's a number. Click a card to open their detail.
+
+To move someone to another stage, drag their card to the new column on a computer, or use
+**Move to…** on the card (on a phone, or with the keyboard). Moving someone to **Converted**
+starts **Convert to member**, just like the button on their detail page; if you cancel, they
+stay where they were. The search box works in both views. People who can only view visitors
+see the board without drag or **Move to…**.
+
 ## Adding a visitor
 
 Only a first name is required, so you can log someone quickly at the door and fill in the

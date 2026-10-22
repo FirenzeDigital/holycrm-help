@@ -10,6 +10,21 @@ Cada visitante tem uma **etapa**: Novo → Contactado → Revisitou → A integr
 quantas pessoas estão em cada etapa, e a sua taxa de conversão geral — para ver rapidamente
 onde os visitantes estão a ficar bloqueados.
 
+## Vista de quadro
+
+Use **Lista | Quadro** no topo de Visitantes para mudar de vista; a sua escolha fica
+guardada nesse dispositivo. O quadro tem uma coluna por etapa com quantas pessoas há em cada
+uma (a coluna Inativo começa recolhida: clique para abrir). Cada cartão mostra o nome, há quanto
+tempo foi a primeira visita, como conheceu a igreja, quem faz o acompanhamento, a data do
+último contacto e botões para ligar ou enviar mensagem por WhatsApp quando há um número.
+Clique num cartão para abrir os detalhes.
+
+Para passar alguém para outra etapa, arraste o cartão para a nova coluna no computador, ou
+use **Mover para…** no cartão (no telemóvel ou com o teclado). Passar alguém para
+**Convertido** abre **Converter em membro**, tal como o botão nos detalhes; se cancelar, a
+pessoa fica onde estava. A pesquisa funciona nas duas vistas. Quem só pode ver os visitantes
+vê o quadro sem arrastar nem **Mover para…**.
+
 ## Adicionar um visitante
 
 Só o primeiro nome é obrigatório, para poder registar alguém rapidamente à porta e preencher o

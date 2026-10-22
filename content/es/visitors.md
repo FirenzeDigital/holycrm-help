@@ -10,6 +10,21 @@ Convertido (o Inactivo, si el seguimiento se estanca). La lista de Visitantes mu
 vista de embudo — cuántas personas hay en cada etapa y tu porcentaje de conversión general —
 para que veas de un vistazo dónde se estancan los invitados.
 
+## Vista de tablero
+
+Usá **Lista | Tablero** arriba en Visitantes para cambiar de vista; tu elección queda
+guardada en ese dispositivo. El tablero tiene una columna por etapa con cuántas personas hay
+en cada una (la columna Inactivo empieza cerrada: hacé clic para abrirla). Cada tarjeta muestra el
+nombre, hace cuánto fue su primera visita, cómo conoció la iglesia, quién hace el
+seguimiento, la fecha del último contacto y botones para llamar o escribir por WhatsApp
+cuando hay un número. Hacé clic en una tarjeta para abrir su detalle.
+
+Para pasar a alguien a otra etapa, arrastrá su tarjeta a la nueva columna en la computadora,
+o usá **Mover a…** en la tarjeta (en el celular o con el teclado). Pasar a alguien a
+**Convertido** abre **Convertir a miembro**, igual que el botón de su detalle; si cancelás,
+queda donde estaba. El buscador funciona en las dos vistas. Quienes solo pueden ver los
+visitantes ven el tablero sin arrastrar ni **Mover a…**.
+
 ## Agregar un visitante
 
 Solo el nombre es obligatorio, así podés registrar a alguien rápido en la puerta y completar
