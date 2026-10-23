@@ -2631,15 +2631,17 @@ todos.
 
 ## Conectar Claude
 
-1. En Claude (web, escritorio o app del celular), abrí **Configuración → Conectores** y elegí
-   **Agregar conector personalizado**.
-2. Ponele de nombre *HolyCRM* y pegá la dirección de **Configuración → Asistentes de IA**
-   (`https://mcp.holycrm.app/mcp`).
-3. Hacé clic en **Conectar**. Se abre una página de HolyCRM: iniciá sesión como siempre si te lo
-   pide, revisá que diga que Claude quiere conectarse y hacé clic en **Permitir**.
-4. Volvé a Claude y hacé tu pregunta.
+HolyCRM está en el directorio de conectores de Claude:
 
-El plan gratuito de Claude permite una cantidad limitada de conectores personalizados.
+1. Abrí [HolyCRM en el directorio de Claude](https://claude.ai/directory/holycrm-app), o en Claude
+   (web, escritorio o app del celular) andá a **Personalizar → Conectores** y buscá *HolyCRM*.
+2. Hacé clic en **Conectar**. Se abre una página de HolyCRM: iniciá sesión como siempre si te lo
+   pide, revisá que diga que Claude quiere conectarse y hacé clic en **Permitir**.
+3. Volvé a Claude y hacé tu pregunta.
+
+Si tu organización de Claude no permite conectores del directorio, un administrador puede
+agregarlo como conector personalizado, con la dirección de **Configuración → Asistentes de IA**
+(`https://mcp.holycrm.app/mcp`).
 
 ## Conectar ChatGPT
 

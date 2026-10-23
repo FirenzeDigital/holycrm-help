@@ -34,15 +34,17 @@ once, whatever app they use) or turn AI assistants off for everyone.
 
 ## Connect Claude
 
-1. In Claude (web, desktop or mobile app), open **Settings → Connectors** and choose **Add
-   custom connector**.
-2. Name it *HolyCRM* and paste the address from **Settings → AI assistants**
-   (`https://mcp.holycrm.app/mcp`).
-3. Click **Connect**. A HolyCRM page opens: sign in as usual if you're asked, check that it
-   says Claude wants to connect, and click **Allow**.
-4. Back in Claude, ask your question.
+HolyCRM is in Claude's connector directory:
 
-Claude's free plan allows a limited number of custom connectors.
+1. Open [HolyCRM in Claude's directory](https://claude.ai/directory/holycrm-app), or in Claude
+   (web, desktop or mobile app) go to **Customize → Connectors** and search for *HolyCRM*.
+2. Click **Connect**. A HolyCRM page opens: sign in as usual if you're asked, check that it
+   says Claude wants to connect, and click **Allow**.
+3. Back in Claude, ask your question.
+
+If your Claude organization doesn't allow directory connectors, an administrator can add it as
+a custom connector instead, with the address from **Settings → AI assistants**
+(`https://mcp.holycrm.app/mcp`).
 
 ## Connect ChatGPT
 
